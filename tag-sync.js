@@ -62,7 +62,7 @@ export async function readPublicTags(fetcher = fetch) {
   return (await readRemoteTags('', fetcher)).data;
 }
 
-export async function saveRemoteTags({ id, title, tags, baseRevision }, token, fetcher = fetch) {
+export async function saveRemoteTags({ id, title, tags, baseRevision, identity }, token, fetcher = fetch) {
   if (!token) throw new Error('编辑前请先连接 GitHub');
   if (typeof id !== 'string' || !id || id.length > 600 || ['__proto__', 'constructor', 'prototype'].includes(id)) throw new Error('记录编号无效');
   const cleanTags = validateTags(tags);
@@ -76,13 +76,49 @@ export async function saveRemoteTags({ id, title, tags, baseRevision }, token, f
     }
     const updatedAt = new Date().toISOString();
     // Retain empty entries so stale clients cannot resurrect deleted tags.
-    data.records[id] = { title: String(title || '').slice(0, 300), tags: cleanTags, updatedAt, revision: crypto.randomUUID() };
+    data.records[id] = { ...previous, title: String(title || '').slice(0, 300), identity: previous?.identity || String(identity || '').slice(0, 1200), tags: cleanTags, updatedAt, revision: crypto.randomUUID() };
     data.updatedAt = updatedAt;
     try {
       await githubRequest(endpoint, token, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: 'Update calendar labels', branch: TAG_BRANCH, sha, content: encodeContent(data) })
+      }, fetcher);
+      return data;
+    } catch (error) {
+      if (error.status !== 409 || attempt === 2) throw error;
+    }
+  }
+}
+
+export async function saveRemoteTitle({ id, title, originalTitle, baseRevision, baseTitle = '', identity }, token, fetcher = fetch) {
+  if (!token) throw new Error('编辑前请先连接 GitHub');
+  if (typeof id !== 'string' || !id || id.length > 600 || ['__proto__', 'constructor', 'prototype'].includes(id)) throw new Error('记录编号无效');
+  if (typeof title !== 'string' || [...title.trim()].length > 200 || /[\u0000-\u001f]/.test(title)) throw new Error('标题最多 200 个字，不能包含换行');
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const { data, sha } = await readRemoteTags(token, fetcher);
+    const previous = Object.hasOwn(data.records, id) ? data.records[id] : {};
+    if ((previous.titleRevision || '') !== (baseRevision || '') || (previous.customTitle || '') !== baseTitle) {
+      const error = new Error('这条标题已在其他设备或仓库中修改，请重新打开编辑后再保存');
+      error.status = 409;
+      throw error;
+    }
+    const updatedAt = new Date().toISOString();
+    data.records[id] = {
+      ...previous,
+      title: String(originalTitle || previous.title || '').slice(0, 300),
+      identity: previous.identity || String(identity || '').slice(0, 1200),
+      tags: previous.tags || [],
+      customTitle: title.trim(),
+      titleRevision: crypto.randomUUID(),
+      titleUpdatedAt: updatedAt,
+      updatedAt
+    };
+    data.updatedAt = updatedAt;
+    try {
+      await githubRequest(endpoint, token, {
+        method: 'PUT', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: 'Update manual calendar title', branch: TAG_BRANCH, sha, content: encodeContent(data) })
       }, fetcher);
       return data;
     } catch (error) {

@@ -1,4 +1,5 @@
-import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags } from './tag-sync.js?v=1789543289937';
+import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags, saveRemoteTitle } from './tag-sync.js?v=1789544929620';
+import { manualIdentity, manualRecord, applyManualTitle } from './manual-overrides.js?v=1789544929620';
 
 const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 const isStatic = Boolean(window.CALENDAR_STATIC_DATA_URL);
@@ -13,15 +14,27 @@ let lastSync = 0;
 let lastAttempt = 0;
 let onUpdate = () => {};
 let saving = false;
+let editsLoaded = false;
+let titleEditing = null;
+let titleBaseRevision = '';
+let titleBaseValue = '';
 const $ = id => document.getElementById(id);
 
 export function tagMarkup(item) {
-  const tags = documentData.records[item.id]?.tags || [];
+  const tags = manualRecord(item, documentData).value.tags || [];
   return `<div class="userTagGroup" data-tag-record="${escape(item.id)}">${tags.map(tag => `<span class="userTag tag-${TAG_COLORS.includes(tag.color) ? tag.color : 'amber'}">${escape(tag.text)}</span>`).join('')}<button class="tagEdit" type="button" data-edit-tags="${escape(item.id)}" title="${tags.length ? '编辑标签' : '添加标签'}" aria-label="${escape(item.title)}：${tags.length ? '编辑标签' : '添加标签'}">${tags.length ? '&#9998;' : '+'}</button></div>`;
 }
 
+export function displayItem(item) {
+  return editsLoaded ? applyManualTitle(item, documentData) : item;
+}
+
+export function titleEditMarkup(item) {
+  return `${item.titleIsManual ? '<span class="manualTitleMark" title="人工标题已锁定，不受自动抓取覆盖">人工</span>' : ''}<button type="button" class="tagEdit titleEdit" data-edit-title="${escape(item.id)}" title="修改标题" aria-label="${escape(item.title)}：修改标题">&#9998;</button>`;
+}
+
 function status(text, failed = false) {
-  $('tagSyncState').textContent = text;
+  $('tagSyncState').textContent = text.replaceAll('标签', '修改');
   $('tagSyncState').classList.toggle('failed', failed);
 }
 
@@ -43,15 +56,17 @@ export async function refreshTags(force = false) {
         next = result.data;
         if (!result.synced) {
           documentData = next;
+          editsLoaded = true;
           onUpdate();
           throw new Error(result.error || '当前为本地缓存');
         }
       }
       const changed = JSON.stringify(next) !== JSON.stringify(documentData);
       documentData = next;
+      editsLoaded = true;
       lastSync = Date.now();
       status('标签已同步');
-      $('tagSyncState').title = `上次同步：${new Date(lastSync).toLocaleTimeString('zh-CN')}；点击立即刷新标签`;
+      $('tagSyncState').title = `上次同步：${new Date(lastSync).toLocaleTimeString('zh-CN')}；点击立即同步标题和标签`;
       if (changed) onUpdate();
       return true;
     } catch (error) {
@@ -97,8 +112,9 @@ export async function openTagEditor(item) {
   $('tagEditorDialog').showModal();
   const fresh = await refreshTags(true);
   if (!$('tagEditorDialog').open || editing !== item) return;
-  draft = (documentData.records[item.id]?.tags || []).map(tag => ({ ...tag }));
-  baseRevision = documentData.records[item.id]?.revision || '';
+  const record = manualRecord(item, documentData).value;
+  draft = (record.tags || []).map(tag => ({ ...tag }));
+  baseRevision = record.revision || '';
   renderDraft();
   $('tagEditorFields').disabled = false;
   $('saveTags').disabled = !fresh;
@@ -116,7 +132,7 @@ async function save() {
   $('tagEditorMessage').textContent = '正在保存并同步到 GitHub…';
   try {
     if (syncing) await syncing;
-    const change = { id: editing.id, title: editing.title, tags: draft, baseRevision };
+    const change = { id: manualRecord(editing, documentData).key, title: editing.generatedTitle || editing.title, tags: draft, baseRevision, identity: manualIdentity(editing) };
     let next;
     if (localEditor) {
       const response = await fetch('/api/user-tags', { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(change), signal: AbortSignal.timeout(70000) });
@@ -140,9 +156,74 @@ async function save() {
   }
 }
 
+export async function openTitleEditor(item) {
+  titleEditing = item;
+  $('titleEditorDialog').showModal();
+  $('manualTitleInput').value = item.title;
+  $('manualTitleInput').disabled = true;
+  $('saveManualTitle').disabled = true;
+  $('restoreAutoTitle').disabled = true;
+  $('titleEditorMessage').textContent = '正在读取最新人工标题…';
+  const fresh = await refreshTags(true);
+  if (!$('titleEditorDialog').open || titleEditing !== item) return;
+  const record = manualRecord(item, documentData).value;
+  titleBaseRevision = record.titleRevision || '';
+  titleBaseValue = record.customTitle || '';
+  $('manualTitleInput').value = titleBaseValue || item.generatedTitle || item.title;
+  $('titleOriginal').textContent = item.generatedTitle || item.title;
+  $('manualTitleInput').disabled = !fresh;
+  $('saveManualTitle').disabled = !fresh;
+  $('restoreAutoTitle').disabled = !fresh || !titleBaseValue;
+  $('titleEditorMessage').textContent = fresh ? '' : '读取失败，请重新打开编辑窗口再试。';
+  $('manualTitleInput').focus();
+}
+
+async function saveTitle(restore = false) {
+  if (saving || !titleEditing) return;
+  const value = restore ? '' : $('manualTitleInput').value.trim();
+  if (!restore && !value) { $('titleEditorMessage').textContent = '请输入显示标题'; return; }
+  if (!localEditor && !token) { $('tagAuthDialog').showModal(); return; }
+  saving = true;
+  $('saveManualTitle').disabled = true;
+  $('restoreAutoTitle').disabled = true;
+  $('manualTitleInput').disabled = true;
+  $('titleEditorMessage').textContent = '正在保存并同步…';
+  try {
+    if (syncing) await syncing;
+    const change = { id: manualRecord(titleEditing, documentData).key, title: value, originalTitle: titleEditing.generatedTitle || titleEditing.title, baseRevision: titleBaseRevision, baseTitle: titleBaseValue, identity: manualIdentity(titleEditing) };
+    if (localEditor) {
+      const response = await fetch('/api/user-title', { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(change), signal: AbortSignal.timeout(70000) });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || '保存失败');
+      documentData = result.data;
+    } else {
+      documentData = await saveRemoteTitle(change, token);
+    }
+    editsLoaded = true;
+    lastSync = Date.now();
+    status('修改已同步');
+    onUpdate();
+    $('titleEditorDialog').close();
+  } catch (error) { $('titleEditorMessage').textContent = `${error.message}。输入内容已保留。`; }
+  finally {
+    saving = false;
+    $('saveManualTitle').disabled = false;
+    $('restoreAutoTitle').disabled = !titleBaseValue;
+    $('manualTitleInput').disabled = false;
+  }
+}
+
 export function initTags({ findItem, update }) {
   onUpdate = update;
   document.body.insertAdjacentHTML('beforeend', `
+    <dialog id="titleEditorDialog" class="tagDialog" aria-labelledby="titleEditorHeading">
+      <div class="tagDialogHead"><h2 id="titleEditorHeading">修改显示标题</h2><button type="button" id="closeTitleEditor" class="tagIconBtn" aria-label="关闭标题编辑" title="关闭">&times;</button></div>
+      <p class="tagRecordTitle">人工标题优先显示，自动抓取不会覆盖。</p>
+      <label for="manualTitleInput">显示标题</label><textarea id="manualTitleInput" rows="3" maxlength="200"></textarea>
+      <details class="titleOriginalDetails"><summary>抓取标题</summary><p id="titleOriginal"></p></details>
+      <p id="titleEditorMessage" class="tagMessage" role="status"></p>
+      <div class="tagDialogActions"><button type="button" id="restoreAutoTitle" class="ghostBtn">恢复抓取标题</button><button type="button" id="saveManualTitle" class="primaryBtn">保存并同步</button></div>
+    </dialog>
     <dialog id="tagEditorDialog" class="tagDialog" aria-labelledby="tagEditorHeading">
       <div class="tagDialogHead"><h2 id="tagEditorHeading">编辑标签</h2><button type="button" id="closeTagEditor" class="tagIconBtn" title="关闭" aria-label="关闭标签编辑">&times;</button></div>
       <p id="tagEditorTitle" class="tagRecordTitle"></p>
@@ -158,7 +239,7 @@ export function initTags({ findItem, update }) {
     </dialog>
     <dialog id="tagAuthDialog" class="tagDialog" aria-labelledby="tagAuthHeading">
       <div class="tagDialogHead"><h2 id="tagAuthHeading">连接 GitHub</h2><button type="button" id="closeTagAuth" class="tagIconBtn" title="关闭" aria-label="关闭授权">&times;</button></div>
-      <p>允许当前页面修改你的标签。浏览和查看标签无需授权。</p>
+      <p>允许当前页面修改标签和显示标题。浏览无需授权。</p>
       <p><a href="https://github.com/settings/personal-access-tokens/new?name=TCG-calendar-labels" target="_blank" rel="noreferrer">创建专用令牌</a>：Repository access 仅选 <strong>tcg-calendar-pages</strong>，Contents 设为 <strong>Read and write</strong>。</p>
       <label for="tagToken">GitHub 访问令牌</label><input id="tagToken" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
       <p class="tagAuthHint">仅用于本次打开的页面，关闭或刷新后需重新填写。令牌不会上传到网站或写入公开文件。</p>
@@ -167,9 +248,13 @@ export function initTags({ findItem, update }) {
     </dialog>`);
   const tools = document.createElement('div');
   tools.className = 'tagSyncTools';
-  tools.innerHTML = `<button id="tagSyncState" type="button" class="tagSyncState" title="点击立即刷新标签；未授权网页每两分钟检查更新">正在读取标签…</button>${localEditor ? '' : '<button id="tagConnect" type="button" class="ghostBtn">连接 GitHub</button>'}`;
+  tools.innerHTML = `<button id="tagSyncState" type="button" class="tagSyncState" title="点击立即同步标题和标签；未授权网页每两分钟检查更新">正在同步修改…</button>${localEditor ? '' : '<button id="tagConnect" type="button" class="ghostBtn">连接 GitHub</button>'}`;
   document.querySelector('.actions').prepend(tools);
   $('tagSyncState').addEventListener('click', () => refreshTags(true));
+  $('closeTitleEditor').addEventListener('click', () => { if (!saving) $('titleEditorDialog').close(); });
+  $('titleEditorDialog').addEventListener('cancel', event => { if (saving) event.preventDefault(); });
+  $('saveManualTitle').addEventListener('click', () => saveTitle());
+  $('restoreAutoTitle').addEventListener('click', () => saveTitle(true));
   $('tagConnect')?.addEventListener('click', () => $('tagAuthDialog').showModal());
   $('tagAuthFromEditor').addEventListener('click', () => $('tagAuthDialog').showModal());
   $('closeTagAuth').addEventListener('click', () => $('tagAuthDialog').close());
@@ -196,6 +281,7 @@ export function initTags({ findItem, update }) {
       const result = await readRemoteTags(candidate);
       token = candidate;
       documentData = result.data;
+      editsLoaded = true;
       $('tagToken').value = '';
       if ($('tagConnect')) $('tagConnect').textContent = 'GitHub 已连接';
       $('tagAuthNotice').hidden = true;
@@ -207,6 +293,12 @@ export function initTags({ findItem, update }) {
     finally { $('connectTags').disabled = false; }
   });
   document.addEventListener('click', event => {
+    const titleButton = event.target.closest('[data-edit-title]');
+    if (titleButton) {
+      const item = findItem(titleButton.dataset.editTitle);
+      if (item) openTitleEditor(item);
+      return;
+    }
     const button = event.target.closest('[data-edit-tags]');
     if (!button) return;
     const item = findItem(button.dataset.editTags);

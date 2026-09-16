@@ -2639,6 +2639,14 @@ dialog.tagDialog {
 .tagDialog .tagAuthHint { color: #a5b7c8; font-size: 12px; }
 .tagTextButton { padding: 0; border: 0; background: transparent; cursor: pointer; text-decoration: underline; }
 .tagDialogActions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px; }
+.titleEdit { display: inline-grid; vertical-align: middle; margin-left: 7px; width: 26px; height: 26px; font-size: 16px; }
+.manualTitleMark { display: inline-block; margin-left: 6px; padding: 2px 5px; font-size: 11px; font-weight: 600; color: #9de0bb; background: #123828; border: 1px solid #367453; border-radius: 4px; vertical-align: middle; }
+.editTitleCommand { min-height: 27px; height: auto; padding: 4px; color: #bed0e0; background: transparent; font-size: 11px; }
+#detailTitleEdit { margin: 8px 0; }
+#manualTitleInput { display: block; width: 100%; margin-top: 8px; padding: 10px; resize: vertical; min-height: 90px; max-height: 220px; background: #09121b; color: #eef6ff; border: 1px solid #415468; border-radius: 4px; font: inherit; line-height: 1.6; }
+.titleOriginalDetails { margin-top: 16px; color: #a7b9ca; font-size: 12px; }
+.titleOriginalDetails summary { cursor: pointer; }
+.titleOriginalDetails p { margin-top: 8px; }
 .tagDialog button:disabled { opacity: .5; cursor: wait; }
 @media (max-width: 600px) {
   dialog.tagDialog { padding: 18px; }

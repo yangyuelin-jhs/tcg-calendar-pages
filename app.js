@@ -1,4 +1,4 @@
-import { initTags, tagMarkup, refreshTags } from './tag-ui.js?v=1789543289937';
+import { initTags, tagMarkup, refreshTags, displayItem, titleEditMarkup } from './tag-ui.js?v=1789544929620';
 
 const initialMonth = new Date();
 initialMonth.setHours(0, 0, 0, 0);
@@ -222,7 +222,7 @@ async function loadStaticCalendarData(signal) {
     window.staticCalendarCache = await response.json();
   }
   const base = window.staticCalendarCache;
-  const items = staticFilterItems(base.items || []);
+  const items = staticFilterItems((base.items || []).map(displayItem));
   return {
     ...base,
     items,
@@ -449,7 +449,7 @@ async function loadData(options = {}) {
       data = await response.json();
     }
     if (seq !== loadSeq) return;
-    state.items = data.items || [];
+    state.items = (data.items || []).map(displayItem);
     state.brands = data.brands || [];
     state.months = data.months || [];
     state.totals = data.totals || {};
@@ -939,6 +939,7 @@ function renderTimeline() {
       <div class="rowActions">
         <button class="openBtn" type="button">查看</button>
         ${sourceLinks}
+        <button class="editTitleCommand" type="button" data-edit-title="${escapeHtml(item.id)}">改标题${item.titleIsManual ? ' · 人工' : ''}</button>
       </div>
     `;
     row.querySelector(".openBtn").addEventListener("click", () => openDetail(item));
@@ -975,6 +976,7 @@ function renderProductTable() {
         <td>${escapeHtml(item.type || "商品")}</td>
         <td>
           <button class="tableTitle" type="button" data-row="${index}" title="${escapeHtml(item.originalTitle || item.title)}">${escapeHtml(item.title)}</button>
+          ${titleEditMarkup(item)}
           ${item.postCount > 1 ? `<span class="mergeNote">合并 ${item.postCount} 条</span>` : ""}
         </td>
         <td>${escapeHtml(sourceSummary || item.sourceName || "来源未知")}</td>
@@ -1024,6 +1026,7 @@ function renderEventTable() {
         <td>${escapeHtml(item.brand || "未识别品牌")}</td>
         <td>
           <button class="tableTitle" type="button" data-row="${index}" title="${escapeHtml(item.originalTitle || item.title)}">${escapeHtml(item.title)}</button>
+          ${titleEditMarkup(item)}
           ${item.postCount > 1 ? `<span class="mergeNote">合并 ${item.postCount} 条</span>` : ""}
         </td>
         <td class="eventCityCell" title="${escapeHtml(eventLocationLabel(item))}">${escapeHtml(item.city || "待确认")}</td>
@@ -1075,6 +1078,7 @@ function openDetail(item) {
   }
   $("#detailDate").textContent = dateLabel(item);
   $("#detailTitle").textContent = item.title;
+  $("#detailTitleEdit").innerHTML = titleEditMarkup(item);
   $("#detailTags").innerHTML = item.kind === "event" ? `
     <span class="pill kind-event">赛事日历</span>
     <span class="pill">${escapeHtml(item.brand || "未识别品牌")}</span>
@@ -1358,10 +1362,23 @@ bindEvents();
 initTags({
   findItem: id => state.items.find(item => item.id === id) || (currentDetailItem?.id === id ? currentDetailItem : null),
   update: () => {
-    document.querySelectorAll('[data-tag-record]').forEach(group => {
-      const item = state.items.find(item => item.id === group.dataset.tagRecord) || (currentDetailItem?.id === group.dataset.tagRecord ? currentDetailItem : null);
-      if (item) group.outerHTML = tagMarkup(item);
-    });
+    const scrollTop = timeline.scrollTop;
+    const tableScroll = timeline.querySelector('.tableWrap')?.scrollTop || 0;
+    state.items = isStaticSite && window.staticCalendarCache
+      ? staticFilterItems(window.staticCalendarCache.items.map(displayItem))
+      : state.items.map(displayItem);
+    state.totals.filtered = state.items.length;
+    state.months = monthSummary(state.items);
+    render();
+    timeline.scrollTop = scrollTop;
+    if (timeline.querySelector('.tableWrap')) timeline.querySelector('.tableWrap').scrollTop = tableScroll;
+    if (currentDetailItem) {
+      currentDetailItem = displayItem(currentDetailItem);
+      $("#detailTitle").textContent = currentDetailItem.title;
+      $("#detailTitleEdit").innerHTML = titleEditMarkup(currentDetailItem);
+      $("#detailUserTags").innerHTML = tagMarkup(currentDetailItem);
+    }
+    if (state.q && !isStaticSite) requestData();
   }
 });
 loadData().catch((error) => {

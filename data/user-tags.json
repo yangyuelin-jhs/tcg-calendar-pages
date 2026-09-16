@@ -16,9 +16,12 @@
       "title": "",
       "identity": "",
       "tags": [],
-      "updatedAt": "2026-09-16T07:43:31.517Z",
-      "revision": "5d43be13-d96c-4151-9cc2-f73076589896"
+      "updatedAt": "2026-09-16T07:43:33.243Z",
+      "revision": "5d43be13-d96c-4151-9cc2-f73076589896",
+      "customTitle": "本地人工标题验证",
+      "titleRevision": "1164575b-26d3-4f21-afeb-1f3f1afd3dd0",
+      "titleUpdatedAt": "2026-09-16T07:43:33.243Z"
     }
   },
-  "updatedAt": "2026-09-16T07:43:31.517Z"
+  "updatedAt": "2026-09-16T07:43:33.243Z"
 }

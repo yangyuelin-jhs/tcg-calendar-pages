@@ -2,16 +2,16 @@
   "version": 1,
   "records": {
     "sync-probe-0f7f8ee9-add5-4600-8936-fff31ec855ce": {
-      "title": "Automated sync probe",
+      "title": "",
       "tags": [
         {
-          "text": "本地同步测试",
-          "color": "amber"
+          "text": "云端同步测试",
+          "color": "green"
         }
       ],
-      "updatedAt": "2026-09-16T06:49:05.411Z",
-      "revision": "29841d98-02a6-4e29-8568-d2d964808786"
+      "updatedAt": "2026-09-16T06:49:08.140Z",
+      "revision": "a5feea4e-af98-4669-ab49-042e3c036a17"
     }
   },
-  "updatedAt": "2026-09-16T06:49:05.411Z"
+  "updatedAt": "2026-09-16T06:49:08.140Z"
 }

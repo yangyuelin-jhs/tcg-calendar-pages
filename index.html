@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TCG 商品与赛事日历</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script>window.CALENDAR_STATIC_DATA_URL = './data/calendar.json';</script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brandmark">TCG</div>
+      <div>
+        <span class="eyebrow">TCG 日历工作台</span>
+        <h1>TCG 商品与赛事日历</h1>
+        <p id="sourceMeta">正在读取 GitHub 静态日历快照...</p>
+      </div>
+    </div>
+    <div class="actions">
+      <span class="portBadge">GitHub Pages</span>
+      <button id="officialRefreshBtn" class="ghostBtn" type="button" title="重新抓取官网商品源">重新巡查官网</button>
+      <button id="refreshBtn" class="primaryBtn" type="button" title="刷新当前数据">刷新当前页</button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="statsGrid" aria-label="概览">
+      <div class="stat"><span>当前结果</span><b id="totalCount">0</b></div>
+      <div class="stat"><span>商品</span><b id="productCount">0</b></div>
+      <div class="stat"><span>赛事</span><b id="eventCount">0</b></div>
+      <div class="stat"><span>含官网源</span><b id="officialCount">0</b></div>
+      <div class="stat"><span>含后台源</span><b id="newsCount">0</b></div>
+    </section>
+
+    <section class="controlBand" id="controlBand" aria-label="筛选">
+      <div class="tabs viewTabs" role="tablist" aria-label="页面入口">
+        <button class="tab active" data-view="product" type="button">商品日历</button>
+        <button class="tab" data-view="event" type="button">赛事日历</button>
+        <button class="tab" data-view="sources" type="button">官网源管理</button>
+      </div>
+
+      <div class="sourceTabs" aria-label="数据来源">
+        <button class="sourceTab active" data-source-type="all" type="button">全部来源</button>
+        <button class="sourceTab" data-source-type="official" type="button">官网巡查</button>
+        <button class="sourceTab" data-source-type="news" type="button">后台新闻</button>
+      </div>
+
+      <label class="field compact">
+        <span>品牌</span>
+        <select id="brandSelect">
+          <option value="">全部品牌</option>
+        </select>
+      </label>
+
+      <div class="field monthFilter">
+        <span>年月</span>
+        <div class="monthPicker" aria-label="按年或月份筛选">
+          <select id="yearSelect" title="选择年份"></select>
+          <select id="monthSelect" title="选择月份">
+            <option value="">全年</option>
+          </select>
+          <button id="applyMonthPicker" type="button">应用</button>
+        </div>
+      </div>
+
+      <label class="field compact statusField">
+        <span>时间状态</span>
+        <select id="rangeSelect">
+          <option value="all">全部</option>
+          <option value="upcoming">未开始</option>
+          <option value="past">已过去</option>
+        </select>
+      </label>
+
+      <label class="field search">
+        <span>搜索</span>
+        <input id="searchInput" type="search" placeholder="名称 / 城市 / 来源" />
+      </label>
+
+      <details class="advancedFilters">
+        <summary>更多日期</summary>
+        <div class="advancedFilterBody">
+          <div class="dateFields" aria-label="日期范围">
+            <input id="fromInput" type="date" title="开始日期" />
+            <span>至</span>
+            <input id="toInput" type="date" title="结束日期" />
+          </div>
+          <div class="quickRanges" aria-label="快速日期">
+            <button type="button" data-range="all" data-product-label="全部日期" data-event-label="全部未来">全部日期</button>
+            <button type="button" data-range="past" data-product-label="已过去" data-event-label="全部过往">已过去</button>
+            <button type="button" data-range="thisMonth">本月</button>
+            <button type="button" data-range="nextMonth">下月</button>
+            <button type="button" data-range="ninety" data-product-label="未来90天" data-event-label="未来90天">未来90天</button>
+            <button type="button" data-range="clear">不限日期</button>
+          </div>
+        </div>
+      </details>
+
+      <div class="activeFilters" id="activeFilters" aria-label="当前筛选"></div>
+    </section>
+
+    <section class="monthRail" aria-label="月份筛选">
+      <div class="monthRailHead">
+        <strong>快速月份</strong>
+        <span id="activeRangeLabel"></span>
+      </div>
+      <div class="monthChips" id="monthChips"></div>
+    </section>
+
+    <section class="workspace">
+      <div class="workspaceHead">
+        <div class="monthbar">
+          <button id="prevMonth" type="button" title="上个月">‹</button>
+          <strong id="monthTitle"></strong>
+          <button id="nextMonth" type="button" title="下个月">›</button>
+        </div>
+        <div class="legend" aria-label="图例">
+          <span><i class="legendProduct"></i>商品</span>
+          <span><i class="legendEvent"></i>赛事</span>
+          <span><i class="legendOfficial"></i>官网</span>
+          <span><i class="legendNews"></i>后台</span>
+        </div>
+      </div>
+      <div class="workGrid">
+        <div class="calendar" id="calendar"></div>
+        <section class="panel listPanel">
+          <div class="panelHead">
+          <div>
+            <h2 id="listTitle">近期日历</h2>
+            <p id="filterCount"></p>
+          </div>
+          <div class="displayTools" id="displayTools" aria-label="列表显示方式">
+            <button class="displayBtn active" data-display="cards" type="button">清单</button>
+            <button class="displayBtn" data-display="table" type="button">表格</button>
+          </div>
+        </div>
+        <div class="timeline" id="timeline"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="panel sourcePanel">
+      <div class="panelHead">
+        <div>
+          <h2>官网巡查源</h2>
+          <p id="officialMeta">等待巡查状态...</p>
+        </div>
+        <div class="sourceTools">
+          <input id="sourceSearchInput" type="search" placeholder="搜索官网源" />
+          <select id="sourceStatusSelect" title="源状态筛选">
+            <option value="all">全部状态</option>
+            <option value="slow">响应缓慢</option>
+            <option value="ok">正常有数据</option>
+            <option value="empty">0 条数据</option>
+            <option value="bad">抓取失败</option>
+          </select>
+          <button id="refreshAllSourcesBtn" class="ghostBtn" type="button">全部刷新</button>
+        </div>
+      </div>
+      <div class="sourceSummary" id="sourceSummary"></div>
+      <div class="patrolList" id="patrolList"></div>
+    </section>
+  </main>
+
+  <dialog id="detailDialog">
+    <article class="detail">
+      <button class="close" id="closeDialog" type="button" title="关闭">×</button>
+      <img id="detailImage" alt="" />
+      <div class="detailBody">
+        <p id="detailDate"></p>
+        <h3 id="detailTitle"></h3>
+        <div id="detailTags"></div>
+        <dl id="detailMeta"></dl>
+        <p id="detailExcerpt"></p>
+        <div class="detailActions">
+          <button id="copyTitleBtn" type="button">复制名称</button>
+          <button id="copyAddressBtn" type="button">复制地址</button>
+          <button id="copyLinkBtn" type="button">复制链接</button>
+          <a id="detailLink" target="_blank" rel="noreferrer">查看原文</a>
+        </div>
+      </div>
+    </article>
+  </dialog>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>

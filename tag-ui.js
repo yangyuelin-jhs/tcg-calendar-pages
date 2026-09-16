@@ -1,4 +1,4 @@
-import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags } from './tag-sync.js?v=1789542411715';
+import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags } from './tag-sync.js?v=1789543114153';
 
 const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 const isStatic = Boolean(window.CALENDAR_STATIC_DATA_URL);
@@ -10,6 +10,7 @@ let draft = [];
 let baseRevision = '';
 let syncing = null;
 let lastSync = 0;
+let lastAttempt = 0;
 let onUpdate = () => {};
 let saving = false;
 const $ = id => document.getElementById(id);
@@ -27,7 +28,9 @@ function status(text, failed = false) {
 export async function refreshTags(force = false) {
   if (saving) return false;
   if (syncing) return syncing;
-  if (!force && Date.now() - lastSync < 30000) return;
+  const interval = isStatic && !token ? 120000 : 30000;
+  if (!force && Date.now() - lastAttempt < interval - 1000) return;
+  lastAttempt = Date.now();
   syncing = (async () => {
     try {
       let next;
@@ -48,6 +51,7 @@ export async function refreshTags(force = false) {
       documentData = next;
       lastSync = Date.now();
       status('标签已同步');
+      $('tagSyncState').title = `上次同步：${new Date(lastSync).toLocaleTimeString('zh-CN')}；点击立即刷新标签`;
       if (changed) onUpdate();
       return true;
     } catch (error) {
@@ -163,7 +167,7 @@ export function initTags({ findItem, update }) {
     </dialog>`);
   const tools = document.createElement('div');
   tools.className = 'tagSyncTools';
-  tools.innerHTML = `<button id="tagSyncState" type="button" class="tagSyncState" title="刷新标签；其他设备的修改每分钟自动同步">正在读取标签…</button>${localEditor ? '' : '<button id="tagConnect" type="button" class="ghostBtn">连接 GitHub</button>'}`;
+  tools.innerHTML = `<button id="tagSyncState" type="button" class="tagSyncState" title="点击立即刷新标签；未授权网页每两分钟检查更新">正在读取标签…</button>${localEditor ? '' : '<button id="tagConnect" type="button" class="ghostBtn">连接 GitHub</button>'}`;
   document.querySelector('.actions').prepend(tools);
   $('tagSyncState').addEventListener('click', () => refreshTags(true));
   $('tagConnect')?.addEventListener('click', () => $('tagAuthDialog').showModal());

@@ -52,15 +52,14 @@ async function githubRequest(url, token, init = {}, fetcher = fetch) {
 }
 
 export async function readRemoteTags(token = '', fetcher = fetch) {
-  const file = await githubRequest(`${endpoint}?ref=${TAG_BRANCH}`, token, {}, fetcher);
+  const file = await githubRequest(`${endpoint}?ref=${TAG_BRANCH}&t=${Date.now()}`, token, {}, fetcher);
   return { data: validateDocument(JSON.parse(decodeContent(file.content))), sha: file.sha };
 }
 
 export async function readPublicTags(fetcher = fetch) {
-  const url = `https://raw.githubusercontent.com/${TAG_REPO}/${TAG_BRANCH}/${TAG_PATH}?t=${Date.now()}`;
-  const response = await fetcher(url, { cache: 'no-store', signal: AbortSignal.timeout(15000) });
-  if (!response.ok) throw new Error(`标签读取失败（${response.status}）`);
-  return validateDocument(await response.json());
+  // Raw branch URLs can return an old CDN copy even with a cache-busting query.
+  // The Contents API resolves the current branch and provides the file revision.
+  return (await readRemoteTags('', fetcher)).data;
 }
 
 export async function saveRemoteTags({ id, title, tags, baseRevision }, token, fetcher = fetch) {

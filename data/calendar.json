@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-16T06:44:51.898Z",
+  "generatedAt": "2026-09-16T07:18:33.863Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
       "port": 8787,
       "file": "D:\\jihuanshe-local-admin\\data\\posts.json",
-      "fileCount": 2467,
+      "fileCount": 2468,
       "apiCount": 0
     },
     {
       "name": "外网资讯后台",
       "port": 8877,
       "file": "D:\\foreign-news-backend\\data\\posts.json",
-      "fileCount": 3758,
+      "fileCount": 3761,
       "apiCount": 0
     },
     {
@@ -397,11 +397,11 @@
     ],
     "count": 665
   },
-  "fromMemoryCache": true,
+  "fromMemoryCache": false,
   "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {
-    "posts": 6224,
+    "posts": 6228,
     "all": 809,
     "product": 685,
     "event": 124,

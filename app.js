@@ -1,4 +1,4 @@
-import { initTags, tagMarkup, refreshTags } from './tag-ui.js?v=1789542411715';
+import { initTags, tagMarkup, refreshTags } from './tag-ui.js?v=1789543114153';
 
 const initialMonth = new Date();
 initialMonth.setHours(0, 0, 0, 0);

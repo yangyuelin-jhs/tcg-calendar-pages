@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-16T05:22:00.752Z",
+  "generatedAt": "2026-09-16T06:04:31.538Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
       "port": 8787,
       "file": "D:\\jihuanshe-local-admin\\data\\posts.json",
-      "fileCount": 2462,
+      "fileCount": 2463,
       "apiCount": 0
     },
     {
@@ -401,7 +401,7 @@
   "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {
-    "posts": 6219,
+    "posts": 6220,
     "all": 809,
     "product": 685,
     "event": 124,

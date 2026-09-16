@@ -1,12 +1,5 @@
 {
   "version": 1,
-  "records": {
-    "sync-probe-0f7f8ee9-add5-4600-8936-fff31ec855ce": {
-      "title": "",
-      "tags": [],
-      "updatedAt": "2026-09-16T06:49:09.815Z",
-      "revision": "10aba0d7-097c-4a32-85c8-c4119e006ccc"
-    }
-  },
+  "records": {},
   "updatedAt": "2026-09-16T06:49:09.815Z"
 }

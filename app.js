@@ -45,6 +45,15 @@ function escapeHtml(value) {
   }[char]));
 }
 
+function compactText(value) {
+  return String(value || "")
+    .replace(/\u0000/g, "")
+    .replace(/\r\n/g, "\n")
+    .replace(/([\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function iso(date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 }

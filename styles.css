@@ -783,6 +783,15 @@ body[data-view="product"][data-display="table"] .listPanel {
   background: #0b1724;
 }
 
+/* Scroll the list without shrinking its records below their content height. */
+body[data-display="cards"] .timeline {
+  grid-auto-rows: max-content;
+}
+
+body[data-display="cards"] .timeline > .item {
+  align-items: start;
+}
+
 .dateDivider {
   position: sticky;
   top: -8px;
@@ -1542,6 +1551,10 @@ dialog[data-kind="event"] .detail img {
 
   .item {
     grid-template-columns: 52px minmax(0, 1fr);
+  }
+
+  .item.event {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .thumb {

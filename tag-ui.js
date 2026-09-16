@@ -1,4 +1,4 @@
-import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags } from './tag-sync.js?v=1789541437937';
+import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags } from './tag-sync.js?v=1789542411715';
 
 const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 const isStatic = Boolean(window.CALENDAR_STATIC_DATA_URL);

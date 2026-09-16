@@ -397,8 +397,8 @@
     ],
     "count": 665
   },
-  "fromMemoryCache": false,
-  "fromDiskCache": true,
+  "fromMemoryCache": true,
+  "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {
     "posts": 6224,

@@ -1,4 +1,4 @@
-import { initTags, tagMarkup, refreshTags } from './tag-ui.js?v=1789543114153';
+import { initTags, tagMarkup, refreshTags } from './tag-ui.js?v=1789543289937';
 
 const initialMonth = new Date();
 initialMonth.setHours(0, 0, 0, 0);
@@ -670,7 +670,7 @@ function renderOfficialPanel() {
               ${stat.error ? `<p class="sourceError">${escapeHtml(stat.error)}</p>` : ""}
               <div class="patrolActions">
                 <a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">打开官网</a>
-                <button type="button" data-source-url="${escapeHtml(source.url)}">刷新此源</button>
+                ${isStaticSite ? '' : `<button type="button" data-source-url="${escapeHtml(source.url)}">刷新此源</button>`}
               </div>
             </article>
           `).join("")}
@@ -1293,6 +1293,7 @@ function bindEvents() {
     button.addEventListener("click", () => {
       state.displayMode = button.dataset.display;
       resetTimelineLimit();
+      updateUrlState();
       renderControlState();
       renderTimeline();
     });

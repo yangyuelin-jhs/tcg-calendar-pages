@@ -397,7 +397,7 @@
     ],
     "count": 665
   },
-  "fromMemoryCache": false,
+  "fromMemoryCache": true,
   "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {

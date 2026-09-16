@@ -30,6 +30,7 @@ const calendar = $("#calendar");
 const timeline = $("#timeline");
 const brandSelect = $("#brandSelect");
 const sourceMeta = $("#sourceMeta");
+const isStaticSite = Boolean(window.CALENDAR_STATIC_DATA_URL);
 let activeRequest = null;
 let loadSeq = 0;
 let currentDetailItem = null;
@@ -413,6 +414,9 @@ async function loadData(options = {}) {
   if (activeRequest) activeRequest.abort();
   const controller = new AbortController();
   activeRequest = controller;
+  if (isStaticSite && options.refreshData) {
+    window.staticCalendarCache = null;
+  }
   const params = new URLSearchParams({
     kind: state.kind,
     status: state.status,
@@ -427,11 +431,13 @@ async function loadData(options = {}) {
   if (options.refreshOfficial) params.set("refreshOfficial", "1");
   if (options.refreshData) params.set("refreshData", "1");
   document.body.classList.add("isLoading");
-  sourceMeta.textContent = options.refreshOfficial
-    ? "正在重新抓取官网商品源..."
-    : options.refreshData
-      ? "正在刷新后台与数据库..."
-      : "正在读取本地日历缓存...";
+  sourceMeta.textContent = isStaticSite
+    ? "正在读取 GitHub 静态日历快照..."
+    : options.refreshOfficial
+      ? "正在重新抓取官网商品源..."
+      : options.refreshData
+        ? "正在刷新后台与数据库..."
+        : "正在读取本地日历缓存...";
   try {
     const staticData = await loadStaticCalendarData(controller.signal);
     let data = staticData;
@@ -474,6 +480,14 @@ function requestData(options = {}) {
   loadData(options).catch((error) => {
     if (error.name !== "AbortError") sourceMeta.textContent = `读取失败：${error.message}`;
   });
+}
+
+function configureStaticSiteControls() {
+  if (!isStaticSite) return;
+  const officialRefreshBtn = $("#officialRefreshBtn");
+  const refreshAllSourcesBtn = $("#refreshAllSourcesBtn");
+  if (officialRefreshBtn) officialRefreshBtn.hidden = true;
+  if (refreshAllSourcesBtn) refreshAllSourcesBtn.hidden = true;
 }
 
 function renderBrandOptions() {
@@ -1284,7 +1298,7 @@ function bindEvents() {
     window.searchTimer = setTimeout(requestData, 260);
   });
   $("#refreshBtn").addEventListener("click", () => requestData({ refreshData: true }));
-  $("#officialRefreshBtn").addEventListener("click", async () => {
+  $("#officialRefreshBtn")?.addEventListener("click", async () => {
     $("#officialRefreshBtn").disabled = true;
     try {
       await loadData({ refreshOfficial: true });
@@ -1292,14 +1306,14 @@ function bindEvents() {
       $("#officialRefreshBtn").disabled = false;
     }
   });
-  $("#refreshAllSourcesBtn").addEventListener("click", async () => {
+  $("#refreshAllSourcesBtn")?.addEventListener("click", async () => {
     $("#refreshAllSourcesBtn").disabled = true;
-    $("#officialRefreshBtn").disabled = true;
+    if ($("#officialRefreshBtn")) $("#officialRefreshBtn").disabled = true;
     try {
       await loadData({ refreshOfficial: true });
     } finally {
       $("#refreshAllSourcesBtn").disabled = false;
-      $("#officialRefreshBtn").disabled = false;
+      if ($("#officialRefreshBtn")) $("#officialRefreshBtn").disabled = false;
     }
   });
   $("#prevMonth").addEventListener("click", () => {
@@ -1327,6 +1341,7 @@ function bindEvents() {
 }
 
 applyInitialUrlState();
+configureStaticSiteControls();
 setBodyView();
 syncControls();
 bindEvents();

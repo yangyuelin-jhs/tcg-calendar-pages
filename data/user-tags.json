@@ -1,5 +1,17 @@
 {
   "version": 1,
-  "records": {},
-  "updatedAt": "2026-09-16T06:49:09.815Z"
+  "records": {
+    "product:鸣潮：对决:2026-09-12:鸣潮对决": {
+      "title": "鸣潮：对决",
+      "tags": [
+        {
+          "text": "Banner,弹窗,金刚",
+          "color": "amber"
+        }
+      ],
+      "updatedAt": "2026-09-16T07:12:28.783Z",
+      "revision": "700a5eca-0ffe-493b-92bd-f670273c13de"
+    }
+  },
+  "updatedAt": "2026-09-16T07:12:28.783Z"
 }

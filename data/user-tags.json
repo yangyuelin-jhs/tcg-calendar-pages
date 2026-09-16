@@ -15,15 +15,10 @@
     "sync-probe-786823bf-9328-498f-887a-b7fc76002896": {
       "title": "",
       "identity": "",
-      "tags": [
-        {
-          "text": "云端同步测试",
-          "color": "green"
-        }
-      ],
-      "updatedAt": "2026-09-16T07:43:29.729Z",
-      "revision": "f30c8d09-ec00-4bcb-83f9-ff589db13bde"
+      "tags": [],
+      "updatedAt": "2026-09-16T07:43:31.517Z",
+      "revision": "5d43be13-d96c-4151-9cc2-f73076589896"
     }
   },
-  "updatedAt": "2026-09-16T07:43:29.729Z"
+  "updatedAt": "2026-09-16T07:43:31.517Z"
 }

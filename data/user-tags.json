@@ -11,16 +11,6 @@
       ],
       "updatedAt": "2026-09-16T07:15:01.344Z",
       "revision": "6cb87c4f-a792-48b1-a0fb-b5f6eed0d30f"
-    },
-    "sync-probe-786823bf-9328-498f-887a-b7fc76002896": {
-      "title": "",
-      "identity": "",
-      "tags": [],
-      "updatedAt": "2026-09-16T07:43:33.243Z",
-      "revision": "5d43be13-d96c-4151-9cc2-f73076589896",
-      "customTitle": "仓库直接修改标题验证",
-      "titleRevision": "1164575b-26d3-4f21-afeb-1f3f1afd3dd0",
-      "titleUpdatedAt": "2026-09-16T07:43:33.243Z"
     }
   },
   "updatedAt": "2026-09-16T07:43:33.243Z"

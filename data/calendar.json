@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-16T06:04:31.538Z",
+  "generatedAt": "2026-09-16T06:44:51.898Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
       "port": 8787,
       "file": "D:\\jihuanshe-local-admin\\data\\posts.json",
-      "fileCount": 2463,
+      "fileCount": 2467,
       "apiCount": 0
     },
     {
@@ -401,7 +401,7 @@
   "fromDiskCache": true,
   "staleDiskCache": false,
   "totals": {
-    "posts": 6220,
+    "posts": 6224,
     "all": 809,
     "product": 685,
     "event": 124,
@@ -33844,8 +33844,18 @@
       "reservationTo": "",
       "brand": "卡片战斗先导者",
       "sourceName": "b站卡片战斗先导者",
-      "sourceUrl": "https://www.bilibili.com/opus/1248175909976932376",
+      "sourceUrl": "https://www.bilibili.com/opus/1248546995124043778",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1248546995124043778"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1248546995102023683"
+        },
         {
           "type": "news",
           "name": "b站卡片战斗先导者",
@@ -33934,10 +33944,12 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-09-15",
+      "publishedAt": "2026-09-16",
       "image": "",
-      "excerpt": "#热点资讯##卡片战斗先导者# 2026年10月2日发售的卡片战斗先导者简体中文版最新补充包DZ-SS01「传说的先导者们」收录的—— 「波恩加尔」(SR） 「闪光之盾伊索尔德」(SR） 「巴克加尔」(SR） 「幸运搬运者艾波纳」(SR） 「弗洛加尔」(SR） 「玛尔加尔」(SR） 「世界树巫女伊莱恩」(SR）",
+      "excerpt": "#热点资讯##卡片战斗先导者# 2026年10月2日发售的卡片战斗先导者简体中文版最新补充包DZ-SS01「传说的先导者们」收录的—— 「双足飞龙守卫巴里」(SR） 「蜥蜴战士孔罗」(SR） 「魔龙导师罗刹」(SR） 「枪之化身塔尔」(SR） 「龙僧玄奘」(SR） 「龙舞姬莫妮卡」(SR）",
       "postKeys": [
+        "8787:1248546995124043778",
+        "8787:1248546995102023683",
         "8787:1248175909976932376",
         "8787:1248175909934989316",
         "8787:1247804824763760646",
@@ -33965,7 +33977,7 @@
       "people": "",
       "confidence": 99,
       "reason": "2026年10月2日",
-      "postCount": 17,
+      "postCount": 19,
       "sourceTypes": [
         "news"
       ]

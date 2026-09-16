@@ -1,3 +1,5 @@
+import { initTags, tagMarkup, refreshTags } from './tag-ui.js?v=1789541437937';
+
 const initialMonth = new Date();
 initialMonth.setHours(0, 0, 0, 0);
 
@@ -927,6 +929,7 @@ function renderTimeline() {
         <div class="meta">
           ${metaHtml}
         </div>
+        ${tagMarkup(item)}
         ${item.kind === "event" ? `<div class="eventFields">
           <span><b>时间</b><span class="eventValue">${escapeHtml(eventDateTimeLabel(item))}</span></span>
           <span><b>地址</b><span class="eventValue">${escapeHtml(eventLocationLabel(item))}</span></span>
@@ -975,6 +978,7 @@ function renderProductTable() {
           ${item.postCount > 1 ? `<span class="mergeNote">合并 ${item.postCount} 条</span>` : ""}
         </td>
         <td>${escapeHtml(sourceSummary || item.sourceName || "来源未知")}</td>
+        <td class="userTagCell">${tagMarkup(item)}</td>
         <td>${primary?.url ? `<a class="sourceBtn ${escapeHtml(primary.type)}" href="${escapeHtml(primary.url)}" target="_blank" rel="noreferrer">${escapeHtml(sourceButtonLabel(primary))}</a>` : ""}</td>
       </tr>
     `;
@@ -989,6 +993,7 @@ function renderProductTable() {
             <th>类型</th>
             <th>商品名</th>
             <th>来源</th>
+            <th class="userTagHeading">标签</th>
             <th>原文</th>
           </tr>
         </thead>
@@ -1081,6 +1086,7 @@ function openDetail(item) {
     <span class="pill">置信度 ${Number(item.confidence || 0)}</span>
   `;
   const detailSources = item.kind === "event" ? compactSources(item) : sortedSources(item);
+  $("#detailUserTags").innerHTML = tagMarkup(item);
   const sourceRows = detailSources
     .filter((source) => source.url)
     .map((source) => `<a class="sourceBtn ${escapeHtml(source.type)}" href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.kind === "event" ? eventSourceButtonLabel(source) : (source.name || sourceButtonLabel(source)))}</a>`)
@@ -1297,7 +1303,10 @@ function bindEvents() {
     clearTimeout(window.searchTimer);
     window.searchTimer = setTimeout(requestData, 260);
   });
-  $("#refreshBtn").addEventListener("click", () => requestData({ refreshData: true }));
+  $("#refreshBtn").addEventListener("click", () => {
+    requestData({ refreshData: true });
+    refreshTags(true);
+  });
   $("#officialRefreshBtn")?.addEventListener("click", async () => {
     $("#officialRefreshBtn").disabled = true;
     try {
@@ -1345,6 +1354,15 @@ configureStaticSiteControls();
 setBodyView();
 syncControls();
 bindEvents();
+initTags({
+  findItem: id => state.items.find(item => item.id === id) || (currentDetailItem?.id === id ? currentDetailItem : null),
+  update: () => {
+    document.querySelectorAll('[data-tag-record]').forEach(group => {
+      const item = state.items.find(item => item.id === group.dataset.tagRecord) || (currentDetailItem?.id === group.dataset.tagRecord ? currentDetailItem : null);
+      if (item) group.outerHTML = tagMarkup(item);
+    });
+  }
+});
 loadData().catch((error) => {
   sourceMeta.textContent = `读取失败：${error.message}`;
 });

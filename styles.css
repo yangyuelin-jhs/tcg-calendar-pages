@@ -2563,6 +2563,75 @@ dialog::backdrop { background: rgba(0, 0, 0, .7); }
   display: none !important;
 }
 
+/* Manual labels remain distinct from the calendar's existing metadata pills. */
+.userTagGroup { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.userTagCell { min-width: 164px; max-width: 280px; }
+.userTagHeading { width: 190px; }
+.productTable:not(.eventTable) { table-layout: fixed; min-width: 1180px; }
+.productTable:not(.eventTable) th:nth-child(1) { width: 165px; }
+.productTable:not(.eventTable) th:nth-child(2) { width: 110px; }
+.productTable:not(.eventTable) th:nth-child(3) { width: 90px; }
+.productTable:not(.eventTable) th:nth-child(5) { width: 210px; }
+.productTable:not(.eventTable) th:nth-child(6) { width: 180px; }
+.productTable:not(.eventTable) th:nth-child(7) { width: 70px; white-space: nowrap; }
+.productTable:not(.eventTable) td { overflow-wrap: anywhere; }
+.productTable:not(.eventTable) td:last-child .sourceBtn { white-space: nowrap; }
+.userTag {
+  display: inline-flex; align-items: center; gap: 6px; max-width: 100%;
+  padding: 4px 8px; border: 1px solid; border-radius: 4px;
+  font-size: 12px; line-height: 1.5; font-weight: 700; overflow-wrap: anywhere;
+}
+.tag-amber { background: #ffdf85; color: #342500; border-color: #f6c64d; }
+.tag-green { background: #9ce5ba; color: #103822; border-color: #66ce92; }
+.tag-blue { background: #a8d5ff; color: #15344f; border-color: #6db7f9; }
+.tag-pink { background: #f6b5d4; color: #50132f; border-color: #ea8cba; }
+.tagEdit, .tagIconBtn {
+  display: inline-grid; place-items: center; width: 30px; height: 30px;
+  flex: 0 0 30px; padding: 0; border: 1px solid #40576c; border-radius: 4px;
+  color: #bacfe0; background: transparent; font-size: 20px; cursor: pointer;
+}
+.tagEdit:hover, .tagIconBtn:hover { color: #fff; background: #273a4b; border-color: #8aa2b9; }
+.tagEdit:focus-visible, .tagIconBtn:focus-visible { outline: 2px solid #8bc7ff; outline-offset: 2px; }
+.item .userTagGroup { margin-top: 8px; }
+#detailUserTags { margin: 12px 0; }
+.tagSyncTools { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+.tagSyncState { border: 0; background: transparent; color: #9cd9bb; padding: 6px 0; font-size: 12px; cursor: pointer; }
+.tagSyncState.failed { color: #ffd58a; }
+dialog.tagDialog {
+  width: min(480px, calc(100vw - 28px)); max-height: calc(100dvh - 32px);
+  padding: 24px; border-radius: 8px; overflow-y: auto; color: #e3edf6; background: #111b26;
+}
+.tagDialogHead { display: flex; gap: 16px; align-items: center; justify-content: space-between; }
+.tagDialog h2 { margin: 0; font-size: 20px; }
+.tagDialog p { font-size: 14px; line-height: 1.65; overflow-wrap: anywhere; }
+.tagDialog a, .tagTextButton { color: #99d1ff; }
+.tagRecordTitle { color: #aebdcb; margin: 12px 0 20px; }
+.tagDialog fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.tagDialog label { color: #c7d5e2; font-size: 13px; }
+.tagDialog input[type="text"], .tagDialog input[type="password"] {
+  width: 100%; min-width: 0; padding: 10px 12px; border: 1px solid #415468;
+  border-radius: 4px; background: #09121b; color: #edf5fd; font-size: 14px;
+}
+.tagInputRow { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.tagInputRow .tagIconBtn { width: 40px; height: 40px; flex-basis: 40px; }
+.tagDraft { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.tagDraft .userTag button { color: inherit; padding: 0 2px; background: transparent; border: 0; cursor: pointer; font-size: 18px; line-height: 1; }
+.tagSwatches { display: flex; gap: 12px; padding: 16px 0 4px; }
+.tagSwatch { display: grid; place-items: center; width: 30px; height: 30px; position: relative; border: 2px solid transparent; border-radius: 50%; cursor: pointer; }
+.tagSwatch input { position: absolute; opacity: 0; }
+.tagSwatch:has(input:checked) { outline: 2px solid #edf5fd; outline-offset: 3px; }
+.tagSwatch:has(input:focus-visible) { outline: 3px solid #99d1ff; outline-offset: 3px; }
+.tagSwatch input:checked + span::after { content: '\2713'; color: #14232e; font-weight: 700; }
+.tagMessage { min-height: 22px; color: #ffd58a; }
+.tagDialog .tagAuthHint { color: #a5b7c8; font-size: 12px; }
+.tagTextButton { padding: 0; border: 0; background: transparent; cursor: pointer; text-decoration: underline; }
+.tagDialogActions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px; }
+.tagDialog button:disabled { opacity: .5; cursor: wait; }
+@media (max-width: 600px) {
+  dialog.tagDialog { padding: 18px; }
+  .tagSyncTools { width: 100%; justify-content: flex-end; }
+}
+
 .controlBand {
   grid-template-columns: 260px 250px minmax(180px, .8fr) 282px 118px minmax(260px, 1fr);
   align-items: end;

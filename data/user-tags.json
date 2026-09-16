@@ -1,1 +1,17 @@
-{"version":1,"records":{}}
+{
+  "version": 1,
+  "records": {
+    "sync-probe-0f7f8ee9-add5-4600-8936-fff31ec855ce": {
+      "title": "Automated sync probe",
+      "tags": [
+        {
+          "text": "本地同步测试",
+          "color": "amber"
+        }
+      ],
+      "updatedAt": "2026-09-16T06:49:05.411Z",
+      "revision": "29841d98-02a6-4e29-8568-d2d964808786"
+    }
+  },
+  "updatedAt": "2026-09-16T06:49:05.411Z"
+}

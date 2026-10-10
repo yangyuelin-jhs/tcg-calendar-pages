@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-10T05:17:10.213Z",
+  "generatedAt": "2026-10-10T05:32:20.378Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
       "port": 8787,
       "file": "D:\\jihuanshe-local-admin\\data\\posts.json",
-      "fileCount": 3236,
+      "fileCount": 3237,
       "apiCount": 0
     },
     {
       "name": "外网资讯后台",
       "port": 8877,
       "file": "D:\\foreign-news-backend\\data\\posts.json",
-      "fileCount": 4764,
+      "fileCount": 4795,
       "apiCount": 0
     },
     {
@@ -399,16 +399,16 @@
     "count": 691
   },
   "fromMemoryCache": false,
-  "fromDiskCache": false,
+  "fromDiskCache": true,
   "staleDiskCache": false,
   "totals": {
-    "posts": 8060,
-    "all": 882,
-    "product": 731,
+    "posts": 8092,
+    "all": 872,
+    "product": 721,
     "event": 151,
-    "news": 155,
+    "news": 145,
     "official": 778,
-    "filtered": 882
+    "filtered": 872
   },
   "brands": [
     "宝可梦",
@@ -870,27 +870,27 @@
     },
     {
       "month": "2026-06",
-      "product": 18,
+      "product": 17,
       "event": 0,
-      "total": 18
+      "total": 17
     },
     {
       "month": "2026-07",
-      "product": 39,
+      "product": 36,
       "event": 7,
-      "total": 46
+      "total": 43
     },
     {
       "month": "2026-08",
-      "product": 33,
+      "product": 32,
       "event": 18,
-      "total": 51
+      "total": 50
     },
     {
       "month": "2026-09",
-      "product": 32,
+      "product": 29,
       "event": 11,
-      "total": 43
+      "total": 40
     },
     {
       "month": "2026-10",
@@ -900,15 +900,15 @@
     },
     {
       "month": "2026-11",
-      "product": 24,
+      "product": 23,
       "event": 5,
-      "total": 29
+      "total": 28
     },
     {
       "month": "2026-12",
-      "product": 21,
+      "product": 20,
       "event": 0,
-      "total": 21
+      "total": 20
     },
     {
       "month": "2027-01",
@@ -944,8 +944,8 @@
       "endDate": "2020-04-04",
       "precision": "day",
       "brand": "游戏王",
-      "title": "起始卡组 套装－遊我VSルーク－ 特别套装 起始卡组 套装 －遊我VSルーク－",
-      "type": "构筑/预组",
+      "title": "决斗者卡牌收纳盒",
+      "type": "卡盒",
       "city": "",
       "address": "",
       "fee": "",
@@ -975,7 +975,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 套装－遊我VSルーク－ 特别套装 起始卡组 套装 －遊我VSルーク－",
+      "generatedTitle": "决斗者卡牌收纳盒",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スターターデッキセット－遊我VSルーク－ スペシャルセット スターターデッキセット －遊我VSルーク－",
       "titleIsManual": false
     },
@@ -987,8 +988,8 @@
       "endDate": "2020-04-04",
       "precision": "day",
       "brand": "游戏王",
-      "title": "起始卡组 ルーク－爆裂覇道! ドラギアス!!－ 构筑预组 起始卡组 ルーク －爆裂覇道! ドラギアス!!－",
-      "type": "构筑/预组",
+      "title": "决斗者卡套 连击龙 德拉基亚斯",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -1018,7 +1019,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 ルーク－爆裂覇道! ドラギアス!!－ 构筑预组 起始卡组 ルーク －爆裂覇道! ドラギアス!!－",
+      "generatedTitle": "决斗者卡套 连击龙 德拉基亚斯",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スターターデッキ ルーク－爆裂覇道! ドラギアス!!－ 構築済みデッキ スターターデッキ ルーク －爆裂覇道! ドラギアス!!－",
       "titleIsManual": false
     },
@@ -1030,8 +1032,8 @@
       "endDate": "2020-04-04",
       "precision": "day",
       "brand": "游戏王",
-      "title": "起始卡组 遊我－切り開け! セブンスロード!!－ 构筑预组 起始卡组 遊我 －切り開け! セブンスロード!!－",
-      "type": "构筑/预组",
+      "title": "决斗者卡套 七星道魔术师",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -1061,7 +1063,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 遊我－切り開け! セブンスロード!!－ 构筑预组 起始卡组 遊我 －切り開け! セブンスロード!!－",
+      "generatedTitle": "决斗者卡套 七星道魔术师",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スターターデッキ 遊我－切り開け! セブンスロード!!－ 構築済みデッキ スターターデッキ 遊我 －切り開け! セブンスロード!!－",
       "titleIsManual": false
     },
@@ -1073,8 +1076,8 @@
       "endDate": "2020-04-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 超速 Rush Road!!",
-      "type": "补充包",
+      "title": "决斗者卡套 青眼白龙",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -1104,7 +1107,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 超速 Rush Road!!",
+      "generatedTitle": "决斗者卡套 青眼白龙",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 超速のラッシュロード!!",
       "titleIsManual": false
     },
@@ -1202,7 +1206,7 @@
       "endDate": "2020-04-24",
       "precision": "day",
       "brand": "数码宝贝",
-      "title": "构筑预组 数码宝贝卡牌 起始卡组 ガイアレッド【ST-1】",
+      "title": "构筑预组 数码宝贝卡牌 起始卡组 ガイア红色【ST-1】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -1233,7 +1237,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "构筑预组 数码宝贝卡牌 起始卡组 ガイアレッド【ST-1】",
+      "generatedTitle": "构筑预组 数码宝贝卡牌 起始卡组 ガイア红色【ST-1】",
       "originalTitle": "構築済みデッキ デジモンカードゲーム スタートデッキ ガイアレッド【ST-1】",
       "titleIsManual": false
     },
@@ -1331,8 +1335,8 @@
       "endDate": "2020-08-01",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 惊愕闪电攻击!!",
-      "type": "补充包",
+      "title": "决斗者卡套 黑魔术师",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -1362,7 +1366,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 惊愕闪电攻击!!",
+      "generatedTitle": "决斗者卡套 黑魔术师",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 驚愕のライトニングアタック!!",
       "titleIsManual": false
     },
@@ -1417,7 +1422,7 @@
       "endDate": "2020-11-14",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 幻击 Mirage Impact!!",
+      "title": "牌组改造包 幻击 Mirage Impact!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -1448,7 +1453,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 幻击 Mirage Impact!!",
+      "generatedTitle": "牌组改造包 幻击 Mirage Impact!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 幻撃のミラージュインパクト!!",
       "titleIsManual": false
     },
@@ -1589,7 +1595,7 @@
       "endDate": "2020-12-12",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 幻击 Mirage Impact!!",
+      "title": "超量超绝强化包",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -1620,7 +1626,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 幻击 Mirage Impact!!",
+      "generatedTitle": "超量超绝强化包",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 幻撃のミラージュインパクト!!",
       "titleIsManual": false
     },
@@ -1718,8 +1725,8 @@
       "endDate": "2020-12-31",
       "precision": "month",
       "brand": "游戏王",
-      "title": "改造パック幻击 Mirage Impact!!",
-      "type": "商品",
+      "title": "决斗者卡套 ロミン",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -1749,7 +1756,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "改造パック幻击 Mirage Impact!!",
+      "generatedTitle": "决斗者卡套 ロミン",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "改造パック幻撃のミラージュインパクト!!",
       "titleIsManual": false
     },
@@ -1847,7 +1855,7 @@
       "endDate": "2021-02-13",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 宿命 Power Destruction!!",
+      "title": "牌组改造包 宿命 Power Destruction!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -1878,7 +1886,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 宿命 Power Destruction!!",
+      "generatedTitle": "牌组改造包 宿命 Power Destruction!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 宿命のパワーデストラクション!!",
       "titleIsManual": false
     },
@@ -2197,8 +2206,8 @@
       "endDate": "2021-04-24",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 跃动 Eternal Live!!",
-      "type": "补充包",
+      "title": "决斗者卡套 ルークブルー",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -2228,7 +2237,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 跃动 Eternal Live!!",
+      "generatedTitle": "决斗者卡套 ルークブルー",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 躍動のエターナルライブ!!",
       "titleIsManual": false
     },
@@ -2504,7 +2514,7 @@
       "endDate": "2021-07-24",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 激斗 Thunder Storm!!",
+      "title": "牌组改造包 激斗 Thunder Storm!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -2535,7 +2545,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 激斗 Thunder Storm!!",
+      "generatedTitle": "牌组改造包 激斗 Thunder Storm!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 激闘のサンダーストーム!!",
       "titleIsManual": false
     },
@@ -2639,7 +2650,7 @@
       "endDate": "2021-08-21",
       "precision": "day",
       "brand": "游戏王",
-      "title": "遊我－ハイパーマシンロード－ 构筑预组 最强对战卡组 遊我 －ハイパーマシンロード－",
+      "title": "构筑预组 最强对战卡组 遊我 －ハイパーマシンロード－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -2670,7 +2681,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "遊我－ハイパーマシンロード－ 构筑预组 最强对战卡组 遊我 －ハイパーマシンロード－",
+      "generatedTitle": "构筑预组 最强对战卡组 遊我 －ハイパーマシンロード－",
       "originalTitle": "遊我－ハイパーマシンロード－ 構築済みデッキ 最強バトルデッキ 遊我 －ハイパーマシンロード－",
       "titleIsManual": false
     },
@@ -2682,7 +2693,7 @@
       "endDate": "2021-08-21",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ルーク－ドラゴンズ・ドラゴンズ－ 构筑预组 最强对战卡组 ルーク －ドラゴンズ・ドラゴンズ－",
+      "title": "构筑预组 最强对战卡组 ルーク －ドラゴンズ・ドラゴンズ－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -2713,7 +2724,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ルーク－ドラゴンズ・ドラゴンズ－ 构筑预组 最强对战卡组 ルーク －ドラゴンズ・ドラゴンズ－",
+      "generatedTitle": "构筑预组 最强对战卡组 ルーク －ドラゴンズ・ドラゴンズ－",
       "originalTitle": "ルーク－ドラゴンズ・ドラゴンズ－ 構築済みデッキ 最強バトルデッキ ルーク －ドラゴンズ・ドラゴンズ－",
       "titleIsManual": false
     },
@@ -2725,7 +2736,7 @@
       "endDate": "2021-08-21",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ガクト－魔将参陣－ 构筑预组 最强对战卡组 ガクト －魔将参陣－",
+      "title": "构筑预组 最强对战卡组 ガクト －魔将参陣－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -2756,7 +2767,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ガクト－魔将参陣－ 构筑预组 最强对战卡组 ガクト －魔将参陣－",
+      "generatedTitle": "构筑预组 最强对战卡组 ガクト －魔将参陣－",
       "originalTitle": "ガクト－魔将参陣－ 構築済みデッキ 最強バトルデッキ ガクト －魔将参陣－",
       "titleIsManual": false
     },
@@ -2768,7 +2779,7 @@
       "endDate": "2021-08-21",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ロミン－サイキックビート－ 构筑预组 最强对战卡组 ロミン －サイキックビート－",
+      "title": "构筑预组 最强对战卡组 ロミン －サイキックビート－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -2799,7 +2810,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ロミン－サイキックビート－ 构筑预组 最强对战卡组 ロミン －サイキックビート－",
+      "generatedTitle": "构筑预组 最强对战卡组 ロミン －サイキックビート－",
       "originalTitle": "ロミン－サイキックビート－ 構築済みデッキ 最強バトルデッキ ロミン －サイキックビート－",
       "titleIsManual": false
     },
@@ -2811,7 +2822,7 @@
       "endDate": "2021-08-21",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ロア－デモンズロック－ 构筑预组 最强对战卡组 ロア －デモンズロック－",
+      "title": "构筑预组 最强对战卡组 ロア －デモンズロック－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -2842,7 +2853,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ロア－デモンズロック－ 构筑预组 最强对战卡组 ロア －デモンズロック－",
+      "generatedTitle": "构筑预组 最强对战卡组 ロア －デモンズロック－",
       "originalTitle": "ロア－デモンズロック－ 構築済みデッキ 最強バトルデッキ ロア －デモンズロック－",
       "titleIsManual": false
     },
@@ -2854,7 +2865,7 @@
       "endDate": "2021-08-21",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ネイル－マキシマムヘイブン－ 构筑预组 最强对战卡组 ネイル －マキシマムヘイブン－",
+      "title": "构筑预组 最强对战卡组 ネイル －マキシマムヘイブン－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -2885,7 +2896,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ネイル－マキシマムヘイブン－ 构筑预组 最强对战卡组 ネイル －マキシマムヘイブン－",
+      "generatedTitle": "构筑预组 最强对战卡组 ネイル －マキシマムヘイブン－",
       "originalTitle": "ネイル－マキシマムヘイブン－ 構築済みデッキ 最強バトルデッキ ネイル －マキシマムヘイブン－",
       "titleIsManual": false
     },
@@ -2983,8 +2994,8 @@
       "endDate": "2021-09-11",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师官网商品",
-      "type": "商品",
+      "title": "起始卡组 ハイドのディスペクターN・EXT 20周年套装【DMSP-05】",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -3014,7 +3025,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师官网商品",
+      "generatedTitle": "起始卡组 ハイドのディスペクターN・EXT 20周年套装【DMSP-05】",
+      "titleAuditReason": "核对官网详情页标题或卡表标题，修正占位或相邻商品错配。",
       "originalTitle": "决斗大师 官网商品",
       "titleIsManual": false
     },
@@ -3026,8 +3038,8 @@
       "endDate": "2021-09-18",
       "precision": "day",
       "brand": "游戏王",
-      "title": "遊我－ハイパーマシンロード－ 构筑预组 最强对战卡组 遊我 －ハイパーマシンロード－",
-      "type": "构筑/预组",
+      "title": "额外超越强化包",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -3057,7 +3069,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "遊我－ハイパーマシンロード－ 构筑预组 最强对战卡组 遊我 －ハイパーマシンロード－",
+      "generatedTitle": "额外超越强化包",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "遊我－ハイパーマシンロード－ 構築済みデッキ 最強バトルデッキ 遊我 －ハイパーマシンロード－",
       "titleIsManual": false
     },
@@ -3241,7 +3254,7 @@
       "endDate": "2021-10-30",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 混沌 Omega Rising!!",
+      "title": "牌组改造包 混沌 Omega Rising!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -3272,7 +3285,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 混沌 Omega Rising!!",
+      "generatedTitle": "牌组改造包 混沌 Omega Rising!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 混沌のオメガライジング!!",
       "titleIsManual": false
     },
@@ -3413,7 +3427,7 @@
       "endDate": "2021-12-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 ゴールドラッシュパック",
+      "title": "Gold Rush Pack",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -3444,7 +3458,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 ゴールドラッシュパック",
+      "generatedTitle": "Gold Rush Pack",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック ゴールドラッシュパック",
       "titleIsManual": false
     },
@@ -3499,7 +3514,7 @@
       "endDate": "2021-12-18",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 創造のマスターロード!!",
+      "title": "牌组改造包 創造のマスターロード!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -3530,7 +3545,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 創造のマスターロード!!",
+      "generatedTitle": "牌组改造包 創造のマスターロード!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 創造のマスターロード!!",
       "titleIsManual": false
     },
@@ -3542,8 +3558,8 @@
       "endDate": "2021-12-18",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 ゴールドラッシュパック",
-      "type": "补充包",
+      "title": "决斗盘",
+      "type": "决斗盘",
       "city": "",
       "address": "",
       "fee": "",
@@ -3573,7 +3589,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 ゴールドラッシュパック",
+      "generatedTitle": "决斗盘",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック ゴールドラッシュパック",
       "titleIsManual": false
     },
@@ -3972,7 +3989,7 @@
       "endDate": "2022-04-09",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "起始卡组 ハイドのディスペクターN・EXT 20周年パーフェクト套装",
+      "title": "起始卡组 ジョーのS-MAX進化 20周年套装【DMSP-06】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4003,7 +4020,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 ハイドのディスペクターN・EXT 20周年パーフェクト套装",
+      "generatedTitle": "起始卡组 ジョーのS-MAX進化 20周年套装【DMSP-06】",
+      "titleAuditReason": "核对官网详情页标题或卡表标题，修正占位或相邻商品错配。",
       "originalTitle": "スタートデッキ ハイドのディスペクターN・EXT 20周年パーフェクトセット",
       "titleIsManual": false
     },
@@ -4015,7 +4033,7 @@
       "endDate": "2022-04-09",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 命运 Galaxy!!",
+      "title": "牌组改造包 命运 Galaxy!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -4046,7 +4064,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 命运 Galaxy!!",
+      "generatedTitle": "牌组改造包 命运 Galaxy!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 運命のギャラクシー!!",
       "titleIsManual": false
     },
@@ -4107,7 +4126,7 @@
       "endDate": "2022-04-29",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ギャラクティカ・アライブ 构筑预组 ゴーラッシュデッキ ギャラクティカ・アライブ",
+      "title": "GO RUSH 预组 ギャラクティカ・アライブ",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4138,7 +4157,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ギャラクティカ・アライブ 构筑预组 ゴーラッシュデッキ ギャラクティカ・アライブ",
+      "generatedTitle": "GO RUSH 预组 ギャラクティカ・アライブ",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "ギャラクティカ・アライブ 構築済みデッキ ゴーラッシュデッキ ギャラクティカ・アライブ",
       "titleIsManual": false
     },
@@ -4150,7 +4170,7 @@
       "endDate": "2022-04-29",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ジョインテック・アタック 构筑预组 ゴーラッシュデッキ ジョインテック・アタック",
+      "title": "GO RUSH 预组 ジョインテック・アタック",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4181,7 +4201,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ジョインテック・アタック 构筑预组 ゴーラッシュデッキ ジョインテック・アタック",
+      "generatedTitle": "GO RUSH 预组 ジョインテック・アタック",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "ジョインテック・アタック 構築済みデッキ ゴーラッシュデッキ ジョインテック・アタック",
       "titleIsManual": false
     },
@@ -4193,8 +4214,8 @@
       "endDate": "2022-04-29",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 命运 Galaxy!!",
-      "type": "补充包",
+      "title": "决斗者卡套 通用背面（镭射版）",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -4224,7 +4245,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 命运 Galaxy!!",
+      "generatedTitle": "决斗者卡套 通用背面（镭射版）",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 運命のギャラクシー!!",
       "titleIsManual": false
     },
@@ -4322,8 +4344,8 @@
       "endDate": "2022-06-04",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ギャラクティカ・アライブ 构筑预组 ゴーラッシュデッキ ギャラクティカ・アライブ",
-      "type": "构筑/预组",
+      "title": "决斗者卡盒 ユウディアス",
+      "type": "卡盒",
       "city": "",
       "address": "",
       "fee": "",
@@ -4353,7 +4375,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ギャラクティカ・アライブ 构筑预组 ゴーラッシュデッキ ギャラクティカ・アライブ",
+      "generatedTitle": "决斗者卡盒 ユウディアス",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "ギャラクティカ・アライブ 構築済みデッキ ゴーラッシュデッキ ギャラクティカ・アライブ",
       "titleIsManual": false
     },
@@ -4408,7 +4431,7 @@
       "endDate": "2022-07-09",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 破灭 Requiem!!",
+      "title": "牌组改造包 破灭 Requiem!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -4439,7 +4462,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 破灭 Requiem!!",
+      "generatedTitle": "牌组改造包 破灭 Requiem!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 破滅のレクイエム!!",
       "titleIsManual": false
     },
@@ -4580,7 +4604,7 @@
       "endDate": "2022-08-06",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ユウディアス－輝きのベルギャリーヴァ－ 构筑预组 最强对战卡组 ユウディアス －輝きのベルギャリーヴァ－",
+      "title": "构筑预组 最强对战卡组 ユウディアス －輝きのベルギャリーヴァ－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4611,7 +4635,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ユウディアス－輝きのベルギャリーヴァ－ 构筑预组 最强对战卡组 ユウディアス －輝きのベルギャリーヴァ－",
+      "generatedTitle": "构筑预组 最强对战卡组 ユウディアス －輝きのベルギャリーヴァ－",
       "originalTitle": "ユウディアス－輝きのベルギャリーヴァ－ 構築済みデッキ 最強バトルデッキ ユウディアス －輝きのベルギャリーヴァ－",
       "titleIsManual": false
     },
@@ -4623,7 +4647,7 @@
       "endDate": "2022-08-06",
       "precision": "day",
       "brand": "游戏王",
-      "title": "遊飛－ジョインと爆熱! ジョインと激烈!－ 构筑预组 最强对战卡组 遊飛 －ジョインと爆熱! ジョインと激烈!－",
+      "title": "构筑预组 最强对战卡组 遊飛 －ジョインと爆熱! ジョインと激烈!－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4654,7 +4678,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "遊飛－ジョインと爆熱! ジョインと激烈!－ 构筑预组 最强对战卡组 遊飛 －ジョインと爆熱! ジョインと激烈!－",
+      "generatedTitle": "构筑预组 最强对战卡组 遊飛 －ジョインと爆熱! ジョインと激烈!－",
       "originalTitle": "遊飛－ジョインと爆熱! ジョインと激烈!－ 構築済みデッキ 最強バトルデッキ 遊飛 －ジョインと爆熱! ジョインと激烈!－",
       "titleIsManual": false
     },
@@ -4666,7 +4690,7 @@
       "endDate": "2022-08-06",
       "precision": "day",
       "brand": "游戏王",
-      "title": "遊歩－おいでヨ! ハイテクドラゴン!－ 构筑预组 最强对战卡组 遊歩 －おいでヨ! ハイテクドラゴン!－",
+      "title": "构筑预组 最强对战卡组 遊歩 －おいでヨ! ハイテクドラゴン!－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4697,7 +4721,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "遊歩－おいでヨ! ハイテクドラゴン!－ 构筑预组 最强对战卡组 遊歩 －おいでヨ! ハイテクドラゴン!－",
+      "generatedTitle": "构筑预组 最强对战卡组 遊歩 －おいでヨ! ハイテクドラゴン!－",
       "originalTitle": "遊歩－おいでヨ! ハイテクドラゴン!－ 構築済みデッキ 最強バトルデッキ 遊歩 －おいでヨ! ハイテクドラゴン!－",
       "titleIsManual": false
     },
@@ -4709,7 +4733,7 @@
       "endDate": "2022-08-06",
       "precision": "day",
       "brand": "游戏王",
-      "title": "マナブ－炎のケミストニャードロー!－ 构筑预组 最强对战卡组 マナブ －炎のケミストニャードロー!－",
+      "title": "构筑预组 最强对战卡组 マナブ －炎のケミストニャードロー!－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4740,7 +4764,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "マナブ－炎のケミストニャードロー!－ 构筑预组 最强对战卡组 マナブ －炎のケミストニャードロー!－",
+      "generatedTitle": "构筑预组 最强对战卡组 マナブ －炎のケミストニャードロー!－",
       "originalTitle": "マナブ－炎のケミストニャードロー!－ 構築済みデッキ 最強バトルデッキ マナブ －炎のケミストニャードロー!－",
       "titleIsManual": false
     },
@@ -4752,7 +4776,7 @@
       "endDate": "2022-08-06",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ズウィージョウ－虚空のヴォイドヴェルグ－ 构筑预组 最强对战卡组 ズウィージョウ －虚空のヴォイドヴェルグ－",
+      "title": "构筑预组 最强对战卡组 ズウィージョウ －虚空のヴォイドヴェルグ－",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -4783,7 +4807,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ズウィージョウ－虚空のヴォイドヴェルグ－ 构筑预组 最强对战卡组 ズウィージョウ －虚空のヴォイドヴェルグ－",
+      "generatedTitle": "构筑预组 最强对战卡组 ズウィージョウ －虚空のヴォイドヴェルグ－",
       "originalTitle": "ズウィージョウ－虚空のヴォイドヴェルグ－ 構築済みデッキ 最強バトルデッキ ズウィージョウ －虚空のヴォイドヴェルグ－",
       "titleIsManual": false
     },
@@ -4795,8 +4819,8 @@
       "endDate": "2022-08-06",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 破灭 Requiem!!",
-      "type": "补充包",
+      "title": "决斗者卡套 ズウィージョウ",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -4826,7 +4850,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 破灭 Requiem!!",
+      "generatedTitle": "决斗者卡套 ズウィージョウ",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 破滅のレクイエム!!",
       "titleIsManual": false
     },
@@ -4838,7 +4863,7 @@
       "endDate": "2022-08-10",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート Bolshack by Toshiaki Takayama",
+      "title": "决斗大师TCG 神艺术 Bolshack by Toshiaki Takayama",
       "type": "商品",
       "city": "",
       "address": "",
@@ -4869,7 +4894,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート Bolshack by Toshiaki Takayama",
+      "generatedTitle": "决斗大师TCG 神艺术 Bolshack by Toshiaki Takayama",
       "originalTitle": "デュエル・マスターズTCG 神アート Bolshack by Toshiaki Takayama",
       "titleIsManual": false
     },
@@ -4881,7 +4906,7 @@
       "endDate": "2022-08-10",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 鬼札覇王絵巻其他",
+      "title": "决斗大师TCG 神艺术 鬼札覇王絵巻",
       "type": "商品",
       "city": "",
       "address": "",
@@ -4912,7 +4937,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 鬼札覇王絵巻其他",
+      "generatedTitle": "决斗大师TCG 神艺术 鬼札覇王絵巻",
       "originalTitle": "デュエル・マスターズTCG 神アート 鬼札覇王絵巻 その他",
       "titleIsManual": false
     },
@@ -5311,7 +5336,7 @@
       "endDate": "2022-10-08",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 旋风 Fortissimo!!",
+      "title": "牌组改造包 旋风 Fortissimo!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -5342,7 +5367,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 旋风 Fortissimo!!",
+      "generatedTitle": "牌组改造包 旋风 Fortissimo!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 旋風のフォルテシモ!!",
       "titleIsManual": false
     },
@@ -5354,7 +5380,7 @@
       "endDate": "2022-10-10",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 超獣創造 ～松本しげのぶの世界～ 其他",
+      "title": "决斗大师TCG 神艺术 超獣創造 ～松本しげのぶの世界～",
       "type": "商品",
       "city": "",
       "address": "",
@@ -5385,7 +5411,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 超獣創造 ～松本しげのぶの世界～ 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 超獣創造 ～松本しげのぶの世界～",
       "originalTitle": "デュエル・マスターズTCG 神アート 超獣創造 ～松本しげのぶの世界～ その他",
       "titleIsManual": false
     },
@@ -5397,7 +5423,7 @@
       "endDate": "2022-10-10",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート フェアリー・ライブラリー 其他",
+      "title": "决斗大师TCG 神艺术 フェアリー・ライブラリー",
       "type": "商品",
       "city": "",
       "address": "",
@@ -5428,7 +5454,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート フェアリー・ライブラリー 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 フェアリー・ライブラリー",
       "originalTitle": "デュエル・マスターズTCG 神アート フェアリー・ライブラリー その他",
       "titleIsManual": false
     },
@@ -5784,7 +5810,7 @@
       "endDate": "2022-11-26",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 オーバーラッシュパック",
+      "title": "Over Rush Pack",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -5815,7 +5841,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 オーバーラッシュパック",
+      "generatedTitle": "Over Rush Pack",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック オーバーラッシュパック",
       "titleIsManual": false
     },
@@ -5999,7 +6026,7 @@
       "endDate": "2022-12-17",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 強襲のダブルスター!!",
+      "title": "牌组改造包 強襲のダブルスター!!",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -6030,7 +6057,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 強襲のダブルスター!!",
+      "generatedTitle": "牌组改造包 強襲のダブルスター!!",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 強襲のダブルスター!!",
       "titleIsManual": false
     },
@@ -6042,8 +6070,8 @@
       "endDate": "2022-12-17",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 オーバーラッシュパック",
-      "type": "补充包",
+      "title": "决斗盘 ユウディアスVer.",
+      "type": "决斗盘",
       "city": "",
       "address": "",
       "fee": "",
@@ -6073,7 +6101,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 オーバーラッシュパック",
+      "generatedTitle": "决斗盘 ユウディアスVer.",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック オーバーラッシュパック",
       "titleIsManual": false
     },
@@ -7118,7 +7147,7 @@
       "endDate": "2023-03-04",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 牌组改造包 強襲のダブルスター!!",
+      "title": "传说觉醒包",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -7149,7 +7178,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 牌组改造包 強襲のダブルスター!!",
+      "generatedTitle": "传说觉醒包",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 強襲のダブルスター!!",
       "titleIsManual": false
     },
@@ -7333,8 +7363,8 @@
       "endDate": "2023-03-18",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师官网商品",
-      "type": "商品",
+      "title": "开发部精选卡组「7軸ガチロボ」【DM22-BD3】",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -7364,7 +7394,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师官网商品",
+      "generatedTitle": "开发部精选卡组「7軸ガチロボ」【DM22-BD3】",
+      "titleAuditReason": "核对官网详情页标题或卡表标题，修正占位或相邻商品错配。",
       "originalTitle": "决斗大师 官网商品",
       "titleIsManual": false
     },
@@ -7634,8 +7665,8 @@
       "endDate": "2023-04-08",
       "precision": "day",
       "brand": "游戏王",
-      "title": "改造パック強襲のダブルスター!!",
-      "type": "商品",
+      "title": "VSパック マキシマム・フォース",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -7665,7 +7696,9 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "改造パック強襲のダブルスター!!",
+      "generatedTitle": "VSパック マキシマム・フォース",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
+      "originalTitle": "改造パック強襲のダブルスター!!",
       "titleIsManual": false
     },
     {
@@ -8076,8 +8109,8 @@
       "endDate": "2023-04-30",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート スーパー・ヴィジュアル・ショック ドラゴン編 そ",
-      "type": "商品",
+      "title": "决斗大师 神艺术 SUPER VISUAL SHOCK 龙篇【DMART-06】",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -8107,7 +8140,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート スーパー・ヴィジュアル・ショック ドラゴン編 そ",
+      "generatedTitle": "决斗大师 神艺术 SUPER VISUAL SHOCK 龙篇【DMART-06】",
+      "titleAuditReason": "核对官网详情页标题或卡表标题，修正占位或相邻商品错配。",
       "originalTitle": "デュエル・マスターズTCG 神アート スーパー・ヴィジュアル・ショック ドラゴン編 そ",
       "titleIsManual": false
     },
@@ -8119,7 +8153,7 @@
       "endDate": "2023-04-30",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 「轟炎の竜皇」暴竜爵からの招待状其他",
+      "title": "决斗大师TCG 「轟炎の竜皇」暴竜爵からの招待状",
       "type": "商品",
       "city": "",
       "address": "",
@@ -8150,7 +8184,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 「轟炎の竜皇」暴竜爵からの招待状其他",
+      "generatedTitle": "决斗大师TCG 「轟炎の竜皇」暴竜爵からの招待状",
       "originalTitle": "デュエル・マスターズTCG 「轟炎の竜皇」暴竜爵からの招待状 その他",
       "titleIsManual": false
     },
@@ -8247,7 +8281,7 @@
       "endDate": "2023-05-13",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 閃光のオブリビオン",
+      "title": "閃光のオブリビオン",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -8278,7 +8312,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 閃光のオブリビオン",
+      "generatedTitle": "閃光のオブリビオン",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 閃光のオブリビオン",
       "titleIsManual": false
     },
@@ -8634,7 +8669,7 @@
       "endDate": "2023-06-24",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 閃光のオブリビオン",
+      "title": "トリプルビルドパック ゴッドブレス・ウィング",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -8665,7 +8700,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 閃光のオブリビオン",
+      "generatedTitle": "トリプルビルドパック ゴッドブレス・ウィング",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 閃光のオブリビオン",
       "titleIsManual": false
     },
@@ -8806,7 +8842,7 @@
       "endDate": "2023-06-30",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 僕とロボコ【UA09ST】",
+      "title": "起始卡组 我与机器子【UA09ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -8837,7 +8873,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 僕とロボコ【UA09ST】",
+      "generatedTitle": "起始卡组 我与机器子【UA09ST】",
       "originalTitle": "スタートデッキ 僕とロボコ 【UA09ST】",
       "titleIsManual": false
     },
@@ -9286,7 +9322,7 @@
       "endDate": "2023-08-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 轟炎のフェニックス",
+      "title": "轟炎のフェニックス",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -9317,7 +9353,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 轟炎のフェニックス",
+      "generatedTitle": "轟炎のフェニックス",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 轟炎のフェニックス",
       "titleIsManual": false
     },
@@ -9630,7 +9667,7 @@
       "endDate": "2023-09-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 輝かしき新世界其他",
+      "title": "决斗大师TCG 神艺术 輝かしき新世界",
       "type": "商品",
       "city": "",
       "address": "",
@@ -9661,7 +9698,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 輝かしき新世界其他",
+      "generatedTitle": "决斗大师TCG 神艺术 輝かしき新世界",
       "originalTitle": "デュエル・マスターズTCG 神アート 輝かしき新世界 その他",
       "titleIsManual": false
     },
@@ -9673,7 +9710,7 @@
       "endDate": "2023-09-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート COLORFUL＊SNOW 其他",
+      "title": "决斗大师TCG 神艺术 COLORFUL＊SNOW",
       "type": "商品",
       "city": "",
       "address": "",
@@ -9704,7 +9741,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート COLORFUL＊SNOW 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 COLORFUL＊SNOW",
       "originalTitle": "デュエル・マスターズTCG 神アート COLORFUL＊SNOW その他",
       "titleIsManual": false
     },
@@ -9845,7 +9882,7 @@
       "endDate": "2023-09-29",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 ブルーロック【UA12ST】",
+      "title": "起始卡组 蓝色监狱【UA12ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -9876,7 +9913,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 ブルーロック【UA12ST】",
+      "generatedTitle": "起始卡组 蓝色监狱【UA12ST】",
       "originalTitle": "スタートデッキ ブルーロック 【UA12ST】",
       "titleIsManual": false
     },
@@ -9931,8 +9968,8 @@
       "endDate": "2023-09-30",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 轟炎のフェニックス",
-      "type": "补充包",
+      "title": "构筑预组 究极的青眼传说",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -9962,7 +9999,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 轟炎のフェニックス",
+      "generatedTitle": "构筑预组 究极的青眼传说",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 轟炎のフェニックス",
       "titleIsManual": false
     },
@@ -10103,8 +10141,8 @@
       "endDate": "2023-10-14",
       "precision": "day",
       "brand": "游戏王",
-      "title": "究極の青眼伝説构筑预组 ストラクチャーデッキ 究極の青眼伝説",
-      "type": "构筑/预组",
+      "title": "Mega Road Pack2",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -10134,7 +10172,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "究極の青眼伝説构筑预组 ストラクチャーデッキ 究極の青眼伝説",
+      "generatedTitle": "Mega Road Pack2",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "究極の青眼伝説構築済みデッキ ストラクチャーデッキ 究極の青眼伝説",
       "titleIsManual": false
     },
@@ -10232,7 +10271,7 @@
       "endDate": "2023-10-27",
       "precision": "day",
       "brand": "UA",
-      "title": "NEW CARD SELECTION 呪術廻戦",
+      "title": "新卡精选 咒术回战",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -10269,7 +10308,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "NEW CARD SELECTION 呪術廻戦",
+      "generatedTitle": "新卡精选 咒术回战",
+      "originalTitle": "NEW CARD SELECTION 呪術廻戦",
       "titleIsManual": false
     },
     {
@@ -10539,7 +10579,7 @@
       "endDate": "2023-11-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 闇黒のレッドリブート",
+      "title": "闇黒の红色リブート",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -10570,7 +10610,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 闇黒のレッドリブート",
+      "generatedTitle": "闇黒の红色リブート",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 闇黒のレッドリブート",
       "titleIsManual": false
     },
@@ -10668,7 +10709,7 @@
       "endDate": "2023-11-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート ディスペクター・デュエマリウム 其他",
+      "title": "决斗大师TCG 神艺术 ディスペクター・デュエマリウム",
       "type": "商品",
       "city": "",
       "address": "",
@@ -10699,7 +10740,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート ディスペクター・デュエマリウム 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 ディスペクター・デュエマリウム",
       "originalTitle": "デュエル・マスターズTCG 神アート ディスペクター・デュエマリウム その他",
       "titleIsManual": false
     },
@@ -11012,8 +11053,8 @@
       "endDate": "2023-12-16",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 ハイグレードコレクション",
-      "type": "补充包",
+      "title": "青眼 决斗套装",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -11043,7 +11084,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 ハイグレードコレクション",
+      "generatedTitle": "青眼 决斗套装",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック ハイグレードコレクション",
       "titleIsManual": false
     },
@@ -11357,7 +11399,7 @@
       "endDate": "2024-01-26",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 ソードアート・オンライン【UA15ST】",
+      "title": "起始卡组 刀剑神域【UA15ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -11388,7 +11430,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 ソードアート・オンライン【UA15ST】",
+      "generatedTitle": "起始卡组 刀剑神域【UA15ST】",
       "originalTitle": "スタートデッキ ソードアート・オンライン 【UA15ST】",
       "titleIsManual": false
     },
@@ -11400,7 +11442,7 @@
       "endDate": "2024-01-26",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 ソードアート・オンライン【UA15BT】",
+      "title": "补充包 刀剑神域【UA15BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -11431,7 +11473,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 ソードアート・オンライン【UA15BT】",
+      "generatedTitle": "补充包 刀剑神域【UA15BT】",
       "originalTitle": "ブースターパック ソードアート・オンライン 【UA15BT】",
       "titleIsManual": false
     },
@@ -11443,7 +11485,7 @@
       "endDate": "2024-02-10",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 超越のトランザム",
+      "title": "超越のトランザム",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -11474,7 +11516,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 超越のトランザム",
+      "generatedTitle": "超越のトランザム",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 超越のトランザム",
       "titleIsManual": false
     },
@@ -11572,7 +11615,7 @@
       "endDate": "2024-02-23",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 トリコ【UA17ST】",
+      "title": "起始卡组 美食的俘虏【UA17ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -11603,7 +11646,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 トリコ【UA17ST】",
+      "generatedTitle": "起始卡组 美食的俘虏【UA17ST】",
       "originalTitle": "スタートデッキ トリコ 【UA17ST】",
       "titleIsManual": false
     },
@@ -11615,7 +11658,7 @@
       "endDate": "2024-02-23",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 トリコ【UA17BT】",
+      "title": "补充包 美食的俘虏【UA17BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -11646,7 +11689,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 トリコ【UA17BT】",
+      "generatedTitle": "补充包 美食的俘虏【UA17BT】",
       "originalTitle": "ブースターパック トリコ 【UA17BT】",
       "titleIsManual": false
     },
@@ -11744,7 +11787,7 @@
       "endDate": "2024-02-29",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート ドラゴン娘の青春☆パラダイス 其他",
+      "title": "决斗大师TCG 神艺术 ドラゴン娘の青春☆パラダイス",
       "type": "商品",
       "city": "",
       "address": "",
@@ -11775,7 +11818,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート ドラゴン娘の青春☆パラダイス 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 ドラゴン娘の青春☆パラダイス",
       "originalTitle": "デュエル・マスターズTCG 神アート ドラゴン娘の青春☆パラダイス その他",
       "titleIsManual": false
     },
@@ -11787,7 +11830,7 @@
       "endDate": "2024-02-29",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 「デュエマ×TRANSFORMERS」 其他",
+      "title": "决斗大师TCG 神艺术 「デュエマ×TRANSFORMERS」",
       "type": "商品",
       "city": "",
       "address": "",
@@ -11818,7 +11861,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 「デュエマ×TRANSFORMERS」 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 「デュエマ×TRANSFORMERS」",
       "originalTitle": "デュエル・マスターズTCG 神アート 「デュエマ×TRANSFORMERS」 その他",
       "titleIsManual": false
     },
@@ -12175,7 +12218,7 @@
       "endDate": "2024-03-22",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 ハイキュー‼【UA19ST】",
+      "title": "起始卡组 排球少年!!【UA19ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -12206,7 +12249,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 ハイキュー‼【UA19ST】",
+      "generatedTitle": "起始卡组 排球少年!!【UA19ST】",
       "originalTitle": "スタートデッキ ハイキュー‼ 【UA19ST】",
       "titleIsManual": false
     },
@@ -12218,7 +12261,7 @@
       "endDate": "2024-03-22",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 ハイキュー‼【UA19BT】",
+      "title": "补充包 排球少年!!【UA19BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -12249,7 +12292,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 ハイキュー‼【UA19BT】",
+      "generatedTitle": "补充包 排球少年!!【UA19BT】",
       "originalTitle": "ブースターパック ハイキュー‼ 【UA19BT】",
       "titleIsManual": false
     },
@@ -12519,7 +12562,7 @@
       "endDate": "2024-04-06",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 オーバーラッシュパック2",
+      "title": "Over Rush Pack2",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -12550,7 +12593,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 オーバーラッシュパック2",
+      "generatedTitle": "Over Rush Pack2",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック オーバーラッシュパック2",
       "titleIsManual": false
     },
@@ -12777,7 +12821,7 @@
       "endDate": "2024-04-26",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 幽☆遊☆白書【UA21ST】",
+      "title": "起始卡组 幽游白书【UA21ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -12808,7 +12852,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 幽☆遊☆白書【UA21ST】",
+      "generatedTitle": "起始卡组 幽游白书【UA21ST】",
       "originalTitle": "スタートデッキ 幽☆遊☆白書 【UA21ST】",
       "titleIsManual": false
     },
@@ -12820,7 +12864,7 @@
       "endDate": "2024-04-26",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 幽☆遊☆白書【UA21BT】",
+      "title": "补充包 幽游白书【UA21BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -12851,7 +12895,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 幽☆遊☆白書【UA21BT】",
+      "generatedTitle": "补充包 幽游白书【UA21BT】",
       "originalTitle": "ブースターパック 幽☆遊☆白書 【UA21BT】",
       "titleIsManual": false
     },
@@ -12863,7 +12907,7 @@
       "endDate": "2024-04-26",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 ブラッククローバー【UA20ST】",
+      "title": "起始卡组 黑色五叶草【UA20ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -12894,7 +12938,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 ブラッククローバー【UA20ST】",
+      "generatedTitle": "起始卡组 黑色五叶草【UA20ST】",
       "originalTitle": "スタートデッキ ブラッククローバー 【UA20ST】",
       "titleIsManual": false
     },
@@ -12906,7 +12950,7 @@
       "endDate": "2024-04-26",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 ブラッククローバー【UA20BT】",
+      "title": "补充包 黑色五叶草【UA20BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -12937,7 +12981,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 ブラッククローバー【UA20BT】",
+      "generatedTitle": "补充包 黑色五叶草【UA20BT】",
       "originalTitle": "ブースターパック ブラッククローバー 【UA20BT】",
       "titleIsManual": false
     },
@@ -12949,7 +12993,7 @@
       "endDate": "2024-04-30",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート Angelic Wisdom by Daisuke Izuka",
+      "title": "决斗大师TCG 神艺术 Angelic Wisdom by Daisuke Izuka",
       "type": "商品",
       "city": "",
       "address": "",
@@ -12980,7 +13024,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート Angelic Wisdom by Daisuke Izuka",
+      "generatedTitle": "决斗大师TCG 神艺术 Angelic Wisdom by Daisuke Izuka",
       "originalTitle": "デュエル・マスターズTCG 神アート Angelic Wisdom by Daisuke Izuka",
       "titleIsManual": false
     },
@@ -12992,7 +13036,7 @@
       "endDate": "2024-05-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 覚醒のバーストレックス",
+      "title": "覚醒のバーストレックス",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -13023,7 +13067,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 覚醒のバーストレックス",
+      "generatedTitle": "覚醒のバーストレックス",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 覚醒のバーストレックス",
       "titleIsManual": false
     },
@@ -13422,8 +13467,8 @@
       "endDate": "2024-06-08",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 覚醒のバーストレックス",
-      "type": "补充包",
+      "title": "决斗者卡套 通用背面 红色 （哑光版）",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -13453,7 +13498,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 覚醒のバーストレックス",
+      "generatedTitle": "决斗者卡套 通用背面 红色 （哑光版）",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 覚醒のバーストレックス",
       "titleIsManual": false
     },
@@ -13594,7 +13640,7 @@
       "endDate": "2024-06-28",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 進撃の巨人【UA23ST】",
+      "title": "起始卡组 进击的巨人【UA23ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -13625,7 +13671,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 進撃の巨人【UA23ST】",
+      "generatedTitle": "起始卡组 进击的巨人【UA23ST】",
       "originalTitle": "スタートデッキ 進撃の巨人【UA23ST】",
       "titleIsManual": false
     },
@@ -13637,7 +13683,7 @@
       "endDate": "2024-06-28",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 進撃の巨人【UA23BT】",
+      "title": "补充包 进击的巨人【UA23BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -13668,7 +13714,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 進撃の巨人【UA23BT】",
+      "generatedTitle": "补充包 进击的巨人【UA23BT】",
       "originalTitle": "ブースターパック 進撃の巨人【UA23BT】",
       "titleIsManual": false
     },
@@ -13723,7 +13769,7 @@
       "endDate": "2024-06-30",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート フェアリー・タイムライン 其他",
+      "title": "决斗大师TCG 神艺术 フェアリー・タイムライン",
       "type": "商品",
       "city": "",
       "address": "",
@@ -13754,7 +13800,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート フェアリー・タイムライン 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 フェアリー・タイムライン",
       "originalTitle": "デュエル・マスターズTCG 神アート フェアリー・タイムライン その他",
       "titleIsManual": false
     },
@@ -13766,7 +13812,7 @@
       "endDate": "2024-06-30",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 「デュエマ×デュエプレ」 其他",
+      "title": "决斗大师TCG 神艺术 「デュエマ×デュエプレ」",
       "type": "商品",
       "city": "",
       "address": "",
@@ -13797,7 +13843,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 「デュエマ×デュエプレ」 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 「デュエマ×デュエプレ」",
       "originalTitle": "デュエル・マスターズTCG 神アート 「デュエマ×デュエプレ」 その他",
       "titleIsManual": false
     },
@@ -13852,7 +13898,7 @@
       "endDate": "2024-07-13",
       "precision": "day",
       "brand": "游戏王",
-      "title": "バース・オブ・ヒーロー 构筑预组 ストラクチャーデッキ バース・オブ・ヒーロー",
+      "title": "构筑预组 バース・オブ・ヒーロー",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -13883,7 +13929,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "バース・オブ・ヒーロー 构筑预组 ストラクチャーデッキ バース・オブ・ヒーロー",
+      "generatedTitle": "构筑预组 バース・オブ・ヒーロー",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "バース・オブ・ヒーロー 構築済みデッキ ストラクチャーデッキ バース・オブ・ヒーロー",
       "titleIsManual": false
     },
@@ -14197,7 +14244,7 @@
       "endDate": "2024-08-10",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 幻影のダークマター",
+      "title": "幻影のダークマター",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -14228,7 +14275,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 幻影のダークマター",
+      "generatedTitle": "幻影のダークマター",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 幻影のダークマター",
       "titleIsManual": false
     },
@@ -14240,8 +14288,8 @@
       "endDate": "2024-08-10",
       "precision": "day",
       "brand": "游戏王",
-      "title": "バース・オブ・ヒーロー 构筑预组 ストラクチャーデッキ バース・オブ・ヒーロー",
-      "type": "构筑/预组",
+      "title": "决斗者卡套 HERO（ヒーロー）",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -14271,7 +14319,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "バース・オブ・ヒーロー 构筑预组 ストラクチャーデッキ バース・オブ・ヒーロー",
+      "generatedTitle": "决斗者卡套 HERO（ヒーロー）",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "バース・オブ・ヒーロー 構築済みデッキ ストラクチャーデッキ バース・オブ・ヒーロー",
       "titleIsManual": false
     },
@@ -14283,7 +14332,7 @@
       "endDate": "2024-08-16",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 アンデッドアンラック【UA25BT】",
+      "title": "补充包 不死不幸【UA25BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -14314,7 +14363,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 アンデッドアンラック【UA25BT】",
+      "generatedTitle": "补充包 不死不幸【UA25BT】",
       "originalTitle": "ブースターパック アンデッドアンラック【UA25BT】",
       "titleIsManual": false
     },
@@ -14494,7 +14543,7 @@
       "endDate": "2024-08-30",
       "precision": "day",
       "brand": "UA",
-      "title": "PREMIUM CARD SET WIND BREAKER",
+      "title": "豪华卡牌套装 WIND BREAKER",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -14525,7 +14574,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "PREMIUM CARD SET WIND BREAKER",
+      "generatedTitle": "豪华卡牌套装 WIND BREAKER",
+      "originalTitle": "PREMIUM CARD SET WIND BREAKER",
       "titleIsManual": false
     },
     {
@@ -14536,7 +14586,7 @@
       "endDate": "2024-08-30",
       "precision": "day",
       "brand": "UA",
-      "title": "NEW CARD SELECTION ブルーロック-EPISODE 凪-",
+      "title": "新卡精选 蓝色监狱-EPISODE 凪-",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -14567,7 +14617,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "NEW CARD SELECTION ブルーロック-EPISODE 凪-",
+      "generatedTitle": "新卡精选 蓝色监狱-EPISODE 凪-",
+      "originalTitle": "NEW CARD SELECTION ブルーロック-EPISODE 凪-",
       "titleIsManual": false
     },
     {
@@ -14621,7 +14672,7 @@
       "endDate": "2024-08-31",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 禁断 ~封印されしアート~ 其他",
+      "title": "决斗大师TCG 神艺术 禁断 ~封印されしアート~",
       "type": "商品",
       "city": "",
       "address": "",
@@ -14652,7 +14703,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 禁断 ~封印されしアート~ 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 禁断 ~封印されしアート~",
       "originalTitle": "デュエル・マスターズTCG 神アート 禁断 ~封印されしアート~ その他",
       "titleIsManual": false
     },
@@ -14664,7 +14715,7 @@
       "endDate": "2024-08-31",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 激筆!!超獣戯画其他",
+      "title": "决斗大师TCG 神艺术 激筆!!超獣戯画",
       "type": "商品",
       "city": "",
       "address": "",
@@ -14695,7 +14746,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 激筆!!超獣戯画其他",
+      "generatedTitle": "决斗大师TCG 神艺术 激筆!!超獣戯画",
       "originalTitle": "デュエル・マスターズTCG 神アート 激筆!!超獣戯画 その他",
       "titleIsManual": false
     },
@@ -15052,7 +15103,7 @@
       "endDate": "2024-10-12",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 真・レジェンド覚醒パック",
+      "title": "真・传说觉醒包",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -15083,7 +15134,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 真・レジェンド覚醒パック",
+      "generatedTitle": "真・传说觉醒包",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック 真・レジェンド覚醒パック",
       "titleIsManual": false
     },
@@ -15268,7 +15320,7 @@
       "endDate": "2024-10-25",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 仮面ライダー【UA29ST】",
+      "title": "起始卡组 假面骑士【UA29ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -15299,7 +15351,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 仮面ライダー【UA29ST】",
+      "generatedTitle": "起始卡组 假面骑士【UA29ST】",
       "originalTitle": "スタートデッキ 仮面ライダー【UA29ST】",
       "titleIsManual": false
     },
@@ -15311,7 +15363,7 @@
       "endDate": "2024-10-25",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 仮面ライダー【UA29BT】",
+      "title": "补充包 假面骑士【UA29BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -15342,7 +15394,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 仮面ライダー【UA29BT】",
+      "generatedTitle": "补充包 假面骑士【UA29BT】",
       "originalTitle": "ブースターパック 仮面ライダー【UA29BT】",
       "titleIsManual": false
     },
@@ -15354,7 +15406,7 @@
       "endDate": "2024-10-25",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 怪獣8号【UA28BT】",
+      "title": "补充包 怪兽8号【UA28BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -15385,7 +15437,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 怪獣8号【UA28BT】",
+      "generatedTitle": "补充包 怪兽8号【UA28BT】",
       "originalTitle": "ブースターパック 怪獣8号【UA28BT】",
       "titleIsManual": false
     },
@@ -15569,7 +15621,7 @@
       "endDate": "2024-11-15",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 ソードアート・オンライン Vol.2【EX08BT】",
+      "title": "补充包 刀剑神域 Vol.2【EX08BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -15600,7 +15652,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 ソードアート・オンライン Vol.2【EX08BT】",
+      "generatedTitle": "补充包 刀剑神域 Vol.2【EX08BT】",
       "originalTitle": "ブースターパックソードアート・オンライン Vol.2【EX08BT】",
       "titleIsManual": false
     },
@@ -15612,7 +15664,7 @@
       "endDate": "2024-11-16",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 灼熱のサラマンデウス",
+      "title": "灼熱のサラマンデウス",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -15643,7 +15695,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 灼熱のサラマンデウス",
+      "generatedTitle": "灼熱のサラマンデウス",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 灼熱のサラマンデウス",
       "titleIsManual": false
     },
@@ -15655,7 +15708,7 @@
       "endDate": "2024-11-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 超獣世界の歩き方 ～アセビ見聞録～ 其他",
+      "title": "决斗大师TCG 神艺术 超獣世界の歩き方 ～アセビ見聞録～",
       "type": "商品",
       "city": "",
       "address": "",
@@ -15686,7 +15739,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 超獣世界の歩き方 ～アセビ見聞録～ 其他",
+      "generatedTitle": "决斗大师TCG 神艺术 超獣世界の歩き方 ～アセビ見聞録～",
       "originalTitle": "デュエル・マスターズTCG 神アート 超獣世界の歩き方 ～アセビ見聞録～ その他",
       "titleIsManual": false
     },
@@ -15698,7 +15751,7 @@
       "endDate": "2024-11-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 蛍光少女其他",
+      "title": "决斗大师TCG 神艺术 蛍光少女",
       "type": "商品",
       "city": "",
       "address": "",
@@ -15729,7 +15782,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 蛍光少女其他",
+      "generatedTitle": "决斗大师TCG 神艺术 蛍光少女",
       "originalTitle": "デュエル・マスターズTCG 神アート 蛍光少女 その他",
       "titleIsManual": false
     },
@@ -15999,7 +16052,7 @@
       "endDate": "2024-11-29",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 アークナイツ【UA30ST】",
+      "title": "起始卡组 明日方舟【UA30ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -16030,7 +16083,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 アークナイツ【UA30ST】",
+      "generatedTitle": "起始卡组 明日方舟【UA30ST】",
       "originalTitle": "スタートデッキ アークナイツ【UA30ST】",
       "titleIsManual": false
     },
@@ -16042,7 +16095,7 @@
       "endDate": "2024-11-29",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 アークナイツ【UA30BT】",
+      "title": "补充包 明日方舟【UA30BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -16073,7 +16126,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 アークナイツ【UA30BT】",
+      "generatedTitle": "补充包 明日方舟【UA30BT】",
       "originalTitle": "ブースターパック アークナイツ【UA30BT】",
       "titleIsManual": false
     },
@@ -16257,7 +16310,7 @@
       "endDate": "2024-12-13",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 シャングリラ・フロンティア【UA32BT】",
+      "title": "补充包 香格里拉边境【UA32BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -16288,7 +16341,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 シャングリラ・フロンティア【UA32BT】",
+      "generatedTitle": "补充包 香格里拉边境【UA32BT】",
       "originalTitle": "ブースターパック シャングリラ・フロンティア 【UA32BT】",
       "titleIsManual": false
     },
@@ -16342,8 +16395,8 @@
       "endDate": "2024-12-14",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 灼熱のサラマンデウス",
-      "type": "补充包",
+      "title": "E・HERO 决斗套装",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -16373,7 +16426,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 灼熱のサラマンデウス",
+      "generatedTitle": "E・HERO 决斗套装",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 灼熱のサラマンデウス",
       "titleIsManual": false
     },
@@ -16557,7 +16611,7 @@
       "endDate": "2025-01-17",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 2.5次元の誘惑【UA33BT】",
+      "title": "补充包 2.5次元的诱惑【UA33BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -16588,7 +16642,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 2.5次元の誘惑【UA33BT】",
+      "generatedTitle": "补充包 2.5次元的诱惑【UA33BT】",
       "originalTitle": "ブースターパック 2.5次元の誘惑 【UA33BT】",
       "titleIsManual": false
     },
@@ -16729,7 +16783,7 @@
       "endDate": "2025-02-08",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 悠久のギャラクティカ",
+      "title": "悠久のギャラクティカ",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -16760,7 +16814,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 悠久のギャラクティカ",
+      "generatedTitle": "悠久のギャラクティカ",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 悠久のギャラクティカ",
       "titleIsManual": false
     },
@@ -16943,7 +16998,7 @@
       "endDate": "2025-02-28",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート DUELMASTERS「AMAZING COMICS」",
+      "title": "决斗大师TCG 神艺术 DUELMASTERS「AMAZING COMICS」",
       "type": "商品",
       "city": "",
       "address": "",
@@ -16974,7 +17029,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート DUELMASTERS「AMAZING COMICS」",
+      "generatedTitle": "决斗大师TCG 神艺术 DUELMASTERS「AMAZING COMICS」",
       "originalTitle": "デュエル・マスターズTCG 神アート DUELMASTERS「AMAZING COMICS」",
       "titleIsManual": false
     },
@@ -16986,7 +17041,7 @@
       "endDate": "2025-02-28",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート RPD-ロールプレイングデュエマ リュウセイ・カイザーが転生したら勇者だった件",
+      "title": "决斗大师TCG 神艺术 RPD-ロールプレイングデュエマ リュウセイ・カイザーが転生したら勇者だった件",
       "type": "商品",
       "city": "",
       "address": "",
@@ -17017,7 +17072,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート RPD-ロールプレイングデュエマ リュウセイ・カイザーが転生したら勇者だった件",
+      "generatedTitle": "决斗大师TCG 神艺术 RPD-ロールプレイングデュエマ リュウセイ・カイザーが転生したら勇者だった件",
       "originalTitle": "デュエル・マスターズTCG 神アート RPD-ロールプレイングデュエマ リュウセイ・カイザーが転生したら勇者だった件",
       "titleIsManual": false
     },
@@ -17072,7 +17127,7 @@
       "endDate": "2025-02-28",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 ワンパンマン【UA35ST】",
+      "title": "起始卡组 一拳超人【UA35ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -17103,7 +17158,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 ワンパンマン【UA35ST】",
+      "generatedTitle": "起始卡组 一拳超人【UA35ST】",
       "originalTitle": "スタートデッキ ワンパンマン 【UA35ST】",
       "titleIsManual": false
     },
@@ -17115,7 +17170,7 @@
       "endDate": "2025-02-28",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 ワンパンマン【UA35BT】",
+      "title": "补充包 一拳超人【UA35BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -17146,7 +17201,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 ワンパンマン【UA35BT】",
+      "generatedTitle": "补充包 一拳超人【UA35BT】",
       "originalTitle": "ブースターパック ワンパンマン 【UA35BT】",
       "titleIsManual": false
     },
@@ -17287,7 +17342,7 @@
       "endDate": "2025-03-08",
       "precision": "day",
       "brand": "游戏王",
-      "title": "ハーピィ・レディ・シスターズ 构筑预组 ストラクチャーデッキ ハーピィ・レディ・シスターズ",
+      "title": "构筑预组 ハーピィ・レディ・シスターズ",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -17318,7 +17373,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ハーピィ・レディ・シスターズ 构筑预组 ストラクチャーデッキ ハーピィ・レディ・シスターズ",
+      "generatedTitle": "构筑预组 ハーピィ・レディ・シスターズ",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "ハーピィ・レディ・シスターズ 構築済みデッキ ストラクチャーデッキ ハーピィ・レディ・シスターズ",
       "titleIsManual": false
     },
@@ -17330,8 +17386,8 @@
       "endDate": "2025-03-08",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 悠久のギャラクティカ",
-      "type": "补充包",
+      "title": "构筑预组 キメラテック・サイバー",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -17361,7 +17417,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 悠久のギャラクティカ",
+      "generatedTitle": "构筑预组 キメラテック・サイバー",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 悠久のギャラクティカ",
       "titleIsManual": false
     },
@@ -18006,7 +18063,7 @@
       "endDate": "2025-04-12",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 5th ANNIVERSARY PACK",
+      "title": "5th ANNIVERSARY PACK",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -18037,7 +18094,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 5th ANNIVERSARY PACK",
+      "generatedTitle": "5th ANNIVERSARY PACK",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック 5th ANNIVERSARY PACK",
       "titleIsManual": false
     },
@@ -18349,7 +18407,7 @@
       "endDate": "2025-04-25",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 鋼の錬金術師 FULLMETAL ALCHEMIST【UA37ST】",
+      "title": "起始卡组 钢之炼金术师 FULLMETAL ALCHEMIST【UA37ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -18380,7 +18438,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 鋼の錬金術師 FULLMETAL ALCHEMIST【UA37ST】",
+      "generatedTitle": "起始卡组 钢之炼金术师 FULLMETAL ALCHEMIST【UA37ST】",
       "originalTitle": "スタートデッキ 鋼の錬金術師 FULLMETAL ALCHEMIST【UA37ST】",
       "titleIsManual": false
     },
@@ -18392,7 +18450,7 @@
       "endDate": "2025-04-25",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 鋼の錬金術師 FULLMETAL ALCHEMIST【UA37BT】",
+      "title": "补充包 钢之炼金术师 FULLMETAL ALCHEMIST【UA37BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -18423,7 +18481,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 鋼の錬金術師 FULLMETAL ALCHEMIST【UA37BT】",
+      "generatedTitle": "补充包 钢之炼金术师 FULLMETAL ALCHEMIST【UA37BT】",
       "originalTitle": "ブースターパック 鋼の錬金術師 FULLMETAL ALCHEMIST【UA37BT】",
       "titleIsManual": false
     },
@@ -18521,8 +18579,8 @@
       "endDate": "2025-04-26",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 5th ANNIVERSARY PACK",
-      "type": "补充包",
+      "title": "构筑预组 黑魔术的仪式",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -18552,7 +18610,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 5th ANNIVERSARY PACK",
+      "generatedTitle": "构筑预组 黑魔术的仪式",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック 5th ANNIVERSARY PACK",
       "titleIsManual": false
     },
@@ -18912,8 +18971,8 @@
       "endDate": "2025-05-24",
       "precision": "day",
       "brand": "游戏王",
-      "title": "黒魔術の儀式构筑预组 ストラクチャーデッキ 黒魔術の儀式",
-      "type": "构筑/预组",
+      "title": "决斗者卡套 通用背面 彩虹（镭射版）",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -18943,7 +19002,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "黒魔術の儀式构筑预组 ストラクチャーデッキ 黒魔術の儀式",
+      "generatedTitle": "决斗者卡套 通用背面 彩虹（镭射版）",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "黒魔術の儀式構築済みデッキ ストラクチャーデッキ 黒魔術の儀式",
       "titleIsManual": false
     },
@@ -19041,7 +19101,7 @@
       "endDate": "2025-05-31",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 進撃のアクセルロード",
+      "title": "進撃のアクセルロード",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -19072,7 +19132,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 進撃のアクセルロード",
+      "generatedTitle": "進撃のアクセルロード",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 進撃のアクセルロード",
       "titleIsManual": false
     },
@@ -19127,7 +19188,7 @@
       "endDate": "2025-06-06",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-BT09】 补充包「超勇爆裂(ちょうゆうばくれつ)」",
+      "title": "补充包【VG-DZ-BT09】「超勇爆裂」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -19158,7 +19219,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT09】 补充包「超勇爆裂(ちょうゆうばくれつ)」",
+      "generatedTitle": "补充包【VG-DZ-BT09】「超勇爆裂」",
       "originalTitle": "ブースターパック 【VG-DZ-BT09】 ブースターパック「超勇爆裂(ちょうゆうばくれつ)」",
       "titleIsManual": false
     },
@@ -19255,7 +19316,7 @@
       "endDate": "2025-06-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG Animal Masters ～決闘は猫である～ 其他",
+      "title": "决斗大师TCG Animal Masters ～決闘は猫である～",
       "type": "商品",
       "city": "",
       "address": "",
@@ -19286,7 +19347,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG Animal Masters ～決闘は猫である～ 其他",
+      "generatedTitle": "决斗大师TCG Animal Masters ～決闘は猫である～",
       "originalTitle": "デュエル・マスターズTCG アニマル・マスターズ ～決闘は猫である～ その他",
       "titleIsManual": false
     },
@@ -19298,7 +19359,7 @@
       "endDate": "2025-06-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート 美女と死神の決断其他",
+      "title": "决斗大师TCG 神艺术 美女と死神の決断",
       "type": "商品",
       "city": "",
       "address": "",
@@ -19329,7 +19390,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート 美女と死神の決断其他",
+      "generatedTitle": "决斗大师TCG 神艺术 美女と死神の決断",
       "originalTitle": "デュエル・マスターズTCG 神アート 美女と死神の決断 その他",
       "titleIsManual": false
     },
@@ -19426,7 +19487,7 @@
       "endDate": "2025-06-27",
       "precision": "day",
       "brand": "UA",
-      "title": "NEW CARD SELECTION BLEACH 千年血戦篇",
+      "title": "新卡精选 BLEACH 千年血战篇",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -19457,7 +19518,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "NEW CARD SELECTION BLEACH 千年血戦篇",
+      "generatedTitle": "新卡精选 BLEACH 千年血战篇",
+      "originalTitle": "NEW CARD SELECTION BLEACH 千年血戦篇",
       "titleIsManual": false
     },
     {
@@ -19468,7 +19530,7 @@
       "endDate": "2025-06-27",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 進撃の巨人 Vol.2【EX10BT】",
+      "title": "补充包 进击的巨人 Vol.2【EX10BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -19499,7 +19561,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 進撃の巨人 Vol.2【EX10BT】",
+      "generatedTitle": "补充包 进击的巨人 Vol.2【EX10BT】",
       "originalTitle": "ブースターパック 進撃の巨人 Vol.2 【EX10BT】",
       "titleIsManual": false
     },
@@ -19891,7 +19953,7 @@
       "endDate": "2025-07-12",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 高级包 デビルズ・セレモニー",
+      "title": "高级包 デビルズ・セレモニー",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -19922,7 +19984,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 高级包 デビルズ・セレモニー",
+      "generatedTitle": "高级包 デビルズ・セレモニー",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック アドバンスパック デビルズ・セレモニー",
       "titleIsManual": false
     },
@@ -20450,7 +20513,7 @@
       "endDate": "2025-07-25",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-TB01】 标题补充包「フューチャーカード バディファイト」",
+      "title": "补充包【VG-DZ-TB01】 联动补充包「未来卡 搭档对战」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -20481,7 +20544,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-TB01】 标题补充包「フューチャーカード バディファイト」",
+      "generatedTitle": "补充包【VG-DZ-TB01】 联动补充包「未来卡 搭档对战」",
       "originalTitle": "ブースターパック 【VG-DZ-TB01】 タイトルブースター「フューチャーカード バディファイト」",
       "titleIsManual": false
     },
@@ -20579,7 +20642,7 @@
       "endDate": "2025-07-25",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 るろうに剣心 －明治剣客浪漫譚－【UA41ST】",
+      "title": "起始卡组 浪客剑心－明治剑客浪漫谭－【UA41ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -20610,7 +20673,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 るろうに剣心 －明治剣客浪漫譚－【UA41ST】",
+      "generatedTitle": "起始卡组 浪客剑心－明治剑客浪漫谭－【UA41ST】",
       "originalTitle": "スタートデッキ るろうに剣心 －明治剣客浪漫譚－【UA41ST】",
       "titleIsManual": false
     },
@@ -20622,7 +20685,7 @@
       "endDate": "2025-07-25",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 るろうに剣心 －明治剣客浪漫譚－【UA41BT】",
+      "title": "补充包 浪客剑心－明治剑客浪漫谭－【UA41BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -20653,7 +20716,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 るろうに剣心 －明治剣客浪漫譚－【UA41BT】",
+      "generatedTitle": "补充包 浪客剑心－明治剑客浪漫谭－【UA41BT】",
       "originalTitle": "ブースターパック るろうに剣心 －明治剣客浪漫譚－【UA41BT】",
       "titleIsManual": false
     },
@@ -20889,7 +20952,7 @@
       "endDate": "2025-08-08",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-BT10】 补充包「竜魂鳴導(りゅうこんめいどう)」",
+      "title": "补充包【VG-DZ-BT10】「龙魂鸣导」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -20920,7 +20983,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT10】 补充包「竜魂鳴導(りゅうこんめいどう)」",
+      "generatedTitle": "补充包【VG-DZ-BT10】「龙魂鸣导」",
       "originalTitle": "ブースターパック 【VG-DZ-BT10】 ブースターパック「竜魂鳴導(りゅうこんめいどう)」",
       "titleIsManual": false
     },
@@ -20932,7 +20995,7 @@
       "endDate": "2025-08-09",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 戦慄のアウターバース",
+      "title": "戦慄のアウターバース",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -20963,7 +21026,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 戦慄のアウターバース",
+      "generatedTitle": "戦慄のアウターバース",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 戦慄のアウターバース",
       "titleIsManual": false
     },
@@ -21195,7 +21259,7 @@
       "endDate": "2025-08-22",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "构筑预组【VG-DZ-SS10V2】 特别系列「Master Deckset 廻間ミチル」补充包「竜魂鳴導」版",
+      "title": "构筑预组【VG-DZ-SS10V2】 特别系列「Master Deckset 廻間ミチル」补充包「龙魂鸣导」版",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -21226,7 +21290,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "构筑预组【VG-DZ-SS10V2】 特别系列「Master Deckset 廻間ミチル」补充包「竜魂鳴導」版",
+      "generatedTitle": "构筑预组【VG-DZ-SS10V2】 特别系列「Master Deckset 廻間ミチル」补充包「龙魂鸣导」版",
       "originalTitle": "構築済みデッキ 【VG-DZ-SS10V2】 スペシャルシリーズ「Master Deckset 廻間ミチル」ブースターパック「竜魂鳴導」版",
       "titleIsManual": false
     },
@@ -21507,7 +21571,7 @@
       "endDate": "2025-09-05",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-TB02】 标题补充包「刀剣乱舞ONLINE 2025」",
+      "title": "补充包【VG-DZ-TB02】 联动补充包「刀剑乱舞ONLINE 2025」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -21538,7 +21602,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-TB02】 标题补充包「刀剣乱舞ONLINE 2025」",
+      "generatedTitle": "补充包【VG-DZ-TB02】 联动补充包「刀剑乱舞ONLINE 2025」",
       "originalTitle": "ブースターパック 【VG-DZ-TB02】 タイトルブースター「刀剣乱舞ONLINE 2025」",
       "titleIsManual": false
     },
@@ -21818,8 +21882,8 @@
       "endDate": "2025-09-20",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 戦慄のアウターバース",
-      "type": "补充包",
+      "title": "构筑预组 帝王的凯旋",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -21849,7 +21913,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 戦慄のアウターバース",
+      "generatedTitle": "构筑预组 帝王的凯旋",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 戦慄のアウターバース",
       "titleIsManual": false
     },
@@ -21946,7 +22011,7 @@
       "endDate": "2025-09-26",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 アークナイツ Vol.2【EX11BT】",
+      "title": "补充包 明日方舟 Vol.2【EX11BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -21977,7 +22042,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 アークナイツ Vol.2【EX11BT】",
+      "generatedTitle": "补充包 明日方舟 Vol.2【EX11BT】",
       "originalTitle": "ブースターパック アークナイツ Vol.2 【EX11BT】",
       "titleIsManual": false
     },
@@ -21989,7 +22054,7 @@
       "endDate": "2025-09-27",
       "precision": "day",
       "brand": "高达",
-      "title": "铁华绽放 lron Bloom [ST05]",
+      "title": "铁华绽放 Iron Bloom [ST05]",
       "type": "基本卡组",
       "city": "",
       "address": "",
@@ -22020,7 +22085,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "铁华绽放 lron Bloom [ST05]",
+      "generatedTitle": "铁华绽放 Iron Bloom [ST05]",
+      "originalTitle": "铁华绽放 lron Bloom [ST05]",
       "titleIsManual": false
     },
     {
@@ -22031,7 +22097,7 @@
       "endDate": "2025-10-04",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 『ヱヴァンゲリヲン新劇場版』【UA44ST】",
+      "title": "起始卡组 『福音战士新剧场版』【UA44ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -22062,7 +22128,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 『ヱヴァンゲリヲン新劇場版』【UA44ST】",
+      "generatedTitle": "起始卡组 『福音战士新剧场版』【UA44ST】",
       "originalTitle": "スタートデッキ 『ヱヴァンゲリヲン新劇場版』 【UA44ST】",
       "titleIsManual": false
     },
@@ -22074,7 +22140,7 @@
       "endDate": "2025-10-04",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包『ヱヴァンゲリヲン新劇場版』【UA44BT】",
+      "title": "补充包『福音战士新剧场版』【UA44BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -22105,7 +22171,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包『ヱヴァンゲリヲン新劇場版』【UA44BT】",
+      "generatedTitle": "补充包『福音战士新剧场版』【UA44BT】",
       "originalTitle": "ブースターパック 『ヱヴァンゲリヲン新劇場版』 【UA44BT】",
       "titleIsManual": false
     },
@@ -22288,7 +22354,7 @@
       "endDate": "2025-10-10",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-BT11】 补充包「武奏烈華(ぶそうれっか)」",
+      "title": "补充包【VG-DZ-BT11】「武奏烈华」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -22325,7 +22391,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT11】 补充包「武奏烈華(ぶそうれっか)」",
+      "generatedTitle": "补充包【VG-DZ-BT11】「武奏烈华」",
       "originalTitle": "ブースターパック 【VG-DZ-BT11】 ブースターパック「武奏烈華(ぶそうれっか)」",
       "titleIsManual": false
     },
@@ -22465,7 +22531,7 @@
       "endDate": "2025-10-18",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 オーバーラッシュパック3",
+      "title": "Over Rush Pack3",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -22496,7 +22562,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 オーバーラッシュパック3",
+      "generatedTitle": "Over Rush Pack3",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック オーバーラッシュパック3",
       "titleIsManual": false
     },
@@ -22508,7 +22575,7 @@
       "endDate": "2025-10-25",
       "precision": "day",
       "brand": "高达",
-      "title": "双重冲击 Dual lmpact[GD02]",
+      "title": "双重冲击 Dual Impact[GD02]",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -22539,7 +22606,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "双重冲击 Dual lmpact[GD02]",
+      "generatedTitle": "双重冲击 Dual Impact[GD02]",
+      "originalTitle": "双重冲击 Dual lmpact[GD02]",
       "titleIsManual": false
     },
     {
@@ -22635,7 +22703,7 @@
       "endDate": "2025-10-31",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 仮面ライダー Vol.2【EX12BT】",
+      "title": "补充包 假面骑士 Vol.2【EX12BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -22666,7 +22734,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 仮面ライダー Vol.2【EX12BT】",
+      "generatedTitle": "补充包 假面骑士 Vol.2【EX12BT】",
       "originalTitle": "ブースターパック 仮面ライダー Vol.2 【EX12BT】",
       "titleIsManual": false
     },
@@ -22990,7 +23058,7 @@
       "endDate": "2025-11-29",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 新星 Geass Charge",
+      "title": "新星 Geass Charge",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -23021,7 +23089,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 新星 Geass Charge",
+      "generatedTitle": "新星 Geass Charge",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 新星のギアスチャージ",
       "titleIsManual": false
     },
@@ -23251,7 +23320,7 @@
       "precision": "day",
       "brand": "航海王",
       "language": "简中",
-      "title": "航海王卡牌对战官方橡胶对战桌垫&卡牌套装 -Whole Cake lsland Arc-",
+      "title": "航海王卡牌对战官方橡胶对战桌垫&卡牌套装 -Whole Cake Island Arc-",
       "type": "其他",
       "city": "",
       "address": "",
@@ -23282,7 +23351,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "航海王卡牌对战官方橡胶对战桌垫&卡牌套装 -Whole Cake lsland Arc-",
+      "generatedTitle": "航海王卡牌对战官方橡胶对战桌垫&卡牌套装 -Whole Cake Island Arc-",
+      "originalTitle": "航海王卡牌对战官方橡胶对战桌垫&卡牌套装 -Whole Cake lsland Arc-",
       "titleIsManual": false
     },
     {
@@ -23470,7 +23540,7 @@
       "endDate": "2025-12-19",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 東京喰種トーキョーグール【UA47ST】",
+      "title": "起始卡组 东京喰种【UA47ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -23501,7 +23571,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 東京喰種トーキョーグール【UA47ST】",
+      "generatedTitle": "起始卡组 东京喰种【UA47ST】",
       "originalTitle": "スタートデッキ 東京喰種トーキョーグール 【UA47ST】",
       "titleIsManual": false
     },
@@ -23513,7 +23583,7 @@
       "endDate": "2025-12-19",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包「東京喰種トーキョーグール」系列【UA47BT】",
+      "title": "补充包「东京喰种」系列【UA47BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -23544,7 +23614,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包「東京喰種トーキョーグール」系列【UA47BT】",
+      "generatedTitle": "补充包「东京喰种」系列【UA47BT】",
       "originalTitle": "ブースターパック 「東京喰種トーキョーグール」シリーズ【UA47BT】",
       "titleIsManual": false
     },
@@ -23556,7 +23626,7 @@
       "endDate": "2025-12-19",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 カグラバチ【UA46BT】",
+      "title": "补充包 神乐钵【UA46BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -23587,7 +23657,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 カグラバチ【UA46BT】",
+      "generatedTitle": "补充包 神乐钵【UA46BT】",
       "originalTitle": "ブースターパック カグラバチ【UA46BT】",
       "titleIsManual": false
     },
@@ -23728,7 +23798,7 @@
       "endDate": "2025-12-26",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-BT12】 补充包「冥淵葬空(めいえんそうくう)」",
+      "title": "补充包【VG-DZ-BT12】「冥渊葬空」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -23759,7 +23829,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT12】 补充包「冥淵葬空(めいえんそうくう)」",
+      "generatedTitle": "补充包【VG-DZ-BT12】「冥渊葬空」",
       "originalTitle": "ブースターパック 【VG-DZ-BT12】 ブースターパック「冥淵葬空(めいえんそうくう)」",
       "titleIsManual": false
     },
@@ -23857,7 +23927,7 @@
       "endDate": "2025-12-31",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG ドラゴン娘の文化祭でウェカドラ♪ 其他",
+      "title": "决斗大师TCG ドラゴン娘の文化祭でウェカドラ♪",
       "type": "商品",
       "city": "",
       "address": "",
@@ -23888,7 +23958,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG ドラゴン娘の文化祭でウェカドラ♪ 其他",
+      "generatedTitle": "决斗大师TCG ドラゴン娘の文化祭でウェカドラ♪",
       "originalTitle": "デュエル・マスターズTCG ドラゴン娘の文化祭でウェカドラ♪ その他",
       "titleIsManual": false
     },
@@ -23991,7 +24061,7 @@
       "endDate": "2026-01-10",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 高级包 Revenge Hearts",
+      "title": "高级包 Revenge Hearts",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -24022,7 +24092,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 高级包 Revenge Hearts",
+      "generatedTitle": "高级包 Revenge Hearts",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック アドバンスパック リベンジ・ハーツ",
       "titleIsManual": false
     },
@@ -24790,7 +24861,7 @@
       "endDate": "2026-02-13",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-BT13】 补充包「幻真星战」",
+      "title": "补充包【VG-DZ-BT13】「幻真星战」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -24821,7 +24892,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT13】 补充包「幻真星战」",
+      "generatedTitle": "补充包【VG-DZ-BT13】「幻真星战」",
       "originalTitle": "ブースターパック 【VG-DZ-BT13】 ブースターパック「幻真星戦(げんませいせん)」",
       "titleIsManual": false
     },
@@ -25005,7 +25076,7 @@
       "endDate": "2026-02-14",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 深渊 Over Force",
+      "title": "深渊 Over Force",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -25036,7 +25107,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 深渊 Over Force",
+      "generatedTitle": "深渊 Over Force",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 深淵のオーバーフォース",
       "titleIsManual": false
     },
@@ -25583,7 +25655,7 @@
       "endDate": "2026-03-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG Abyss 现身东京其他",
+      "title": "决斗大师TCG Abyss 现身东京",
       "type": "商品",
       "city": "",
       "address": "",
@@ -25614,7 +25686,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG Abyss 现身东京其他",
+      "generatedTitle": "决斗大师TCG Abyss 现身东京",
       "originalTitle": "デュエル・マスターズTCG アビス、東京に現わる その他",
       "titleIsManual": false
     },
@@ -26067,7 +26139,7 @@
       "endDate": "2026-03-27",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-TBP01】 标题补充包 高级「BanG Dream! 少女乐团派对！」",
+      "title": "补充包【VG-DZ-TBP01】 联动补充包 高级「BanG Dream! 少女乐团派对！」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -26098,7 +26170,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-TBP01】 标题补充包 高级「BanG Dream! 少女乐团派对！」",
+      "generatedTitle": "补充包【VG-DZ-TBP01】 联动补充包 高级「BanG Dream! 少女乐团派对！」",
       "originalTitle": "ブースターパック 【VG-DZ-TBP01】 タイトルブースター プレミアム「バンドリ！ ガールズバンドパーティ！」",
       "titleIsManual": false
     },
@@ -26110,7 +26182,7 @@
       "endDate": "2026-03-27",
       "precision": "day",
       "brand": "影之诗",
-      "title": "补充包 补充包「天魔八虐」",
+      "title": "补充包「天魔八虐」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -26141,7 +26213,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 补充包「天魔八虐」",
+      "generatedTitle": "补充包「天魔八虐」",
       "originalTitle": "ブースターパック ブースターパック「天魔八虐」",
       "titleIsManual": false
     },
@@ -26281,8 +26353,8 @@
       "endDate": "2026-03-31",
       "precision": "month",
       "brand": "游戏王",
-      "title": "基本包 新星 Geass Charge",
-      "type": "补充包",
+      "title": "5th ANNIVERSARY 决斗套装",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -26312,7 +26384,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 新星 Geass Charge",
+      "generatedTitle": "5th ANNIVERSARY 决斗套装",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 新星のギアスチャージ",
       "titleIsManual": false
     },
@@ -26367,7 +26440,7 @@
       "endDate": "2026-04-10",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-BT14】 补充包「赫月之使者」",
+      "title": "补充包【VG-DZ-BT14】「赫月之使者」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -26398,7 +26471,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT14】 补充包「赫月之使者」",
+      "generatedTitle": "补充包【VG-DZ-BT14】「赫月之使者」",
       "originalTitle": "ブースターパック 【VG-DZ-BT14】 ブースターパック「赫月ノ使者(かくげつのししゃ)」",
       "titleIsManual": false
     },
@@ -26453,7 +26526,7 @@
       "endDate": "2026-04-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 Over Rush Pack 4",
+      "title": "Over Rush Pack 4",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -26484,7 +26557,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 Over Rush Pack 4",
+      "generatedTitle": "Over Rush Pack 4",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック オーバーラッシュパック4",
       "titleIsManual": false
     },
@@ -27033,7 +27107,7 @@
       "endDate": "2026-05-22",
       "precision": "day",
       "brand": "影之诗",
-      "title": "补充包 补充包「继承绝杰者」",
+      "title": "补充包「继承绝杰者」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -27064,7 +27138,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 补充包「继承绝杰者」",
+      "generatedTitle": "补充包「继承绝杰者」",
       "originalTitle": "ブースターパック ブースターパック「絶傑を継ぐ者」",
       "titleIsManual": false
     },
@@ -27162,7 +27236,7 @@
       "endDate": "2026-05-23",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 极光 Rising",
+      "title": "极光 Rising",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -27193,7 +27267,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 极光 Rising",
+      "generatedTitle": "极光 Rising",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 極光のライジング",
       "titleIsManual": false
     },
@@ -27546,7 +27621,7 @@
       "endDate": "2026-06-19",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "构筑预组【VG-DZ-SS17】 特别系列 タイトル起始卡组「闪电十一人南云原中」",
+      "title": "构筑预组【VG-DZ-SS17】 特别系列 联动起始卡组「闪电十一人南云原中」",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -27583,7 +27658,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "构筑预组【VG-DZ-SS17】 特别系列 タイトル起始卡组「闪电十一人南云原中」",
+      "generatedTitle": "构筑预组【VG-DZ-SS17】 特别系列 联动起始卡组「闪电十一人南云原中」",
       "originalTitle": "構築済みデッキ 【VG-DZ-SS17】 スペシャルシリーズ タイトルスタートデッキ「イナズマイレブン 南雲原中」",
       "titleIsManual": false
     },
@@ -27595,7 +27670,7 @@
       "endDate": "2026-06-19",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-BT15】 补充包「虚影袭雷」",
+      "title": "补充包【VG-DZ-BT15】「虚影袭雷」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -27626,7 +27701,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT15】 补充包「虚影袭雷」",
+      "generatedTitle": "补充包【VG-DZ-BT15】「虚影袭雷」",
       "originalTitle": "ブースターパック 【VG-DZ-BT15】 ブースターパック「虚影襲雷(きょえいしゅうらい)」",
       "titleIsManual": false
     },
@@ -27724,7 +27799,7 @@
       "endDate": "2026-06-19",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 無職転生 ～異世界行ったら本気だす～【UA54BT】",
+      "title": "补充包 无职转生～到了异世界就拿出真本事～【UA54BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -27755,7 +27830,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 無職転生 ～異世界行ったら本気だす～【UA54BT】",
+      "generatedTitle": "补充包 无职转生～到了异世界就拿出真本事～【UA54BT】",
       "originalTitle": "ブースターパック 無職転生 ～異世界行ったら本気だす～【UA54BT】",
       "titleIsManual": false
     },
@@ -27830,7 +27905,7 @@
       "postKeys": [
         "8787:1217066602831282177"
       ],
-      "title": "汇聚命运",
+      "title": "补充包「汇聚命运」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -27843,7 +27918,7 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "汇聚命运",
+      "generatedTitle": "补充包「汇聚命运」",
       "titleIsManual": false
     },
     {
@@ -27952,7 +28027,7 @@
         "8787:1216664593882939415",
         "official:gundam:cn:e957deaa"
       ],
-      "title": "永恒核心 Eternal Nexus [EB01]",
+      "title": "补充包「永恒核心 Eternal Nexus[EB01]」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -27966,7 +28041,8 @@
         "news",
         "official"
       ],
-      "generatedTitle": "永恒核心 Eternal Nexus [EB01]",
+      "generatedTitle": "补充包「永恒核心 Eternal Nexus[EB01]」",
+      "originalTitle": "永恒核心 Eternal Nexus [EB01]",
       "titleIsManual": false
     },
     {
@@ -28009,51 +28085,6 @@
         "official"
       ],
       "generatedTitle": "创世脉冲 Generation Pulse [ST10]",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:一决三国:2026-06-27:补充包、周边",
-      "kind": "product",
-      "date": "2026-06-27",
-      "endDate": "2026-06-27",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "一决三国",
-      "sourceName": "卡游一决三国",
-      "sourceUrl": "https://www.bilibili.com/opus/1217716001869660214",
-      "sources": [
-        {
-          "type": "news",
-          "name": "卡游一决三国",
-          "url": "https://www.bilibili.com/opus/1217716001869660214"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "draft",
-      "publishedAt": "2026-06-25",
-      "image": "",
-      "excerpt": "#热点资讯##卡游一决对战# 烽火连城即将开赛，分会场线下观赛得好礼~ 🔥 卡游一决·三国对战卡牌 🥁 2026年6月27日，烽火连城·一周年特别场·苏州站即将打响！ 🎊 周年庆已至，除了丰富的现场活动 🎬 我们也为来自五湖四海、热爱一决的玩家们准备了线下观赛渠道 🏃‍♀️ 6月27日前往活动名单上的店铺进行线下观赛， 🎁 即可领取一决补充包、周边等惊喜好礼 🎉 各位玩家，一起来为一决周年喝彩吧！ 🎆 一决一载，因为有你",
-      "postKeys": [
-        "8787:1217716001869660214"
-      ],
-      "title": "补充包 、周边",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 80,
-      "reason": "6月27日",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "补充包 、周边",
-      "originalTitle": "补充包、周边",
       "titleIsManual": false
     },
     {
@@ -28129,7 +28160,7 @@
       "postKeys": [
         "8787:1219266985475440681"
       ],
-      "title": "数码宝贝卡牌对战 TAMER'S EVOLUTION CARD SET -NEXUS OF DIGIMON-【PB-24】正在火热预售中！",
+      "title": "数码宝贝 TAMER'S EVOLUTION CARD SET -NEXUS OF DIGIMON-【PB-24】",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -28142,7 +28173,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "数码宝贝卡牌对战 TAMER'S EVOLUTION CARD SET -NEXUS OF DIGIMON-【PB-24】正在火热预售中！",
+      "generatedTitle": "数码宝贝 TAMER'S EVOLUTION CARD SET -NEXUS OF DIGIMON-【PB-24】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "数码宝贝卡牌对战 TAMER'S EVOLUTION CARD SET -NEXUS OF DIGIMON-【PB-24】正在火热预售中！",
       "titleIsManual": false
     },
     {
@@ -28186,50 +28219,6 @@
       ],
       "generatedTitle": "额外补充包 DIGITAL WORLD SHAMBALA【EX-12】",
       "originalTitle": "エクストラブースター DIGITAL WORLD SHAMBALA【EX-12】",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:影之诗:2026-07-06:补充包汇聚命运影之诗进化对决豪华对战套装夏日烟花祭艾米\\＼为纪念新弹商品正式",
-      "kind": "product",
-      "date": "2026-07-06",
-      "endDate": "2026-07-06",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "影之诗",
-      "sourceName": "影之诗进化对决",
-      "sourceUrl": "https://www.bilibili.com/opus/1218102548926300197",
-      "sources": [
-        {
-          "type": "news",
-          "name": "影之诗进化对决",
-          "url": "https://www.bilibili.com/opus/1218102548926300197"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "draft",
-      "publishedAt": "2026-06-26",
-      "image": "",
-      "excerpt": "#热点资讯##影之诗# /／ 今日发售！ ・《影之诗：进化对决》补充包《汇聚命运》 ・《影之诗：进化对决》豪华对战套装「夏日烟花祭·艾米」 \\＼ 为纪念新弹商品正式发售，专员为各位主战者们准备了福利唷~ 关注本账号并转发评论本条动态，7月6日将抽出： 【3位】主战者送出【补充包《汇聚命运》1盒】 【1位】主战者送出【豪华对战套装「夏日烟花祭·艾米」1套】！ 速速转发攒下好运吧~ 补充包《汇聚命运》 以《影之诗》手游经典卡包《物语重归》为",
-      "postKeys": [
-        "8787:1218102548926300197"
-      ],
-      "title": "补充包《汇聚命运》 ・《影之诗：进化对决》豪华对战套装「夏日烟花祭·艾米」 \\＼ 为纪念新弹商品正式",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "7月6日",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "补充包《汇聚命运》 ・《影之诗：进化对决》豪华对战套装「夏日烟花祭·艾米」 \\＼ 为纪念新弹商品正式",
       "titleIsManual": false
     },
     {
@@ -28436,8 +28425,8 @@
         "8787:1218087087095414804",
         "8787:1214376235305533442"
       ],
-      "title": "STC32&36",
-      "type": "商品",
+      "title": "基本卡组 绿色罗罗诺亚·佐罗＆黄色尤斯塔斯·基德【STC32&36】",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -28449,7 +28438,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "STC32&36",
+      "generatedTitle": "基本卡组 绿色罗罗诺亚·佐罗＆黄色尤斯塔斯·基德【STC32&36】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "STC32&36",
       "titleIsManual": false
     },
     {
@@ -28486,8 +28477,8 @@
         "8787:1217716001903214595",
         "8787:1216973831563902983"
       ],
-      "title": "STC35&33",
-      "type": "商品",
+      "title": "基本卡组 红黑萨波＆蓝色库赞【STC35&33】",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -28499,7 +28490,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "STC35&33",
+      "generatedTitle": "基本卡组 红黑萨波＆蓝色库赞【STC35&33】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "STC35&33",
       "titleIsManual": false
     },
     {
@@ -28536,8 +28529,8 @@
         "8787:1217344916726743048",
         "8787:1216602746386382853"
       ],
-      "title": "STC31&34",
-      "type": "商品",
+      "title": "基本卡组 红色蒙奇·D·路飞＆紫色夏洛特·卡塔库栗【STC31&34】",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -28549,7 +28542,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "STC31&34",
+      "generatedTitle": "基本卡组 红色蒙奇·D·路飞＆紫色夏洛特·卡塔库栗【STC31&34】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "STC31&34",
       "titleIsManual": false
     },
     {
@@ -28646,7 +28641,7 @@
       "endDate": "2026-07-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "特别包 高级包 Union Base",
+      "title": "高级包 Union Base",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -28677,7 +28672,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "特别包 高级包 Union Base",
+      "generatedTitle": "高级包 Union Base",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "スペシャルパック アドバンスパック ユニオン・ベース",
       "titleIsManual": false
     },
@@ -28721,7 +28717,7 @@
         "8787:1219648994845655056",
         "8787:1218473891831218195"
       ],
-      "title": "补充包“共逐荣光",
+      "title": "补充包“共逐荣光”",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -28734,7 +28730,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "补充包“共逐荣光",
+      "generatedTitle": "补充包“共逐荣光”",
+      "originalTitle": "补充包“共逐荣光",
       "titleIsManual": false
     },
     {
@@ -28825,8 +28822,8 @@
       "postKeys": [
         "8877:02c51bb763a2942a"
       ],
-      "title": "Pitch Black完整卡表",
-      "type": "商品套装",
+      "title": "补充包 Pitch Black",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -28838,7 +28835,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "Pitch Black完整卡表",
+      "generatedTitle": "补充包 Pitch Black",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "Pitch Black完整卡表",
       "titleIsManual": false
     },
     {
@@ -28869,7 +28868,7 @@
       "postKeys": [
         "8877:c0ee706823f5a017"
       ],
-      "title": "Mega",
+      "title": "Mega Evolution Tactical Deck",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -28882,7 +28881,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "Mega",
+      "generatedTitle": "Mega Evolution Tactical Deck",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "Mega",
       "titleIsManual": false
     },
     {
@@ -29072,50 +29073,6 @@
     },
     {
       "sourceType": "news",
-      "id": "product:漫威超英击战:2026-07-18:超英击战",
-      "kind": "product",
-      "date": "2026-07-18",
-      "endDate": "2026-07-18",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "漫威超英击战",
-      "sourceName": "B站漫威超英击战",
-      "sourceUrl": "https://www.bilibili.com/opus/1224843929596198933",
-      "sources": [
-        {
-          "type": "news",
-          "name": "B站漫威超英击战",
-          "url": "https://www.bilibili.com/opus/1224843929596198933"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "published",
-      "publishedAt": "2026-07-14",
-      "image": "",
-      "excerpt": "#热点资讯# 漫威对战卡牌💥超英击战！登陆酷乐多元宇宙，击战开启！⚡️ 酷乐潮玩震撼新品⭐漫威对战卡牌《超英击战》 📢发售商品： ①漫威对战卡牌《超英击战》基础卡组SD01~SD04 ②漫威对战卡牌《超英击战》补充包BP01-复仇者联盟守护者训练营开启，守护者速来打卡试玩💪 7月18日起，前往酷乐潮玩指定门店，领取惊喜好礼💡详见海报 ⬅️左滑收看门店清单⬅️ ———— 更多漫威对战卡牌《超英击战》官方资讯，请关注@漫威对战卡牌超",
-      "postKeys": [
-        "8787:1224843929596198933"
-      ],
-      "title": "超英击战",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "7月18日",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "超英击战",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
       "id": "product:游戏王:2026-07-18:公式卡片游戏决斗怪兽世界先行精选包2026简体中文版",
       "kind": "product",
       "date": "2026-07-18",
@@ -29212,7 +29169,7 @@
       "endDate": "2026-07-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神Art极 Ballom by Ittoku 其他",
+      "title": "决斗大师TCG 神Art极 Ballom by Ittoku",
       "type": "商品",
       "city": "",
       "address": "",
@@ -29243,7 +29200,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神Art极 Ballom by Ittoku 其他",
+      "generatedTitle": "决斗大师TCG 神Art极 Ballom by Ittoku",
       "originalTitle": "デュエル・マスターズTCG 神アート極 Ballom by Ittoku その他",
       "titleIsManual": false
     },
@@ -29255,7 +29212,7 @@
       "endDate": "2026-07-20",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG デュエマ × モンスターハンターワイルズ 其他",
+      "title": "决斗大师TCG デュエマ × モンスターハンターワイルズ",
       "type": "商品",
       "city": "",
       "address": "",
@@ -29286,52 +29243,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG デュエマ × モンスターハンターワイルズ 其他",
+      "generatedTitle": "决斗大师TCG デュエマ × モンスターハンターワイルズ",
       "originalTitle": "デュエル・マスターズTCG デュエマ × モンスターハンターワイルズ その他",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:宝可梦:2026-07-24:火箭队的宏图",
-      "kind": "product",
-      "date": "2026-07-24",
-      "endDate": "2026-07-24",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "宝可梦",
-      "sourceName": "宝可梦简中官网",
-      "sourceUrl": "https://www.pokemon.cn/tcg/event/23170.html",
-      "sources": [
-        {
-          "type": "news",
-          "name": "宝可梦简中官网",
-          "url": "https://www.pokemon.cn/tcg/event/23170.html"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "draft",
-      "publishedAt": "2026-07-23",
-      "image": "",
-      "excerpt": "#热点资讯##宝可梦# 秘密行动升级！ 完成卡组挑战，共筑“火箭队的宏图”！ 训练家请注意！训练家请注意！ 2026年7月24日起，15家宝可梦官方卡牌道馆内，出现了一些携带手提箱的神秘身影。这些道馆内还出现了特别的挑战，等待训练家们前来探索！ 共筑“火箭队的宏图”卡组挑战活动介绍活动详情 2026年7月24日至7月30日，15家宝可梦官方卡牌道馆将开启“共筑‘火箭队的宏图’卡组挑战活动”。 训练家可携带自己的卡组前往道馆，与道馆工作人",
-      "postKeys": [
-        "8787:pokemon-cn-23170"
-      ],
-      "title": "火箭队的宏图",
-      "type": "构筑/预组",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 80,
-      "reason": "2026年7月24日至7",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "火箭队的宏图",
       "titleIsManual": false
     },
     {
@@ -29362,8 +29275,8 @@
       "postKeys": [
         "8787:1227070440671805462"
       ],
-      "title": "符文战场：英雄联盟对战卡牌",
-      "type": "构筑/预组",
+      "title": "化神争锋标准补充包及系列预组",
+      "type": "补充包/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -29375,7 +29288,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "符文战场：英雄联盟对战卡牌",
+      "generatedTitle": "化神争锋标准补充包及系列预组",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "符文战场：英雄联盟对战卡牌",
       "titleIsManual": false
     },
     {
@@ -29634,7 +29549,7 @@
       "endDate": "2026-07-24",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-TB03】 标题补充包「フューチャーカード バディファイト ディザスターフォース」",
+      "title": "补充包【VG-DZ-TB03】 联动补充包「未来卡 搭档对战 ディザスターフォース」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -29665,7 +29580,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-TB03】 标题补充包「フューチャーカード バディファイト ディザスターフォース」",
+      "generatedTitle": "补充包【VG-DZ-TB03】 联动补充包「未来卡 搭档对战 ディザスターフォース」",
       "originalTitle": "ブースターパック 【VG-DZ-TB03】 タイトルブースター「フューチャーカード バディファイト ディザスターフォース」",
       "titleIsManual": false
     },
@@ -29802,7 +29717,7 @@
         "8787:1224746418818777092",
         "8787:1224378460412051495"
       ],
-      "title": "Re：从零开始的异世界生活",
+      "title": "补充包「Re：从零开始的异世界生活」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -29815,7 +29730,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "Re：从零开始的异世界生活",
+      "generatedTitle": "补充包「Re：从零开始的异世界生活」",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
       "titleIsManual": false
     },
     {
@@ -29827,7 +29743,7 @@
       "time": "15:00",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【重庆站】《影之诗：进化对决》城市赛7月最后一战！",
+      "title": "【重庆站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "重庆",
       "address": "重庆市渝中区化龙桥街道华盛路6号印象城L606",
@@ -29859,7 +29775,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【重庆站】《影之诗：进化对决》城市赛7月最后一战！",
+      "generatedTitle": "【重庆站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【重庆站】《影之诗：进化对决》城市赛7月最后一战！",
       "titleIsManual": false
     },
     {
@@ -30473,7 +30390,7 @@
         "official:gundam:b5438f0",
         "official:gundam:cn:860a47bd"
       ],
-      "title": "自由跃升 Freedom Ascension [GD05]",
+      "title": "补充包「自由跃升 Freedom Ascension[GD05]」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -30487,7 +30404,8 @@
         "news",
         "official"
       ],
-      "generatedTitle": "自由跃升 Freedom Ascension [GD05]",
+      "generatedTitle": "补充包「自由跃升 Freedom Ascension[GD05]」",
+      "originalTitle": "自由跃升 Freedom Ascension [GD05]",
       "titleIsManual": false
     },
     {
@@ -30595,8 +30513,8 @@
       "endDate": "2026-07-27",
       "precision": "day",
       "brand": "高达",
-      "title": "ガンダムカードゲーム 1st Anniversary Set",
-      "type": "商品",
+      "title": "高达卡牌对战 1st Anniversary Set【PB03】",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -30626,7 +30544,9 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "ガンダムカードゲーム 1st Anniversary Set",
+      "generatedTitle": "高达卡牌对战 1st Anniversary Set【PB03】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "ガンダムカードゲーム 1st Anniversary Set",
       "titleIsManual": false
     },
     {
@@ -30657,8 +30577,8 @@
       "postKeys": [
         "8787:1228570812310618136"
       ],
-      "title": "欧美版",
-      "type": "抽选销售",
+      "title": "豪华卡牌收藏 欧美版三周年特别纪念（简体中文版）",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -30670,7 +30590,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "欧美版",
+      "generatedTitle": "豪华卡牌收藏 欧美版三周年特别纪念（简体中文版）",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "欧美版",
       "titleIsManual": false
     },
     {
@@ -30719,7 +30641,7 @@
         "8877:6f12260ce12fd447",
         "8877:e3cd31283e5a8b2f"
       ],
-      "title": "以伊布ex、索罗亚克ex和魔幻假面喵ex为主题的「MEGA Starter Decks」又公开了数张新卡。该系列预组",
+      "title": "MEGA Starter Set ex 预组（伊布ex／索罗亚克ex／魔幻假面喵ex）",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -30732,7 +30654,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "以伊布ex、索罗亚克ex和魔幻假面喵ex为主题的「MEGA Starter Decks」又公开了数张新卡。该系列预组",
+      "generatedTitle": "MEGA Starter Set ex 预组（伊布ex／索罗亚克ex／魔幻假面喵ex）",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "以伊布ex、索罗亚克ex和魔幻假面喵ex为主题的「MEGA Starter Decks」又公开了数张新卡。该系列预组",
       "titleIsManual": false
     },
     {
@@ -30763,7 +30687,7 @@
       "postKeys": [
         "8787:1220290411744985217"
       ],
-      "title": "对战桌垫1张 ⁎卡套1种（共60张） ⁎异画卡牌9种各2张（共18张） 售价：人民币438元/套预售期：2026年7月2日11：00：00至2026年7月31日23：5",
+      "title": "DIGIMON STORY TIME STRANGER SET【PB-25】",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -30776,7 +30700,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "对战桌垫1张 ⁎卡套1种（共60张） ⁎异画卡牌9种各2张（共18张） 售价：人民币438元/套预售期：2026年7月2日11：00：00至2026年7月31日23：5",
+      "generatedTitle": "DIGIMON STORY TIME STRANGER SET【PB-25】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "对战桌垫1张 ⁎卡套1种（共60张） ⁎异画卡牌9种各2张（共18张） 售价：人民币438元/套预售期：2026年7月2日11：00：00至2026年7月31日23：5",
       "titleIsManual": false
     },
     {
@@ -30947,7 +30873,7 @@
         "8787:1224760867124412448",
         "8787:1224394772653801477"
       ],
-      "title": "补充包「出征",
+      "title": "第一弹补充包「出征」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -30960,7 +30886,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "补充包「出征",
+      "generatedTitle": "第一弹补充包「出征」",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "补充包「出征",
       "titleIsManual": false
     },
     {
@@ -31072,7 +31000,7 @@
         "8787:1222261795274620982",
         "official:sve:75eacdf1"
       ],
-      "title": "新约都市·透京",
+      "title": "补充包「新约都市·透京」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -31086,7 +31014,7 @@
         "news",
         "official"
       ],
-      "generatedTitle": "新约都市·透京",
+      "generatedTitle": "补充包「新约都市·透京」",
       "titleIsManual": false
     },
     {
@@ -31117,7 +31045,7 @@
       "postKeys": [
         "8787:1221844970878533648"
       ],
-      "title": "补充包《新约都市·透京》7月31日上市",
+      "title": "补充包《新约都市·透京》",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -31130,7 +31058,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "补充包《新约都市·透京》7月31日上市",
+      "generatedTitle": "补充包《新约都市·透京》",
+      "originalTitle": "补充包《新约都市·透京》7月31日上市",
       "titleIsManual": false
     },
     {
@@ -31247,8 +31176,8 @@
       "postKeys": [
         "8787:1231417806575108096"
       ],
-      "title": "互动有奖",
-      "type": "商品套装",
+      "title": "补充包「化神争锋」",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -31260,7 +31189,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "互动有奖",
+      "generatedTitle": "补充包「化神争锋」",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "互动有奖",
       "titleIsManual": false
     },
     {
@@ -31632,7 +31563,7 @@
         "8787:1227865664621903878",
         "official:vg:ad0d3898"
       ],
-      "title": "补充包【VG-DZ-BT16】 补充包「幻真觉醒」",
+      "title": "补充包【VG-DZ-BT16】「幻真觉醒」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -31646,7 +31577,7 @@
         "news",
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT16】 补充包「幻真觉醒」",
+      "generatedTitle": "补充包【VG-DZ-BT16】「幻真觉醒」",
       "originalTitle": "ブースターパック 【VG-DZ-BT16】 ブースターパック「幻真覚醒(げんまかくせい)」",
       "titleIsManual": false
     },
@@ -31678,7 +31609,7 @@
       "postKeys": [
         "8787:1230781668196876288"
       ],
-      "title": "Kia ora！《Mastery Pack Warrior 》",
+      "title": "Mastery Pack Warrior",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -31691,7 +31622,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "Kia ora！《Mastery Pack Warrior 》",
+      "generatedTitle": "Mastery Pack Warrior",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "Kia ora！《Mastery Pack Warrior 》",
       "titleIsManual": false
     },
     {
@@ -31862,7 +31795,7 @@
         "8787:1222973907322011653",
         "8787:1221860368318464057"
       ],
-      "title": "ぬきたし THE ANIMATION",
+      "title": "WS Rose 补充包「ぬきたし THE ANIMATION」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -31875,7 +31808,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "ぬきたし THE ANIMATION",
+      "generatedTitle": "WS Rose 补充包「ぬきたし THE ANIMATION」",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "补充包「ぬきたし THE ANIMATION」",
       "titleIsManual": false
     },
     {
@@ -32032,7 +31967,7 @@
         "8787:1228463940650926096",
         "8787:1228462278523748353"
       ],
-      "title": "我推的孩子",
+      "title": "补充包「我推的孩子」Vol.3",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -32045,7 +31980,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "我推的孩子",
+      "generatedTitle": "补充包「我推的孩子」Vol.3",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "补充包「我推的孩子」 Vol.3",
       "titleIsManual": false
     },
     {
@@ -32152,7 +32089,7 @@
       "time": "11:30",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【南京站】《影之诗：进化对决》城市赛8月赛事奖励焕新！",
+      "title": "【南京站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "南京",
       "address": "江苏省南京市秦淮区建康路3号水平方负一楼",
@@ -32184,7 +32121,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【南京站】《影之诗：进化对决》城市赛8月赛事奖励焕新！",
+      "generatedTitle": "【南京站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【南京站】《影之诗：进化对决》城市赛8月赛事奖励焕新！",
       "titleIsManual": false
     },
     {
@@ -32312,7 +32250,7 @@
       "postKeys": [
         "8787:1237878697944416262"
       ],
-      "title": "补充包《新约都市·透京》今日发售",
+      "title": "补充包《新约都市·透京》",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -32325,7 +32263,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "补充包《新约都市·透京》今日发售",
+      "generatedTitle": "补充包《新约都市·透京》",
+      "originalTitle": "补充包《新约都市·透京》今日发售",
       "titleIsManual": false
     },
     {
@@ -32382,7 +32321,7 @@
       "time": "12:00",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【天津站】《影之诗：进化对决》城市赛8月赛事再燃！",
+      "title": "【天津站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "天津",
       "address": "天津市南开鼓楼街道新世界百货4楼天津cardtime卡牌",
@@ -32414,7 +32353,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【天津站】《影之诗：进化对决》城市赛8月赛事再燃！",
+      "generatedTitle": "【天津站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【天津站】《影之诗：进化对决》城市赛8月赛事再燃！",
       "titleIsManual": false
     },
     {
@@ -32566,7 +32506,7 @@
       "time": "",
       "precision": "day",
       "brand": "一决三国",
-      "title": "各位主公们，第一期正面对决城市挑战赛赛将于本周举行。",
+      "title": "正面对决城市挑战赛",
       "type": "城市赛",
       "city": "北京",
       "address": "以各门店在 「 正面对决大本营 」 微信刁程序公布的比赛信思为准 * 后续更多赛事信思 ， 请参考 「 正面对决大本营 」 微信刁程序预约抽远 + 现场补录一",
@@ -32598,7 +32538,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "各位主公们，第一期正面对决城市挑战赛赛将于本周举行。",
+      "generatedTitle": "正面对决城市挑战赛",
+      "titleAuditReason": "原文为赛事赛前提示，去掉称呼和宣传句。",
+      "originalTitle": "各位主公们，第一期正面对决城市挑战赛赛将于本周举行。",
       "titleIsManual": false
     },
     {
@@ -32610,7 +32552,7 @@
       "time": "",
       "precision": "day",
       "brand": "一决三国",
-      "title": "赛事预告丨《正面对决》城市挑战赛",
+      "title": "正面对决城市挑战赛",
       "type": "城市赛",
       "city": "北京",
       "address": "以各门店在 「 正面对决大本营 」 微信刁程序公布的比赛信思为准 * 后续更多赛事信思 ， 请参考 「 正面对决大本营 」 微信刁程序预约抽远 + 现场补录一",
@@ -32642,7 +32584,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "赛事预告丨《正面对决》城市挑战赛",
+      "generatedTitle": "正面对决城市挑战赛",
+      "titleAuditReason": "原文明确赛事名称，去掉赛事预告前缀。",
+      "originalTitle": "赛事预告丨《正面对决》城市挑战赛",
       "titleIsManual": false
     },
     {
@@ -32654,7 +32598,7 @@
       "time": "11:00",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【杭州站】《影之诗：进化对决》城市赛3v3即将再次开启！",
+      "title": "【杭州站】《影之诗：进化对决》城市赛3v3",
       "type": "城市赛",
       "city": "杭州",
       "address": "浙江省杭州市钱塘区27号大街301号",
@@ -32686,7 +32630,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【杭州站】《影之诗：进化对决》城市赛3v3即将再次开启！",
+      "generatedTitle": "【杭州站】《影之诗：进化对决》城市赛3v3",
+      "originalTitle": "【杭州站】《影之诗：进化对决》城市赛3v3即将再次开启！",
       "titleIsManual": false
     },
     {
@@ -32836,7 +32781,7 @@
       "endDate": "2026-08-22",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 君临的头条明星",
+      "title": "君临的头条明星",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -32867,7 +32812,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 君临的头条明星",
+      "generatedTitle": "君临的头条明星",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 君臨のヘッドライナー",
       "titleIsManual": false
     },
@@ -33444,7 +33390,7 @@
         "8787:1233395638969827337",
         "8787:1233024553822715939"
       ],
-      "title": "补充包《天魔八虐》今日发售",
+      "title": "补充包《天魔八虐》",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -33457,7 +33403,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "补充包《天魔八虐》今日发售",
+      "generatedTitle": "补充包《天魔八虐》",
+      "originalTitle": "补充包《天魔八虐》今日发售",
       "titleIsManual": false
     },
     {
@@ -33488,7 +33435,7 @@
       "postKeys": [
         "8787:1232226978392702999"
       ],
-      "title": "补充包《天魔八虐》8月28日上市",
+      "title": "补充包《天魔八虐》",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -33501,7 +33448,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "补充包《天魔八虐》8月28日上市",
+      "generatedTitle": "补充包《天魔八虐》",
+      "originalTitle": "补充包《天魔八虐》8月28日上市",
       "titleIsManual": false
     },
     {
@@ -33701,7 +33649,7 @@
         "8787:1229942865399906324",
         "8787:1229573335025713187"
       ],
-      "title": "葬送的芙莉莲",
+      "title": "补充包「葬送的芙莉莲」Vol.2",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -33714,7 +33662,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "葬送的芙莉莲",
+      "generatedTitle": "补充包「葬送的芙莉莲」Vol.2",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "补充包「葬送的芙莉莲」 Vol.2",
       "titleIsManual": false
     },
     {
@@ -34036,8 +33986,8 @@
       "endDate": "2026-08-29",
       "precision": "day",
       "brand": "数码宝贝",
-      "title": "CARD SET -NEXUS OF DIGIMON-",
-      "type": "商品套装",
+      "title": "补充包 TIMELESS BONDS【BT-26】",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -34067,7 +34017,9 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "CARD SET -NEXUS OF DIGIMON-",
+      "generatedTitle": "补充包 TIMELESS BONDS【BT-26】",
+      "titleAuditReason": "核对官网详情页标题或卡表标题，修正占位或相邻商品错配。",
+      "originalTitle": "CARD SET -NEXUS OF DIGIMON-",
       "titleIsManual": false
     },
     {
@@ -34098,7 +34050,7 @@
       "postKeys": [
         "8787:1241993525730476032"
       ],
-      "title": "ブラック・マジシャン",
+      "title": "决斗套装 WCS2026",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -34111,7 +34063,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "ブラック・マジシャン",
+      "generatedTitle": "决斗套装 WCS2026",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "ブラック・マジシャン",
       "titleIsManual": false
     },
     {
@@ -34204,50 +34158,6 @@
     },
     {
       "sourceType": "news",
-      "id": "product:一决三国:2026-08-31:狂傲不羁魏延",
-      "kind": "product",
-      "date": "2026-08-31",
-      "endDate": "2026-08-31",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "一决三国",
-      "sourceName": "正面对决集换式卡牌",
-      "sourceUrl": "https://www.bilibili.com/opus/1230307014167494665",
-      "sources": [
-        {
-          "type": "news",
-          "name": "正面对决集换式卡牌",
-          "url": "https://www.bilibili.com/opus/1230307014167494665"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "draft",
-      "publishedAt": "2026-07-29",
-      "image": "",
-      "excerpt": "#热点资讯##三国杀正面对决# 正面对决启幕活动还有2天就要结束啦~ 参与启幕活动预约即可获得在7月31日到牌店领取活动限定纪念卡牌“狂傲不羁·魏延”，还能获得正面对决×三国杀移动版兑换卡1张！ 参与一次到店线下试玩还可获得“无中生有”纪念卡牌哦~ 想要领取活动奖励的主公们记得抓紧时间！ 7月31日正面对决将在全国正式发售，各位主公可在「正面对决大本营」小程序的首页新闻中查看本地牌店列表，也可在「正面对决大本营」小程序——“附近牌店”功",
-      "postKeys": [
-        "8787:1230307014167494665"
-      ],
-      "title": "狂傲不羁·魏延",
-      "type": "商品套装",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "2026 年 8 月 31 日 ",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "狂傲不羁·魏延",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
       "id": "product:符文战场:2026-09-03:t1礼盒",
       "kind": "product",
       "date": "2026-09-03",
@@ -34299,7 +34209,7 @@
       "time": "13:00",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【北京站】《影之诗：进化对决》城市赛9月首战开启！",
+      "title": "【北京站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "北京",
       "address": "北京市丰台区西铁营中路1号万达广场（西铁营店）一楼中庭",
@@ -34331,7 +34241,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【北京站】《影之诗：进化对决》城市赛9月首战开启！",
+      "generatedTitle": "【北京站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【北京站】《影之诗：进化对决》城市赛9月首战开启！",
       "titleIsManual": false
     },
     {
@@ -34714,7 +34625,7 @@
       "precision": "day",
       "brand": "航海王",
       "language": "简中",
-      "title": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 北京站启动！",
+      "title": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 北京站",
       "type": "大型赛事",
       "city": "北京",
       "address": "北京市丰台区潘家庙468号北京新发地农产品博览中心会议一层中心1010号",
@@ -34747,7 +34658,8 @@
         "manual-event-op-beijing-2026-09-12",
         "8787:1238141148367683607"
       ],
-      "generatedTitle": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 北京站启动！",
+      "generatedTitle": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 北京站",
+      "originalTitle": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 北京站启动！",
       "titleIsManual": false
     },
     {
@@ -34759,7 +34671,7 @@
       "precision": "day",
       "brand": "数码宝贝",
       "language": "简中",
-      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季南昌站情报公开",
+      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季南昌站",
       "type": "大型赛事",
       "city": "南昌",
       "address": "江西省南昌市东湖区洪都北大道10号南昌百瑞四季酒店",
@@ -34792,7 +34704,8 @@
         "manual-event-digimon-nanchang-2026-09-12",
         "8787:1237777794128150551"
       ],
-      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季南昌站情报公开",
+      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季南昌站",
+      "originalTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季南昌站情报公开",
       "titleIsManual": false
     },
     {
@@ -34804,7 +34717,7 @@
       "precision": "day",
       "brand": "数码宝贝",
       "language": "简中",
-      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季沈阳站情报公开",
+      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季沈阳站",
       "type": "大型赛事",
       "city": "沈阳",
       "address": "辽宁省沈阳市皇姑区昆山中路35号沈阳明程锦江国际酒店 1F明程厅",
@@ -34837,7 +34750,8 @@
         "manual-event-digimon-shenyang-2026-09-12",
         "8787:1237770063162900480"
       ],
-      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季沈阳站情报公开",
+      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季沈阳站",
+      "originalTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季沈阳站情报公开",
       "titleIsManual": false
     },
     {
@@ -34849,7 +34763,7 @@
       "precision": "day",
       "brand": "峡谷争锋",
       "language": "简中",
-      "title": "峡谷争锋2026巡回赛·广州站丨赛事详情",
+      "title": "峡谷争锋2026巡回赛·广州站",
       "type": "巡回赛",
       "city": "广州",
       "address": "广东省广州市海珠区琶洲街道阅江中路382号广交会琶洲展馆D20.2",
@@ -34882,7 +34796,8 @@
         "manual-event-riftbound-guangzhou-2026-09-12",
         "8787:1241465453044301824"
       ],
-      "generatedTitle": "峡谷争锋2026巡回赛·广州站丨赛事详情",
+      "generatedTitle": "峡谷争锋2026巡回赛·广州站",
+      "originalTitle": "峡谷争锋2026巡回赛·广州站丨赛事详情",
       "titleIsManual": false
     },
     {
@@ -34913,8 +34828,8 @@
       "postKeys": [
         "8787:1245918475147280388"
       ],
-      "title": "赛事限定商品仅在现场售卖：区域公开赛卡垫「瑟提款」沈阳站全新登场",
-      "type": "商品套装",
+      "title": "区域公开赛卡垫「瑟提款」",
+      "type": "卡垫",
       "city": "",
       "address": "",
       "fee": "",
@@ -34926,7 +34841,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "赛事限定商品仅在现场售卖：区域公开赛卡垫「瑟提款」沈阳站全新登场",
+      "generatedTitle": "区域公开赛卡垫「瑟提款」",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "赛事限定商品仅在现场售卖：区域公开赛卡垫「瑟提款」沈阳站全新登场",
       "titleIsManual": false
     },
     {
@@ -34957,8 +34874,8 @@
       "postKeys": [
         "8787:1242671529288794167"
       ],
-      "title": "鸣潮：对决",
-      "type": "补充包",
+      "title": "鸣潮：对决 首发基本卡组及第一弹补充包",
+      "type": "补充包/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -34970,7 +34887,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "鸣潮：对决",
+      "generatedTitle": "鸣潮：对决 首发基本卡组及第一弹补充包",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "鸣潮：对决",
       "titleIsManual": false
     },
     {
@@ -35021,7 +34940,7 @@
       "precision": "day",
       "brand": "携战之境",
       "language": "简中",
-      "title": "携战之境UA冠军锦标赛26-27—北京站详情",
+      "title": "携战之境UA冠军锦标赛26-27—北京站",
       "type": "冠军锦标赛",
       "city": "北京",
       "address": "北京市丰台区潘家庙468号北京新发地农产品博览中心会议一层中心1010号",
@@ -35054,7 +34973,8 @@
         "manual-event-ua-beijing-2026-09-13",
         "8787:1239965650481315842"
       ],
-      "generatedTitle": "携战之境UA冠军锦标赛26-27—北京站详情",
+      "generatedTitle": "携战之境UA冠军锦标赛26-27—北京站",
+      "originalTitle": "携战之境UA冠军锦标赛26-27—北京站详情",
       "titleIsManual": false
     },
     {
@@ -35066,7 +34986,7 @@
       "precision": "day",
       "brand": "一决三国",
       "language": "简中",
-      "title": "烽火连城丨9月2日广州站报名正式开启！",
+      "title": "一决三国 烽火连城城市巡回赛·广州站",
       "type": "大型赛事",
       "city": "广州",
       "address": "广东省广州市海珠区琶洲街道阅江中路380号广交会展馆D20.2",
@@ -35099,7 +35019,9 @@
         "manual-event-sanguo-guangzhou-2026-09-13",
         "8787:1243305417021325318"
       ],
-      "generatedTitle": "烽火连城丨9月2日广州站报名正式开启！",
+      "generatedTitle": "一决三国 烽火连城城市巡回赛·广州站",
+      "titleAuditReason": "正文区分报名日期和赛事名称，去掉9月2日报名宣传标题。",
+      "originalTitle": "烽火连城丨9月2日广州站报名正式开启！",
       "titleIsManual": false
     },
     {
@@ -35111,7 +35033,7 @@
       "precision": "day",
       "brand": "影之诗",
       "language": "简中",
-      "title": "【深圳站】《影之诗：进化对决》城市赛9月赛事再燃！",
+      "title": "【深圳站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "深圳",
       "address": "深圳市南山区后海滨路3288号深圳湾后海汇二楼中庭",
@@ -35144,7 +35066,8 @@
         "manual-event-shadowverse-shenzhen-2026-09-13",
         "8787:1243058866619416597"
       ],
-      "generatedTitle": "【深圳站】《影之诗：进化对决》城市赛9月赛事再燃！",
+      "generatedTitle": "【深圳站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【深圳站】《影之诗：进化对决》城市赛9月赛事再燃！",
       "titleIsManual": false
     },
     {
@@ -35425,11 +35348,11 @@
       "status": "draft",
       "publishedAt": "",
       "image": "",
-      "excerpt": "#热点资讯##宝可梦# 30周年纪念周边商品已到货！快来和“最初的3只伙伴宝可梦”一起旅行吧！ 有带有宝可梦卡的钥匙扣和各种包装卡。 实际产品配对和类型可能与预览图像有所不同。 推出带有钥匙扣的商品套装，庆祝宝可梦集换式卡牌游戏诞生 30 周年！该套装包括带有以下图画的 AR 卡每个地区特别抽取的“前 3 名同伴宝可梦”1 张（共 27 种）扩展套装卡 1 包“30th CELEBRATION”和一个宝可梦卡钥匙扣，您可以将其放入您的伙",
+      "excerpt": "#热点资讯##宝可梦# 30周年纪念周边商品已到货！快来和“最初的3只伙伴宝可梦”一起旅行吧！ 有带有宝可梦卡的钥匙扣和各种包装卡。 实际产品配对和类型可能与预览图像有所不同。 推出带有钥匙扣的商品套装，庆祝宝可梦集换式卡牌游戏诞生 30 周年！该套装包括带有以下图画的 AR 卡每个地区特别抽取的“前 3 名伙伴宝可梦”（共 27 只）扩展套装卡 1 包“30th CELEBRATION”和一个宝可梦卡钥匙扣，您可以将其放入伙伴宝可梦卡",
       "postKeys": [
         "8877:1fc6929578bf90c5"
       ],
-      "title": "最初的3只伙伴宝可梦",
+      "title": "宝可梦30周年庆典 卡牌钥匙扣套装",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -35442,7 +35365,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "最初的3只伙伴宝可梦",
+      "generatedTitle": "宝可梦30周年庆典 卡牌钥匙扣套装",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "最初的3只伙伴宝可梦",
       "titleIsManual": false
     },
     {
@@ -35574,50 +35499,6 @@
     },
     {
       "sourceType": "news",
-      "id": "product:其他:2026-09-18:创造2个runechant",
-      "kind": "product",
-      "date": "2026-09-18",
-      "endDate": "2026-09-24",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "其他",
-      "sourceName": "赤魂战纪FAB",
-      "sourceUrl": "https://www.bilibili.com/opus/1248500611646750837",
-      "sources": [
-        {
-          "type": "news",
-          "name": "赤魂战纪FAB",
-          "url": "https://www.bilibili.com/opus/1248500611646750837"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "draft",
-      "publishedAt": "2026-09-16",
-      "image": "",
-      "excerpt": "#热点资讯##赤魂战纪# 随着Viserai重返拉瑟展开征服，天色渐暗！9月18日至24日，全球各地的卡牌店将举办新系列售前赛，快加入暗影军团，夺取禁忌之力吧。你将获得特别Promo卡、新系列补充包，最棒的是——你甚至不需要自带卡组！本指南将详细介绍售前组合的具体内容、如何构建现开套牌，以及如何操控每位全新的暗影英雄！ 成为暗影之主……坐上你的宝座吧！ 让我们先从售前组合开始。每位报名售前赛的牌手都会获得一套，其中包含8包《Usurp ",
-      "postKeys": [
-        "8787:1248500611646750837"
-      ],
-      "title": "创造2个Runechant",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 80,
-      "reason": "9月18日至24日",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "创造2个Runechant",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
       "id": "product:游戏王:2026-09-18:vjump2026年11月号",
       "kind": "product",
       "date": "2026-09-18",
@@ -35668,8 +35549,8 @@
       "endDate": "2026-09-19",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 君临的头条明星",
-      "type": "补充包",
+      "title": "决斗者卡套 通用背面 银色 （镭射版）",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -35699,7 +35580,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 君临的头条明星",
+      "generatedTitle": "决斗者卡套 通用背面 银色 （镭射版）",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 君臨のヘッドライナー",
       "titleIsManual": false
     },
@@ -35798,7 +35680,7 @@
       "precision": "day",
       "brand": "航海王",
       "language": "简中",
-      "title": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 广州站启动！",
+      "title": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 广州站",
       "type": "大型赛事",
       "city": "广州",
       "address": "广东省广州市天河区兴华路38号广州南洋长胜酒店长胜厅",
@@ -35831,7 +35713,8 @@
         "manual-event-op-guangzhou-2026-09-25",
         "8787:1244047587360636933"
       ],
-      "generatedTitle": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 广州站启动！",
+      "generatedTitle": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 广州站",
+      "originalTitle": "《航海王卡牌对战》“ Championship26-27 Season2 秋季3on3” 广州站启动！",
       "titleIsManual": false
     },
     {
@@ -35898,7 +35781,7 @@
         "8787:1249723386639155281",
         "8787:1249026422977069056"
       ],
-      "title": "公主连结Re:Dive",
+      "title": "补充包「公主连结Re:Dive」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -35911,7 +35794,7 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "公主连结Re:Dive",
+      "generatedTitle": "补充包「公主连结Re:Dive」",
       "titleIsManual": false
     },
     {
@@ -35942,7 +35825,7 @@
       "postKeys": [
         "8787:1250436018355568664"
       ],
-      "title": "补充包《公主连结Re:Dive》上市",
+      "title": "补充包《公主连结Re:Dive》",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -35955,7 +35838,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "补充包《公主连结Re:Dive》上市",
+      "generatedTitle": "补充包《公主连结Re:Dive》",
+      "originalTitle": "补充包《公主连结Re:Dive》上市",
       "titleIsManual": false
     },
     {
@@ -36516,8 +36400,8 @@
       "endDate": "2026-09-26",
       "precision": "day",
       "brand": "高达",
-      "title": "オフィシャルダメージカウンターダイス -ハロ-[EVX08]",
-      "type": "商品",
+      "title": "官方伤害计数骰子 哈罗【EVX08】",
+      "type": "骰子",
       "city": "",
       "address": "",
       "fee": "",
@@ -36547,51 +36431,9 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "オフィシャルダメージカウンターダイス -ハロ-[EVX08]",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:游戏王:2026-09-26:悪魔城ドラキュラ",
-      "kind": "product",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "游戏王",
-      "sourceName": "NW游戏王区",
-      "sourceUrl": "https://www.bilibili.com/opus/1247877807029092360",
-      "sources": [
-        {
-          "type": "news",
-          "name": "NW游戏王区",
-          "url": "https://www.bilibili.com/opus/1247877807029092360"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "draft",
-      "publishedAt": "2026-09-14",
-      "image": "",
-      "excerpt": "#热点资讯##游戏王# 今年是科乐美本家游戏「悪魔城ドラキュラ」《恶魔城》系列诞生40周年系列首作《恶魔城》于1986年9月26日在FC磁碟机平台发售 「鬼计妖魔·阿鲁卡德」在「悪魔城ドラキュラX 月下の夜想曲」里也登场了作为德古拉伯爵之子的阿鲁卡多 「吸血鬼杀手」也是以恶魔城的内容为原型的怪兽。跟鬼计同为SHSP<806>同卡包登场同为科乐美本家游戏「大盗五右卫」同为40周年，OCG和RD都有推出相关联动卡。RV02有鬼计主题应该是有",
-      "postKeys": [
-        "8787:1247877807029092360"
-      ],
-      "title": "悪魔城ドラキュラ",
-      "type": "商品",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "9月26日",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "悪魔城ドラキュラ",
+      "generatedTitle": "官方伤害计数骰子 哈罗【EVX08】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "オフィシャルダメージカウンターダイス -ハロ-[EVX08]",
       "titleIsManual": false
     },
     {
@@ -36628,7 +36470,7 @@
         "8787:1251113667573841925",
         "8787:1247000572838543369"
       ],
-      "title": "符文战场：英雄联盟对战卡牌",
+      "title": "符文战场一周年纪念套装",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -36641,51 +36483,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "符文战场：英雄联盟对战卡牌",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:宝可梦:2026-09-30:deluxepackmega",
-      "kind": "product",
-      "date": "2026-09-30",
-      "endDate": "2026-09-30",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "宝可梦",
-      "sourceName": "宝可梦（英）论坛",
-      "sourceUrl": "https://www.pokebeach.com/2026/09/all-429-deluxe-pack-mega-cards-revealed-for-pocket",
-      "sources": [
-        {
-          "type": "news",
-          "name": "宝可梦（英）论坛",
-          "url": "https://www.pokebeach.com/2026/09/all-429-deluxe-pack-mega-cards-revealed-for-pocket"
-        }
-      ],
-      "backendPort": 8877,
-      "status": "draft",
-      "publishedAt": "2026-09-29",
-      "image": "",
-      "excerpt": "#热点资讯##宝可梦# Pokemon TCG Pocket 的新更新揭示了 Deluxe Pack Mega 中的所有卡牌！该套装将于 9 月 30 日至 10 月 29 日限时发售。该套装包含 429 张卡片，其中大部分是重印的。然而，有些具有新的、替代的艺术作品。还有几张平行的箔卡。该套装的每包将包含四张卡片，其中至少一张保证具有或更高的稀有度。这将是最后一套 B 系列。",
-      "postKeys": [
-        "8877:4aa3f8559141769a"
-      ],
-      "title": "Deluxe Pack Mega",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "9 月 30 日至 10 ",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "Deluxe Pack Mega",
+      "generatedTitle": "符文战场一周年纪念套装",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "符文战场：英雄联盟对战卡牌",
       "titleIsManual": false
     },
     {
@@ -36985,7 +36785,7 @@
       "endDate": "2026-10-02",
       "precision": "day",
       "brand": "影之诗",
-      "title": "补充包 补充包「Over the Calamity/Over the Calamity」",
+      "title": "补充包「Over the Calamity」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -37016,7 +36816,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 补充包「Over the Calamity/Over the Calamity」",
+      "generatedTitle": "补充包「Over the Calamity」",
       "originalTitle": "ブースターパック ブースターパック「Over the Calamity/オーバー・ザ・カラミティ」",
       "titleIsManual": false
     },
@@ -37072,7 +36872,7 @@
       "time": "12:00",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【武汉站】《影之诗：进化对决》城市赛10月赛事更新！",
+      "title": "【武汉站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "武汉",
       "address": "湖北省武汉市江汉区武汉范湖万达广场2楼中庭",
@@ -37104,7 +36904,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【武汉站】《影之诗：进化对决》城市赛10月赛事更新！",
+      "generatedTitle": "【武汉站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【武汉站】《影之诗：进化对决》城市赛10月赛事更新！",
       "titleIsManual": false
     },
     {
@@ -37207,8 +37008,8 @@
       "endDate": "2026-10-03",
       "precision": "day",
       "brand": "数码宝贝",
-      "title": "数码宝贝卡牌 TAMER’S SELECTION BOX Ver.X Anti",
-      "type": "商品",
+      "title": "额外补充包 CHIVALROUS XIII【EX-13】",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -37238,7 +37039,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "数码宝贝卡牌 TAMER’S SELECTION BOX Ver.X Anti",
+      "generatedTitle": "额外补充包 CHIVALROUS XIII【EX-13】",
+      "titleAuditReason": "核对官网详情页标题或卡表标题，修正占位或相邻商品错配。",
       "originalTitle": "デジモンカードゲーム TAMER’S SELECTION BOX Ver.X Anti",
       "titleIsManual": false
     },
@@ -37384,7 +37186,7 @@
         "8787:1227868980325122085",
         "official:vg:a15c0b46"
       ],
-      "title": "补充包【VG-DZ-BT17】 补充包「命运星战」",
+      "title": "补充包【VG-DZ-BT17】「命运星战」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -37398,7 +37200,7 @@
         "news",
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-BT17】 补充包「命运星战」",
+      "generatedTitle": "补充包【VG-DZ-BT17】「命运星战」",
       "originalTitle": "ブースターパック 【VG-DZ-BT17】 ブースターパック「運命星戦(うんめいせいせん)」",
       "titleIsManual": false
     },
@@ -37662,8 +37464,8 @@
       "postKeys": [
         "8787:1257146397978787895"
       ],
-      "title": "第六灾杰·艾斯迪亚",
-      "type": "商品套装",
+      "title": "影之诗：进化对决 入门牌组（6款）",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
@@ -37675,7 +37477,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "第六灾杰·艾斯迪亚",
+      "generatedTitle": "影之诗：进化对决 入门牌组（6款）",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "第六灾杰·艾斯迪亚",
       "titleIsManual": false
     },
     {
@@ -37998,7 +37802,7 @@
       "time": "14:30",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【南宁站】《影之诗：进化对决》城市赛10月赛事再燃！",
+      "title": "【南宁站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "南宁",
       "address": "广西藏族自治区南宁市西乡塘区友爱北路11-1号希岸酒店会议厅",
@@ -38030,7 +37834,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【南宁站】《影之诗：进化对决》城市赛10月赛事再燃！",
+      "generatedTitle": "【南宁站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【南宁站】《影之诗：进化对决》城市赛10月赛事再燃！",
       "titleIsManual": false
     },
     {
@@ -38085,8 +37890,8 @@
       "endDate": "2026-10-17",
       "precision": "day",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 逆札篇第3弾勝敵！逆転おこせ鬼の∞ディスペクター!!",
-      "type": "商品",
+      "title": "切札不滅!! デュエキング FOREVER 2026【DM26-EX4】",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -38116,7 +37921,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 逆札篇第3弾勝敵！逆転おこせ鬼の∞ディスペクター!!",
+      "generatedTitle": "切札不滅!! デュエキング FOREVER 2026【DM26-EX4】",
+      "titleAuditReason": "核对官网详情页标题或卡表标题，修正占位或相邻商品错配。",
       "originalTitle": "デュエル・マスターズTCG 逆札篇第3弾勝敵！逆転おこせ鬼の∞ディスペクター!!",
       "titleIsManual": false
     },
@@ -38128,7 +37934,7 @@
       "endDate": "2026-10-17",
       "precision": "day",
       "brand": "游戏王",
-      "title": "限量包 重制版特别包 限量包 重制版",
+      "title": "限量包 重制版",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -38165,7 +37971,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "限量包 重制版特别包 限量包 重制版",
+      "generatedTitle": "限量包 重制版",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "リミテッドパック リマスターエディション スペシャルパック リミテッドパック リマスターエディション",
       "titleIsManual": false
     },
@@ -38221,7 +38028,7 @@
       "endDate": "2026-10-23",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "补充包【VG-DZ-TBP02】 标题补充包 高级「女神异闻录 30周年」",
+      "title": "补充包【VG-DZ-TBP02】 联动补充包 高级「女神异闻录 30周年」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -38252,7 +38059,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包【VG-DZ-TBP02】 标题补充包 高级「女神异闻录 30周年」",
+      "generatedTitle": "补充包【VG-DZ-TBP02】 联动补充包 高级「女神异闻录 30周年」",
       "originalTitle": "ブースターパック 【VG-DZ-TBP02】 タイトルブースター プレミアム「Persona 30th Anniversary」",
       "titleIsManual": false
     },
@@ -38326,7 +38133,7 @@
         "8787:1251917863731593219",
         "8787:1251548402051710976"
       ],
-      "title": "オーガスト",
+      "title": "WS Rose 补充包「AUGUST」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -38339,7 +38146,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "オーガスト",
+      "generatedTitle": "WS Rose 补充包「AUGUST」",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "补充包「オーガスト」",
       "titleIsManual": false
     },
     {
@@ -38396,7 +38205,7 @@
       "time": "15:00",
       "precision": "day",
       "brand": "影之诗",
-      "title": "超级大奖赛2026-广州站 | 参赛详情介绍",
+      "title": "超级大奖赛2026-广州站",
       "type": "城市赛",
       "city": "广州",
       "address": "广东省广州市环市东路339号广东国际大厦",
@@ -38428,7 +38237,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "超级大奖赛2026-广州站 | 参赛详情介绍",
+      "generatedTitle": "超级大奖赛2026-广州站",
+      "originalTitle": "超级大奖赛2026-广州站 | 参赛详情介绍",
       "titleIsManual": false
     },
     {
@@ -39770,7 +39580,7 @@
         "official:op:8235670b",
         "official:op:8d11ca0d"
       ],
-      "title": "补充包 额外补充包 ONE PIECE Heroines Edition vol.2【EB-05】",
+      "title": "额外补充包 ONE PIECE Heroines Edition vol.2【EB-05】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -39784,7 +39594,7 @@
         "news",
         "official"
       ],
-      "generatedTitle": "补充包 额外补充包 ONE PIECE Heroines Edition vol.2【EB-05】",
+      "generatedTitle": "额外补充包 ONE PIECE Heroines Edition vol.2【EB-05】",
       "originalTitle": "ブースター エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
       "titleIsManual": false
     },
@@ -39945,8 +39755,8 @@
       "postKeys": [
         "8787:1251841147021557765"
       ],
-      "title": "罪宝狩猎之恶魔",
-      "type": "商品套装",
+      "title": "决斗者卡套 THE CHRONICLES 罪宝狩猎之恶魔",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -39958,7 +39768,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "罪宝狩猎之恶魔",
+      "generatedTitle": "决斗者卡套 THE CHRONICLES 罪宝狩猎之恶魔",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "罪宝狩猎之恶魔",
       "titleIsManual": false
     },
     {
@@ -40011,8 +39823,8 @@
       "endDate": "2026-10-31",
       "precision": "day",
       "brand": "游戏王",
-      "title": "デュエリストカードプロテクター THE CHRONICLES 罪宝狩りの悪魔",
-      "type": "商品",
+      "title": "决斗者卡套 THE CHRONICLES 罪宝狩猎之恶魔",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -40042,7 +39854,9 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "デュエリストカードプロテクター THE CHRONICLES 罪宝狩りの悪魔",
+      "generatedTitle": "决斗者卡套 THE CHRONICLES 罪宝狩猎之恶魔",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "デュエリストカードプロテクター THE CHRONICLES 罪宝狩りの悪魔",
       "titleIsManual": false
     },
     {
@@ -40098,7 +39912,7 @@
       "time": "13:00",
       "precision": "day",
       "brand": "影之诗",
-      "title": "【杭州站】《影之诗：进化对决》城市赛11月赛事开启！",
+      "title": "【杭州站】《影之诗：进化对决》城市赛",
       "type": "城市赛",
       "city": "杭州",
       "address": "浙江省杭州市上城区港龙悠乐城4层",
@@ -40130,7 +39944,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "【杭州站】《影之诗：进化对决》城市赛11月赛事开启！",
+      "generatedTitle": "【杭州站】《影之诗：进化对决》城市赛",
+      "originalTitle": "【杭州站】《影之诗：进化对决》城市赛11月赛事开启！",
       "titleIsManual": false
     },
     {
@@ -40220,50 +40035,6 @@
       ],
       "generatedTitle": "正面对决补充包 筹谋",
       "originalTitle": "正面对决补充包筹谋",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:游戏王:2026-11-05:商店更新灵使收藏套装期间限定~11月5日收藏册精灵术的术使桌宠底座大灵术－一轮豪华卡套水灵使艾莉娅&火灵使希塔、",
-      "kind": "product",
-      "date": "2026-11-05",
-      "endDate": "2026-11-05",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "游戏王",
-      "sourceName": "NW游戏王区",
-      "sourceUrl": "https://www.bilibili.com/opus/1256062674669666311",
-      "sources": [
-        {
-          "type": "news",
-          "name": "NW游戏王区",
-          "url": "https://www.bilibili.com/opus/1256062674669666311"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "published",
-      "publishedAt": "2026-10-06",
-      "image": "",
-      "excerpt": "#热点资讯##游戏王##游戏王MASTER DUEL# 商店更新 「灵使」收藏套装期间限定~11月5日收藏册：精灵术的术使桌宠底座：大灵术－「一轮」 豪华卡套：水灵使艾莉娅&火灵使希塔、风灵使薇茵&地灵使奥丝硬币：大灵术－「一轮」 壁纸：精灵术的术使壁纸：凭依觉醒 「狱神」收藏套装期间限定~11月5日头像：神艺学之狱神兽卡套：混绝狱神比托利姆卡盒：开辟的预幻视桌宠底座：神艺学壁纸：无预幻日子的幻象硬币：预幻视",
-      "postKeys": [
-        "8787:1256062674669666311"
-      ],
-      "title": "商店更新 「灵使」收藏套装期间限定~11月5日收藏册：精灵术的术使桌宠底座：大灵术－「一轮」 豪华卡套：水灵使艾莉娅&火灵使希塔、",
-      "type": "商品套装",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 80,
-      "reason": "11月5日",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "商店更新 「灵使」收藏套装期间限定~11月5日收藏册：精灵术的术使桌宠底座：大灵术－「一轮」 豪华卡套：水灵使艾莉娅&火灵使希塔、",
       "titleIsManual": false
     },
     {
@@ -40493,7 +40264,7 @@
       "time": "10:40",
       "precision": "day",
       "brand": "航海王",
-      "title": "《航海王卡牌对战》“四周年纪念赛广州站”信息公开！",
+      "title": "《航海王卡牌对战》“四周年纪念赛广州站”",
       "type": "赛事",
       "city": "广州",
       "address": "广东省广州市番禺区榄塘路139号广州希岸Deluxe酒店",
@@ -40525,7 +40296,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "《航海王卡牌对战》“四周年纪念赛广州站”信息公开！",
+      "generatedTitle": "《航海王卡牌对战》“四周年纪念赛广州站”",
+      "originalTitle": "《航海王卡牌对战》“四周年纪念赛广州站”信息公开！",
       "titleIsManual": false
     },
     {
@@ -40537,7 +40309,7 @@
       "time": "10:30",
       "precision": "day",
       "brand": "数码宝贝",
-      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季北京站情报公开",
+      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季北京站",
       "type": "赛事",
       "city": "北京",
       "address": "北京市丰台区太平桥街道西站南路2号北京西站希尔顿惠庭酒店",
@@ -40569,7 +40341,8 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季北京站情报公开",
+      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季北京站",
+      "originalTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季北京站情报公开",
       "titleIsManual": false
     },
     {
@@ -40643,7 +40416,7 @@
       "postKeys": [
         "8787:1254376135491321864"
       ],
-      "title": "PB04",
+      "title": "豪华周边套装 机动新世纪高达X【PB04】",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -40656,7 +40429,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "PB04",
+      "generatedTitle": "豪华周边套装 机动新世纪高达X【PB04】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "高达卡牌对战 豪华周边套装 机动新世纪高达X【PB04】",
       "titleIsManual": false
     },
     {
@@ -40791,7 +40566,7 @@
         "8787:1257118076988555288",
         "8787:1257116818521194550"
       ],
-      "title": "PB-28",
+      "title": "PREMIUM BATTLE SET Ver.Seven Great Demon Lords【PB-28】",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -40804,7 +40579,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "PB-28",
+      "generatedTitle": "PREMIUM BATTLE SET Ver.Seven Great Demon Lords【PB-28】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "数码宝贝卡牌对战 PREMIUM BATTLE SET Ver.Seven Great Demon Lords【PB-28】",
       "titleIsManual": false
     },
     {
@@ -41080,7 +40857,7 @@
       "endDate": "2026-11-27",
       "precision": "day",
       "brand": "影之诗",
-      "title": "补充包 联动包「碧蓝幻想」",
+      "title": "联动包「碧蓝幻想」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -41111,7 +40888,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 联动包「碧蓝幻想」",
+      "generatedTitle": "联动包「碧蓝幻想」",
       "originalTitle": "ブースターパック コラボパック「グランブルーファンタジー」",
       "titleIsManual": false
     },
@@ -41316,8 +41093,8 @@
       "postKeys": [
         "8787:1257048562894635009"
       ],
-      "title": "礼盒「命运相会」11月重磅发售",
-      "type": "商品套装",
+      "title": "蜘蛛侠主题礼盒「命运相会」【CB01】",
+      "type": "礼盒",
       "city": "",
       "address": "",
       "fee": "",
@@ -41329,7 +41106,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "礼盒「命运相会」11月重磅发售",
+      "generatedTitle": "蜘蛛侠主题礼盒「命运相会」【CB01】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "礼盒「命运相会」11月重磅发售",
       "titleIsManual": false
     },
     {
@@ -41534,8 +41313,8 @@
       "postKeys": [
         "8787:1252183425834549271"
       ],
-      "title": "塞尼特纳赫特·斯芬克斯",
-      "type": "商品",
+      "title": "Glorious Victors (Tuck) Box（欧版）",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -41547,52 +41326,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "塞尼特纳赫特·斯芬克斯",
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:宝可梦:2026-12-04:补充包将包含五张箔卡包括30张皮卡丘中的一张。它们还将包括一张基本能量箔和一张pokemontcglive密码卡。补充包只能在特殊产品中找到，详情如下。您无法正式购",
-      "kind": "product",
-      "date": "2026-12-04",
-      "endDate": "2026-12-04",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "宝可梦",
-      "sourceName": "宝可梦（英）论坛",
-      "sourceUrl": "https://www.pokebeach.com/2026/09/30th-celebration-english-set-guide-full-card-list-products-store-promotions-and-more",
-      "sources": [
-        {
-          "type": "news",
-          "name": "宝可梦（英）论坛",
-          "url": "https://www.pokebeach.com/2026/09/30th-celebration-english-set-guide-full-card-list-products-store-promotions-and-more"
-        }
-      ],
-      "backendPort": 8877,
-      "status": "draft",
-      "publishedAt": "2026-09-11",
-      "image": "",
-      "excerpt": "#热点资讯##宝可梦# TPCi正式公开了30周年庆典的大部分卡牌图片！该套装将于下周三（9 月 16 日）全球发布。一些秘密稀有物品尚未透露。它们用下面的空白卡片标注。这些卡片将于下周揭晓。我们的英文套装是日本 30 周年庆典套装及其相关“Espeon ex 和 Umbreon ex 30 周年庆典高级套牌套装”的卡片组合。有些卡片还被变成了英文产品的宣传片。我们的套装包含 199 张卡片：其中包括 128 张主套装卡片（包括 30 ",
-      "postKeys": [
-        "8877:4d441364a12d564e"
-      ],
-      "title": "补充包 将包含五张箔卡（包括 30 张皮卡丘中的一张）。它们还将包括一张基本能量箔和一张 Pokemon TCG Live 密码卡。补充包 只能在特殊产品中找到，详情如下。您无法正式购",
-      "type": "商品套装",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "12 月 4 日",
-      "postCount": 1,
-      "sourceTypes": [
-        "news"
-      ],
-      "generatedTitle": "补充包 将包含五张箔卡（包括 30 张皮卡丘中的一张）。它们还将包括一张基本能量箔和一张 Pokemon TCG Live 密码卡。补充包 只能在特殊产品中找到，详情如下。您无法正式购",
-      "originalTitle": "补充包将包含五张箔卡（包括 30 张皮卡丘中的一张）。它们还将包括一张基本能量箔和一张 Pokemon TCG Live 密码卡。补充包只能在特殊产品中找到，详情如下。您无法正式购",
+      "generatedTitle": "Glorious Victors (Tuck) Box（欧版）",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "塞尼特纳赫特·斯芬克斯",
       "titleIsManual": false
     },
     {
@@ -41603,7 +41339,7 @@
       "endDate": "2026-12-04",
       "precision": "day",
       "brand": "卡片战斗先导者",
-      "title": "构筑预组【VG-DZ-SS22】 特别系列「ランダムマスターデッキ 26人の先導者(せんどうしゃ)」",
+      "title": "构筑预组【VG-DZ-SS22】 特别系列「ランダムマスターデッキ 26人の先導者」",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -41634,7 +41370,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "构筑预组【VG-DZ-SS22】 特别系列「ランダムマスターデッキ 26人の先導者(せんどうしゃ)」",
+      "generatedTitle": "构筑预组【VG-DZ-SS22】 特别系列「ランダムマスターデッキ 26人の先導者」",
       "originalTitle": "構築済みデッキ 【VG-DZ-SS22】 スペシャルシリーズ「ランダムマスターデッキ 26人の先導者(せんどうしゃ)」",
       "titleIsManual": false
     },
@@ -41876,7 +41612,7 @@
       "endDate": "2026-12-11",
       "precision": "day",
       "brand": "UA",
-      "title": "NEW CARD SELECTION 我的英雄学院",
+      "title": "新卡精选 我的英雄学院",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -41907,7 +41643,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "NEW CARD SELECTION 我的英雄学院",
+      "generatedTitle": "新卡精选 我的英雄学院",
       "originalTitle": "NEW CARD SELECTION 僕のヒーローアカデミア",
       "titleIsManual": false
     },
@@ -42068,7 +41804,7 @@
       "postKeys": [
         "8787:1245180868227497991"
       ],
-      "title": "2026/12/19 Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS 10th ANNIVERSARY MOVIE BOX",
+      "title": "Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS 10th ANNIVERSARY MOVIE BOX",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -42081,7 +41817,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "2026/12/19 Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS 10th ANNIVERSARY MOVIE BOX",
+      "generatedTitle": "Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS 10th ANNIVERSARY MOVIE BOX",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "2026/12/19 Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS 10th ANNIVERSARY MOVIE BOX",
       "titleIsManual": false
     },
     {
@@ -42092,8 +41830,8 @@
       "endDate": "2026-12-19",
       "precision": "day",
       "brand": "游戏王",
-      "title": "基本包 热情 Jointech",
-      "type": "补充包",
+      "title": "希望のリーチェ 决斗套装",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -42123,7 +41861,8 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "基本包 热情 Jointech",
+      "generatedTitle": "希望のリーチェ 决斗套装",
+      "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 情熱のジョインテック",
       "titleIsManual": false
     },
@@ -42221,7 +41960,7 @@
       "endDate": "2026-12-25",
       "precision": "day",
       "brand": "WS黑白双翼",
-      "title": "补充包 アズールレーン Vol.3",
+      "title": "补充包 碧蓝航线 Vol.3",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42252,7 +41991,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 アズールレーン Vol.3",
+      "generatedTitle": "补充包 碧蓝航线 Vol.3",
       "originalTitle": "ブースターパック アズールレーン Vol.3",
       "titleIsManual": false
     },
@@ -42396,7 +42135,7 @@
       "endDate": "2027-01-15",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 いちご100%【UA60BT】",
+      "title": "补充包 草莓100%【UA60BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42427,7 +42166,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 いちご100%【UA60BT】",
+      "generatedTitle": "补充包 草莓100%【UA60BT】",
       "originalTitle": "ブースターパック いちご100%【UA60BT】",
       "titleIsManual": false
     },
@@ -42439,7 +42178,7 @@
       "endDate": "2027-01-15",
       "precision": "day",
       "brand": "WS黑白双翼",
-      "title": "补充包 新日本プロレス×AEW：Forbidden Door",
+      "title": "补充包 新日本职业摔角×AEW：Forbidden Door",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42470,7 +42209,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 新日本プロレス×AEW：Forbidden Door",
+      "generatedTitle": "补充包 新日本职业摔角×AEW：Forbidden Door",
       "originalTitle": "ブースターパック 新日本プロレス×AEW：Forbidden Door",
       "titleIsManual": false
     },
@@ -42531,7 +42270,7 @@
       "endDate": "2027-01-22",
       "precision": "day",
       "brand": "WS黑白双翼",
-      "title": "高级补充包 お兄ちゃんはおしまい！",
+      "title": "高级补充包 别当欧尼酱了！",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42562,7 +42301,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "高级补充包 お兄ちゃんはおしまい！",
+      "generatedTitle": "高级补充包 别当欧尼酱了！",
       "originalTitle": "プレミアムブースター お兄ちゃんはおしまい！",
       "titleIsManual": false
     },
@@ -42594,8 +42333,8 @@
       "postKeys": [
         "8787:1245197996551831554"
       ],
-      "title": "邪恶双子",
-      "type": "商品套装",
+      "title": "决斗者卡套 THE CHRONICLES 邪恶★双子",
+      "type": "卡套",
       "city": "",
       "address": "",
       "fee": "",
@@ -42607,7 +42346,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "邪恶双子",
+      "generatedTitle": "决斗者卡套 THE CHRONICLES 邪恶★双子",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "邪恶双子",
       "titleIsManual": false
     },
     {
@@ -42638,7 +42379,7 @@
       "postKeys": [
         "8787:1245186473144090656"
       ],
-      "title": "骄傲与灵魂",
+      "title": "补充包 PRIDE AND SOUL（骄傲与灵魂）",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42651,7 +42392,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "骄傲与灵魂",
+      "generatedTitle": "补充包 PRIDE AND SOUL（骄傲与灵魂）",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "骄傲与灵魂",
       "titleIsManual": false
     },
     {
@@ -42662,7 +42405,7 @@
       "endDate": "2027-01-29",
       "precision": "day",
       "brand": "影之诗",
-      "title": "补充包 补充包「舞い踊る六華」",
+      "title": "补充包「舞い踊る六華」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42693,7 +42436,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 补充包「舞い踊る六華」",
+      "generatedTitle": "补充包「舞い踊る六華」",
       "originalTitle": "ブースターパック ブースターパック「舞い踊る六華」",
       "titleIsManual": false
     },
@@ -42705,7 +42448,7 @@
       "endDate": "2027-01-29",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包 魔法科高校の劣等生【UA61BT】",
+      "title": "补充包 魔法科高校的劣等生【UA61BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42736,7 +42479,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包 魔法科高校の劣等生【UA61BT】",
+      "generatedTitle": "补充包 魔法科高校的劣等生【UA61BT】",
       "originalTitle": "ブースターパック 魔法科高校の劣等生 【UA61BT】",
       "titleIsManual": false
     },
@@ -42815,7 +42558,7 @@
       "endDate": "2027-01-31",
       "precision": "month",
       "brand": "决斗大师",
-      "title": "决斗大师TCG 神アート絆 デュエマ×マジック：ザ・ギャザリング「ドミナリアへの招待」",
+      "title": "决斗大师TCG 神艺术絆 デュエマ×マジック：ザ・ギャザリング「ドミナリアへの招待」",
       "type": "商品",
       "city": "",
       "address": "",
@@ -42846,7 +42589,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "决斗大师TCG 神アート絆 デュエマ×マジック：ザ・ギャザリング「ドミナリアへの招待」",
+      "generatedTitle": "决斗大师TCG 神艺术絆 デュエマ×マジック：ザ・ギャザリング「ドミナリアへの招待」",
       "originalTitle": "デュエル・マスターズTCG 神アート絆 デュエマ×マジック：ザ・ギャザリング「ドミナリアへの招待」",
       "titleIsManual": false
     },
@@ -42901,7 +42644,7 @@
       "endDate": "2027-02-12",
       "precision": "day",
       "brand": "UA",
-      "title": "起始卡组 『ジョジョの奇妙な冒険』系列【UA62ST】",
+      "title": "起始卡组 『JOJO的奇妙冒险』系列【UA62ST】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -42932,7 +42675,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "起始卡组 『ジョジョの奇妙な冒険』系列【UA62ST】",
+      "generatedTitle": "起始卡组 『JOJO的奇妙冒险』系列【UA62ST】",
       "originalTitle": "スタートデッキ 『ジョジョの奇妙な冒険』シリーズ【UA62ST】",
       "titleIsManual": false
     },
@@ -42944,7 +42687,7 @@
       "endDate": "2027-02-12",
       "precision": "day",
       "brand": "UA",
-      "title": "补充包『ジョジョの奇妙な冒険』系列【UA62BT】",
+      "title": "补充包『JOJO的奇妙冒险』系列【UA62BT】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -42975,7 +42718,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "补充包『ジョジョの奇妙な冒険』系列【UA62BT】",
+      "generatedTitle": "补充包『JOJO的奇妙冒险』系列【UA62BT】",
       "originalTitle": "ブースターパック 『ジョジョの奇妙な冒険』シリーズ【UA62BT】",
       "titleIsManual": false
     },
@@ -43007,7 +42750,7 @@
       "postKeys": [
         "8787:1255554227800899586"
       ],
-      "title": "雾岛露美安",
+      "title": "补充包 合奏之精灵义贼【KP28】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -43020,7 +42763,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "雾岛露美安",
+      "generatedTitle": "补充包 合奏之精灵义贼【KP28】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "雾岛露美安",
       "titleIsManual": false
     },
     {
@@ -43051,8 +42796,8 @@
       "postKeys": [
         "8877:2bb62467bd89a865"
       ],
-      "title": "现在可以透露 MEGA x MEGA Parade ( MEGA x MEGA パreード )",
-      "type": "构筑/预组",
+      "title": "高级补充包 MEGA x MEGA Parade",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -43064,7 +42809,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "现在可以透露 MEGA x MEGA Parade ( MEGA x MEGA パreード )",
+      "generatedTitle": "高级补充包 MEGA x MEGA Parade",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "现在可以透露 MEGA x MEGA Parade ( MEGA x MEGA パreード )",
       "titleIsManual": false
     },
     {
@@ -43095,7 +42842,7 @@
       "postKeys": [
         "8787:1257143801672106034"
       ],
-      "title": "机动战士高达",
+      "title": "特别补充包 Cosmic Crisis【EB02】",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -43108,7 +42855,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "机动战士高达",
+      "generatedTitle": "特别补充包 Cosmic Crisis【EB02】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "机动战士高达",
       "titleIsManual": false
     },
     {
@@ -43139,8 +42888,8 @@
       "postKeys": [
         "8787:1255569822886920201"
       ],
-      "title": "历代终局怪兽、名场面",
-      "type": "商品",
+      "title": "RARITY COLLECTION -CLIMAX SCENE EDITION-",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -43152,7 +42901,9 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "历代终局怪兽、名场面",
+      "generatedTitle": "RARITY COLLECTION -CLIMAX SCENE EDITION-",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "历代终局怪兽、名场面",
       "titleIsManual": false
     },
     {
@@ -43227,7 +42978,7 @@
       "postKeys": [
         "8787:1232180603480178696"
       ],
-      "title": "PB26限定商品",
+      "title": "TAMER'S SELECTION BOX Ver.X Antibody【PB-26】",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -43240,14 +42991,16 @@
       "sourceTypes": [
         "news"
       ],
-      "generatedTitle": "PB26限定商品",
+      "generatedTitle": "TAMER'S SELECTION BOX Ver.X Antibody【PB-26】",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "数码宝贝卡牌对战 TAMER'S SELECTION BOX Ver.X Antibody 【PB-26】",
       "titleIsManual": false
     }
   ],
   "pagination": {
     "page": 1,
-    "pageSize": 882,
-    "total": 882,
+    "pageSize": 872,
+    "total": 872,
     "totalPages": 1
   }
 }

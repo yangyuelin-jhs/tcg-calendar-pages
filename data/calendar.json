@@ -1206,7 +1206,7 @@
       "endDate": "2020-04-24",
       "precision": "day",
       "brand": "数码宝贝",
-      "title": "构筑预组 数码宝贝卡牌 起始卡组 ガイア红色【ST-1】",
+      "title": "构筑预组 数码宝贝卡牌 起始卡组 ガイアレッド【ST-1】",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -1237,7 +1237,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "构筑预组 数码宝贝卡牌 起始卡组 ガイア红色【ST-1】",
+      "generatedTitle": "构筑预组 数码宝贝卡牌 起始卡组 ガイアレッド【ST-1】",
       "originalTitle": "構築済みデッキ デジモンカードゲーム スタートデッキ ガイアレッド【ST-1】",
       "titleIsManual": false
     },
@@ -1595,7 +1595,7 @@
       "endDate": "2020-12-12",
       "precision": "day",
       "brand": "游戏王",
-      "title": "超量超绝强化包",
+      "title": "Maximum超绝强化包",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -1626,7 +1626,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "超量超绝强化包",
+      "generatedTitle": "Maximum超绝强化包",
       "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック デッキ改造パック 幻撃のミラージュインパクト!!",
       "titleIsManual": false
@@ -10579,7 +10579,7 @@
       "endDate": "2023-11-11",
       "precision": "day",
       "brand": "游戏王",
-      "title": "闇黒の红色リブート",
+      "title": "闇黒のレッドリブート",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -10610,7 +10610,7 @@
       "sourceTypes": [
         "official"
       ],
-      "generatedTitle": "闇黒の红色リブート",
+      "generatedTitle": "闇黒のレッドリブート",
       "titleAuditReason": "按链接对应详情页标题或精确商品锚点核实，避免读到相邻商品。",
       "originalTitle": "基本パック 闇黒のレッドリブート",
       "titleIsManual": false
@@ -38133,7 +38133,7 @@
         "8787:1251917863731593219",
         "8787:1251548402051710976"
       ],
-      "title": "WS Rose 补充包「AUGUST」",
+      "title": "Weiß Schwarz Rose|黑白双翼Rose 补充包「オーガスト」",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -38149,7 +38149,7 @@
       "generatedTitle": "WS Rose 补充包「AUGUST」",
       "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
       "originalTitle": "补充包「オーガスト」",
-      "titleIsManual": false
+      "titleIsManual": true
     },
     {
       "id": "event:航海王:2026-10-24:航海王卡牌对战四周年纪念赛上海站信息公开！",

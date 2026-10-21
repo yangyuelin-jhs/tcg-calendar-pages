@@ -1,4 +1,4 @@
-import { initTags, tagMarkup, refreshTags, displayItem, titleEditMarkup } from './tag-ui.js?v=1792562267623';
+import { initTags, tagMarkup, refreshTags, displayItem, titleEditMarkup } from './tag-ui.js?v=1792577074080';
 
 const initialMonth = new Date();
 initialMonth.setHours(0, 0, 0, 0);
@@ -407,8 +407,8 @@ function alignVisibleMonthToData() {
 function defaultThumb(kind, sourceType = "news") {
   const fill = kind === "event" ? "#e8eef9" : sourceType === "official" ? "#e9f7f0" : "#fff4df";
   const ink = kind === "event" ? "#28519a" : sourceType === "official" ? "#13715a" : "#9b5b00";
-  const text = kind === "event" ? "EVENT" : sourceType === "official" ? "OFFICIAL" : "NEWS";
-  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260"><rect width="420" height="260" fill="${fill}"/><text x="28" y="146" font-family="Arial" font-size="38" fill="${ink}">${text}</text></svg>`)}`;
+  const text = kind === "event" ? "赛事" : sourceType === "official" ? "官网" : "新闻";
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260"><rect width="420" height="260" fill="${fill}"/><text x="28" y="146" font-family="Microsoft YaHei, sans-serif" font-size="38" fill="${ink}">${text}</text></svg>`)}`;
 }
 
 async function loadData(options = {}) {

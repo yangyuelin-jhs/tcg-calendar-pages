@@ -1,5 +1,5 @@
-import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags, saveRemoteTitle } from './tag-sync.js?v=1792562267623';
-import { manualIdentity, manualRecord, applyManualTitle } from './manual-overrides.js?v=1792562267623';
+import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags, saveRemoteTitle } from './tag-sync.js?v=1792577074080';
+import { manualIdentity, manualRecord, applyManualTitle } from './manual-overrides.js?v=1792577074080';
 
 const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 const isStatic = Boolean(window.CALENDAR_STATIC_DATA_URL);
@@ -240,7 +240,7 @@ export function initTags({ findItem, update }) {
     <dialog id="tagAuthDialog" class="tagDialog" aria-labelledby="tagAuthHeading">
       <div class="tagDialogHead"><h2 id="tagAuthHeading">连接 GitHub</h2><button type="button" id="closeTagAuth" class="tagIconBtn" title="关闭" aria-label="关闭授权">&times;</button></div>
       <p>允许当前页面修改标签和显示标题。浏览无需授权。</p>
-      <p><a href="https://github.com/settings/personal-access-tokens/new?name=TCG-calendar-labels" target="_blank" rel="noreferrer">创建专用令牌</a>：Repository access 仅选 <strong>tcg-calendar-pages</strong>，Contents 设为 <strong>Read and write</strong>。</p>
+      <p><a href="https://github.com/settings/personal-access-tokens/new?name=TCG-calendar-labels" target="_blank" rel="noreferrer">创建专用令牌</a>：仓库访问范围仅选择 <strong>tcg-calendar-pages</strong>，文件内容权限设为 <strong>读取和写入</strong>（Contents：Read and write）。</p>
       <label for="tagToken">GitHub 访问令牌</label><input id="tagToken" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
       <p class="tagAuthHint">仅用于本次打开的页面，关闭或刷新后需重新填写。令牌不会上传到网站或写入公开文件。</p>
       <p id="tagAuthMessage" class="tagMessage" role="status"></p>

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-21T05:57:31.216Z",
+  "generatedAt": "2026-10-21T10:04:33.842Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
       "port": 8787,
       "file": "D:\\jihuanshe-local-admin\\data\\posts.json",
-      "fileCount": 3685,
+      "fileCount": 3702,
       "apiCount": 0
     },
     {
@@ -403,11 +403,11 @@
     ],
     "count": 746
   },
-  "fromMemoryCache": true,
+  "fromMemoryCache": false,
   "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {
-    "posts": 9279,
+    "posts": 9296,
     "all": 987,
     "product": 826,
     "event": 161,
@@ -41348,8 +41348,13 @@
       "reservationTo": "",
       "brand": "幻兽帕鲁卡牌",
       "sourceName": "b站幻兽帕鲁简中",
-      "sourceUrl": "https://www.bilibili.com/opus/1261163891075842049",
+      "sourceUrl": "https://www.bilibili.com/opus/1261534976259653634",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1261534976259653634"
+        },
         {
           "type": "news",
           "name": "b站幻兽帕鲁简中",
@@ -41558,10 +41563,11 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-20",
+      "publishedAt": "2026-10-21",
       "image": "",
-      "excerpt": "#热点资讯# 【每日一卡】 幻兽帕鲁卡牌游戏补充包第2弹「传说觉醒」将于2026年10月30日发售，其中收录—— 「辛辣迎击-炽巫猫」（CBP02-002） 「改善后的炉子」（CBP02-015）",
+      "excerpt": "#热点资讯# 【每日一卡】 幻兽帕鲁卡牌游戏补充包第2弹「传说觉醒」将于2026年10月30日发售，其中收录—— 「传说的觉醒」（CBP02-100）",
       "postKeys": [
+        "8787:1261534976259653634",
         "8787:1261163891075842049",
         "8787:1260792805892030472",
         "8787:1260761882132742145",
@@ -41613,7 +41619,7 @@
       "people": "",
       "confidence": 99,
       "reason": "商品发售句明确指向第2弹传说觉醒；销量里程碑和公司简介不是商品名。",
-      "postCount": 41,
+      "postCount": 42,
       "generatedTitle": "补充包 第2弹「传说觉醒」",
       "originalTitle": "补充包第2弹「传说觉醒」",
       "sourceTypes": [
@@ -41633,8 +41639,13 @@
       "reservationTo": "",
       "brand": "卡片战斗先导者",
       "sourceName": "b站卡片战斗先导者",
-      "sourceUrl": "https://www.bilibili.com/opus/1261163891074793473",
+      "sourceUrl": "https://www.bilibili.com/opus/1261534976224002050",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1261534976224002050"
+        },
         {
           "type": "news",
           "name": "b站卡片战斗先导者",
@@ -41683,10 +41694,11 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-20",
+      "publishedAt": "2026-10-21",
       "image": "",
-      "excerpt": "#热点资讯##卡片战斗先导者# 2026年10月30日发售的卡片战斗先导者简体中文版最新补充包DZ-BT14「虚影袭雷」收录的—— 「格尼塔海德喀迈拉」(H） 「飞将的星辉兵氪素兵」(H） 「魔爪的星辉兵镧素兵」(H） 「休息! 扫除三姐妹!」(H） 「苍奏的歌姬埃提娅」(H） 「调皮鬼古雷姆」(H）",
+      "excerpt": "#热点资讯##卡片战斗先导者# 2026年10月30日发售的卡片战斗先导者简体中文版最新补充包DZ-BT14「虚影袭雷」收录的—— 「弗路巴乌」(C） 「爆能标枪」(C） 「暗黑魔道士巴伊弗·卡赫」(R） 「幽暗的骑士鲁歌斯」(R） 「爆能之暗」(RR） 「黑之贤者卡隆」(RR） 「幻影爆能龙」(RRR） 「漆黒的少女玛赫」(RRR） 「骷髅的魔女内文」(RRR） 「渴望的恶魔阿蒙」(C） 「漆黑的诗人阿蒙」(C） 「魔界割裂者」(C）",
       "postKeys": [
+        "8787:1261534976224002050",
         "8787:1261163891074793473",
         "8787:1260792805866864643",
         "8787:1260421720708218886",
@@ -41706,7 +41718,7 @@
       "people": "",
       "confidence": 99,
       "reason": "2026年10月30日",
-      "postCount": 9,
+      "postCount": 10,
       "generatedTitle": "补充包「虚影袭雷」【DZ-BT14】",
       "titleAuditReason": "2026-10-15核对商品官网条目或原始正文，修正名称与来源配对。",
       "sourceTypes": [
@@ -42203,6 +42215,16 @@
       "sourceName": "b站高达简中 + 官网巡查 gundam + 高达GCG简中官网",
       "sourceUrl": "https://www.gundam-gcg.com/jp/products/gd06.html",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1261573630918131720"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1261565899976998929"
+        },
         {
           "type": "news",
           "name": "b站高达简中",
@@ -42826,10 +42848,12 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-20",
+      "publishedAt": "2026-10-21",
       "image": "",
       "excerpt": "该卡牌将收录于2026/10/31(周六)发售的补充包“星尘轨迹 Stardust Trails[GD06]”",
       "postKeys": [
+        "8787:1261573630918131720",
+        "8787:1261565899976998929",
         "8787:1261202545765777412",
         "8787:1261194814840373253",
         "8787:1260831460613423109",
@@ -42964,7 +42988,7 @@
       "people": "",
       "confidence": 99,
       "reason": "高达GCG简中官网：2026.10.31",
-      "postCount": 124,
+      "postCount": 126,
       "generatedTitle": "补充包「星尘轨迹 Stardust Trails[GD06]」",
       "originalTitle": "星尘轨迹 Stardust Trails[GD06]",
       "sourceTypes": [

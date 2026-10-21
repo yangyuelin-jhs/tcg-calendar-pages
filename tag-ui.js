@@ -1,5 +1,5 @@
-import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags, saveRemoteTitle } from './tag-sync.js?v=1792489697531';
-import { manualIdentity, manualRecord, applyManualTitle } from './manual-overrides.js?v=1792489697531';
+import { TAG_COLORS, validateTags, readPublicTags, readRemoteTags, saveRemoteTags, saveRemoteTitle } from './tag-sync.js?v=1792561787959';
+import { manualIdentity, manualRecord, applyManualTitle } from './manual-overrides.js?v=1792561787959';
 
 const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 const isStatic = Boolean(window.CALENDAR_STATIC_DATA_URL);

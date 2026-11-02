@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-21T10:04:33.842Z",
+  "generatedAt": "2026-11-02T08:36:37.226Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
       "port": 8787,
       "file": "D:\\jihuanshe-local-admin\\data\\posts.json",
-      "fileCount": 3702,
+      "fileCount": 4215,
       "apiCount": 0
     },
     {
       "name": "外网资讯后台",
       "port": 8877,
       "file": "D:\\foreign-news-backend\\data\\posts.json",
-      "fileCount": 5534,
+      "fileCount": 6363,
       "apiCount": 0
     },
     {
       "name": "统一数据库导出",
       "port": "",
       "file": "D:\\jihuanshe-unified-news-db\\exports\\posts.json",
-      "fileCount": 7765,
+      "fileCount": 9986,
       "apiCount": 0
     }
   ],
@@ -181,7 +181,7 @@
     }
   ],
   "officialStats": {
-    "generatedAt": "2026-10-21T05:49:18.637Z",
+    "generatedAt": "2026-11-02T08:35:55.671Z",
     "fromCache": true,
     "sourceStats": [
       {
@@ -190,10 +190,10 @@
         "url": "https://cf-vanguard.com/products/",
         "ok": true,
         "status": 200,
-        "count": 82,
+        "count": 86,
         "error": "",
-        "elapsedMs": 917,
-        "retainedHistory": 50
+        "elapsedMs": 1819,
+        "retainedHistory": 53
       },
       {
         "game_key": "vg",
@@ -201,9 +201,10 @@
         "url": "https://cf-vanguard.com.cn/products",
         "ok": true,
         "status": 200,
-        "count": 50,
+        "count": 52,
         "error": "",
-        "elapsedMs": 322
+        "elapsedMs": 542,
+        "retainedHistory": 1
       },
       {
         "game_key": "op",
@@ -211,9 +212,10 @@
         "url": "https://www.onepiece-cardgame.com/products/?view=normal",
         "ok": true,
         "status": 200,
-        "count": 11,
+        "count": 12,
         "error": "",
-        "elapsedMs": 2116
+        "elapsedMs": 1372,
+        "retainedHistory": 2
       },
       {
         "game_key": "op",
@@ -221,9 +223,9 @@
         "url": "https://www.onepiece-cardgame.cn/products?type=",
         "ok": true,
         "status": 200,
-        "count": 121,
+        "count": 125,
         "error": "",
-        "elapsedMs": 1989
+        "elapsedMs": 2200
       },
       {
         "game_key": "gundam",
@@ -231,9 +233,10 @@
         "url": "https://www.gundam-gcg.com/jp/products/list.php",
         "ok": true,
         "status": 200,
-        "count": 10,
+        "count": 13,
         "error": "",
-        "elapsedMs": 2054
+        "elapsedMs": 1588,
+        "retainedHistory": 4
       },
       {
         "game_key": "gundam",
@@ -243,7 +246,7 @@
         "status": 200,
         "count": 27,
         "error": "",
-        "elapsedMs": 738
+        "elapsedMs": 529
       },
       {
         "game_key": "ws",
@@ -251,9 +254,9 @@
         "url": "https://ws-tcg.com/products/",
         "ok": true,
         "status": 200,
-        "count": 15,
+        "count": 17,
         "error": "",
-        "elapsedMs": 2219
+        "elapsedMs": 1835
       },
       {
         "game_key": "ygo_rd",
@@ -263,7 +266,7 @@
         "status": 200,
         "count": 90,
         "error": "",
-        "elapsedMs": 2326
+        "elapsedMs": 1731
       },
       {
         "game_key": "ygo",
@@ -271,10 +274,10 @@
         "url": "https://yu-gi-oh.jp/news/",
         "ok": true,
         "status": 200,
-        "count": 16,
+        "count": 17,
         "error": "",
-        "elapsedMs": 17208,
-        "retainedHistory": 2
+        "elapsedMs": 15480,
+        "retainedHistory": 9
       },
       {
         "game_key": "ua",
@@ -282,9 +285,10 @@
         "url": "https://www.unionarena-tcg.com/jp/products/",
         "ok": true,
         "status": 200,
-        "count": 243,
+        "count": 220,
         "error": "",
-        "elapsedMs": 45404
+        "elapsedMs": 113283,
+        "retainedHistory": 23
       },
       {
         "game_key": "dgm",
@@ -294,7 +298,7 @@
         "status": 200,
         "count": 94,
         "error": "",
-        "elapsedMs": 2828
+        "elapsedMs": 2113
       },
       {
         "game_key": "dm",
@@ -302,10 +306,10 @@
         "url": "https://dm.takaratomy.co.jp/product/expansion/",
         "ok": true,
         "status": 200,
-        "count": 115,
+        "count": 119,
         "error": "",
-        "elapsedMs": 3447,
-        "retainedHistory": 77
+        "elapsedMs": 2327,
+        "retainedHistory": 81
       },
       {
         "game_key": "dm",
@@ -313,10 +317,10 @@
         "url": "https://dm.takaratomy.co.jp/product/deck/",
         "ok": true,
         "status": 200,
-        "count": 115,
+        "count": 119,
         "error": "",
-        "elapsedMs": 3493,
-        "retainedHistory": 76
+        "elapsedMs": 2248,
+        "retainedHistory": 80
       },
       {
         "game_key": "dm",
@@ -324,10 +328,10 @@
         "url": "https://dm.takaratomy.co.jp/product/others/",
         "ok": true,
         "status": 200,
-        "count": 115,
+        "count": 119,
         "error": "",
-        "elapsedMs": 3585,
-        "retainedHistory": 77
+        "elapsedMs": 2125,
+        "retainedHistory": 111
       },
       {
         "game_key": "hololive",
@@ -337,7 +341,7 @@
         "status": 200,
         "count": 4,
         "error": "",
-        "elapsedMs": 2448
+        "elapsedMs": 1258
       },
       {
         "game_key": "pkm",
@@ -347,7 +351,8 @@
         "status": 200,
         "count": 31,
         "error": "",
-        "elapsedMs": 3591
+        "elapsedMs": 7021,
+        "retainedHistory": 1
       },
       {
         "game_key": "pkm",
@@ -357,7 +362,7 @@
         "status": 200,
         "count": 0,
         "error": "",
-        "elapsedMs": 2969
+        "elapsedMs": 1850
       },
       {
         "game_key": "pkm",
@@ -367,7 +372,7 @@
         "status": 200,
         "count": 0,
         "error": "",
-        "elapsedMs": 2898
+        "elapsedMs": 1899
       },
       {
         "game_key": "pkm",
@@ -377,7 +382,7 @@
         "status": 200,
         "count": 0,
         "error": "",
-        "elapsedMs": 2842
+        "elapsedMs": 1871
       },
       {
         "game_key": "conan",
@@ -385,10 +390,10 @@
         "url": "https://www.takaratomy.co.jp/products/conan-cardgame/products/",
         "ok": true,
         "status": 200,
-        "count": 139,
+        "count": 147,
         "error": "",
-        "elapsedMs": 3350,
-        "retainedHistory": 115
+        "elapsedMs": 1988,
+        "retainedHistory": 129
       },
       {
         "game_key": "sve",
@@ -398,22 +403,22 @@
         "status": 200,
         "count": 6,
         "error": "",
-        "elapsedMs": 3618
+        "elapsedMs": 1543
       }
     ],
-    "count": 746
+    "count": 769
   },
   "fromMemoryCache": false,
   "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {
-    "posts": 9296,
-    "all": 987,
-    "product": 826,
-    "event": 161,
-    "news": 170,
-    "official": 873,
-    "filtered": 987
+    "posts": 10638,
+    "all": 1036,
+    "product": 865,
+    "event": 171,
+    "news": 200,
+    "official": 895,
+    "filtered": 1036
   },
   "brands": [
     "宝可梦",
@@ -441,6 +446,12 @@
     "WS黑白双翼"
   ],
   "months": [
+    {
+      "month": "2017-07",
+      "product": 1,
+      "event": 0,
+      "total": 1
+    },
     {
       "month": "2020-04",
       "product": 8,
@@ -503,15 +514,15 @@
     },
     {
       "month": "2021-03",
-      "product": 0,
+      "product": 1,
       "event": 2,
-      "total": 2
+      "total": 3
     },
     {
       "month": "2021-04",
-      "product": 3,
+      "product": 4,
       "event": 2,
-      "total": 5
+      "total": 6
     },
     {
       "month": "2021-05",
@@ -527,9 +538,9 @@
     },
     {
       "month": "2021-07",
-      "product": 4,
+      "product": 5,
       "event": 0,
-      "total": 4
+      "total": 5
     },
     {
       "month": "2021-08",
@@ -815,9 +826,9 @@
     },
     {
       "month": "2025-07",
-      "product": 21,
+      "product": 22,
       "event": 6,
-      "total": 27
+      "total": 28
     },
     {
       "month": "2025-08",
@@ -887,9 +898,9 @@
     },
     {
       "month": "2026-07",
-      "product": 37,
+      "product": 35,
       "event": 9,
-      "total": 46
+      "total": 44
     },
     {
       "month": "2026-08",
@@ -899,51 +910,51 @@
     },
     {
       "month": "2026-09",
-      "product": 32,
+      "product": 35,
       "event": 11,
-      "total": 43
+      "total": 46
     },
     {
       "month": "2026-10",
-      "product": 43,
+      "product": 45,
       "event": 14,
-      "total": 57
+      "total": 59
     },
     {
       "month": "2026-11",
-      "product": 42,
-      "event": 8,
-      "total": 50
+      "product": 50,
+      "event": 18,
+      "total": 68
     },
     {
       "month": "2026-12",
-      "product": 25,
+      "product": 34,
       "event": 0,
-      "total": 25
+      "total": 34
     },
     {
       "month": "2027-01",
-      "product": 14,
+      "product": 18,
       "event": 0,
-      "total": 14
+      "total": 18
     },
     {
       "month": "2027-02",
-      "product": 8,
+      "product": 12,
       "event": 0,
-      "total": 8
+      "total": 12
     },
     {
       "month": "2027-03",
-      "product": 2,
+      "product": 3,
       "event": 0,
-      "total": 2
+      "total": 3
     },
     {
       "month": "2027-04",
-      "product": 1,
+      "product": 3,
       "event": 0,
-      "total": 1
+      "total": 3
     },
     {
       "month": "2027-05",
@@ -953,18 +964,60 @@
     },
     {
       "month": "2027-06",
-      "product": 1,
+      "product": 2,
       "event": 0,
-      "total": 1
+      "total": 2
     },
     {
       "month": "2027-07",
-      "product": 1,
+      "product": 3,
       "event": 0,
-      "total": 1
+      "total": 3
     }
   ],
   "items": [
+    {
+      "id": "official:dm:f243070b",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2017-07-08",
+      "endDate": "2017-07-08",
+      "precision": "day",
+      "brand": "决斗大师",
+      "title": "DMSP-01 ステキ！カンペキ！！ ジョーデッキーBOX",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2017年7月8日",
+      "postCount": 1,
+      "sourceName": "官网巡查 dm",
+      "sourceUrl": "https://dm.takaratomy.co.jp/product/dmsp01/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 dm",
+          "url": "https://dm.takaratomy.co.jp/product/dmsp01/"
+        }
+      ],
+      "officialSourceUrl": "https://dm.takaratomy.co.jp/product/others/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "DMSP-01 ステキ！カンペキ！！ ジョーデッキーBOX 発売日 2017年7月8日（土）",
+      "postKeys": [
+        "official:dm:272c4568"
+      ],
+      "generatedTitle": "DMSP-01 ステキ！カンペキ！！ ジョーデッキーBOX",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
     {
       "id": "official:ygo_rd:d63ba189",
       "kind": "product",
@@ -2085,6 +2138,49 @@
       "titleIsManual": false
     },
     {
+      "id": "official:dm:6d942a58",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2021-03-20",
+      "endDate": "2021-03-20",
+      "precision": "day",
+      "brand": "决斗大师",
+      "title": "DMSP-02 决斗大师TCG 超獣王来烈伝",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2021年3月20日",
+      "postCount": 1,
+      "sourceName": "官网巡查 dm",
+      "sourceUrl": "https://dm.takaratomy.co.jp/product/dmsp02/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 dm",
+          "url": "https://dm.takaratomy.co.jp/product/dmsp02/"
+        }
+      ],
+      "officialSourceUrl": "https://dm.takaratomy.co.jp/product/others/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "DMSP-02 デュエル・マスターズTCG 超獣王来烈伝発売日 2021年3月20日（土）",
+      "postKeys": [
+        "official:dm:6d2fd954"
+      ],
+      "generatedTitle": "DMSP-02 决斗大师TCG 超獣王来烈伝",
+      "originalTitle": "DMSP-02 デュエル・マスターズTCG 超獣王来烈伝",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
       "id": "ygo-cn-newwise-cct-sc-guangzhou-20210327",
       "kind": "event",
       "date": "2021-03-27",
@@ -2125,6 +2221,49 @@
         "ygo-cn-newwise-cct-sc-guangzhou-20210327"
       ],
       "generatedTitle": "中国大陆「游戏王」简体中文巡回赛第二站——广州站",
+      "titleIsManual": false
+    },
+    {
+      "id": "official:dm:47437d1b",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2021-04-03",
+      "endDate": "2021-04-03",
+      "precision": "day",
+      "brand": "决斗大师",
+      "title": "DMSP-03 キングマスター起始卡组 ジョーのスター進化 20周年パーフェクト套装",
+      "type": "构筑/预组",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2021年4月3日",
+      "postCount": 1,
+      "sourceName": "官网巡查 dm",
+      "sourceUrl": "https://dm.takaratomy.co.jp/product/dmsp03/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 dm",
+          "url": "https://dm.takaratomy.co.jp/product/dmsp03/"
+        }
+      ],
+      "officialSourceUrl": "https://dm.takaratomy.co.jp/product/others/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "DMSP-03 キングマスタースタートデッキ ジョーのスター進化 20周年パーフェクトセット 発売日 2021年4月3日（土）",
+      "postKeys": [
+        "official:dm:e8d0369f"
+      ],
+      "generatedTitle": "DMSP-03 キングマスター起始卡组 ジョーのスター進化 20周年パーフェクト套装",
+      "originalTitle": "DMSP-03 キングマスタースタートデッキ ジョーのスター進化 20周年パーフェクトセット",
+      "sourceTypes": [
+        "official"
+      ],
       "titleIsManual": false
     },
     {
@@ -2597,6 +2736,49 @@
         "ygo-cn-newwise-cct-ocg-beijing-20210613"
       ],
       "generatedTitle": "中国大陆「游戏王」巡回赛2021第一站——北京站",
+      "titleIsManual": false
+    },
+    {
+      "id": "official:dm:a4fc0bd",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2021-07-03",
+      "endDate": "2021-07-03",
+      "precision": "day",
+      "brand": "决斗大师",
+      "title": "DMSP-04 决斗大师TCG デュエマ・ストロング・ドリーム ジョーカーズGR",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2021年7月3日",
+      "postCount": 1,
+      "sourceName": "官网巡查 dm",
+      "sourceUrl": "https://dm.takaratomy.co.jp/product/dmsp04/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 dm",
+          "url": "https://dm.takaratomy.co.jp/product/dmsp04/"
+        }
+      ],
+      "officialSourceUrl": "https://dm.takaratomy.co.jp/product/others/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "DMSP-04 デュエル・マスターズTCG デュエマ・ストロング・ドリーム ジョーカーズGR 発売日 2021年7月3日（土）",
+      "postKeys": [
+        "official:dm:891ba220"
+      ],
+      "generatedTitle": "DMSP-04 决斗大师TCG デュエマ・ストロング・ドリーム ジョーカーズGR",
+      "originalTitle": "DMSP-04 デュエル・マスターズTCG デュエマ・ストロング・ドリーム ジョーカーズGR",
+      "sourceTypes": [
+        "official"
+      ],
       "titleIsManual": false
     },
     {
@@ -15130,49 +15312,6 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ua:3c48eb2a",
-      "kind": "product",
-      "sourceType": "official",
-      "date": "2024-04-26",
-      "endDate": "2024-04-26",
-      "precision": "day",
-      "brand": "UA",
-      "title": "起始卡组 黑色五叶草【UA20ST】",
-      "type": "构筑/预组",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "発売日 2024年4月26日",
-      "postCount": 1,
-      "sourceName": "官网巡查 ua",
-      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/decks/bcv-1.php",
-      "sources": [
-        {
-          "type": "official",
-          "name": "官网巡查 ua",
-          "url": "https://www.unionarena-tcg.com/jp/products/decks/bcv-1.php"
-        }
-      ],
-      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
-      "backendPort": "",
-      "status": "official",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "UNION ARENA スタートデッキ ブラッククローバー 【UA20ST】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参加作品 ",
-      "postKeys": [
-        "official:ua:efd5d148"
-      ],
-      "generatedTitle": "起始卡组 黑色五叶草【UA20ST】",
-      "originalTitle": "スタートデッキ ブラッククローバー 【UA20ST】",
-      "sourceTypes": [
-        "official"
-      ],
-      "titleIsManual": false
-    },
-    {
       "id": "official:ua:a168681a",
       "kind": "product",
       "sourceType": "official",
@@ -15210,6 +15349,49 @@
       ],
       "generatedTitle": "补充包 黑色五叶草【UA20BT】",
       "originalTitle": "ブースターパック ブラッククローバー 【UA20BT】",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ua:3c48eb2a",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2024-04-26",
+      "endDate": "2024-04-26",
+      "precision": "day",
+      "brand": "UA",
+      "title": "起始卡组 黑色五叶草【UA20ST】",
+      "type": "构筑/预组",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2024年4月26日",
+      "postCount": 1,
+      "sourceName": "官网巡查 ua",
+      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/decks/bcv-1.php",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 ua",
+          "url": "https://www.unionarena-tcg.com/jp/products/decks/bcv-1.php"
+        }
+      ],
+      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "UNION ARENA スタートデッキ ブラッククローバー 【UA20ST】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参加作品 ",
+      "postKeys": [
+        "official:ua:efd5d148"
+      ],
+      "generatedTitle": "起始卡组 黑色五叶草【UA20ST】",
+      "originalTitle": "スタートデッキ ブラッククローバー 【UA20ST】",
       "sourceTypes": [
         "official"
       ],
@@ -16682,26 +16864,20 @@
     {
       "id": "official:ua:651e3a27",
       "kind": "product",
+      "sourceType": "official",
       "date": "2024-08-16",
       "endDate": "2024-08-16",
-      "time": "",
       "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
       "brand": "UA",
-      "language": "日文",
       "title": "补充包 超超超超超喜欢你的100个女朋友【UA26BT】",
       "type": "补充包",
-      "confidence": 88,
-      "reason": "保留2026-10-09已采集的官网历史商品记录，避免本次列表巡查漏页导致消失。",
-      "postCount": 1,
+      "fee": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2024年8月16日",
+      "postCount": 2,
       "sourceName": "官网巡查 ua",
       "sourceUrl": "https://www.unionarena-tcg.com/jp/products/boosters/rly-1.php",
-      "sourceType": "official",
-      "sourceTypes": [
-        "official"
-      ],
       "sources": [
         {
           "type": "official",
@@ -16709,13 +16885,26 @@
           "url": "https://www.unionarena-tcg.com/jp/products/boosters/rly-1.php"
         }
       ],
+      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
       "image": "",
-      "excerpt": "保留2026-10-09已采集的官网历史商品记录，避免本次列表巡查漏页导致消失。",
+      "excerpt": "UNION ARENA ブースターパック 君のことが大大大大大好きな100人の彼女【UA26BT】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取",
       "postKeys": [
+        "official:ua:5c6e308a",
         "official:ua:651e3a27"
       ],
       "generatedTitle": "补充包 超超超超超喜欢你的100个女朋友【UA26BT】",
-      "originalTitle": "补充包超超超超超喜欢你的100个女朋友【UA26BT】",
+      "originalTitle": "ブースターパック 君のことが大大大大大好きな100人の彼女【UA26BT】",
+      "sourceTypes": [
+        "official"
+      ],
+      "time": "",
+      "language": "日文",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
       "titleIsManual": false
     },
     {
@@ -22237,49 +22426,6 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ua:746053e4",
-      "kind": "product",
-      "sourceType": "official",
-      "date": "2025-06-27",
-      "endDate": "2025-06-27",
-      "precision": "day",
-      "brand": "UA",
-      "title": "新卡精选 BLEACH 千年血战篇",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "発売日 2025年6月27日",
-      "postCount": 1,
-      "sourceName": "官网巡查 ua",
-      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/blc.php",
-      "sources": [
-        {
-          "type": "official",
-          "name": "官网巡查 ua",
-          "url": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/blc.php"
-        }
-      ],
-      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
-      "backendPort": "",
-      "status": "official",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "UNION ARENA NEW CARD SELECTION BLEACH 千年血戦篇 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ ",
-      "postKeys": [
-        "official:ua:9c8165d0"
-      ],
-      "generatedTitle": "新卡精选 BLEACH 千年血战篇",
-      "originalTitle": "NEW CARD SELECTION BLEACH 千年血戦篇",
-      "sourceTypes": [
-        "official"
-      ],
-      "titleIsManual": false
-    },
-    {
       "id": "official:ua:c0993788",
       "kind": "product",
       "sourceType": "official",
@@ -22360,6 +22506,49 @@
       ],
       "generatedTitle": "起始卡组 Re:从零开始的异世界生活【UA40ST】",
       "originalTitle": "スタートデッキ Re:ゼロから始める異世界生活 【UA40ST】",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ua:746053e4",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2025-06-27",
+      "endDate": "2025-06-27",
+      "precision": "day",
+      "brand": "UA",
+      "title": "新卡精选 BLEACH 千年血战篇",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2025年6月27日",
+      "postCount": 1,
+      "sourceName": "官网巡查 ua",
+      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/blc.php",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 ua",
+          "url": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/blc.php"
+        }
+      ],
+      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "UNION ARENA NEW CARD SELECTION BLEACH 千年血戦篇 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ ",
+      "postKeys": [
+        "official:ua:9c8165d0"
+      ],
+      "generatedTitle": "新卡精选 BLEACH 千年血战篇",
+      "originalTitle": "NEW CARD SELECTION BLEACH 千年血戦篇",
       "sourceTypes": [
         "official"
       ],
@@ -23263,6 +23452,48 @@
       "titleIsManual": false
     },
     {
+      "id": "official:vg:42959d49",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2025-07-25",
+      "endDate": "2025-07-25",
+      "precision": "day",
+      "brand": "卡片战斗先导者",
+      "title": "2 =\"release",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2025/07/25",
+      "postCount": 1,
+      "sourceName": "官网巡查 vg",
+      "sourceUrl": "https://cf-vanguard.com/products/page/2/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 vg",
+          "url": "https://cf-vanguard.com/products/page/2/"
+        }
+      ],
+      "officialSourceUrl": "https://cf-vanguard.com/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "2 =\"release\">2025/07/25(金) 発売収録国家：バディファイト 希望小売価格：1パック7枚入り 363円(税込) 1ボックス12パック入り 4,356円(税込) 1 / 13 1 2 3 4 5 ... 10 ... &raquo; 最後 &raquo; <!--",
+      "postKeys": [
+        "official:vg:6b93c4a2"
+      ],
+      "generatedTitle": "2 =\"release",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
       "id": "official:ua:5ef0b823",
       "kind": "product",
       "sourceType": "official",
@@ -23306,49 +23537,6 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ua:9c7abd7b",
-      "kind": "product",
-      "sourceType": "official",
-      "date": "2025-07-25",
-      "endDate": "2025-07-25",
-      "precision": "day",
-      "brand": "UA",
-      "title": "补充包 物语系列【UA42BT】",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "発売日 2025年7月25日",
-      "postCount": 1,
-      "sourceName": "官网巡查 ua",
-      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/boosters/mgs-1.php",
-      "sources": [
-        {
-          "type": "official",
-          "name": "官网巡查 ua",
-          "url": "https://www.unionarena-tcg.com/jp/products/boosters/mgs-1.php"
-        }
-      ],
-      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
-      "backendPort": "",
-      "status": "official",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "UNION ARENA ブースターパック 〈物語〉シリーズ【UA42BT】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参加作品 G",
-      "postKeys": [
-        "official:ua:c1b496f8"
-      ],
-      "generatedTitle": "补充包 物语系列【UA42BT】",
-      "originalTitle": "ブースターパック 〈物語〉シリーズ【UA42BT】",
-      "sourceTypes": [
-        "official"
-      ],
-      "titleIsManual": false
-    },
-    {
       "id": "official:ua:f2e5b7c7",
       "kind": "product",
       "sourceType": "official",
@@ -23386,6 +23574,49 @@
       ],
       "generatedTitle": "起始卡组 浪客剑心－明治剑客浪漫谭－【UA41ST】",
       "originalTitle": "スタートデッキ るろうに剣心 －明治剣客浪漫譚－【UA41ST】",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ua:9c7abd7b",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2025-07-25",
+      "endDate": "2025-07-25",
+      "precision": "day",
+      "brand": "UA",
+      "title": "补充包 物语系列【UA42BT】",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2025年7月25日",
+      "postCount": 1,
+      "sourceName": "官网巡查 ua",
+      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/boosters/mgs-1.php",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 ua",
+          "url": "https://www.unionarena-tcg.com/jp/products/boosters/mgs-1.php"
+        }
+      ],
+      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "UNION ARENA ブースターパック 〈物語〉シリーズ【UA42BT】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参加作品 G",
+      "postKeys": [
+        "official:ua:c1b496f8"
+      ],
+      "generatedTitle": "补充包 物语系列【UA42BT】",
+      "originalTitle": "ブースターパック 〈物語〉シリーズ【UA42BT】",
       "sourceTypes": [
         "official"
       ],
@@ -30262,49 +30493,6 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ua:368276c",
-      "kind": "product",
-      "sourceType": "official",
-      "date": "2026-06-19",
-      "endDate": "2026-06-19",
-      "precision": "day",
-      "brand": "UA",
-      "title": "补充包 ｢超时空要塞｣系列 Vol.2【EX14BT】",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "発売日 2026年6月19日",
-      "postCount": 1,
-      "sourceName": "官网巡查 ua",
-      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/boosters/ex_mcr.php",
-      "sources": [
-        {
-          "type": "official",
-          "name": "官网巡查 ua",
-          "url": "https://www.unionarena-tcg.com/jp/products/boosters/ex_mcr.php"
-        }
-      ],
-      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
-      "backendPort": "",
-      "status": "official",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "UNION ARENA ブースターパック ｢マクロス｣シリーズ Vol.2【EX14BT】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショッ",
-      "postKeys": [
-        "official:ua:8bd6af5a"
-      ],
-      "generatedTitle": "补充包 ｢超时空要塞｣系列 Vol.2【EX14BT】",
-      "originalTitle": "ブースターパック ｢マクロス｣シリーズ Vol.2【EX14BT】",
-      "sourceTypes": [
-        "official"
-      ],
-      "titleIsManual": false
-    },
-    {
       "id": "official:ua:fb048a9",
       "kind": "product",
       "sourceType": "official",
@@ -30342,6 +30530,49 @@
       ],
       "generatedTitle": "补充包 无职转生～到了异世界就拿出真本事～【UA54BT】",
       "originalTitle": "ブースターパック 無職転生 ～異世界行ったら本気だす～【UA54BT】",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ua:368276c",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-06-19",
+      "endDate": "2026-06-19",
+      "precision": "day",
+      "brand": "UA",
+      "title": "补充包 ｢超时空要塞｣系列 Vol.2【EX14BT】",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2026年6月19日",
+      "postCount": 1,
+      "sourceName": "官网巡查 ua",
+      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/boosters/ex_mcr.php",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 ua",
+          "url": "https://www.unionarena-tcg.com/jp/products/boosters/ex_mcr.php"
+        }
+      ],
+      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "UNION ARENA ブースターパック ｢マクロス｣シリーズ Vol.2【EX14BT】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショッ",
+      "postKeys": [
+        "official:ua:8bd6af5a"
+      ],
+      "generatedTitle": "补充包 ｢超时空要塞｣系列 Vol.2【EX14BT】",
+      "originalTitle": "ブースターパック ｢マクロス｣シリーズ Vol.2【EX14BT】",
       "sourceTypes": [
         "official"
       ],
@@ -31382,52 +31613,6 @@
       "titleIsManual": false
     },
     {
-      "sourceType": "news",
-      "id": "product:宝可梦:2026-07-17:超级进化战术卡组",
-      "kind": "product",
-      "date": "2026-07-17",
-      "endDate": "2026-07-17",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "宝可梦",
-      "sourceName": "宝可梦泰语官网",
-      "sourceUrl": "https://asia.pokemon-card.com/th/archive/special/card/mat",
-      "sources": [
-        {
-          "type": "news",
-          "name": "宝可梦泰语官网",
-          "url": "https://asia.pokemon-card.com/th/archive/special/card/mat"
-        }
-      ],
-      "backendPort": 8877,
-      "status": "draft",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "#热点资讯##宝可梦# 《宝可梦集换式卡牌游戏 Mega Evolution Tactical Deck》将于 2026 年 7 月 17 日星期五发售！",
-      "postKeys": [
-        "8877:c0ee706823f5a017"
-      ],
-      "title": "Mega Evolution Tactical Deck",
-      "type": "构筑/预组",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "2026 年 7 月 17 日",
-      "postCount": 1,
-      "generatedTitle": "Mega Evolution Tactical Deck",
-      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
-      "originalTitle": "超级进化战术卡组",
-      "sourceTypes": [
-        "news"
-      ],
-      "titleIsManual": false
-    },
-    {
       "id": "manual-event-pokemon-college-2026-07-18",
       "kind": "event",
       "date": "2026-07-18",
@@ -31695,51 +31880,6 @@
       "originalTitle": "DM26-EX2 デュエル・マスターズTCG 悪感謝祭 カリスマBEST",
       "sourceTypes": [
         "official"
-      ],
-      "titleIsManual": false
-    },
-    {
-      "sourceType": "news",
-      "id": "product:游戏王:2026-07-18:公式卡片游戏决斗怪兽世界先行精选包2026简体中文版",
-      "kind": "product",
-      "date": "2026-07-18",
-      "endDate": "2026-07-18",
-      "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
-      "brand": "游戏王",
-      "sourceName": "b站游戏王简中",
-      "sourceUrl": "https://space.bilibili.com/519200091/dynamic",
-      "sources": [
-        {
-          "type": "news",
-          "name": "b站游戏王简中",
-          "url": "https://space.bilibili.com/519200091/dynamic"
-        }
-      ],
-      "backendPort": 8787,
-      "status": "stopped",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "#热点资讯##游戏王# 游戏王公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版），7月18日发售！ 入手本款卡包，可从官方微博/bilibili或小程序《一起来决斗》查询并联系官方认证店铺。 本次为大家带来游戏王公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版）收录部分卡片预览：",
-      "postKeys": [
-        "8787:local-9c6289af5d5170",
-        "8787:local-ab1c9bb6c6a2ed"
-      ],
-      "title": "公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版）",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "7月18日",
-      "postCount": 2,
-      "generatedTitle": "公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版）",
-      "sourceTypes": [
-        "news"
       ],
       "titleIsManual": false
     },
@@ -33163,7 +33303,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "ガンダムカードゲーム 1st Anniversary Set 発売日 2026.7.27 メーカー希望小売価格 ¥15,400(税込) foTxt\">¥4,730(税込) プレミアムバンダイ ガンダムカードゲーム 1st Anniversary Set 発売日 2026.7.27 メーカー希望小売価格 ¥15,400(税込) ブースター <img src=\"/gcg/bccard/jp/news/2026/04/27/1xFGqUP3L",
+      "excerpt": "ガンダムカードゲーム 1st Anniversary Set 発売日 2026.7.27 メーカー希望小売価格 ¥15,400(税込) foTxt\">¥4,730(税込) プレミアムバンダイ ガンダムカードゲーム 1st Anniversary Set 発売日 2026.7.27 メーカー希望小売価格 ¥15,400(税込) 前のページ 1/5 <a hre",
       "postKeys": [
         "official:gundam:6acaf71b"
       ],
@@ -37083,6 +37223,51 @@
       "titleIsManual": false
     },
     {
+      "sourceType": "news",
+      "id": "product:宝可梦:2026-09-11:补充包的硬币套装、收藏周边礼盒以及徽章套装也会同步返场发售哟",
+      "kind": "product",
+      "date": "2026-09-11",
+      "endDate": "2026-09-11",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "Pokemon宝可梦微博",
+      "sourceUrl": "https://weibo.com/6305628151/RhkkIdyWD",
+      "sources": [
+        {
+          "type": "news",
+          "name": "Pokemon宝可梦微博",
+          "url": "https://weibo.com/6305628151/RhkkIdyWD"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-09-09",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦##宝可梦官方旗舰店# 宝可梦官方旗舰店商品速报宝可梦超话发售时间：2026年9月11日 10:00 太晶集四方，盛会聚九彩！ 宝可梦卡牌补充包商品“太晶盛聚”即将重磅回归！ 内含“太晶盛聚”补充包的硬币套装、收藏周边礼盒以及徽章套装也会同步返场发售哟！ ※伊布“们”的专属礼盒也将开启抽签购，详情请参照抽选海报信息。",
+      "postKeys": [
+        "8787:weibo-6305628151-RhkkIdyWD"
+      ],
+      "title": "补充包 的硬币套装、收藏周边礼盒以及徽章套装也会同步返场发售哟",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2026年9月11日 ",
+      "postCount": 1,
+      "generatedTitle": "补充包 的硬币套装、收藏周边礼盒以及徽章套装也会同步返场发售哟",
+      "originalTitle": "补充包的硬币套装、收藏周边礼盒以及徽章套装也会同步返场发售哟",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
       "id": "official:ua:fb651658",
       "kind": "product",
       "sourceType": "official",
@@ -37667,6 +37852,50 @@
       "titleIsManual": false
     },
     {
+      "sourceType": "news",
+      "id": "product:宝可梦:2026-09-16:各位宝可梦训练家",
+      "kind": "product",
+      "date": "2026-09-16",
+      "endDate": "2026-09-16",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "Pokemon宝可梦微博",
+      "sourceUrl": "https://weibo.com/6305628151/RmD71DWSx",
+      "sources": [
+        {
+          "type": "news",
+          "name": "Pokemon宝可梦微博",
+          "url": "https://weibo.com/6305628151/RmD71DWSx"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-14",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦# 30周年庆典幻彩未来纪念礼盒第二轮购买资格抽选各位宝可梦训练家，为了向大家提供更舒适的购物环境，宝可梦官方卡牌道馆、宝可梦官方慢闪店&快闪店将对2026年9月16日发售的卡牌商品“30周年庆典幻彩未来纪念礼盒”实施第二轮的购买资格抽选。以下是第二轮的具体信息。",
+      "postKeys": [
+        "8787:weibo-6305628151-RmD71DWSx"
+      ],
+      "title": "各位宝可梦训练家",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2026年9月16日",
+      "postCount": 1,
+      "generatedTitle": "各位宝可梦训练家",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
       "sourceType": "mixed",
       "id": "product:宝可梦:2026-09-16:30周年庆典硬币套装/硬币展示框30周年庆典/宝可梦双人用橡胶对战卡垫30周年庆典/宝可梦收藏卡册30周年庆典",
       "kind": "product",
@@ -37675,7 +37904,7 @@
       "precision": "day",
       "brand": "宝可梦",
       "sourceName": "宝可梦简中官网",
-      "sourceUrl": "https://www.pokemon.cn/tcg/product/21750.html",
+      "sourceUrl": "https://www.pokemon.cn/tcg/product/21608.html",
       "sources": [
         {
           "type": "news",
@@ -37690,7 +37919,7 @@
         {
           "type": "official",
           "name": "宝可梦简中官网",
-          "url": "https://www.pokemon.cn/tcg/product/21750.html"
+          "url": "https://www.pokemon.cn/tcg/product/21608.html"
         }
       ],
       "backendPort": 8787,
@@ -37701,12 +37930,9 @@
       "postKeys": [
         "8787:pokemon-cn-24088",
         "8787:1253448411837890585",
-        "official:pkm:b1bf5ba1",
-        "official:pkm:e3d8f0c8",
-        "official:pkm:8b753cda",
-        "official:pkm:ddcbda02"
+        "official:pkm:73d8c4e0"
       ],
-      "title": "宝可梦收藏卡册 30周年庆典",
+      "title": "宝可梦硬币收藏册 30周年庆典",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -37715,8 +37941,8 @@
       "people": "",
       "confidence": 99,
       "reason": "发售时间 2026年9月16日",
-      "postCount": 6,
-      "generatedTitle": "宝可梦收藏卡册 30周年庆典",
+      "postCount": 3,
+      "generatedTitle": "宝可梦硬币收藏册 30周年庆典",
       "sourceTypes": [
         "news",
         "official"
@@ -37739,6 +37965,11 @@
           "type": "news",
           "name": "b站宝可梦简中",
           "url": "https://www.bilibili.com/opus/1248673267140526081"
+        },
+        {
+          "type": "news",
+          "name": "Pokemon宝可梦微博",
+          "url": "https://weibo.com/6305628151/Ri4GudTj2"
         },
         {
           "type": "news",
@@ -37838,6 +38069,7 @@
       "excerpt": "#热点资讯##宝可梦# “训练家们的30周年庆典”特别活动开启！ 随着补充包“30周年庆典”的全球同步发售，属于训练家们的“30周年庆典”也将拉开帷幕。 请与承载着你满满回忆的卡牌一起，共同庆祝你和宝可梦卡牌的30周年庆典吧！ ※更多内容请参考官网。",
       "postKeys": [
         "8787:1248673267140526081",
+        "8787:weibo-6305628151-Ri4GudTj2",
         "8787:pokemon-cn-23761",
         "8787:1242021090792833031",
         "8787:1241558224317972521",
@@ -37867,7 +38099,7 @@
       "people": "",
       "confidence": 99,
       "reason": "发售时间 2026年9月16日",
-      "postCount": 20,
+      "postCount": 21,
       "generatedTitle": "宝可梦集换式卡牌游戏 30周年庆典卡牌展示套套装",
       "sourceTypes": [
         "news",
@@ -37950,7 +38182,7 @@
       "status": "draft",
       "publishedAt": "",
       "image": "",
-      "excerpt": "#热点资讯##宝可梦# 30周年纪念周边商品已到货！快来和“最初的3只伙伴宝可梦”一起旅行吧！ 有带有宝可梦卡的钥匙扣和各种包装卡。 实际产品配对和类型可能与预览图像有所不同。 推出带有钥匙扣的商品套装，庆祝宝可梦集换式卡牌游戏诞生 30 周年！该套装包括带有以下图画的 AR 卡每个地区特别抽取的“前 3 名伙伴宝可梦”（总共 27 只）“第 30 张”扩展卡 CELEBRATION” 1 包和 Pokemon 卡钥匙扣，您可以将其放入",
+      "excerpt": "#热点资讯##宝可梦# 30周年纪念周边商品已到货！快来和“最初的3只伙伴宝可梦”一起旅行吧！ 有带有宝可梦卡的钥匙扣和各种包装卡。 实际产品配对和类型可能与预览图像有所不同。 推出带有钥匙扣的商品套装，庆祝宝可梦集换式卡牌游戏诞生 30 周年！该套装包括带有以下图画的 AR 卡每个地区特别抽出一张“前 3 只好友宝可梦”（共 27 只）“第 30 张”扩展卡 CELEBRATION” 1 包和 Pokemon 卡钥匙扣，您可以将其放入",
       "postKeys": [
         "8877:1fc6929578bf90c5"
       ],
@@ -38102,7 +38334,7 @@
       "titleIsManual": false
     },
     {
-      "id": "official:pkm:16beb57a",
+      "id": "official:pkm:e8e5a9e3",
       "kind": "product",
       "sourceType": "official",
       "date": "2026-09-16",
@@ -38110,7 +38342,7 @@
       "precision": "day",
       "brand": "宝可梦",
       "language": "简中",
-      "title": "宝可梦硬币收藏册 30周年庆典",
+      "title": "30周年庆典硬币套装",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -38119,14 +38351,14 @@
       "people": "",
       "confidence": 98,
       "reason": "发售时间 2026年9月16日",
-      "postCount": 1,
+      "postCount": 4,
       "sourceName": "宝可梦简中官网",
-      "sourceUrl": "https://www.pokemon.cn/tcg/product/21608.html",
+      "sourceUrl": "https://www.pokemon.cn/tcg/product/21750.html",
       "sources": [
         {
           "type": "official",
           "name": "宝可梦简中官网",
-          "url": "https://www.pokemon.cn/tcg/product/21608.html"
+          "url": "https://www.pokemon.cn/tcg/product/21750.html"
         }
       ],
       "officialSourceUrl": "https://www.pokemon.cn/tcg-home",
@@ -38134,11 +38366,14 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "商品名称：宝可梦硬币收藏册 30周年庆典发售时间 2026年9月16日10时起建议零售价 40元商品内容硬币收藏册 1本 ※本文图片均系商品设计效果图，仅供参考，请以实物为准。 最新资讯 “盖诺赛克特”纪念徽章蓄势登场！ Campaign 2026-10-20 “盖诺赛克特”纪念磁吸贴领取活动登场，记录属于你的活动时光！ Campaign 2026-10-20 宝可梦卡牌城市赛2026年第四赛季第七批报名信息 Event 2026-10",
+      "excerpt": "商品名称：30周年庆典硬币套装发售时间 2026年9月16日10时起建议零售价 68元商品内容 1. 30周年庆典补充包（6张） 3包 2. 主题硬币 2枚 ※主题硬币共30种图案，每种图案的硬币有4种款式。其中3种为普通款，1种为隐藏款，每种内容相同，仅加工方式不同。3种普通款等比生产，普通款与隐藏款的生产配比为99:1。",
       "postKeys": [
-        "official:pkm:73d8c4e0"
+        "official:pkm:b1bf5ba1",
+        "official:pkm:e3d8f0c8",
+        "official:pkm:8b753cda",
+        "official:pkm:ddcbda02"
       ],
-      "generatedTitle": "宝可梦硬币收藏册 30周年庆典",
+      "generatedTitle": "30周年庆典硬币套装",
       "sourceTypes": [
         "official"
       ],
@@ -38177,7 +38412,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "商品名称：绘梦点睛 30周年皮卡丘手办套装发售时间 2026年9月16日10时起建议零售价 88元商品内容 1. 随机宝可梦手办 1个（全13款，其中1款为隐藏款。普通款每款等比生产，普通款与隐藏款的生产比例为143:1） 2. 与手办对应的宝可梦卡 1张 3. “30周年庆典”补充包（6张） 1包最新资讯 “盖诺赛克特”纪念徽章蓄势登场！ Campaign 2026-10-20 “盖诺赛克特”纪念磁吸贴领取活动登场，记录属于你的活动时",
+      "excerpt": "商品名称：绘梦点睛 30周年皮卡丘手办套装发售时间 2026年9月16日10时起建议零售价 88元商品内容 1. 随机宝可梦手办 1个（全13款，其中1款为隐藏款。普通款每款等比生产，普通款与隐藏款的生产比例为143:1） 2. 与手办对应的宝可梦卡 1张 3. “30周年庆典”补充包（6张） 1包最新资讯官方卡牌道馆活动“阵营对抗赛第二赛季”即将开启！ Event 2026-10-30 黑白交汇，合众共乐！ 全新特典卡登场，最新信息一",
       "postKeys": [
         "official:pkm:7696b85e"
       ],
@@ -38220,7 +38455,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "商品名称：30周年庆典典藏手办礼盒喷火龙套装发售时间 2026年9月16日10时起建议零售价 780元商品内容 1. 喷火龙手办 1个 2. 喷火龙特大卡牌 1张 3. “30周年庆典”补充包 15包最新资讯 “盖诺赛克特”纪念徽章蓄势登场！ Campaign 2026-10-20 “盖诺赛克特”纪念磁吸贴领取活动登场，记录属于你的活动时光！ Campaign 2026-10-20 宝可梦卡牌城市赛2026年第四赛季第七批报名信息 Ev",
+      "excerpt": "商品名称：30周年庆典典藏手办礼盒喷火龙套装发售时间 2026年9月16日10时起建议零售价 780元商品内容 1. 喷火龙手办 1个 2. 喷火龙特大卡牌 1张 3. “30周年庆典”补充包 15包最新资讯官方卡牌道馆活动“阵营对抗赛第二赛季”即将开启！ Event 2026-10-30 黑白交汇，合众共乐！ 全新特典卡登场，最新信息一篇全掌握！ Other 2026-10-30 黑白专题硬币收藏艺术展示框和宝可梦收藏卡册捷克罗姆&莱",
       "postKeys": [
         "official:pkm:f62d865d"
       ],
@@ -38918,14 +39153,14 @@
       "titleIsManual": false
     },
     {
-      "id": "official:gundam:8d34b2db",
+      "id": "official:gundam:5e93b824",
       "kind": "product",
       "sourceType": "official",
       "date": "2026-09-26",
       "endDate": "2026-09-26",
       "precision": "day",
       "brand": "高达",
-      "title": "Heavy Dominion [ST14]",
+      "title": "Aquatic Assault [ST11]",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -38936,12 +39171,12 @@
       "reason": "発売日 2026.9.26",
       "postCount": 1,
       "sourceName": "官网巡查 gundam",
-      "sourceUrl": "https://www.gundam-gcg.com/jp/products/st14.html",
+      "sourceUrl": "https://www.gundam-gcg.com/jp/products/st11.html",
       "sources": [
         {
           "type": "official",
           "name": "官网巡查 gundam",
-          "url": "https://www.gundam-gcg.com/jp/products/st14.html"
+          "url": "https://www.gundam-gcg.com/jp/products/st11.html"
         }
       ],
       "officialSourceUrl": "https://www.gundam-gcg.com/jp/products/list.php",
@@ -38949,11 +39184,11 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "Heavy Dominion [ST14] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) ss=\"cardInfoTxt\">￥250(税込) デッキ Heavy Dominion [ST14] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/2HnPBn4UrpuEBsiS/ST12_list_th",
+      "excerpt": "Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) ss=\"cardInfoTxt\">￥250(税込) デッキ Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/2HnPBn4UrpuEBsiS/ST12_list_",
       "postKeys": [
-        "official:gundam:25733602"
+        "official:gundam:d41583cd"
       ],
-      "generatedTitle": "Heavy Dominion [ST14]",
+      "generatedTitle": "Aquatic Assault [ST11]",
       "sourceTypes": [
         "official"
       ],
@@ -39033,7 +39268,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/yNaNcmM2LBunjig1/ST11_list_th",
+      "excerpt": "Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/3VgZYakf3YSBMEFc/ST14_list_th",
       "postKeys": [
         "official:gundam:74ab8f8d"
       ],
@@ -39044,14 +39279,14 @@
       "titleIsManual": false
     },
     {
-      "id": "official:gundam:5e93b824",
+      "id": "official:gundam:8d34b2db",
       "kind": "product",
       "sourceType": "official",
       "date": "2026-09-26",
       "endDate": "2026-09-26",
       "precision": "day",
       "brand": "高达",
-      "title": "Aquatic Assault [ST11]",
+      "title": "Heavy Dominion [ST14]",
       "type": "构筑/预组",
       "city": "",
       "address": "",
@@ -39062,12 +39297,12 @@
       "reason": "発売日 2026.9.26",
       "postCount": 1,
       "sourceName": "官网巡查 gundam",
-      "sourceUrl": "https://www.gundam-gcg.com/jp/products/st11.html",
+      "sourceUrl": "https://www.gundam-gcg.com/jp/products/st14.html",
       "sources": [
         {
           "type": "official",
           "name": "官网巡查 gundam",
-          "url": "https://www.gundam-gcg.com/jp/products/st11.html"
+          "url": "https://www.gundam-gcg.com/jp/products/st14.html"
         }
       ],
       "officialSourceUrl": "https://www.gundam-gcg.com/jp/products/list.php",
@@ -39075,11 +39310,11 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) 周辺アイテム",
+      "excerpt": "Heavy Dominion [ST14] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Heavy Dominion [ST14] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) 前のページ 1/5 <a hre",
       "postKeys": [
-        "official:gundam:d41583cd"
+        "official:gundam:25733602"
       ],
-      "generatedTitle": "Aquatic Assault [ST11]",
+      "generatedTitle": "Heavy Dominion [ST14]",
       "sourceTypes": [
         "official"
       ],
@@ -39175,6 +39410,50 @@
       "generatedTitle": "符文战场一周年纪念套装",
       "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
       "originalTitle": "符文战场：英雄联盟对战卡牌",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:游戏王:2026-09-30:数字娱乐事业部",
+      "kind": "product",
+      "date": "2026-09-30",
+      "endDate": "2026-09-30",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "游戏王",
+      "sourceName": "NW游戏王区",
+      "sourceUrl": "https://www.bilibili.com/opus/1264603075400695832",
+      "sources": [
+        {
+          "type": "news",
+          "name": "NW游戏王区",
+          "url": "https://www.bilibili.com/opus/1264603075400695832"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-29",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王# 科乐美最新投资者财报（2026/7/1 ～ 2026/9/30） http://t.cn/AXjYQvbs 游戏王项目所在的「数字娱乐事业部」整体营收利润（本季度DE板块营收 2435 亿日元，同比+44.3%，营业利润率 44%。 财报没有拆分游戏王单独销售额。游戏王实体卡包括OCG和RD、手游（DL、MD）全部打包在「数字娱乐事业部」，和实况足球、寂静岭、合金装备、恶魔城等项目合并统计",
+      "postKeys": [
+        "8787:1264603075400695832"
+      ],
+      "title": "数字娱乐事业部",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 80,
+      "reason": "2026/9/30",
+      "postCount": 1,
+      "generatedTitle": "数字娱乐事业部",
       "sourceTypes": [
         "news"
       ],
@@ -39493,9 +39772,10 @@
         "8787:1245578313741631489",
         "8787:1245578313736388641",
         "8787:1245578313704931349",
-        "official:vg:cn:4da205d2"
+        "official:vg:cn:4da205d2",
+        "official:vg:cn:43e78735"
       ],
-      "title": "补充包「传说的先导者们」【DZ-SS01】",
+      "title": "【传说的先导者们】- 补充包",
       "type": "补充包",
       "city": "",
       "address": "",
@@ -39504,8 +39784,8 @@
       "people": "",
       "confidence": 99,
       "reason": "VG简中官网：2026-10-02 00:00:00",
-      "postCount": 42,
-      "generatedTitle": "补充包「传说的先导者们」【DZ-SS01】",
+      "postCount": 43,
+      "generatedTitle": "【传说的先导者们】- 补充包",
       "sourceTypes": [
         "news",
         "official"
@@ -39988,7 +40268,7 @@
       "precision": "day",
       "brand": "游戏王",
       "title": "特别包 CROSS ART COLLECTION",
-      "type": "补充包",
+      "type": "商品",
       "city": "",
       "address": "",
       "fee": "",
@@ -39996,8 +40276,8 @@
       "people": "",
       "confidence": 99,
       "reason": "発売日 2026年10月10日",
-      "postCount": 2,
-      "sourceName": "官网巡查 ygo_rd + 游戏王日本官网",
+      "postCount": 1,
+      "sourceName": "官网巡查 ygo_rd",
       "sourceUrl": "https://www.konami.com/yugioh/rushduel/products/ca01/",
       "sources": [
         {
@@ -40010,15 +40290,57 @@
       "backendPort": "",
       "status": "official",
       "publishedAt": "",
-      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3LzdhMWFmOWE1OGNhOTQ4OWU4YzZjZDJiYzg2MjVmM2VmL1JEX0NBMDEtSlAwNTEtMDUyXzUwMC5qcGciLCJmbT13ZWJwJnE9ODAiXQ.8FL7m4FxSB0GmXCNpm5TrrAvd2Qr_mcXtCkIDvo1cms.webp",
+      "image": "",
       "excerpt": "CROSS ART COLLECTION 発売日 2026年10月10日(土)",
       "postKeys": [
-        "official:ygo_rd:86eb9de7",
-        "official:ygo:27c206bd"
+        "official:ygo_rd:86eb9de7"
       ],
       "generatedTitle": "特别包 CROSS ART COLLECTION",
       "titleAuditReason": "2026-10-15核对商品官网条目或原始正文，修正名称与来源配对。",
       "originalTitle": "CROSS ART COLLECTION",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ygo:33355fcb",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-10-10",
+      "endDate": "2026-10-10",
+      "precision": "day",
+      "brand": "游戏王",
+      "title": "游戏王Rush Duel CROSS ART COLLECTION",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日／2026年10月10日",
+      "postCount": 1,
+      "sourceName": "游戏王日本官网",
+      "sourceUrl": "https://yu-gi-oh.jp/news/gp9swlc3co/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "游戏王日本官网",
+          "url": "https://yu-gi-oh.jp/news/gp9swlc3co/"
+        }
+      ],
+      "officialSourceUrl": "https://yu-gi-oh.jp/news/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3LzU2ZTUyNDljZGYwYzQ5YmQ4OWExODlmYmU1ZTcwYmM3L1JEX0NBMDEtSlAwNTgtMDU5XzUwMC5qcGciLCJmbT13ZWJwJnE9ODAiXQ.VHhShDKt-jHix4YY75ap7mxylLqJiF6JXq5roz7MjpI.webp",
+      "excerpt": "* NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL * TOP * NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL NEWS ニュース 2026/10/05 CARD 『CROSS ART COLLECTION』で登場する新カード「天使の印ミカ」「悪魔の印ルーファ」のカード画像を公開！ 10",
+      "postKeys": [
+        "official:ygo:786cc89"
+      ],
+      "generatedTitle": "游戏王Rush Duel CROSS ART COLLECTION",
+      "originalTitle": "遊戯王ラッシュデュエル CROSS ART COLLECTION",
       "sourceTypes": [
         "official"
       ],
@@ -40096,9 +40418,10 @@
       "postKeys": [
         "8787:1250448806678364198",
         "8787:pokemon-cn-23939",
-        "official:pkm:aab1fb3b"
+        "official:pkm:aab1fb3b",
+        "official:pkm:9ab160a0"
       ],
-      "title": "宝可梦卡牌嗨皮组合训练家的宝可梦",
+      "title": "宝可梦卡牌嗨皮卡组训练家的宝可梦",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -40107,8 +40430,8 @@
       "people": "",
       "confidence": 99,
       "reason": "2026年10月16日，宝可梦卡牌全新“嗨皮组合训练家的宝可梦”即将发售",
-      "postCount": 3,
-      "generatedTitle": "宝可梦卡牌嗨皮组合训练家的宝可梦",
+      "postCount": 4,
+      "generatedTitle": "宝可梦卡牌嗨皮卡组训练家的宝可梦",
       "sourceTypes": [
         "news",
         "official"
@@ -40158,49 +40481,6 @@
       "originalTitle": "新手指南",
       "sourceTypes": [
         "news"
-      ],
-      "titleIsManual": false
-    },
-    {
-      "id": "official:pkm:13e1e2e4",
-      "kind": "product",
-      "sourceType": "official",
-      "date": "2026-10-16",
-      "endDate": "2026-10-16",
-      "precision": "day",
-      "brand": "宝可梦",
-      "language": "简中",
-      "title": "宝可梦卡牌嗨皮卡组训练家的宝可梦",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 98,
-      "reason": "2026年10月16日，宝可梦卡牌全新“嗨皮组合训练家的宝可梦”即将发售",
-      "postCount": 1,
-      "sourceName": "宝可梦简中官网",
-      "sourceUrl": "https://www.pokemon.cn/tcg/product/23939.html",
-      "sources": [
-        {
-          "type": "official",
-          "name": "宝可梦简中官网",
-          "url": "https://www.pokemon.cn/tcg/product/23939.html"
-        }
-      ],
-      "officialSourceUrl": "https://www.pokemon.cn/tcg-home",
-      "backendPort": "",
-      "status": "official",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "商品名：宝可梦卡牌嗨皮卡组训练家的宝可梦发售日 2026年10月16日10时起建议零售价 20元商品内容卡组（60张） 1套 ※火箭队的超梦ex、竹兰的烈咬陆鲨ex、小霞的暴鲤龙、阿响的火暴兽卡组随机封入1组。有机会出现平卡卡组与闪卡卡组，平卡卡组与闪卡卡组的卡牌内容相同，加工不同。其中闪卡卡组的出现概率1.6%，平卡卡组与闪卡卡组内每种卡组等比生产。 卡组玩法介绍 1张玩家入门指南 1张伤害指示物 1板最新资讯 “盖诺赛克特”纪念徽章",
-      "postKeys": [
-        "official:pkm:9ab160a0"
-      ],
-      "generatedTitle": "宝可梦卡牌嗨皮卡组训练家的宝可梦",
-      "sourceTypes": [
-        "official"
       ],
       "titleIsManual": false
     },
@@ -41097,7 +41377,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "ブースターパック 【VG-DZ-TBP02】 タイトルブースター プレミアム「Persona 30th Anniversary」 2026/10/23(金) 発売収録国家：ペルソナシリーズ 希望小売価格：1パック9枚入り 550円(税込) 1ボックス10パック入り 5,500円(税込) iv class=\"category booster\">ブースターパック 【VG-DZ-BT17】 ブースターパック「運命星戦(うんめいせいせん)」 2",
+      "excerpt": "ブースターパック 【VG-DZ-TBP02】 タイトルブースター プレミアム「Persona 30th Anniversary」 2026/10/23(金) 発売収録国家：ペルソナシリーズ 希望小売価格：1パック9枚入り 550円(税込) 1ボックス10パック入り 5,500円(税込) ul class=\"category-menu margin-half\" id=\"release-tab\"> カード商品周辺 グッズ ブースターパック ",
       "postKeys": [
         "official:vg:29d2ad25"
       ],
@@ -41338,6 +41618,50 @@
     },
     {
       "sourceType": "news",
+      "id": "product:游戏王:2026-10-27:决斗套装系列限定商品全3种将于10月27日起陆续发货，如需更改收货信息，请在",
+      "kind": "product",
+      "date": "2026-10-27",
+      "endDate": "2026-10-27",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "游戏王",
+      "sourceName": "b站游戏王简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1263358453997371408",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站游戏王简中",
+          "url": "https://www.bilibili.com/opus/1263358453997371408"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-26",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王# 「游☆戏☆王源绘决斗套装」系列限定商品（全3种）将于10月27日起陆续发货，如需更改收货信息，请在2026年10月26日17:00前通过微信小程序「一起来决斗」联系客服。 //@游戏王卡片游戏:「游☆戏☆王源绘决斗套装」系列限定商品（全3种）现已开启小程序预约。 因本次开放预约购买的三种商品可能存在同时到货的情况，同时购买完成2种或3种上述限定商品，并选择使用邮寄形式发货的决斗者，如在商品到货后，正式发货前，您对",
+      "postKeys": [
+        "8787:1263358453997371408"
+      ],
+      "title": "决斗套装」系列限定商品（全3种）将于10月27日起陆续发货，如需更改收货信息，请在",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 80,
+      "reason": "10月27日",
+      "postCount": 1,
+      "generatedTitle": "决斗套装」系列限定商品（全3种）将于10月27日起陆续发货，如需更改收货信息，请在",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
       "id": "product:幻兽帕鲁卡牌:2026-10-30:补充包第2弹传说觉醒",
       "kind": "product",
       "date": "2026-10-30",
@@ -41348,8 +41672,58 @@
       "reservationTo": "",
       "brand": "幻兽帕鲁卡牌",
       "sourceName": "b站幻兽帕鲁简中",
-      "sourceUrl": "https://www.bilibili.com/opus/1261534976259653634",
+      "sourceUrl": "https://www.bilibili.com/opus/1264535236369186821",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1264535236369186821"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1264457272009949207"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1264086186798874644"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1263715101599334441"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1263436787760496647"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1263344016459563008"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1262972931280994324"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1262601846116057122"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1262230760964751364"
+        },
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1261936985201704962"
+        },
         {
           "type": "news",
           "name": "b站幻兽帕鲁简中",
@@ -41563,10 +41937,20 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-10-29",
       "image": "",
-      "excerpt": "#热点资讯# 【每日一卡】 幻兽帕鲁卡牌游戏补充包第2弹「传说觉醒」将于2026年10月30日发售，其中收录—— 「传说的觉醒」（CBP02-100）",
+      "excerpt": "#热点资讯# 补充包第2弹「传说觉醒」推荐卡组✨ ▼▽ 推荐卡组公开 ▼▽ 本次带来《幻兽帕鲁卡牌游戏》补充包第 2 弹「传说觉醒」 4 种推荐构筑思路，为卡组搭配提供更多灵感💡 🔧 装备卡组：灵活运用装备，强化帕鲁的作战能力 🌌夜行性卡组：发挥夜行性特色，以灵活策略寻找胜机 💫 传说卡组：集结传说帕鲁，以强力阵容掌控战局 🍏 食材卡组：围绕食材积累与运营，稳步推进对战大家最想尝试哪一种构筑？欢迎收藏参考，组建属于自己的卡组吧",
       "postKeys": [
+        "8787:1264535236369186821",
+        "8787:1264457272009949207",
+        "8787:1264086186798874644",
+        "8787:1263715101599334441",
+        "8787:1263436787760496647",
+        "8787:1263344016459563008",
+        "8787:1262972931280994324",
+        "8787:1262601846116057122",
+        "8787:1262230760964751364",
+        "8787:1261936985201704962",
         "8787:1261534976259653634",
         "8787:1261163891075842049",
         "8787:1260792805892030472",
@@ -41619,7 +42003,7 @@
       "people": "",
       "confidence": 99,
       "reason": "商品发售句明确指向第2弹传说觉醒；销量里程碑和公司简介不是商品名。",
-      "postCount": 42,
+      "postCount": 52,
       "generatedTitle": "补充包 第2弹「传说觉醒」",
       "originalTitle": "补充包第2弹「传说觉醒」",
       "sourceTypes": [
@@ -41628,19 +42012,106 @@
       "titleIsManual": false
     },
     {
-      "sourceType": "news",
+      "sourceType": "mixed",
       "id": "product:卡片战斗先导者:2026-10-30:虚影袭雷",
       "kind": "product",
       "date": "2026-10-30",
       "endDate": "2026-10-30",
       "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
       "brand": "卡片战斗先导者",
-      "sourceName": "b站卡片战斗先导者",
-      "sourceUrl": "https://www.bilibili.com/opus/1261534976224002050",
+      "sourceName": "b站卡片战斗先导者 + b站Bushiroad_TCG + VG简中官网",
+      "sourceUrl": "https://cf-vanguard.com.cn/products-detail?id=1146",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1264874742822731779"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1264874742813294612"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1264874742798614533"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1264503657654648839"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1264503657594880037"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1264132572468740097"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1264132572423651350"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263761487289122868"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263761487271297024"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263390402128379924"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263390402088534022"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263019316915208195"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263019316909965318"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263019316899479591"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1262648231763902468"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1262648231735590994"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1262277146604208136"
+        },
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1261906061421445138"
+        },
         {
           "type": "news",
           "name": "b站卡片战斗先导者",
@@ -41690,14 +42161,42 @@
           "type": "news",
           "name": "b站卡片战斗先导者",
           "url": "https://www.bilibili.com/opus/1258195209672458241"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1262354456014487559"
+        },
+        {
+          "type": "official",
+          "name": "VG简中官网",
+          "url": "https://cf-vanguard.com.cn/products-detail?id=1146"
         }
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-10-30",
       "image": "",
-      "excerpt": "#热点资讯##卡片战斗先导者# 2026年10月30日发售的卡片战斗先导者简体中文版最新补充包DZ-BT14「虚影袭雷」收录的—— 「弗路巴乌」(C） 「爆能标枪」(C） 「暗黑魔道士巴伊弗·卡赫」(R） 「幽暗的骑士鲁歌斯」(R） 「爆能之暗」(RR） 「黑之贤者卡隆」(RR） 「幻影爆能龙」(RRR） 「漆黒的少女玛赫」(RRR） 「骷髅的魔女内文」(RRR） 「渴望的恶魔阿蒙」(C） 「漆黑的诗人阿蒙」(C） 「魔界割裂者」(C）",
+      "excerpt": "#热点资讯##卡片战斗先导者# 2026年10月30日发售的卡片战斗先导者简体中文版最新补充包DZ-BT14「虚影袭雷」收录的—— 「命途交叠之时狩月人」(DNAR） 「命途交叠之时狩月人」(DNAR） 「黑羽落处，命途相逢暗·狩月人」(DNAR） 「黑羽落处，命途相逢暗·狩月人」(DNAR） 「携锋刃静候天明西比尔」(DNAR） 「落子无悔止流」(DNAR）",
       "postKeys": [
+        "8787:1264874742822731779",
+        "8787:1264874742813294612",
+        "8787:1264874742798614533",
+        "8787:1264503657654648839",
+        "8787:1264503657594880037",
+        "8787:1264132572468740097",
+        "8787:1264132572423651350",
+        "8787:1263761487289122868",
+        "8787:1263761487271297024",
+        "8787:1263390402128379924",
+        "8787:1263390402088534022",
+        "8787:1263019316915208195",
+        "8787:1263019316909965318",
+        "8787:1263019316899479591",
+        "8787:1262648231763902468",
+        "8787:1262648231735590994",
+        "8787:1262277146604208136",
+        "8787:1261906061421445138",
         "8787:1261534976224002050",
         "8787:1261163891074793473",
         "8787:1260792805866864643",
@@ -41707,7 +42206,9 @@
         "8787:1259308465210261510",
         "8787:1258937380020158464",
         "8787:1258566294835298304",
-        "8787:1258195209672458241"
+        "8787:1258195209672458241",
+        "8787:1262354456014487559",
+        "official:vg:cn:b69ab4ee"
       ],
       "title": "补充包「虚影袭雷」【DZ-BT14】",
       "type": "补充包",
@@ -41718,9 +42219,55 @@
       "people": "",
       "confidence": 99,
       "reason": "2026年10月30日",
-      "postCount": 10,
+      "postCount": 30,
       "generatedTitle": "补充包「虚影袭雷」【DZ-BT14】",
       "titleAuditReason": "2026-10-15核对商品官网条目或原始正文，修正名称与来源配对。",
+      "sourceTypes": [
+        "news",
+        "official"
+      ],
+      "language": "简中",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:卡片战斗先导者:2026-10-30:产品发售后，我们将在全国卡片战斗先导者认证店举办新手教学活动！到店即可免费参与二重螺旋卡组试玩活动，完成教学对战等任务还可以领取二重螺旋限定卡盒、卡套等奖品！详情请关注卡片战斗先导",
+      "kind": "product",
+      "date": "2026-10-30",
+      "endDate": "2026-10-30",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "卡片战斗先导者",
+      "sourceName": "b站卡片战斗先导者",
+      "sourceUrl": "https://www.bilibili.com/opus/1262357090946514952",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1262357090946514952"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-23",
+      "image": "",
+      "excerpt": "#热点资讯##卡片战斗先导者# 二重螺旋✖️卡片战斗先导者联动卡组即将于10月30日上线啦！ 产品发售后，我们将在全国卡片战斗先导者认证店举办新手教学活动！到店即可免费参与二重螺旋卡组试玩活动，完成教学对战等任务还可以领取二重螺旋限定卡盒、卡套等奖品！详情请关注卡片战斗先导者官方账号",
+      "postKeys": [
+        "8787:1262357090946514952"
+      ],
+      "title": "产品发售后，我们将在全国卡片战斗先导者认证店举办新手教学活动！到店即可免费参与二重螺旋卡组试玩活动，完成教学对战等任务还可以领取二重螺旋限定卡盒、卡套等奖品！详情请关注卡片战斗先导",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "10月30日",
+      "postCount": 1,
+      "generatedTitle": "产品发售后，我们将在全国卡片战斗先导者认证店举办新手教学活动！到店即可免费参与二重螺旋卡组试玩活动，完成教学对战等任务还可以领取二重螺旋限定卡盒、卡套等奖品！详情请关注卡片战斗先导",
       "sourceTypes": [
         "news"
       ],
@@ -41917,6 +42464,41 @@
         {
           "type": "news",
           "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1264824476663545865"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1264454379347378213"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1264084818844450819"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1263714163205603333"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1263341931242455060"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1262229822465114117"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1261857328538320897"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
           "url": "https://www.bilibili.com/opus/1261485715072483334"
         },
         {
@@ -41982,10 +42564,17 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-10-30",
       "image": "",
       "excerpt": "#热点资讯##WS黑白双翼##少女与战车# 2026年10月30日发售的TCG Weiß Schwarz|黑白双翼补充包 「少女与战车」收录卡公开！",
       "postKeys": [
+        "8787:1264824476663545865",
+        "8787:1264454379347378213",
+        "8787:1264084818844450819",
+        "8787:1263714163205603333",
+        "8787:1263341931242455060",
+        "8787:1262229822465114117",
+        "8787:1261857328538320897",
         "8787:1261485715072483334",
         "8787:1261114591255986176",
         "8787:1260742879024775168",
@@ -42009,7 +42598,7 @@
       "people": "",
       "confidence": 99,
       "reason": "2026年10月30日",
-      "postCount": 13,
+      "postCount": 20,
       "generatedTitle": "补充包「少女与战车」",
       "titleAuditReason": "2026-10-15核对商品官网条目或原始正文，修正名称与来源配对。",
       "sourceTypes": [
@@ -42032,6 +42621,41 @@
         {
           "type": "news",
           "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1264823660630245401"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1264453095116505089"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1264083697843306503"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1263711500327976984"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1263339740785016853"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1262228808882192384"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1261856254801739829"
+        },
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
           "url": "https://www.bilibili.com/opus/1261484031466274835"
         },
         {
@@ -42047,10 +42671,17 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-10-30",
       "image": "",
       "excerpt": "#热点资讯##WS黑白双翼##少女与战车# 2026年10月30日发售的TCG Weiß Schwarz|黑白双翼预构筑卡组 「少女与战车大洗女子学院」收录卡公开！",
       "postKeys": [
+        "8787:1264823660630245401",
+        "8787:1264453095116505089",
+        "8787:1264083697843306503",
+        "8787:1263711500327976984",
+        "8787:1263339740785016853",
+        "8787:1262228808882192384",
+        "8787:1261856254801739829",
         "8787:1261484031466274835",
         "8787:1261116914825953289",
         "official:ws:6aba3ca1"
@@ -42064,7 +42695,7 @@
       "people": "",
       "confidence": 99,
       "reason": "発売日：2026年10月30日",
-      "postCount": 3,
+      "postCount": 10,
       "generatedTitle": "预组「少女与战车大洗女子学园」",
       "sourceTypes": [
         "news",
@@ -42215,6 +42846,126 @@
       "sourceName": "b站高达简中 + 官网巡查 gundam + 高达GCG简中官网",
       "sourceUrl": "https://www.gundam-gcg.com/jp/products/gd06.html",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264851549958438919"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264843819025694755"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264550043262648339"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264542312363458560"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264178958080933893"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264171227126169602"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264163496234319889"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263807872933822469"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263800141964378113"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263792411040022529"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263436787718553607"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263429056818315284"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263421325867745283"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263065702560956424"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263057971647086612"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1263050240674496514"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1262694617394970658"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1262686886460129283"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1262679155523190807"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1262372494882373712"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1262371206392184849"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1262369917900947472"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1261944716129206274"
+        },
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1261936985162907671"
+        },
         {
           "type": "news",
           "name": "b站高达简中",
@@ -42848,10 +43599,34 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-10-30",
       "image": "",
       "excerpt": "该卡牌将收录于2026/10/31(周六)发售的补充包“星尘轨迹 Stardust Trails[GD06]”",
       "postKeys": [
+        "8787:1264851549958438919",
+        "8787:1264843819025694755",
+        "8787:1264550043262648339",
+        "8787:1264542312363458560",
+        "8787:1264178958080933893",
+        "8787:1264171227126169602",
+        "8787:1264163496234319889",
+        "8787:1263807872933822469",
+        "8787:1263800141964378113",
+        "8787:1263792411040022529",
+        "8787:1263436787718553607",
+        "8787:1263429056818315284",
+        "8787:1263421325867745283",
+        "8787:1263065702560956424",
+        "8787:1263057971647086612",
+        "8787:1263050240674496514",
+        "8787:1262694617394970658",
+        "8787:1262686886460129283",
+        "8787:1262679155523190807",
+        "8787:1262372494882373712",
+        "8787:1262371206392184849",
+        "8787:1262369917900947472",
+        "8787:1261944716129206274",
+        "8787:1261936985162907671",
         "8787:1261573630918131720",
         "8787:1261565899976998929",
         "8787:1261202545765777412",
@@ -42988,7 +43763,7 @@
       "people": "",
       "confidence": 99,
       "reason": "高达GCG简中官网：2026.10.31",
-      "postCount": 126,
+      "postCount": 150,
       "generatedTitle": "补充包「星尘轨迹 Stardust Trails[GD06]」",
       "originalTitle": "星尘轨迹 Stardust Trails[GD06]",
       "sourceTypes": [
@@ -43280,7 +44055,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "https://source.windoent.com/OnePiecePc/Picture/ca4b8d1b6a354da7b3496e7482800863/%E5%B0%8F%E5%9B%BE%E7%94%A8.png",
-      "excerpt": "其他为纪念特别补充包发售，特别登场! ※仅在官方旗舰店贩售。 ※图片和实际产品可能略有不同。 ※产品工艺可能会发生变化。",
+      "excerpt": "其他为纪念特别补充包发售，特别登场! ※仅在万代卡牌官方游戏中心贩售。 ※图片和实际产品可能略有不同。 ※产品工艺可能会发生变化。",
       "postKeys": [
         "official:op:cn:93f018ae"
       ],
@@ -43343,7 +44118,7 @@
       "precision": "day",
       "brand": "柯南TCG",
       "title": "扩张包 CT-P11「月下のSHOW TIME!」",
-      "type": "商品",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
@@ -43351,10 +44126,15 @@
       "people": "",
       "confidence": 99,
       "reason": "発売日：2026年10月31日",
-      "postCount": 2,
+      "postCount": 3,
       "sourceName": "官网巡查 conan",
-      "sourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/product/ct-p11",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/cardlist/?package=CT-P11",
       "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 conan",
+          "url": "https://www.takaratomy.co.jp/products/conan-cardgame/cardlist/?package=CT-P11"
+        },
         {
           "type": "official",
           "name": "官网巡查 conan",
@@ -43366,9 +44146,10 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "拡張パック 拡張パック CT-P11「月下のSHOW TIME!」 発売日：2026年10月31日（土） 希望小売価格：308円(税込)",
+      "excerpt": "拡張パック 拡張パック CT-P11「月下のSHOW TIME!」 発売日：2026年10月31日（土） 希望小売価格：308円(税込) カードリスト",
       "postKeys": [
-        "official:conan:c5a9d2cf",
+        "official:conan:81bca8ae",
+        "official:conan:d88a9dc9",
         "official:conan:c4030dbb"
       ],
       "generatedTitle": "扩张包 CT-P11「月下のSHOW TIME!」",
@@ -43561,7 +44342,139 @@
     },
     {
       "sourceType": "news",
-      "id": "product:宝可梦:2026-11-05:宝可梦麦当劳30周年联动活动",
+      "id": "event:游戏王:2026-11-01:中国大陆游戏王巡回赛2026第二站——北京站",
+      "kind": "event",
+      "date": "2026-11-01",
+      "endDate": "2026-11-01",
+      "time": "",
+      "precision": "day",
+      "brand": "游戏王",
+      "title": "中国大陆「游戏王」巡回赛2026 第二站——北京站",
+      "type": "巡回赛",
+      "city": "北京",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "官方巡回赛（人数待补）",
+      "peopleCount": 100,
+      "peopleReason": "游戏王简中官方巡回赛",
+      "confidence": 99,
+      "reason": "2026年11月1日",
+      "postCount": 1,
+      "sourceName": "游戏王简中官方 / 一起来决斗",
+      "sourceUrl": "https://www.bilibili.com/opus/1264894329969704966",
+      "sources": [
+        {
+          "type": "news",
+          "name": "游戏王简中官方 / 一起来决斗",
+          "url": "https://www.bilibili.com/opus/1264894329969704966"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王# 2026年11月1日，中国大陆「游戏王」巡回赛2026 第二站——北京站也将开展“「经典时光」大会交流战”！决斗者带上「经典时光」牌组，与来自天南海北的朋友汇聚一堂，一同重温经典时光吧！",
+      "postKeys": [
+        "8787:1264894329969704966"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "中国大陆「游戏王」巡回赛2026 第二站——北京站",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:漫威超英击战:2026-11-01:命运相会",
+      "kind": "product",
+      "date": "2026-11-01",
+      "endDate": "2026-11-01",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "漫威超英击战",
+      "sourceName": "b站漫威超英击战",
+      "sourceUrl": "https://www.bilibili.com/opus/1264962199056547863",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站漫威超英击战",
+          "url": "https://www.bilibili.com/opus/1264962199056547863"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##超英击战##CB01命运相会##集换式卡牌游戏# 全卡预览 | 蜘蛛侠主题礼盒「命运相会」 🕷️蛛丝为引，命运相会！ 《超英击战》蜘蛛侠主题礼盒「命运相会」CB01 将于 11 月 1 日正式发售守护者们可前往官方合作店铺咨询购买！",
+      "postKeys": [
+        "8787:1264962199056547863"
+      ],
+      "title": "命运相会",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "11 月 1 日",
+      "postCount": 1,
+      "generatedTitle": "命运相会",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:宝可梦:2026-11-03:水波相伴",
+      "kind": "product",
+      "date": "2026-11-03",
+      "endDate": "2026-11-05",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "Pokemon宝可梦微博",
+      "sourceUrl": "https://weibo.com/6305628151/RoLukBelt",
+      "sources": [
+        {
+          "type": "news",
+          "name": "Pokemon宝可梦微博",
+          "url": "https://weibo.com/6305628151/RoLukBelt"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-28",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦##宝可梦官方旗舰店##宝可梦官方卡牌道馆# 宝可梦商品速报发售时间：2026年10月30日 10:00 本周，魔幻时刻系列的部分商品和来点电系列的商品将和训练家们见面，最初的皮卡丘款的毛绒玩具和挂件也迎来了补货。 30周年主题的金属硬币和圆珠笔也将上线。 “水波相伴”和“睡着了吗？”系列还将在宝可梦官方旗舰店先行发售哟。 预售期间：2026年10月30日10:00—2026年11月1日23:59 30周年，缤纷属性",
+      "postKeys": [
+        "8787:weibo-6305628151-RoLukBelt"
+      ],
+      "title": "水波相伴",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2026年11月3日—5日",
+      "postCount": 1,
+      "generatedTitle": "水波相伴",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:宝可梦:2026-11-05:补充包为特色",
       "kind": "product",
       "date": "2026-11-05",
       "endDate": "2026-11-05",
@@ -43571,8 +44484,13 @@
       "reservationTo": "",
       "brand": "宝可梦",
       "sourceName": "宝可梦（英）论坛",
-      "sourceUrl": "https://www.pokebeach.com/2026/09/mcdonalds-pokemon-tcg-promotion-to-launch-in-november-for-30th-anniversary",
+      "sourceUrl": "https://www.pokebeach.com/2026/10/mcdonalds-pokemon-tcg-promotion-starts-november-10th-features-mini-happy-meal-box-toys-and-15-cards",
       "sources": [
+        {
+          "type": "news",
+          "name": "宝可梦（英）论坛",
+          "url": "https://www.pokebeach.com/2026/10/mcdonalds-pokemon-tcg-promotion-starts-november-10th-features-mini-happy-meal-box-toys-and-15-cards"
+        },
         {
           "type": "news",
           "name": "宝可梦（英）论坛",
@@ -43581,23 +44499,25 @@
       ],
       "backendPort": 8877,
       "status": "draft",
-      "publishedAt": "2026-09-28",
+      "publishedAt": "2026-10-28",
       "image": "",
-      "excerpt": "#热点资讯##宝可梦# 我们可以独家透露，麦当劳将于 11 月 5 日至 12 月 9 日在美国举办 Happy Meal x Pokemon TCG 促销活动！该促销活动也将在其他国家进行，但日期可能会有所不同。 与往常一样，每份开心乐园餐将包括一张 4 卡补充包，其中包含一张全息卡和三张非全息卡。将提供 15 张卡片，其中包括六张印在五彩纸屑全息箔上的全息卡片。过去，卡片总是重印的。我们还不知道哪些卡片会被推荐。今年，顾客将可以选择",
+      "excerpt": "#热点资讯##宝可梦# 现在我们可以透露，今年的麦当劳 x Pokemon TCG 促销活动将以 15 种不同 Pokemon 的塑料玩具作为迷你开心乐园餐盒！每个玩具将随机附赠两张 Pokemon 卡（每套 15 张）。正如之前报道的，每个玩具的背面将用作卡框。 与往年一样，宝可梦卡将重新印刷并带有麦当劳编号。目前已确认的有来自 Temporal Forces 的 Metagross、来自 Obsidian Flames 的 Pala",
       "postKeys": [
+        "8877:1b6a2de380a262cc",
         "8877:4c0a10f1ee68ab41"
       ],
-      "title": "宝可梦麦当劳30周年联动活动",
-      "type": "联动活动",
+      "title": "补充包 为特色",
+      "type": "补充包",
       "city": "",
       "address": "",
       "fee": "",
       "prize": "",
       "people": "",
       "confidence": 99,
-      "reason": "根据原文的麦当劳30周年联动活动与11月5日开始日期校正标题。",
-      "postCount": 1,
-      "generatedTitle": "宝可梦麦当劳30周年联动活动",
+      "reason": "11 月 5 日",
+      "postCount": 2,
+      "generatedTitle": "补充包 为特色",
+      "originalTitle": "补充包为特色",
       "sourceTypes": [
         "news"
       ],
@@ -43689,6 +44609,109 @@
         "manual-event-riftbound-europe-2026-11-06"
       ],
       "generatedTitle": "符文战场首届欧洲地区冠军赛",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:宝可梦:2026-11-06:补充包黑雷奔流白焰迸涌",
+      "kind": "product",
+      "date": "2026-11-06",
+      "endDate": "2026-11-06",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "b站宝可梦简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1264905666547417090",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站宝可梦简中",
+          "url": "https://www.bilibili.com/opus/1264905666547417090"
+        },
+        {
+          "type": "news",
+          "name": "宝可梦简中官网其他",
+          "url": "https://www.pokemon.cn/tcg/other/24579.html"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦# 全新特典卡即将登场！ 全新补充包“黑雷奔流”“白焰迸涌”将于11月6日正式发售！伴随着补充包“黑雷奔流”“白焰迸涌”的发售，全新特典卡也将同步登场。 2026年11月6日起，训练家将会见到如下全新特典卡包： 宝可梦集换式卡牌游戏朱&紫活动特别包第六弹可通过线下参加宝可梦卡牌道馆活动或完成“宝可梦卡牌会员”小程序内设置的会员任务获得。 宝可梦集换式卡牌游戏朱&紫活动奖赏包第六弹仅可通过线下参加宝可梦卡牌道馆活动获得",
+      "postKeys": [
+        "8787:1264905666547417090",
+        "8877:651488faa29dbe70"
+      ],
+      "title": "补充包“黑雷奔流”“白焰迸涌”",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2026年11月6日",
+      "postCount": 2,
+      "generatedTitle": "补充包“黑雷奔流”“白焰迸涌”",
+      "originalTitle": "补充包“黑雷奔流”“白焰迸涌",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "mixed",
+      "id": "product:宝可梦:2026-11-06:黑白专题硬币收藏艺术展示框",
+      "kind": "product",
+      "date": "2026-11-06",
+      "endDate": "2026-11-06",
+      "precision": "day",
+      "brand": "宝可梦",
+      "sourceName": "宝可梦简中官网",
+      "sourceUrl": "https://www.pokemon.cn/tcg/product/21905.html",
+      "sources": [
+        {
+          "type": "news",
+          "name": "宝可梦简中官网",
+          "url": "https://www.pokemon.cn/tcg/24595.html"
+        },
+        {
+          "type": "official",
+          "name": "宝可梦简中官网",
+          "url": "https://www.pokemon.cn/tcg/product/21905.html"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦# “黑白专题硬币收藏艺术展示框”将于2026年11月6日起在宝可梦官方卡牌道馆和部分宝可梦官方慢闪店&快闪店开启预售。“宝可梦收藏卡册捷克罗姆&莱希拉姆”也将一起登场。 黑白专题硬币收藏艺术展示框关于“黑白专题硬币收藏艺术展示框”商品材质错误的说明宝可梦收藏卡册捷克罗姆&莱希拉姆商品规格 “黑白专题硬币收藏艺术展示框”即将与各位训练家见面。硬币展示框采用黑白配色，共设置了156个硬币槽。槽内印有宝可梦剪影，对应合众",
+      "postKeys": [
+        "8787:pokemon-cn-24595",
+        "8787:pokemon-cn-21905",
+        "8877:d6ee845fa927cb1b",
+        "8877:6dea6089046b5d1b",
+        "official:pkm:62c4ab9c"
+      ],
+      "title": "黑白专题硬币收藏艺术展示框",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "发售时间 2026年11月6日",
+      "postCount": 5,
+      "generatedTitle": "黑白专题硬币收藏艺术展示框",
+      "sourceTypes": [
+        "news",
+        "official"
+      ],
+      "language": "简中",
       "titleIsManual": false
     },
     {
@@ -43793,33 +44816,34 @@
       "titleIsManual": false
     },
     {
-      "sourceType": "mixed",
-      "id": "product:宝可梦:2026-11-06:黑白专题硬币收藏艺术展示框",
+      "sourceType": "news",
+      "id": "product:宝可梦:2026-11-06:megaevolution",
       "kind": "product",
       "date": "2026-11-06",
       "endDate": "2026-11-06",
       "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
       "brand": "宝可梦",
-      "sourceName": "宝可梦简中官网",
-      "sourceUrl": "https://www.pokemon.cn/tcg/product/21905.html",
+      "sourceName": "宝可梦（英）论坛",
+      "sourceUrl": "https://www.pokebeach.com/2026/10/delta-reign-set-guide-full-card-list-cut-cards-product-lineup-store-promos-and-more",
       "sources": [
         {
-          "type": "official",
-          "name": "宝可梦简中官网",
-          "url": "https://www.pokemon.cn/tcg/product/21905.html"
+          "type": "news",
+          "name": "宝可梦（英）论坛",
+          "url": "https://www.pokebeach.com/2026/10/delta-reign-set-guide-full-card-list-cut-cards-product-lineup-store-promos-and-more"
         }
       ],
-      "backendPort": 8787,
-      "status": "published",
-      "publishedAt": "2026-10-16",
+      "backendPort": 8877,
+      "status": "draft",
+      "publishedAt": "2026-10-26",
       "image": "",
-      "excerpt": "#热点资讯##宝可梦# 黑白交汇，合众共乐！ 内含全新补充包“黑雷奔流”“白焰迸涌”的硬币套装及更多商品即将发售！ 2026年11月6日，宝可梦卡牌最新补充包商品“黑雷奔流”“白焰迸涌”将和大家见面。内含“黑雷奔流”“白焰迸涌”补充包的硬币套装，及更多硬币收纳商品也将随之发售。 内含“黑雷奔流”补充包及精选闪卡的硬币套装内含“白焰迸涌”补充包及精选闪卡的硬币套装还有更多硬币收纳商品商品名：黑雷奔流硬币套装发售时间 2026年11月6日1",
+      "excerpt": "#热点资讯##宝可梦# 我们现在有由 Mega Rayquaza ex 主演的 Delta Reign 的完整英文卡表！ 它将于 11 月 6 日作为我们的第六个 Mega Evolution 套装发布。售前赛将于 10 月 24 日至 11 月 1 日进行。 这是自《Mega Evolution》以来第一套基于两个日本来源的套装：7 月 31 日发布的风暴翡翠中的 110 多张卡牌，以及随附的“MEGA Starter Decks”中",
       "postKeys": [
-        "8787:pokemon-cn-21905",
-        "8877:6dea6089046b5d1b",
-        "official:pkm:62c4ab9c"
+        "8877:161e9be69dd0321c"
       ],
-      "title": "黑白专题硬币收藏艺术展示框",
+      "title": "Mega Evolution",
       "type": "商品套装",
       "city": "",
       "address": "",
@@ -43827,14 +44851,12 @@
       "prize": "",
       "people": "",
       "confidence": 99,
-      "reason": "发售时间 2026年11月6日",
-      "postCount": 3,
-      "generatedTitle": "黑白专题硬币收藏艺术展示框",
+      "reason": "11 月 6 日",
+      "postCount": 1,
+      "generatedTitle": "Mega Evolution",
       "sourceTypes": [
-        "news",
-        "official"
+        "news"
       ],
-      "language": "简中",
       "titleIsManual": false
     },
     {
@@ -43935,7 +44957,7 @@
       "brand": "宝可梦",
       "language": "简中",
       "title": "宝石包徽章套装第二弹",
-      "type": "补充包",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -43958,7 +44980,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "商品名称：宝石包徽章套装第二弹发售时间 2026年11月6日10时起建议零售价 39元商品内容 1. Pokémon宝石包 VOL.4（4张） 1包 2. Pokémon宝石包 VOL.5（4张） 1包 3. Pokémon宝石包 VOL.6（4张） 1包 4. 宝石包主题徽章 1个（全52种，其中普通款45种，每种等比生产；隐藏款6种，每种等比生产；超级隐藏款1种。普通款、隐藏款、超级隐藏款的生产比例为191:8:1） 最新资讯 “盖",
+      "excerpt": "商品名称：宝石包徽章套装第二弹发售时间 2026年11月6日10时起建议零售价 39元商品内容 1. Pokémon宝石包 VOL.4（4张） 1包 2. Pokémon宝石包 VOL.5（4张） 1包 3. Pokémon宝石包 VOL.6（4张） 1包 4. 宝石包主题徽章 1个（全52种，其中普通款45种，每种等比生产；隐藏款6种，每种等比生产；超级隐藏款1种。普通款、隐藏款、超级隐藏款的生产比例为191:8:1） 最新资讯官方卡",
       "postKeys": [
         "official:pkm:6fd8d2aa"
       ],
@@ -44193,7 +45215,7 @@
       "brand": "宝可梦",
       "language": "简中",
       "title": "黑白专题能量套装",
-      "type": "补充包",
+      "type": "商品套装",
       "city": "",
       "address": "",
       "fee": "",
@@ -44216,7 +45238,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "商品名：黑白专题能量套装发售时间 2026年11月6日10时起建议零售价 39元/包商品内容 1. “黑雷奔流”/“白焰迸涌”补充包（5张） 3包 2. 对应属性的黑白专题能量包 1包 ※草、雷、斗、钢属性能量套装封入“黑雷奔流”补充包，火、水、超、恶能量套装封入“白焰迸涌”补充包。 ※黑白专题能量包封入4张对应属性的黑白专题基本能量卡（内含1张闪卡）和1张随机训练家闪卡。 最新资讯 “盖诺赛克特”纪念徽章蓄势登场！ Campaign ",
+      "excerpt": "商品名：黑白专题能量套装发售时间 2026年11月6日10时起建议零售价 39元/包商品内容 1. “黑雷奔流”/“白焰迸涌”补充包（5张） 3包 2. 对应属性的黑白专题能量包 1包 ※草、雷、斗、钢属性能量套装封入“黑雷奔流”补充包，火、水、超、恶能量套装封入“白焰迸涌”补充包。 ※黑白专题能量包封入4张对应属性的黑白专题基本能量卡（内含1张闪卡）和1张随机训练家闪卡。 最新资讯官方卡牌道馆活动“阵营对抗赛第二赛季”即将开启！ Ev",
       "postKeys": [
         "official:pkm:30d2fa70"
       ],
@@ -44244,7 +45266,7 @@
       "people": "",
       "confidence": 98,
       "reason": "发售时间 2026年11月6日",
-      "postCount": 2,
+      "postCount": 1,
       "sourceName": "宝可梦简中官网",
       "sourceUrl": "https://www.pokemon.cn/tcg/product/23021.html",
       "sources": [
@@ -44261,10 +45283,52 @@
       "image": "",
       "excerpt": "商品名称：黑白专题拼图冰箱贴套装（黑） 发售时间 2026年11月6日10时起建议零售价 39元商品内容 1. 随机宝可梦拼图冰箱贴 1个 ※全78款，其中1款为隐藏款。普通款每款等比生产，普通款与隐藏款的生产配比为99:1。 2. 黑雷奔流补充包（5张） 1包",
       "postKeys": [
-        "official:pkm:dcfaf7b8",
-        "official:pkm:fb368074"
+        "official:pkm:dcfaf7b8"
       ],
       "generatedTitle": "黑白专题拼图冰箱贴套装（黑）",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:pkm:e3d44354",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-11-06",
+      "endDate": "2026-11-06",
+      "precision": "day",
+      "brand": "宝可梦",
+      "language": "简中",
+      "title": "黑白专题拼图冰箱贴套装（白）",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 98,
+      "reason": "发售时间 2026年11月6日",
+      "postCount": 1,
+      "sourceName": "宝可梦简中官网",
+      "sourceUrl": "https://www.pokemon.cn/tcg/product/23021.html",
+      "sources": [
+        {
+          "type": "official",
+          "name": "宝可梦简中官网",
+          "url": "https://www.pokemon.cn/tcg/product/23021.html"
+        }
+      ],
+      "officialSourceUrl": "https://www.pokemon.cn/tcg-home",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "商品名称：黑白专题拼图冰箱贴套装（白） 发售时间 2026年11月6日10时起建议零售价 39元商品内容 1. 随机宝可梦拼图冰箱贴 1个 ※全78款，其中1款为隐藏款。普通款每款等比生产，普通款与隐藏款的生产配比为99:1。 2. 白焰迸涌补充包（5张） 1包 ※本文图片均系商品设计效果图，仅供参考，请以实物为准。 最新资讯官方卡牌道馆活动“阵营对抗赛第二赛季”即将开启！ Event 2026-10-30 黑白交汇，合众共乐！ 全新特",
+      "postKeys": [
+        "official:pkm:fb368074"
+      ],
+      "generatedTitle": "黑白专题拼图冰箱贴套装（白）",
       "sourceTypes": [
         "official"
       ],
@@ -44314,8 +45378,8 @@
       "titleIsManual": false
     },
     {
-      "sourceType": "news",
-      "id": "product:影之诗:2026-11-06:灾杰的继承者",
+      "sourceType": "mixed",
+      "id": "product:影之诗:2026-11-06:补充包灾杰的继承者上市",
       "kind": "product",
       "date": "2026-11-06",
       "endDate": "2026-11-06",
@@ -44324,9 +45388,54 @@
       "reservationFrom": "",
       "reservationTo": "",
       "brand": "影之诗",
-      "sourceName": "影之诗进化对决",
-      "sourceUrl": "https://www.bilibili.com/opus/1261227027087753221",
+      "sourceName": "影之诗进化对决 + 影之诗进化对决官方账号",
+      "sourceUrl": "https://www.bilibili.com/opus/1264937878851420184",
       "sources": [
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1266013044404650007"
+        },
+        {
+          "type": "official",
+          "name": "影之诗进化对决官方账号",
+          "url": "https://www.bilibili.com/opus/1264937878851420184"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1264566793619374086"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1264195708481699841"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1263824623273771017"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1263453538137145381"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1262340282626605061"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1261969197444890633"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1261598112227524612"
+        },
         {
           "type": "news",
           "name": "影之诗进化对决",
@@ -44345,28 +45454,39 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-20",
+      "publishedAt": "2026-11-02",
       "image": "",
-      "excerpt": "#热点资讯##影之诗# 《灾杰的继承者》收录卡介绍 “我等乃继承灾祸之人。” 今天为大家带来的是，2026年11月6日即将发售的补充包《灾杰的继承者》中即将登场的卡牌：",
+      "excerpt": "#热点资讯##影之诗# 亲爱的主战者们，大家好呀！ 为庆祝《影之诗：进化对决》补充包《灾杰的继承者》上市，我们将在全国官方认证门店开展上市纪念现开赛，本次赛事入场即可获得SL样式的『混融的团结者』 ，欢迎报名参与哟！ 【活动时段】 2026年11月6日~11月8日 【活动地点】 全国各大认证门店 ※详细举办店铺可通过《口袋影之诗》辅助APP或微信小程序搜索“现开赛”查询 【报名方式】 通过《口袋影之诗》辅助APP或微信小程序进行报名，先",
       "postKeys": [
+        "8787:1266013044404650007",
+        "8787:1264937878851420184",
+        "8787:1264566793619374086",
+        "8787:1264195708481699841",
+        "8787:1263824623273771017",
+        "8787:1263453538137145381",
+        "8787:1262340282626605061",
+        "8787:1261969197444890633",
+        "8787:1261598112227524612",
         "8787:1261227027087753221",
         "8787:1260855941870387202",
-        "8787:1241527300589092887"
+        "8787:1241527300589092887",
+        "manual-product-sve-cn-calamity-2026-11-06"
       ],
       "title": "补充包「灾杰的继承者」",
-      "type": "补充包",
-      "city": "",
-      "address": "",
+      "type": "商品套装",
       "fee": "",
-      "prize": "",
       "people": "",
       "confidence": 99,
-      "reason": "2026年11月6日",
-      "postCount": 3,
+      "reason": "官方账号资讯明确写明 2026 年 11 月 6 日发售；日本官网未提供中国版本该日期商品页。",
+      "postCount": 13,
       "generatedTitle": "补充包「灾杰的继承者」",
+      "originalTitle": "补充包《灾杰的继承者》上市",
       "sourceTypes": [
-        "news"
+        "news",
+        "official"
       ],
+      "time": "",
+      "language": "简中",
       "titleIsManual": false
     },
     {
@@ -44457,6 +45577,94 @@
       ],
       "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季北京站",
       "originalTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季北京站情报公开",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "event:一决三国:2026-11-07:2026决竞之巅资格预选赛上海站丨报名",
+      "kind": "event",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "time": "",
+      "precision": "day",
+      "brand": "一决三国",
+      "title": "2026决竞之巅·资格预选赛上海站丨报名",
+      "type": "资格赛",
+      "city": "上海",
+      "address": "上海市徐汇区漕宝路261号鑫耀光环商场东区B1中庭",
+      "fee": "",
+      "prize": "",
+      "people": "128人",
+      "peopleCount": 128,
+      "peopleReason": "名额：128人",
+      "confidence": 99,
+      "reason": "11月7日 ",
+      "postCount": 1,
+      "sourceName": "卡游一决三国",
+      "sourceUrl": "https://www.bilibili.com/opus/1264086186800971778",
+      "sources": [
+        {
+          "type": "news",
+          "name": "卡游一决三国",
+          "url": "https://www.bilibili.com/opus/1264086186800971778"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-28",
+      "image": "",
+      "excerpt": "#热点资讯##卡游一决对战# 2026决竞之巅·资格预选赛上海站丨报名 📅 报名时间：10月28日 12:00 准时开启 📍 赛场地点：上海市徐汇区漕宝路261号鑫耀光环商场东区B1中庭 ⏰ 比赛日期：11月7日 13:00 👥 参赛名额：128人 🔥 2026决竞之巅·资格预选赛·上海站即将打响，今日正式开始报名！ 🎁 亲临现场即可领取全新专属Q版PR卡、钥匙扣及吧唧等物料！ 🏃‍♀️ 名额有限，报满即止！决竞之巅，待你投",
+      "postKeys": [
+        "8787:1264086186800971778"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "2026决竞之巅·资格预选赛上海站丨报名",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "event:一决三国:2026-11-07:直通决竞之巅，上海资格预选赛赛事详情公开",
+      "kind": "event",
+      "date": "2026-11-07",
+      "endDate": "2026-11-07",
+      "time": "",
+      "precision": "day",
+      "brand": "一决三国",
+      "title": "直通决竞之巅，上海资格预选赛赛事详情公开",
+      "type": "资格赛",
+      "city": "上海",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "128人",
+      "peopleCount": 128,
+      "peopleReason": "128人，本次比赛",
+      "confidence": 99,
+      "reason": "11月7日",
+      "postCount": 1,
+      "sourceName": "卡游一决三国",
+      "sourceUrl": "https://www.bilibili.com/opus/1263359478369091593",
+      "sources": [
+        {
+          "type": "news",
+          "name": "卡游一决三国",
+          "url": "https://www.bilibili.com/opus/1263359478369091593"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-26",
+      "image": "",
+      "excerpt": "#热点资讯##卡游一决对战# 直通决竞之巅，上海资格预选赛赛事详情公开 🎯 卡游一决·三国对战卡牌 🚩 2026决竞之巅资格预选赛11月7日马上开启！ 🏆 2026年「决竞之巅」将调整为纯邀请制 ⚔️ 旨在打造汇聚全国一决高手的对战盛宴 📌 此前在烽火连城中成绩斐然的牌手已率先锁定参赛席位 🥁 同时，2026「决竞之巅」资格预选赛即将打响 🔒 在资格预选赛内晋级16强的玩家，也将获得2026年「决竞之巅」直通参赛名额 🎁 ",
+      "postKeys": [
+        "8787:1263359478369091593"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "直通决竞之巅，上海资格预选赛赛事详情公开",
       "titleIsManual": false
     },
     {
@@ -44868,6 +46076,95 @@
       "titleIsManual": false
     },
     {
+      "sourceType": "news",
+      "id": "event:高达:2026-11-14:高达卡牌对战冠军锦标赛26-27杭州站即将盛大开幕！",
+      "kind": "event",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "time": "10:00",
+      "precision": "day",
+      "brand": "高达",
+      "title": "「高达卡牌对战冠军锦标赛 26-27 杭州站」即将盛大开幕！",
+      "type": "锦标赛",
+      "city": "杭州",
+      "address": "浙江省杭州市上城区笕桥街道杭州东站新风路60号万斯酒店五楼国潮厅",
+      "fee": "100 元",
+      "prize": "",
+      "people": "512人",
+      "peopleCount": 512,
+      "peopleReason": "人数上限 I 512 人",
+      "confidence": 99,
+      "reason": "2026年11月14日",
+      "postCount": 1,
+      "sourceName": "b站高达简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1264194420003045396",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264194420003045396"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-28",
+      "image": "",
+      "excerpt": "#热点资讯##高达##高达卡牌对战##GCG# ▷「高达卡牌对战冠军锦标赛 26-27 杭州站」即将盛大开幕！ ▏比赛时间:2026年11月14日10:00 ▏比赛地点：浙江省杭州市上城区笕桥街道杭州东站新风路60号万斯酒店五楼国潮厅 ▏比赛赛制：1v1，一局定胜负（BO1），瑞士轮+淘汰赛机制，每局30分钟报名方式每位参赛玩家需支付人民币100元购买指定高达卡牌对战商品完成报名。 报名时间 2026年10月30日（周五）下午13:30",
+      "postKeys": [
+        "8787:1264194420003045396"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "「高达卡牌对战冠军锦标赛 26-27 杭州站」即将盛大开幕！",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "event:峡谷争锋:2026-11-14:峡谷争锋2026巡回赛无锡站丨赛事详情",
+      "kind": "event",
+      "date": "2026-11-14",
+      "endDate": "2026-11-14",
+      "time": "",
+      "precision": "day",
+      "brand": "峡谷争锋",
+      "title": "峡谷争锋2026巡回赛·无锡站",
+      "type": "巡回赛",
+      "city": "",
+      "address": "江苏省无锡市新吴区高浪路19号丽呈华廷酒店3楼太湖厅",
+      "fee": "用公开报 g 参与报 g 人數上跟 400 人报 g 需进行抽选确定赛 ",
+      "prize": "",
+      "people": "400人",
+      "peopleCount": 400,
+      "peopleReason": "人数上限：400人",
+      "confidence": 99,
+      "reason": "2026年11月14日\n",
+      "postCount": 1,
+      "sourceName": "b站峡谷争锋",
+      "sourceUrl": "https://www.bilibili.com/opus/1264843819064492041",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站峡谷争锋",
+          "url": "https://www.bilibili.com/opus/1264843819064492041"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##峡谷争锋# 峡谷争锋2026巡回赛·无锡站丨赛事详情 《峡谷争锋》王者荣耀集换式卡牌 2026巡回赛赛程来到锡城！ 赛事详情现已揭晓👆 点击海报，查看详情信息参赛选手切勿错过！ 🧑‍🤝‍🧑本次比赛人数上限：400人 ⏰报名开启时间：10月30日 12:00 📄抽选结果公示时间：11月6日12:00 📚未签署确认书名额释放时间：11月9日00:00 ✉️二次抽选结果公示时间：11月9日12:00 📍比赛地点：江",
+      "postKeys": [
+        "8787:1264843819064492041"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "峡谷争锋2026巡回赛·无锡站",
+      "originalTitle": "峡谷争锋2026巡回赛·无锡站丨赛事详情",
+      "titleIsManual": false
+    },
+    {
       "id": "manual-product-ygo-cn-imph-2026-11-14",
       "kind": "product",
       "date": "2026-11-14",
@@ -44914,6 +46211,50 @@
         "manual-product-ygo-cn-imph-2026-11-14"
       ],
       "generatedTitle": "补充包：不死凤凰",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "event:卡片战斗先导者:2026-11-15:国家冠军赛2026中西部赛区地区大赛赛事详情公开！",
+      "kind": "event",
+      "date": "2026-11-15",
+      "endDate": "2026-11-15",
+      "time": "",
+      "precision": "day",
+      "brand": "卡片战斗先导者",
+      "title": "国家冠军赛2026 中西部赛区地区大赛赛事详情公开！",
+      "type": "资格赛",
+      "city": "重庆",
+      "address": "重庆市南岸区江南大道 69 号海德大酒店一楼会议中心赛事人数上限 48 队比赛方式三人组队赛 BOI ， 双败淘汰赛",
+      "fee": "150 元",
+      "prize": "",
+      "people": "48队（约144人）",
+      "peopleCount": 144,
+      "peopleReason": "人数上限 48 队",
+      "confidence": 99,
+      "reason": "11 月 15 日 ",
+      "postCount": 1,
+      "sourceName": "b站卡片战斗先导者",
+      "sourceUrl": "https://www.bilibili.com/opus/1263452249625985075",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站卡片战斗先导者",
+          "url": "https://www.bilibili.com/opus/1263452249625985075"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-26",
+      "image": "",
+      "excerpt": "#热点资讯##卡片战斗先导者# 国家冠军赛2026 中西部赛区地区大赛赛事详情公开！ 所有比赛在10月30日 15:00开放报名！ *报名需要实名认证，请提前完成。",
+      "postKeys": [
+        "8787:1263452249625985075"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "国家冠军赛2026 中西部赛区地区大赛赛事详情公开！",
       "titleIsManual": false
     },
     {
@@ -45070,6 +46411,113 @@
     },
     {
       "sourceType": "news",
+      "id": "product:一决三国:2026-11-20:十一月新篇将启",
+      "kind": "product",
+      "date": "2026-11-20",
+      "endDate": "2026-11-20",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "一决三国",
+      "sourceName": "正面对决集换式卡牌",
+      "sourceUrl": "https://www.bilibili.com/opus/1264944321296072707",
+      "sources": [
+        {
+          "type": "news",
+          "name": "正面对决集换式卡牌",
+          "url": "https://www.bilibili.com/opus/1264944321296072707"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##三国杀正面对决##正面对决TCG# 《正面对决》十一月活动日历正式公开十一月新篇将启，备受期待的第二弹补充包「筹谋」将于11月20日正式发售！ 随着新弹的正式发售，发售现开赛将于随后的周末紧接打响，诚邀各位主公第一时间体验全新的卡牌博弈与构筑乐趣。 与此同时，第一赛季城市挑战赛即将迎来最终收官，第二赛季的全新征程无缝接棒，期待各位主公在新赛场尽展锋芒。 此外，11月我们还将公布第一期留言板互动，并在月底发布新物集BGM游戏",
+      "postKeys": [
+        "8787:1264944321296072707"
+      ],
+      "title": "十一月新篇将启",
+      "type": "构筑/预组",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "11月20日",
+      "postCount": 1,
+      "generatedTitle": "十一月新篇将启",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:一决三国:2026-11-20:补充包筹谋",
+      "kind": "product",
+      "date": "2026-11-20",
+      "endDate": "2026-11-20",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "一决三国",
+      "sourceName": "正面对决集换式卡牌",
+      "sourceUrl": "https://www.bilibili.com/opus/1262338994131173408",
+      "sources": [
+        {
+          "type": "news",
+          "name": "正面对决集换式卡牌",
+          "url": "https://www.bilibili.com/opus/1262338994131173408"
+        },
+        {
+          "type": "news",
+          "name": "正面对决集换式卡牌",
+          "url": "https://www.bilibili.com/opus/1261968636961095684"
+        },
+        {
+          "type": "news",
+          "name": "正面对决集换式卡牌",
+          "url": "https://www.bilibili.com/opus/1261880053201895445"
+        },
+        {
+          "type": "news",
+          "name": "正面对决集换式卡牌",
+          "url": "https://www.bilibili.com/opus/1261598372125474856"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-23",
+      "image": "",
+      "excerpt": "#热点资讯##三国杀正面对决##正面对决tcg# 「筹谋」系列全卡公布为了方便各位主公查阅「筹谋」 系列的全部卡牌，我们在动态中整理了本系列的全部牌表。 《正面对决：三国杀集换式卡牌游戏》第二弹补充包「筹谋」将于11月20日正式发售。欢迎各位主公一起线下相聚，「正面对决」！",
+      "postKeys": [
+        "8787:1262338994131173408",
+        "8787:1261968636961095684",
+        "8787:1261880053201895445",
+        "8787:1261598372125474856"
+      ],
+      "title": "正面对决补充包 筹谋",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "11月20日",
+      "postCount": 4,
+      "generatedTitle": "正面对决补充包 筹谋",
+      "originalTitle": "补充包「筹谋",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
       "id": "product:一决三国:2026-11-20:与此同时",
       "kind": "product",
       "date": "2026-11-20",
@@ -45157,6 +46605,96 @@
       "titleIsManual": false
     },
     {
+      "sourceType": "news",
+      "id": "event:数码宝贝:2026-11-21:数码宝贝卡牌对战简体中文版超!驯兽师对战会-冬季厦门站情报公开",
+      "kind": "event",
+      "date": "2026-11-21",
+      "endDate": "2026-11-21",
+      "time": "10:30",
+      "precision": "day",
+      "brand": "数码宝贝",
+      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季厦门站",
+      "type": "赛事",
+      "city": "厦门",
+      "address": "福建省厦门市思明区东浦路66号厦门森海丽景酒店21F融悦厅",
+      "fee": "",
+      "prize": "",
+      "people": "150人",
+      "peopleCount": 150,
+      "peopleReason": "赛事上限人数：150人",
+      "confidence": 99,
+      "reason": "2026年11月21日",
+      "postCount": 1,
+      "sourceName": "b站数码简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1263351747397550085",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站数码简中",
+          "url": "https://www.bilibili.com/opus/1263351747397550085"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-26",
+      "image": "",
+      "excerpt": "#热点资讯##数码宝贝##数码宝贝卡牌对战##DTCG# 《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季厦门站情报公开！ 期待各位驯兽师的到来！用炽热的对战承载前进的勇气！数码大门！开启！ ------------------------------------------------ ■比赛时间:2026年11月21日10:30 ■报名时间:2026年10月28日10:30 ※报名开放时间请以赛事详情页面为准 ■赛事上限人数",
+      "postKeys": [
+        "8787:1263351747397550085"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季厦门站",
+      "originalTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季厦门站情报公开",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "event:数码宝贝:2026-11-21:数码宝贝卡牌对战简体中文版超!驯兽师对战会-冬季成都站情报公开",
+      "kind": "event",
+      "date": "2026-11-21",
+      "endDate": "2026-11-21",
+      "time": "10:30",
+      "precision": "day",
+      "brand": "数码宝贝",
+      "title": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季成都站",
+      "type": "赛事",
+      "city": "成都",
+      "address": "四川省成都市武侯区聚龙路16号摩尔国际b座宇航之星酒店5楼宇航厅",
+      "fee": "",
+      "prize": "",
+      "people": "150人",
+      "peopleCount": 150,
+      "peopleReason": "赛事上限人数：150人",
+      "confidence": 99,
+      "reason": "2026年11月21日",
+      "postCount": 1,
+      "sourceName": "b站数码简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1263344016485777415",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站数码简中",
+          "url": "https://www.bilibili.com/opus/1263344016485777415"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-26",
+      "image": "",
+      "excerpt": "#热点资讯##数码宝贝##数码宝贝卡牌对战##DTCG# 《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季成都站情报公开！ 期待各位驯兽师的到来！用炽热的对战承载前进的勇气！数码大门！开启！ ------------------------------------------------ ■比赛时间:2026年11月21日10:30 ■报名时间:2026年10月28日10:30 ※报名开放时间请以赛事详情页面为准 ■赛事上限人数",
+      "postKeys": [
+        "8787:1263344016485777415"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季成都站",
+      "originalTitle": "《数码宝贝卡牌对战》简体中文版“超!驯兽师对战会”-冬季成都站情报公开",
+      "titleIsManual": false
+    },
+    {
       "sourceType": "mixed",
       "id": "product:航海王:2026-11-21:补充包op-18神之支配",
       "kind": "product",
@@ -45167,6 +46705,46 @@
       "sourceName": "b站航海王简中 + 官网巡查 op",
       "sourceUrl": "https://www.onepiece-cardgame.com/products/op18.html",
       "sources": [
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1265957074555109396"
+        },
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1264843819009966081"
+        },
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1264472733878583332"
+        },
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1264101648706306056"
+        },
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1263730563499425816"
+        },
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1263359478332391495"
+        },
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1262246222819753984"
+        },
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1261875137669496841"
+        },
         {
           "type": "news",
           "name": "b站航海王简中",
@@ -45270,10 +46848,18 @@
       ],
       "backendPort": 8787,
       "status": "published",
-      "publishedAt": "2026-10-21",
+      "publishedAt": "2026-11-02",
       "image": "",
       "excerpt": "#热点资讯##航海王卡牌对战##OPCG# 【收录卡牌介绍】 该卡牌将收录于11月21日发售的补充包【OP-18】神之支配",
       "postKeys": [
+        "8787:1265957074555109396",
+        "8787:1264843819009966081",
+        "8787:1264472733878583332",
+        "8787:1264101648706306056",
+        "8787:1263730563499425816",
+        "8787:1263359478332391495",
+        "8787:1262246222819753984",
+        "8787:1261875137669496841",
         "8787:1261504052481490985",
         "8787:1261132967285096473",
         "8787:1260761882094993460",
@@ -45305,7 +46891,7 @@
       "people": "",
       "confidence": 99,
       "reason": "発売日 2026.11.21",
-      "postCount": 21,
+      "postCount": 29,
       "generatedTitle": "补充包 神之支配【OP-18】",
       "sourceTypes": [
         "news",
@@ -45357,7 +46943,7 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ygo:793ad38",
+      "id": "official:ygo:8cfe0eee",
       "kind": "product",
       "sourceType": "mixed",
       "date": "2026-11-21",
@@ -45372,12 +46958,12 @@
       "reason": "人工商品表缺项补全：REVOLUTION BOOSTER 方界 / Marincess / Ghostrick。",
       "postCount": 2,
       "sourceName": "游戏王日本官网",
-      "sourceUrl": "https://yu-gi-oh.jp/news/w0cgkf8x-usk/",
+      "sourceUrl": "https://yu-gi-oh.jp/news/n8cfjuot5b/",
       "sources": [
         {
           "type": "official",
           "name": "游戏王日本官网",
-          "url": "https://yu-gi-oh.jp/news/w0cgkf8x-usk/"
+          "url": "https://yu-gi-oh.jp/news/n8cfjuot5b/"
         },
         {
           "type": "official",
@@ -45399,10 +46985,10 @@
       "backendPort": "",
       "status": "official",
       "publishedAt": "",
-      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3L2JiNzcwY2M3NzdhZTRjYTFhNzAzOThkMTVjOGJlY2M0L1JWMDItSlAwMzBfNTAwLmpwZyIsImZtPXdlYnAmcT04MCJd.vQC1S4F-2a0Dilmfy5fZQsucJCUiC2LO_GNW6sGkhxI.webp",
-      "excerpt": "* NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL * TOP * NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL NEWS ニュース 2026/10/12 CARD Vジャンプ12月特大号掲載記事：第4回 『REVOLUTION BOOSTER －方界・マリンセス・ゴーストリック－』に収録",
+      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3LzQ1YWIwZjYzMTk2YzQ1ZmI4ZGRkNDA2ZmVmOTEwNmJlL1JWMDItSlAwNTJfNTAwLmpwZyIsImZtPXdlYnAmcT04MCJd.hliM4nAUVTnHWGiu0HTcrvVX6JQ_m7BCljz3_F_oNOE.webp",
+      "excerpt": "* NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL * TOP * NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL NEWS ニュース 2026/10/31 CARD 『REVOLUTION BOOSTER －方界・マリンセス・ゴーストリック－』に収録される「ゴーストリック」の新カードと再録",
       "postKeys": [
-        "official:ygo:ce46ab55",
+        "official:ygo:9d32b353",
         "manual-product-ygo-jp-revolution-marincess-2026-11-21"
       ],
       "generatedTitle": "革命补充包（方界/海晶/鬼计）",
@@ -45637,6 +47223,95 @@
     },
     {
       "sourceType": "news",
+      "id": "event:航海王:2026-11-28:航海王卡牌对战四周年纪念赛北京站信息公开！",
+      "kind": "event",
+      "date": "2026-11-28",
+      "endDate": "2026-11-28",
+      "time": "10:40",
+      "precision": "day",
+      "brand": "航海王",
+      "title": "《航海王卡牌对战》“四周年纪念赛北京站”",
+      "type": "赛事",
+      "city": "北京",
+      "address": "北京市丰台区潘家庙468号北京新发地农产品博览中心会议一层中心1010号",
+      "fee": "",
+      "prize": "",
+      "people": "450人",
+      "peopleCount": 450,
+      "peopleReason": "人数上限：450人",
+      "confidence": 99,
+      "reason": "2026年11月28日",
+      "postCount": 1,
+      "sourceName": "b站航海王简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1264859280929980425",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站航海王简中",
+          "url": "https://www.bilibili.com/opus/1264859280929980425"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##航海王卡牌对战##OPCG# 《航海王卡牌对战》“四周年纪念赛北京站”信息公开！ 生肖入局，牌定乾坤，四周年巅峰之战！ ———————————————————————— ■比赛时间：2026年11月28日上午10:40 — 报名抽选时间报名抽选开始时间：2026年11月2日下午19:00 报名抽选截止时间：2026年11月4日下午13:00 ※请各位玩家务必在规定时间内按照页面提示完成报名抽选，逾期未操作将视为放弃。 抽选",
+      "postKeys": [
+        "8787:1264859280929980425"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "《航海王卡牌对战》“四周年纪念赛北京站”",
+      "originalTitle": "《航海王卡牌对战》“四周年纪念赛北京站”信息公开！",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "event:幻兽帕鲁卡牌:2026-11-28:大师联赛区域预选赛深圳站✨报名开启",
+      "kind": "event",
+      "date": "2026-11-28",
+      "endDate": "2026-11-28",
+      "time": "",
+      "precision": "day",
+      "brand": "幻兽帕鲁卡牌",
+      "title": "大师联赛区域预选赛·深圳站✨报名开启",
+      "type": "资格赛",
+      "city": "深圳",
+      "address": "深圳南山科技园希尔顿惠庭酒店",
+      "fee": "",
+      "prize": "",
+      "people": "128人",
+      "peopleCount": 128,
+      "peopleReason": "参赛人数：128人",
+      "confidence": 99,
+      "reason": "2026 年 11 月 28 日",
+      "postCount": 1,
+      "sourceName": "b站幻兽帕鲁简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1262342333442031622",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站幻兽帕鲁简中",
+          "url": "https://www.bilibili.com/opus/1262342333442031622"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-23",
+      "image": "",
+      "excerpt": "#热点资讯# 大师联赛区域预选赛·深圳站✨报名开启 《幻兽帕鲁卡牌游戏》大师联赛区域预选赛 · 深圳站报名正式开启！ 一起来争夺大师联赛全国决赛 & 世界决赛（东京）参赛资格吧🔥 📌 赛事信息 🗓 比赛时间：2026 年 11 月 28 日（周六） 📍 比赛地点：深圳南山科技园希尔顿惠庭酒店 🕙 报名时间：2026 年 10 月 23 日 – 11 月 13 日 📌 赛事介绍单场参赛人数：128人级瑞士轮阶段： 根据参赛人数",
+      "postKeys": [
+        "8787:1262342333442031622"
+      ],
+      "sourceTypes": [
+        "news"
+      ],
+      "generatedTitle": "大师联赛区域预选赛·深圳站✨报名开启",
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
       "id": "event:游戏王:2026-11-28:集决斗者色彩，共谱新的传说！",
       "kind": "event",
       "date": "2026-11-28",
@@ -45854,6 +47529,48 @@
       "originalTitle": "补充包「筹谋」 11月发售",
       "sourceTypes": [
         "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ygo:21fe5fac",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-11-30",
+      "endDate": "2026-11-30",
+      "precision": "month",
+      "brand": "游戏王",
+      "title": "マジカルシルクハット",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日：2026年11月 ",
+      "postCount": 1,
+      "sourceName": "游戏王日本官网",
+      "sourceUrl": "https://yu-gi-oh.jp/news/hh7se8c5zyo/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "游戏王日本官网",
+          "url": "https://yu-gi-oh.jp/news/hh7se8c5zyo/"
+        }
+      ],
+      "officialSourceUrl": "https://yu-gi-oh.jp/news/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3LzFiMWYyMzc0ZWY1ZDRlMmQ4ZDIwNTRmZjJlNDFlYzgyL2dvb2RzX3l1cmF5dXJhXzUwMC5qcGciLCJmbT13ZWJwJnE9ODAiXQ.KKpaouA-r7LOte_m3kUN3d87I644iUGaTe8HgDzNVLs.webp",
+      "excerpt": "* NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL * TOP * NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL NEWS ニュース 2026/11/02 GOODS 「遊☆戯☆王デュエルモンスターズ ゆらゆらマーカー」が11月にカプセルトイで新登場！ 『遊☆戯☆王デュエルモンスターズ』よ",
+      "postKeys": [
+        "official:ygo:5c17eb37"
+      ],
+      "generatedTitle": "マジカルシルクハット",
+      "sourceTypes": [
+        "official"
       ],
       "titleIsManual": false
     },
@@ -46310,6 +48027,49 @@
       "titleIsManual": false
     },
     {
+      "id": "official:ua:f5f08fac",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-11",
+      "endDate": "2026-12-11",
+      "precision": "day",
+      "brand": "UA",
+      "title": "新卡精选我的英雄学院",
+      "type": "卡牌套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2026年12月11日",
+      "postCount": 1,
+      "sourceName": "官网巡查 ua",
+      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/mha.php",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 ua",
+          "url": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/mha.php"
+        }
+      ],
+      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "UNION ARENA NEW CARD SELECTION 僕のヒーローアカデミア − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参",
+      "postKeys": [
+        "official:ua:86b2b871"
+      ],
+      "generatedTitle": "新卡精选我的英雄学院",
+      "originalTitle": "新卡精选 我的英雄学院",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
       "id": "official:ua:63da505b",
       "kind": "product",
       "sourceType": "official",
@@ -46353,43 +48113,43 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ua:f5f08fac",
+      "id": "official:ws:7b92c4dc",
       "kind": "product",
       "sourceType": "official",
       "date": "2026-12-11",
       "endDate": "2026-12-11",
       "precision": "day",
-      "brand": "UA",
-      "title": "新卡精选我的英雄学院",
-      "type": "卡牌套装",
+      "brand": "WS黑白双翼",
+      "title": "预组魔法少女ノ魔女裁判",
+      "type": "构筑/预组",
       "city": "",
       "address": "",
       "fee": "",
       "prize": "",
       "people": "",
       "confidence": 99,
-      "reason": "発売日 2026年12月11日",
+      "reason": "発売日：2026年12月11日",
       "postCount": 1,
-      "sourceName": "官网巡查 ua",
-      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/mha.php",
+      "sourceName": "官网巡查 ws",
+      "sourceUrl": "https://ws-tcg.com/products/mjs_td_ws/",
       "sources": [
         {
           "type": "official",
-          "name": "官网巡查 ua",
-          "url": "https://www.unionarena-tcg.com/jp/products/other/new_card_selection/mha.php"
+          "name": "官网巡查 ws",
+          "url": "https://ws-tcg.com/products/mjs_td_ws/"
         }
       ],
-      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "officialSourceUrl": "https://ws-tcg.com/products/",
       "backendPort": "",
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "UNION ARENA NEW CARD SELECTION 僕のヒーローアカデミア − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参",
+      "excerpt": "トライアルデッキ 魔法少女ノ魔女裁判発売日：2026年12月11日(金)",
       "postKeys": [
-        "official:ua:86b2b871"
+        "official:ws:9c9e1e4b"
       ],
-      "generatedTitle": "新卡精选我的英雄学院",
-      "originalTitle": "新卡精选 我的英雄学院",
+      "generatedTitle": "预组魔法少女ノ魔女裁判",
+      "originalTitle": "トライアルデッキ 魔法少女ノ魔女裁判",
       "sourceTypes": [
         "official"
       ],
@@ -46556,7 +48316,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "お知らせ スタートデッキ バロックワークス【ST-38】 発売日 2026.12.19(土) メーカー希望小売価格 1,320円(税込)",
+      "excerpt": "デッキ スタートデッキ バロックワークス【ST-38】 発売日 2026.12.19(土) メーカー希望小売価格 1,430円(税込)",
       "postKeys": [
         "official:op:a2b08a4d",
         "official:op:682b5754"
@@ -46600,7 +48360,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "デッキ スタートデッキ 砂漠の王女と海賊たち【ST-37】 発売日 2026.12.19(土) メーカー希望小売価格 1,320円(税込)",
+      "excerpt": "デッキ スタートデッキ 砂漠の王女と海賊たち【ST-37】 発売日 2026.12.19(土) メーカー希望小売価格 1,430円(税込)",
       "postKeys": [
         "official:op:ada05eb4"
       ],
@@ -46608,6 +48368,177 @@
       "originalTitle": "スタートデッキ 砂漠の王女と海賊たち【ST-37】",
       "sourceTypes": [
         "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:conan:d9c6df23",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-19",
+      "endDate": "2026-12-19",
+      "precision": "day",
+      "brand": "柯南TCG",
+      "title": "ケース「ガールズセレクション」",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日：2026年12月19日",
+      "postCount": 1,
+      "sourceName": "官网巡查 conan",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/product/deck_case_vol2",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 conan",
+          "url": "https://www.takaratomy.co.jp/products/conan-cardgame/product/deck_case_vol2"
+        }
+      ],
+      "officialSourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "周辺グッズ 名探偵コナンTCG デッキケース「ガールズセレクション」 発売日：2026年12月19日（土） 希望小売価格｜880円(税込)",
+      "postKeys": [
+        "official:conan:6e560234"
+      ],
+      "generatedTitle": "ケース「ガールズセレクション」",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:conan:f531c4ad",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-19",
+      "endDate": "2026-12-19",
+      "precision": "day",
+      "brand": "柯南TCG",
+      "title": "ケース「江戸川コナン＆怪盗キッド」",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日：2026年12月19日",
+      "postCount": 1,
+      "sourceName": "官网巡查 conan",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/product/deck_case_vol2",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 conan",
+          "url": "https://www.takaratomy.co.jp/products/conan-cardgame/product/deck_case_vol2"
+        }
+      ],
+      "officialSourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "周辺グッズ 名探偵コナンTCG デッキケース「江戸川コナン＆怪盗キッド」 発売日：2026年12月19日（土） 希望小売価格｜880円(税込)",
+      "postKeys": [
+        "official:conan:7378a51a"
+      ],
+      "generatedTitle": "ケース「江戸川コナン＆怪盗キッド」",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:conan:b69ee1ba",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-19",
+      "endDate": "2026-12-19",
+      "precision": "day",
+      "brand": "柯南TCG",
+      "title": "ケース「vol.2」",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日：2026年12月19日",
+      "postCount": 1,
+      "sourceName": "官网巡查 conan",
+      "sourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/product/deck_case_vol2",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 conan",
+          "url": "https://www.takaratomy.co.jp/products/conan-cardgame/product/deck_case_vol2"
+        }
+      ],
+      "officialSourceUrl": "https://www.takaratomy.co.jp/products/conan-cardgame/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "周辺グッズ 名探偵コナンTCG デッキケース「vol.2」 発売日：2026年12月19日（土） 希望小売価格｜880円(税込)",
+      "postKeys": [
+        "official:conan:1c8db003"
+      ],
+      "generatedTitle": "ケース「vol.2」",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:游戏王:2026-12-19:2026/12/19premiumpack2027",
+      "kind": "product",
+      "date": "2026-12-19",
+      "endDate": "2026-12-19",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "游戏王",
+      "sourceName": "NW游戏王区",
+      "sourceUrl": "https://www.bilibili.com/opus/1265974132050231301",
+      "sources": [
+        {
+          "type": "news",
+          "name": "NW游戏王区",
+          "url": "https://www.bilibili.com/opus/1265974132050231301"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-11-02",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王##游戏王OCG# 27PP 商品信息 2026/12/19 PREMIUM PACK 2027 1包4张，1盒10包种类： 全32种 SER 12种 N 20种 N卡有NPR/SR/SER版本，SER卡和N卡有特别红字版SER版本价格：1盒2530日元（含税） ·主要收录VJ漫画卡和动画中登场卡，并以SER复刻VJ附送卡12种。 ·JF2027网站和 JF2027(抽选参加) 限定（12月19～20日举行） ·本商",
+      "postKeys": [
+        "8787:1265974132050231301"
+      ],
+      "title": "PREMIUM PACK 2027",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2026/12/19 ",
+      "postCount": 1,
+      "generatedTitle": "PREMIUM PACK 2027",
+      "originalTitle": "2026/12/19 PREMIUM PACK 2027",
+      "sourceTypes": [
+        "news"
       ],
       "titleIsManual": false
     },
@@ -46880,6 +48811,178 @@
       "titleIsManual": false
     },
     {
+      "id": "official:op:cn:80cc8e70",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-26",
+      "endDate": "2026-12-26",
+      "precision": "day",
+      "brand": "航海王",
+      "language": "简中",
+      "title": "航海王卡牌对战豪华卡牌收藏 6种卡牌套装 Vol.2",
+      "type": "其他",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 96,
+      "reason": "航海王简中官网：2026-12-26",
+      "postCount": 1,
+      "sourceName": "航海王简中官网",
+      "sourceUrl": "https://www.onepiece-cardgame.cn/products/newDetail?id=144&type=3",
+      "sources": [
+        {
+          "type": "official",
+          "name": "航海王简中官网",
+          "url": "https://www.onepiece-cardgame.cn/products/newDetail?id=144&type=3"
+        }
+      ],
+      "officialSourceUrl": "https://www.onepiece-cardgame.cn/products?type=",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "https://source.windoent.com/OnePiecePc/Picture/5556bf6f4d304efbb258b6e42b149b2d/19.png",
+      "excerpt": "其他 『 万代卡牌游戏狂欢节2026-2027世界巡回——上海站 』现场贩售! ※图片和实际产品可能略有不同。 ※产品工艺可能会发生变化。",
+      "postKeys": [
+        "official:op:cn:ebac82e5"
+      ],
+      "generatedTitle": "航海王卡牌对战豪华卡牌收藏 6种卡牌套装 Vol.2",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:op:cn:2cce6a4c",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-26",
+      "endDate": "2026-12-26",
+      "precision": "day",
+      "brand": "航海王",
+      "language": "简中",
+      "title": "航海王卡牌对战官方橡胶对战桌垫&卡牌套装-路飞&邦妮-",
+      "type": "其他",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 96,
+      "reason": "航海王简中官网：2026-12-26",
+      "postCount": 1,
+      "sourceName": "航海王简中官网",
+      "sourceUrl": "https://www.onepiece-cardgame.cn/products/newDetail?id=143&type=3",
+      "sources": [
+        {
+          "type": "official",
+          "name": "航海王简中官网",
+          "url": "https://www.onepiece-cardgame.cn/products/newDetail?id=143&type=3"
+        }
+      ],
+      "officialSourceUrl": "https://www.onepiece-cardgame.cn/products?type=",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "https://source.windoent.com/OnePiecePc/Picture/5736b54138b74052b8d2cc9256c32cd6/18.png",
+      "excerpt": "其他 『 万代卡牌游戏狂欢节2026-2027世界巡回——上海站 』现场贩售! ※图片和实际产品可能略有不同。 ※产品工艺可能会发生变化。",
+      "postKeys": [
+        "official:op:cn:6f8ad7e1"
+      ],
+      "generatedTitle": "航海王卡牌对战官方橡胶对战桌垫&卡牌套装-路飞&邦妮-",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:op:cn:98aceec8",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-26",
+      "endDate": "2026-12-26",
+      "precision": "day",
+      "brand": "航海王",
+      "language": "简中",
+      "title": "航海王卡牌对战特别卡套锦标赛26-27KV",
+      "type": "其他",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 96,
+      "reason": "航海王简中官网：2026-12-26",
+      "postCount": 1,
+      "sourceName": "航海王简中官网",
+      "sourceUrl": "https://www.onepiece-cardgame.cn/products/newDetail?id=142&type=3",
+      "sources": [
+        {
+          "type": "official",
+          "name": "航海王简中官网",
+          "url": "https://www.onepiece-cardgame.cn/products/newDetail?id=142&type=3"
+        }
+      ],
+      "officialSourceUrl": "https://www.onepiece-cardgame.cn/products?type=",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "https://source.windoent.com/OnePiecePc/Picture/e780d388444c4dd6a354202d0fdecafb/17.png",
+      "excerpt": "其他 『 万代卡牌游戏狂欢节2026-2027世界巡回——上海站 』现场贩售! ※图片和实际产品可能略有不同。 ※产品工艺可能会发生变化。",
+      "postKeys": [
+        "official:op:cn:efd17849"
+      ],
+      "generatedTitle": "航海王卡牌对战特别卡套锦标赛26-27KV",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:op:cn:5a4ddb04",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-12-26",
+      "endDate": "2026-12-26",
+      "precision": "day",
+      "brand": "航海王",
+      "language": "简中",
+      "title": "航海王卡牌对战特别卡套女主角",
+      "type": "其他",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 96,
+      "reason": "航海王简中官网：2026-12-26",
+      "postCount": 1,
+      "sourceName": "航海王简中官网",
+      "sourceUrl": "https://www.onepiece-cardgame.cn/products/newDetail?id=141&type=3",
+      "sources": [
+        {
+          "type": "official",
+          "name": "航海王简中官网",
+          "url": "https://www.onepiece-cardgame.cn/products/newDetail?id=141&type=3"
+        }
+      ],
+      "officialSourceUrl": "https://www.onepiece-cardgame.cn/products?type=",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "https://source.windoent.com/OnePiecePc/Picture/d3fd699930964cd583da9777f10854cd/16.png",
+      "excerpt": "其他 『 万代卡牌游戏狂欢节2026-2027世界巡回——上海站 』现场贩售! ※图片和实际产品可能略有不同。 ※产品工艺可能会发生变化。",
+      "postKeys": [
+        "official:op:cn:c2192c5b"
+      ],
+      "generatedTitle": "航海王卡牌对战特别卡套女主角",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
       "sourceType": "news",
       "id": "product:游戏王:2026-12-26:遊☆戯☆王源绘典藏包简体中文版",
       "kind": "product",
@@ -46974,6 +49077,49 @@
       "titleIsManual": false
     },
     {
+      "id": "official:gundam:4289f5fa",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2027-01-09",
+      "endDate": "2027-01-09",
+      "precision": "day",
+      "brand": "高达",
+      "title": "ストレージボックス＆リソース卡牌套装 EX 02[EVX15]",
+      "type": "卡牌套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2027.1.9",
+      "postCount": 1,
+      "sourceName": "官网巡查 gundam",
+      "sourceUrl": "https://www.gundam-gcg.com/jp/products/evx15.html",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 gundam",
+          "url": "https://www.gundam-gcg.com/jp/products/evx15.html"
+        }
+      ],
+      "officialSourceUrl": "https://www.gundam-gcg.com/jp/products/list.php",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "ストレージボックス＆リソースカードセットEX 02[EVX15] 発売日 2027.1.9 メーカー希望小売価格 ¥1,980(税込) ardInfoTxt\">￥1,320(税込) 周辺アイテム ストレージボックス＆リソースカードセットEX 02[EVX15] 発売日 2027.1.9 メーカー希望小売価格 ¥1,980(税込) 周辺アイテム <img src=\"/gcg/bccard/jp/news/2026/10/26/tbo9bF",
+      "postKeys": [
+        "official:gundam:fd292901"
+      ],
+      "generatedTitle": "ストレージボックス＆リソース卡牌套装 EX 02[EVX15]",
+      "originalTitle": "ストレージボックス＆リソースカードセットEX 02[EVX15]",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
       "sourceType": "news",
       "id": "product:游戏王:2027-01-09:duelarrivalbox-heroesedition-da01-ae",
       "kind": "product",
@@ -47012,6 +49158,50 @@
       "reason": "2027年1月9日 ",
       "postCount": 1,
       "generatedTitle": "DUEL ARRIVAL BOX -HEROES EDITION-（DA01-AE）",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:宝可梦:2027-01-15:礼盒现已公开！",
+      "kind": "product",
+      "date": "2027-01-15",
+      "endDate": "2027-01-15",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "宝可梦（英）论坛",
+      "sourceUrl": "https://www.pokebeach.com/2026/10/pokemon-tcg-valentines-box-revealed-for-january",
+      "sources": [
+        {
+          "type": "news",
+          "name": "宝可梦（英）论坛",
+          "url": "https://www.pokebeach.com/2026/10/pokemon-tcg-valentines-box-revealed-for-january"
+        }
+      ],
+      "backendPort": 8877,
+      "status": "draft",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦# “宝可梦 TCG 情人节礼盒”现已公开！将于 1 月 15 日发售，售价 14.99 美元。 正如几个月前发布的那样，该盒子将包含 20 个“情人节”迷你补充包，每个补充包包含三张卡片。包装还可以转换成一个邮箱，用于收集情人节礼物。它还配有五张贴纸。 演出名单尚未公布——我们可能要到一月份才能知道。就像万圣节的“不给糖就捣蛋”套装一样，我们应该会看到一系列重印的卡片，但带有爱情主题和特殊邮票。",
+      "postKeys": [
+        "8877:f4b2dffc2732dcbc"
+      ],
+      "title": "礼盒”现已公开！",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "1 月 15 日",
+      "postCount": 1,
+      "generatedTitle": "礼盒”现已公开！",
       "sourceTypes": [
         "news"
       ],
@@ -47186,6 +49376,94 @@
       "originalTitle": "トライアルデッキ 新日本プロレス：Forbidden Door",
       "sourceTypes": [
         "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:游戏王:2027-01-16:决斗套装",
+      "kind": "product",
+      "date": "2027-01-16",
+      "endDate": "2027-01-16",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "游戏王",
+      "sourceName": "NW游戏王区",
+      "sourceUrl": "https://www.bilibili.com/opus/1262241947161985033",
+      "sources": [
+        {
+          "type": "news",
+          "name": "NW游戏王区",
+          "url": "https://www.bilibili.com/opus/1262241947161985033"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-23",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王##游戏王OCG# 2027年1月16日 YCSJ 福冈雷盟决斗套装耀圣决斗套装(YCSJ福冈2027纪念商品) YCSJ福冈会场内可以另外购买的限定商品(每人最多能购买1套)。 非来场者可以从网站购买此套装，_开始收到实物。 价格：4000日元(含税) 套装内容： 决斗场地(「無垢なる協奏 エルフェンノーツ」) ×1 决斗者卡套",
+      "postKeys": [
+        "8787:1262241947161985033"
+      ],
+      "title": "决斗套装",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 80,
+      "reason": "2027年1月16日 ",
+      "postCount": 1,
+      "generatedTitle": "决斗套装",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:游戏王:2027-01-16:幻惑の綺羅星",
+      "kind": "product",
+      "date": "2027-01-16",
+      "endDate": "2027-01-16",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "游戏王",
+      "sourceName": "NW游戏王区",
+      "sourceUrl": "https://www.bilibili.com/opus/1262234632869380184",
+      "sources": [
+        {
+          "type": "news",
+          "name": "NW游戏王区",
+          "url": "https://www.bilibili.com/opus/1262234632869380184"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-23",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王##游戏王OCG# 2027年1月16日 YCSJ 福冈纪念商品 「幻惑の綺羅星」卡套 (100枚) 价格 1000日元",
+      "postKeys": [
+        "8787:1262234632869380184"
+      ],
+      "title": "幻惑の綺羅星",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 80,
+      "reason": "2027年1月16日 ",
+      "postCount": 1,
+      "generatedTitle": "幻惑の綺羅星",
+      "sourceTypes": [
+        "news"
       ],
       "titleIsManual": false
     },
@@ -47608,6 +49886,94 @@
       "titleIsManual": false
     },
     {
+      "sourceType": "news",
+      "id": "product:宝可梦:2027-02-05:flowingfists",
+      "kind": "product",
+      "date": "2027-02-05",
+      "endDate": "2027-02-05",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "宝可梦（英）论坛",
+      "sourceUrl": "https://www.pokebeach.com/2026/10/flowing-fists-pokemon-tcg-set-to-release-in-february-starring-mega-lucario-z-ex",
+      "sources": [
+        {
+          "type": "news",
+          "name": "宝可梦（英）论坛",
+          "url": "https://www.pokebeach.com/2026/10/flowing-fists-pokemon-tcg-set-to-release-in-february-starring-mega-lucario-z-ex"
+        }
+      ],
+      "backendPort": 8877,
+      "status": "draft",
+      "publishedAt": "2026-10-22",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦# 我们可以透露流动的拳头将是第七个主要英语超级进化套装的名称！ 将于 2 月 5 日星期五发布。售前赛将于 1 月 23 日至 1 月 31 日进行。 该套装将以 Mega Lucario Z ex 为特色，早在 8 月份就在世界赛上进行了预览。我们的套装将基于日本的 Aura Seeker 套装，该套装将于 11 月 27 日发布；应该会在下周左右正式公布。 Flowing Fists 这个名字参考了 2014 ",
+      "postKeys": [
+        "8877:dcd347a54c7b4931"
+      ],
+      "title": "Flowing Fists",
+      "type": "构筑/预组",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2 月 5 日",
+      "postCount": 1,
+      "generatedTitle": "Flowing Fists",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:宝可梦:2027-02-12:megarayquazaexpremiumtournamentcollection",
+      "kind": "product",
+      "date": "2027-02-12",
+      "endDate": "2027-02-12",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "宝可梦（英）论坛",
+      "sourceUrl": "https://www.pokebeach.com/2026/10/mega-rayquaza-ex-premium-tournament-collection-revealed-features-dragon-shield-products-instead-of-ultra-pro",
+      "sources": [
+        {
+          "type": "news",
+          "name": "宝可梦（英）论坛",
+          "url": "https://www.pokebeach.com/2026/10/mega-rayquaza-ex-premium-tournament-collection-revealed-features-dragon-shield-products-instead-of-ultra-pro"
+        }
+      ],
+      "backendPort": 8877,
+      "status": "draft",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦# 新的“Mega Rayquaza ex Premium Tournament Collection”将于2月12日发布！它将展示从 Delta Reign 中剪下来的 Mega Rayquaza ex 的完整艺术版本。目前还没有定价信息。 该系列将附带： 1 张包含 Mega Rayquaza ex 的铝箔促销卡 3 张箔促销卡，包含 Zinnia's Trust、Adventure Lantern 和 Mega",
+      "postKeys": [
+        "8877:7fc0569a6d9fd7be"
+      ],
+      "title": "Mega Rayquaza ex Premium Tournament Collection",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2月12日",
+      "postCount": 1,
+      "generatedTitle": "Mega Rayquaza ex Premium Tournament Collection",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
       "id": "official:ua:ea0bc925",
       "kind": "product",
       "sourceType": "official",
@@ -47688,6 +50054,49 @@
       ],
       "generatedTitle": "补充包『JOJO的奇妙冒险』系列【UA62BT】",
       "originalTitle": "ブースターパック 『ジョジョの奇妙な冒険』シリーズ【UA62BT】",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ws:59899f6f",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2027-02-12",
+      "endDate": "2027-02-12",
+      "precision": "day",
+      "brand": "WS黑白双翼",
+      "title": "补充包 魔法少女ノ魔女裁判",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日：2027年2月12日",
+      "postCount": 1,
+      "sourceName": "官网巡查 ws",
+      "sourceUrl": "https://ws-tcg.com/products/mjs_bp_ws/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 ws",
+          "url": "https://ws-tcg.com/products/mjs_bp_ws/"
+        }
+      ],
+      "officialSourceUrl": "https://ws-tcg.com/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "ブースターパック 魔法少女ノ魔女裁判発売日：2027年2月12日(金)",
+      "postKeys": [
+        "official:ws:e1474ecd"
+      ],
+      "generatedTitle": "补充包 魔法少女ノ魔女裁判",
+      "originalTitle": "ブースターパック 魔法少女ノ魔女裁判",
       "sourceTypes": [
         "official"
       ],
@@ -47830,22 +50239,68 @@
     },
     {
       "sourceType": "news",
+      "id": "product:WS黑白双翼:2027-02-26:mygo!!!!!＆avemujicavol.2",
+      "kind": "product",
+      "date": "2027-02-26",
+      "endDate": "2027-02-26",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "WS黑白双翼",
+      "sourceName": "b站Bushiroad_TCG",
+      "sourceUrl": "https://www.bilibili.com/opus/1264223417431752711",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站Bushiroad_TCG",
+          "url": "https://www.bilibili.com/opus/1264223417431752711"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-28",
+      "image": "",
+      "excerpt": "#热点资讯##WS黑白双翼##MyGO!!!!!##Ave Mujica# 黑白双翼简体中文版补充包「MyGO!!!!!＆Ave Mujica Vol.2」 确定将于2027.2.26（周五） 正式发售！✨ 2027年1月即将播出续编TV动画的MyGO!!!!!与Ave Mujica。 两支将在动画中展开全新故事的乐队，再次在黑白双翼中登场！ ---------------- 同时本次特别公开补充包中收录的全新绘制插画： MyGO!!!",
+      "postKeys": [
+        "8787:1264223417431752711"
+      ],
+      "title": "补充包「MyGO!!!!!＆Ave Mujica Vol.2」",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2027.2.26",
+      "postCount": 1,
+      "generatedTitle": "补充包「MyGO!!!!!＆Ave Mujica Vol.2」",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "mixed",
       "id": "product:高达:2027-02-27:机动战士高达",
       "kind": "product",
       "date": "2027-02-27",
       "endDate": "2027-02-27",
       "precision": "day",
-      "displayDate": "",
-      "reservationFrom": "",
-      "reservationTo": "",
       "brand": "高达",
-      "sourceName": "b站高达简中",
-      "sourceUrl": "https://www.bilibili.com/opus/1257143801672106034",
+      "sourceName": "b站高达简中 + 官网巡查 gundam",
+      "sourceUrl": "https://www.gundam-gcg.com/jp/products/eb02.html",
       "sources": [
         {
           "type": "news",
           "name": "b站高达简中",
           "url": "https://www.bilibili.com/opus/1257143801672106034"
+        },
+        {
+          "type": "official",
+          "name": "官网巡查 gundam",
+          "url": "https://www.gundam-gcg.com/jp/products/eb02.html"
         }
       ],
       "backendPort": 8787,
@@ -47854,7 +50309,8 @@
       "image": "",
       "excerpt": "#热点资讯##高达##高达卡牌对战##GCG# 【EB02情报公开】 以“机动战士高达SEED系列”为主题的特别补充包“Cosmic Crisis”[EB02]登场！ 首次公开来自《机动战士高达SEED DESTINY》的LR卡牌——“命运高达”的全新插画！ 此外，《机动战士高达 SEED FREEDOM ZERO》也将参战！ 后续信息将陆续公开，敬请期待！ ▽发售日 2027/2/27（周六）",
       "postKeys": [
-        "8787:1257143801672106034"
+        "8787:1257143801672106034",
+        "official:gundam:d03c61b9"
       ],
       "title": "特别补充包 Cosmic Crisis【EB02】",
       "type": "补充包",
@@ -47865,12 +50321,13 @@
       "people": "",
       "confidence": 99,
       "reason": "2027/2/27",
-      "postCount": 1,
+      "postCount": 2,
       "generatedTitle": "特别补充包 Cosmic Crisis【EB02】",
       "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
       "originalTitle": "机动战士高达",
       "sourceTypes": [
-        "news"
+        "news",
+        "official"
       ],
       "titleIsManual": false
     },
@@ -48052,6 +50509,135 @@
       "titleIsManual": false
     },
     {
+      "id": "official:ygo:7b2c812b",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2027-03-31",
+      "endDate": "2027-03-31",
+      "precision": "month",
+      "brand": "游戏王",
+      "title": "白き森のアステーリャ",
+      "type": "商品",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日／2027年3月",
+      "postCount": 1,
+      "sourceName": "游戏王日本官网",
+      "sourceUrl": "https://yu-gi-oh.jp/news/djabj-r1wb/",
+      "sources": [
+        {
+          "type": "official",
+          "name": "游戏王日本官网",
+          "url": "https://yu-gi-oh.jp/news/djabj-r1wb/"
+        }
+      ],
+      "officialSourceUrl": "https://yu-gi-oh.jp/news/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3LzQ3ZDk3YmI5MDQ5YjRjOTI4OGNhM2U2NzZhY2Y4NzcxL0NGMDItSlBTMDFfNTAwLmpwZyIsImZtPXdlYnAmcT04MCJd.E4DVZXSsTF-SZYNugvc389YrQFiIQ-5Kw_h7kXR27vo.webp",
+      "excerpt": "* NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL * TOP * NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL NEWS ニュース 2026/10/05 CARD 『COMPLETE FILE －罪宝狩りの悪魔－』に収録される新規イラスト＋オーバーフレームの「白き森のアステーリャ」「白き",
+      "postKeys": [
+        "official:ygo:9c5ace0b"
+      ],
+      "generatedTitle": "白き森のアステーリャ",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:gundam:b1baa304",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2027-04-17",
+      "endDate": "2027-04-17",
+      "precision": "day",
+      "brand": "高达",
+      "title": "Unicorn Awakening [ST15]",
+      "type": "构筑/预组",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2027.4.17",
+      "postCount": 1,
+      "sourceName": "官网巡查 gundam",
+      "sourceUrl": "https://www.gundam-gcg.com/jp/products/st15.html",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 gundam",
+          "url": "https://www.gundam-gcg.com/jp/products/st15.html"
+        }
+      ],
+      "officialSourceUrl": "https://www.gundam-gcg.com/jp/products/list.php",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "Unicorn Awakening [ST15] 発売日 2027.4.17 メーカー希望小売価格 ￥3,850(税込) oductsListOuter\"> デッキ Unicorn Awakening [ST15] 発売日 2027.4.17 メーカー希望小売価格 ￥3,850(税込) ブースター",
+      "postKeys": [
+        "official:gundam:2958922b"
+      ],
+      "generatedTitle": "Unicorn Awakening [ST15]",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:高达:2027-04-24:补充包[gd08]的发售日确定为",
+      "kind": "product",
+      "date": "2027-04-24",
+      "endDate": "2027-04-24",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "高达",
+      "sourceName": "b站高达简中",
+      "sourceUrl": "https://www.bilibili.com/opus/1264952052180582453",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站高达简中",
+          "url": "https://www.bilibili.com/opus/1264952052180582453"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "published",
+      "publishedAt": "2026-10-30",
+      "image": "",
+      "excerpt": "#热点资讯##高达##高达卡牌对战##GCG# 【GD08情报公开】 补充包[GD08]的发售日确定为2027/4/24（周六）！ 此外，首次公开来自《机动新世纪高达X》、预定收录于[GD08]的LR卡牌“G飞鹰DX”的全新插画！ 敬请期待后续！",
+      "postKeys": [
+        "8787:1264952052180582453"
+      ],
+      "title": "补充包 [GD08]的发售日确定为",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "2027/4/24",
+      "postCount": 1,
+      "generatedTitle": "补充包 [GD08]的发售日确定为",
+      "originalTitle": "补充包[GD08]的发售日确定为",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
       "sourceType": "news",
       "id": "product:游戏王:2027-04-30:dk01决斗者王国特典包实物图简中决斗者王国活动的特典卡包已经可以兑换活动还在进行中，",
       "kind": "product",
@@ -48187,6 +50773,51 @@
     },
     {
       "sourceType": "news",
+      "id": "product:游戏王:2027-06-08:各套装的特典卡是9月26日发售卡包originalartworkcollection收录卡的utr版本",
+      "kind": "product",
+      "date": "2027-06-08",
+      "endDate": "2027-06-08",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "游戏王",
+      "sourceName": "NW游戏王区",
+      "sourceUrl": "https://www.bilibili.com/opus/1264154324294959141",
+      "sources": [
+        {
+          "type": "news",
+          "name": "NW游戏王区",
+          "url": "https://www.bilibili.com/opus/1264154324294959141"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "draft",
+      "publishedAt": "2026-10-28",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王##游戏王OCG# YAS1 YAS2 YAS3 商品实物 2026/10/末遊☆戯☆王 ORIGINAL ARTWORK DUEL SET －遊戯編－ 遊☆戯☆王 ORIGINAL ARTWORK DUEL SET －城之内編－ 遊☆戯☆王 ORIGINAL ARTWORK DUEL SET －海馬編－ 各价格：4950日元（含税） 各内容： 再现卡组 ×1 决斗者卡套 ×100 骰子 ×1 决斗者硬币 ×1 卡盒",
+      "postKeys": [
+        "8787:1264154324294959141"
+      ],
+      "title": "·各套装的特典卡是9月26日发售卡包 ORIGINAL ARTWORK COLLECTION收录卡的UTR版本",
+      "type": "商品套装",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 80,
+      "reason": "6月8日",
+      "postCount": 1,
+      "generatedTitle": "·各套装的特典卡是9月26日发售卡包 ORIGINAL ARTWORK COLLECTION收录卡的UTR版本",
+      "originalTitle": "·各套装的特典卡是9月26日发售卡包ORIGINAL ARTWORK COLLECTION收录卡的UTR版本",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
       "id": "product:数码宝贝:2027-06-30:pb26限定商品",
       "kind": "product",
       "date": "2027-06-30",
@@ -48226,6 +50857,97 @@
       "generatedTitle": "TAMER'S SELECTION BOX Ver.X Antibody【PB-26】",
       "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
       "originalTitle": "数码宝贝卡牌对战 TAMER'S SELECTION BOX Ver.X Antibody 【PB-26】",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:宝可梦:2027-07-17:超级进化战术卡组",
+      "kind": "product",
+      "date": "2027-07-17",
+      "endDate": "2027-07-17",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "宝可梦",
+      "sourceName": "宝可梦泰语官网",
+      "sourceUrl": "https://asia.pokemon-card.com/th/archive/special/card/mat",
+      "sources": [
+        {
+          "type": "news",
+          "name": "宝可梦泰语官网",
+          "url": "https://asia.pokemon-card.com/th/archive/special/card/mat"
+        }
+      ],
+      "backendPort": 8877,
+      "status": "draft",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "#热点资讯##宝可梦# 《宝可梦集换式卡牌游戏 Mega Evolution Tactical Deck》将于 2026 年 7 月 17 日星期五发售！",
+      "postKeys": [
+        "8877:c0ee706823f5a017"
+      ],
+      "title": "Mega Evolution Tactical Deck",
+      "type": "构筑/预组",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "7 月 17 日",
+      "postCount": 1,
+      "generatedTitle": "Mega Evolution Tactical Deck",
+      "titleAuditReason": "核对后台保存的原始正文，恢复完整商品名。",
+      "originalTitle": "超级进化战术卡组",
+      "sourceTypes": [
+        "news"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "sourceType": "news",
+      "id": "product:游戏王:2027-07-18:公式卡片游戏决斗怪兽世界先行精选包2026简体中文版",
+      "kind": "product",
+      "date": "2027-07-18",
+      "endDate": "2027-07-18",
+      "precision": "day",
+      "displayDate": "",
+      "reservationFrom": "",
+      "reservationTo": "",
+      "brand": "游戏王",
+      "sourceName": "b站游戏王简中",
+      "sourceUrl": "https://space.bilibili.com/519200091/dynamic",
+      "sources": [
+        {
+          "type": "news",
+          "name": "b站游戏王简中",
+          "url": "https://space.bilibili.com/519200091/dynamic"
+        }
+      ],
+      "backendPort": 8787,
+      "status": "stopped",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "#热点资讯##游戏王# 游戏王公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版），7月18日发售！ 入手本款卡包，可从官方微博/bilibili或小程序《一起来决斗》查询并联系官方认证店铺。 本次为大家带来游戏王公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版）收录部分卡片预览：",
+      "postKeys": [
+        "8787:local-9c6289af5d5170",
+        "8787:local-ab1c9bb6c6a2ed"
+      ],
+      "title": "公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版）",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "7月18日",
+      "postCount": 2,
+      "generatedTitle": "公式卡片游戏决斗怪兽世界先行精选包2026（简体中文版）",
       "sourceTypes": [
         "news"
       ],
@@ -48278,8 +51000,8 @@
   ],
   "pagination": {
     "page": 1,
-    "pageSize": 987,
-    "total": 987,
+    "pageSize": 1036,
+    "total": 1036,
     "totalPages": 1
   }
 }

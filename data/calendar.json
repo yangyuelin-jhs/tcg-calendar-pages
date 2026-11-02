@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-02T08:45:21.972Z",
+  "generatedAt": "2026-11-02T12:13:36.863Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
       "port": 8787,
       "file": "D:\\jihuanshe-local-admin\\data\\posts.json",
-      "fileCount": 4215,
+      "fileCount": 4231,
       "apiCount": 0
     },
     {
       "name": "外网资讯后台",
       "port": 8877,
       "file": "D:\\foreign-news-backend\\data\\posts.json",
-      "fileCount": 6363,
+      "fileCount": 6384,
       "apiCount": 0
     },
     {
@@ -181,7 +181,7 @@
     }
   ],
   "officialStats": {
-    "generatedAt": "2026-11-02T08:35:55.671Z",
+    "generatedAt": "2026-11-02T11:19:33.610Z",
     "fromCache": true,
     "sourceStats": [
       {
@@ -192,7 +192,7 @@
         "status": 200,
         "count": 86,
         "error": "",
-        "elapsedMs": 1819,
+        "elapsedMs": 991,
         "retainedHistory": 53
       },
       {
@@ -203,7 +203,7 @@
         "status": 200,
         "count": 52,
         "error": "",
-        "elapsedMs": 542,
+        "elapsedMs": 713,
         "retainedHistory": 1
       },
       {
@@ -214,7 +214,7 @@
         "status": 200,
         "count": 12,
         "error": "",
-        "elapsedMs": 1372,
+        "elapsedMs": 1715,
         "retainedHistory": 2
       },
       {
@@ -225,7 +225,7 @@
         "status": 200,
         "count": 125,
         "error": "",
-        "elapsedMs": 2200
+        "elapsedMs": 2936
       },
       {
         "game_key": "gundam",
@@ -235,7 +235,7 @@
         "status": 200,
         "count": 13,
         "error": "",
-        "elapsedMs": 1588,
+        "elapsedMs": 2881,
         "retainedHistory": 4
       },
       {
@@ -246,7 +246,7 @@
         "status": 200,
         "count": 27,
         "error": "",
-        "elapsedMs": 529
+        "elapsedMs": 881
       },
       {
         "game_key": "ws",
@@ -256,7 +256,7 @@
         "status": 200,
         "count": 17,
         "error": "",
-        "elapsedMs": 1835
+        "elapsedMs": 2957
       },
       {
         "game_key": "ygo_rd",
@@ -266,7 +266,7 @@
         "status": 200,
         "count": 90,
         "error": "",
-        "elapsedMs": 1731
+        "elapsedMs": 3099
       },
       {
         "game_key": "ygo",
@@ -274,10 +274,10 @@
         "url": "https://yu-gi-oh.jp/news/",
         "ok": true,
         "status": 200,
-        "count": 17,
+        "count": 19,
         "error": "",
-        "elapsedMs": 15480,
-        "retainedHistory": 9
+        "elapsedMs": 34830,
+        "retainedHistory": 6
       },
       {
         "game_key": "ua",
@@ -285,9 +285,9 @@
         "url": "https://www.unionarena-tcg.com/jp/products/",
         "ok": true,
         "status": 200,
-        "count": 220,
+        "count": 221,
         "error": "",
-        "elapsedMs": 113283,
+        "elapsedMs": 102402,
         "retainedHistory": 23
       },
       {
@@ -298,7 +298,7 @@
         "status": 200,
         "count": 94,
         "error": "",
-        "elapsedMs": 2113
+        "elapsedMs": 3645
       },
       {
         "game_key": "dm",
@@ -308,7 +308,7 @@
         "status": 200,
         "count": 119,
         "error": "",
-        "elapsedMs": 2327,
+        "elapsedMs": 4001,
         "retainedHistory": 81
       },
       {
@@ -319,7 +319,7 @@
         "status": 200,
         "count": 119,
         "error": "",
-        "elapsedMs": 2248,
+        "elapsedMs": 4097,
         "retainedHistory": 80
       },
       {
@@ -330,7 +330,7 @@
         "status": 200,
         "count": 119,
         "error": "",
-        "elapsedMs": 2125,
+        "elapsedMs": 4044,
         "retainedHistory": 111
       },
       {
@@ -341,7 +341,7 @@
         "status": 200,
         "count": 4,
         "error": "",
-        "elapsedMs": 1258
+        "elapsedMs": 3254
       },
       {
         "game_key": "pkm",
@@ -351,7 +351,7 @@
         "status": 200,
         "count": 31,
         "error": "",
-        "elapsedMs": 7021,
+        "elapsedMs": 7292,
         "retainedHistory": 1
       },
       {
@@ -362,7 +362,7 @@
         "status": 200,
         "count": 0,
         "error": "",
-        "elapsedMs": 1850
+        "elapsedMs": 3752
       },
       {
         "game_key": "pkm",
@@ -372,7 +372,7 @@
         "status": 200,
         "count": 0,
         "error": "",
-        "elapsedMs": 1899
+        "elapsedMs": 3776
       },
       {
         "game_key": "pkm",
@@ -382,7 +382,7 @@
         "status": 200,
         "count": 0,
         "error": "",
-        "elapsedMs": 1871
+        "elapsedMs": 3725
       },
       {
         "game_key": "conan",
@@ -392,7 +392,7 @@
         "status": 200,
         "count": 147,
         "error": "",
-        "elapsedMs": 1988,
+        "elapsedMs": 3930,
         "retainedHistory": 129
       },
       {
@@ -403,16 +403,16 @@
         "status": 200,
         "count": 6,
         "error": "",
-        "elapsedMs": 1543
+        "elapsedMs": 3852
       }
     ],
     "count": 769
   },
-  "fromMemoryCache": true,
+  "fromMemoryCache": false,
   "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {
-    "posts": 10638,
+    "posts": 10675,
     "all": 1036,
     "product": 865,
     "event": 171,
@@ -15312,49 +15312,6 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ua:a168681a",
-      "kind": "product",
-      "sourceType": "official",
-      "date": "2024-04-26",
-      "endDate": "2024-04-26",
-      "precision": "day",
-      "brand": "UA",
-      "title": "补充包 黑色五叶草【UA20BT】",
-      "type": "补充包",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "発売日 2024年4月26日",
-      "postCount": 1,
-      "sourceName": "官网巡查 ua",
-      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/boosters/bcv-1.php",
-      "sources": [
-        {
-          "type": "official",
-          "name": "官网巡查 ua",
-          "url": "https://www.unionarena-tcg.com/jp/products/boosters/bcv-1.php"
-        }
-      ],
-      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
-      "backendPort": "",
-      "status": "official",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "UNION ARENA ブースターパック ブラッククローバー 【UA20BT】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参加作品",
-      "postKeys": [
-        "official:ua:9c32da0c"
-      ],
-      "generatedTitle": "补充包 黑色五叶草【UA20BT】",
-      "originalTitle": "ブースターパック ブラッククローバー 【UA20BT】",
-      "sourceTypes": [
-        "official"
-      ],
-      "titleIsManual": false
-    },
-    {
       "id": "official:ua:3c48eb2a",
       "kind": "product",
       "sourceType": "official",
@@ -15392,6 +15349,49 @@
       ],
       "generatedTitle": "起始卡组 黑色五叶草【UA20ST】",
       "originalTitle": "スタートデッキ ブラッククローバー 【UA20ST】",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:ua:a168681a",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2024-04-26",
+      "endDate": "2024-04-26",
+      "precision": "day",
+      "brand": "UA",
+      "title": "补充包 黑色五叶草【UA20BT】",
+      "type": "补充包",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2024年4月26日",
+      "postCount": 1,
+      "sourceName": "官网巡查 ua",
+      "sourceUrl": "https://www.unionarena-tcg.com/jp/products/boosters/bcv-1.php",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 ua",
+          "url": "https://www.unionarena-tcg.com/jp/products/boosters/bcv-1.php"
+        }
+      ],
+      "officialSourceUrl": "https://www.unionarena-tcg.com/jp/products/",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "UNION ARENA ブースターパック ブラッククローバー 【UA20BT】 − 商品情報｜ユニオンアリーナ｜UNION ARENA ユニオンアリーナ ユニオンアリーナ｜UNION ARENA メニュー ユニオンアリーナ｜UNION ARENA 閉じる はじめての方へ ルール Q&A 商品情報 ギャラリー ニュース イベント カードリスト おすすめデッキ おすすめデッキ タイトル別おすすめデッキ 大会入賞デッキ 取扱ショップ 参加作品",
+      "postKeys": [
+        "official:ua:9c32da0c"
+      ],
+      "generatedTitle": "补充包 黑色五叶草【UA20BT】",
+      "originalTitle": "ブースターパック ブラッククローバー 【UA20BT】",
       "sourceTypes": [
         "official"
       ],
@@ -39153,48 +39153,6 @@
       "titleIsManual": false
     },
     {
-      "id": "official:gundam:5e93b824",
-      "kind": "product",
-      "sourceType": "official",
-      "date": "2026-09-26",
-      "endDate": "2026-09-26",
-      "precision": "day",
-      "brand": "高达",
-      "title": "Aquatic Assault [ST11]",
-      "type": "构筑/预组",
-      "city": "",
-      "address": "",
-      "fee": "",
-      "prize": "",
-      "people": "",
-      "confidence": 99,
-      "reason": "発売日 2026.9.26",
-      "postCount": 1,
-      "sourceName": "官网巡查 gundam",
-      "sourceUrl": "https://www.gundam-gcg.com/jp/products/st11.html",
-      "sources": [
-        {
-          "type": "official",
-          "name": "官网巡查 gundam",
-          "url": "https://www.gundam-gcg.com/jp/products/st11.html"
-        }
-      ],
-      "officialSourceUrl": "https://www.gundam-gcg.com/jp/products/list.php",
-      "backendPort": "",
-      "status": "official",
-      "publishedAt": "",
-      "image": "",
-      "excerpt": "Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) ss=\"cardInfoTxt\">￥250(税込) デッキ Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/2HnPBn4UrpuEBsiS/ST12_list_",
-      "postKeys": [
-        "official:gundam:d41583cd"
-      ],
-      "generatedTitle": "Aquatic Assault [ST11]",
-      "sourceTypes": [
-        "official"
-      ],
-      "titleIsManual": false
-    },
-    {
       "id": "official:gundam:7cbabcd2",
       "kind": "product",
       "sourceType": "official",
@@ -39226,7 +39184,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "Raging Onslaught [ST12] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Raging Onslaught [ST12] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/MWrTCvRLEHTlxVFz/ST13_lis",
+      "excerpt": "Raging Onslaught [ST12] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) ss=\"cardInfoTxt\">￥250(税込) デッキ Raging Onslaught [ST12] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/MWrTCvRLEHTlxVFz/ST13_lis",
       "postKeys": [
         "official:gundam:5c76ced9"
       ],
@@ -39268,11 +39226,53 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/3VgZYakf3YSBMEFc/ST14_list_th",
+      "excerpt": "Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Silent Barrage [ST13] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/yNaNcmM2LBunjig1/ST11_list_th",
       "postKeys": [
         "official:gundam:74ab8f8d"
       ],
       "generatedTitle": "Silent Barrage [ST13]",
+      "sourceTypes": [
+        "official"
+      ],
+      "titleIsManual": false
+    },
+    {
+      "id": "official:gundam:5e93b824",
+      "kind": "product",
+      "sourceType": "official",
+      "date": "2026-09-26",
+      "endDate": "2026-09-26",
+      "precision": "day",
+      "brand": "高达",
+      "title": "Aquatic Assault [ST11]",
+      "type": "构筑/预组",
+      "city": "",
+      "address": "",
+      "fee": "",
+      "prize": "",
+      "people": "",
+      "confidence": 99,
+      "reason": "発売日 2026.9.26",
+      "postCount": 1,
+      "sourceName": "官网巡查 gundam",
+      "sourceUrl": "https://www.gundam-gcg.com/jp/products/st11.html",
+      "sources": [
+        {
+          "type": "official",
+          "name": "官网巡查 gundam",
+          "url": "https://www.gundam-gcg.com/jp/products/st11.html"
+        }
+      ],
+      "officialSourceUrl": "https://www.gundam-gcg.com/jp/products/list.php",
+      "backendPort": "",
+      "status": "official",
+      "publishedAt": "",
+      "image": "",
+      "excerpt": "Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) =\"cardInfoTxt\">￥1,650(税込) デッキ Aquatic Assault [ST11] 発売日 2026.9.26 メーカー希望小売価格 ￥1,650(税込) デッキ <img src=\"/gcg/bccard/jp/news/2026/07/15/3VgZYakf3YSBMEFc/ST14_list_",
+      "postKeys": [
+        "official:gundam:d41583cd"
+      ],
+      "generatedTitle": "Aquatic Assault [ST11]",
       "sourceTypes": [
         "official"
       ],
@@ -45379,7 +45379,7 @@
     },
     {
       "sourceType": "mixed",
-      "id": "product:影之诗:2026-11-06:补充包灾杰的继承者",
+      "id": "product:影之诗:2026-11-06:灾杰的继承者",
       "kind": "product",
       "date": "2026-11-06",
       "endDate": "2026-11-06",
@@ -45394,17 +45394,7 @@
         {
           "type": "news",
           "name": "影之诗进化对决",
-          "url": "https://www.bilibili.com/opus/1266013044404650007"
-        },
-        {
-          "type": "official",
-          "name": "影之诗进化对决官方账号",
-          "url": "https://www.bilibili.com/opus/1264937878851420184"
-        },
-        {
-          "type": "news",
-          "name": "影之诗进化对决",
-          "url": "https://www.bilibili.com/opus/1241527300589092887"
+          "url": "https://www.bilibili.com/opus/1266051134338891778"
         },
         {
           "type": "news",
@@ -45450,17 +45440,30 @@
           "type": "news",
           "name": "影之诗进化对决",
           "url": "https://www.bilibili.com/opus/1260855941870387202"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1266013044404650007"
+        },
+        {
+          "type": "official",
+          "name": "影之诗进化对决官方账号",
+          "url": "https://www.bilibili.com/opus/1264937878851420184"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1241527300589092887"
         }
       ],
       "backendPort": 8787,
       "status": "published",
       "publishedAt": "2026-11-02",
       "image": "",
-      "excerpt": "#热点资讯##影之诗# 亲爱的主战者们，大家好呀！ 为庆祝《影之诗：进化对决》补充包《灾杰的继承者》上市，我们将在全国官方认证门店开展上市纪念现开赛，本次赛事入场即可获得SL样式的『混融的团结者』 ，欢迎报名参与哟！ 【活动时段】 2026年11月6日~11月8日 【活动地点】 全国各大认证门店 ※详细举办店铺可通过《口袋影之诗》辅助APP或微信小程序搜索“现开赛”查询 【报名方式】 通过《口袋影之诗》辅助APP或微信小程序进行报名，先",
+      "excerpt": "#热点资讯##影之诗# 《灾杰的继承者》收录卡介绍 “我等乃继承灾祸之人。” 今天为大家带来的是，2026年11月6日即将发售的补充包《灾杰的继承者》中即将登场的卡牌：",
       "postKeys": [
-        "8787:1266013044404650007",
-        "8787:1264937878851420184",
-        "8787:1241527300589092887",
+        "8787:1266051134338891778",
         "8787:1264566793619374086",
         "8787:1264195708481699841",
         "8787:1263824623273771017",
@@ -45470,6 +45473,9 @@
         "8787:1261598112227524612",
         "8787:1261227027087753221",
         "8787:1260855941870387202",
+        "8787:1266013044404650007",
+        "8787:1264937878851420184",
+        "8787:1241527300589092887",
         "manual-product-sve-cn-calamity-2026-11-06"
       ],
       "title": "补充包「灾杰的继承者」",
@@ -45478,7 +45484,7 @@
       "people": "",
       "confidence": 99,
       "reason": "官方账号资讯明确写明 2026 年 11 月 6 日发售；日本官网未提供中国版本该日期商品页。",
-      "postCount": 13,
+      "postCount": 14,
       "generatedTitle": "补充包「灾杰的继承者」",
       "sourceTypes": [
         "news",
@@ -46942,7 +46948,7 @@
       "titleIsManual": false
     },
     {
-      "id": "official:ygo:8cfe0eee",
+      "id": "official:ygo:793ad38",
       "kind": "product",
       "sourceType": "mixed",
       "date": "2026-11-21",
@@ -46957,12 +46963,12 @@
       "reason": "人工商品表缺项补全：REVOLUTION BOOSTER 方界 / Marincess / Ghostrick。",
       "postCount": 2,
       "sourceName": "游戏王日本官网",
-      "sourceUrl": "https://yu-gi-oh.jp/news/n8cfjuot5b/",
+      "sourceUrl": "https://yu-gi-oh.jp/news/w0cgkf8x-usk/",
       "sources": [
         {
           "type": "official",
           "name": "游戏王日本官网",
-          "url": "https://yu-gi-oh.jp/news/n8cfjuot5b/"
+          "url": "https://yu-gi-oh.jp/news/w0cgkf8x-usk/"
         },
         {
           "type": "official",
@@ -46984,10 +46990,10 @@
       "backendPort": "",
       "status": "official",
       "publishedAt": "",
-      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3LzQ1YWIwZjYzMTk2YzQ1ZmI4ZGRkNDA2ZmVmOTEwNmJlL1JWMDItSlAwNTJfNTAwLmpwZyIsImZtPXdlYnAmcT04MCJd.hliM4nAUVTnHWGiu0HTcrvVX6JQ_m7BCljz3_F_oNOE.webp",
-      "excerpt": "* NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL * TOP * NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL NEWS ニュース 2026/10/31 CARD 『REVOLUTION BOOSTER －方界・マリンセス・ゴーストリック－』に収録される「ゴーストリック」の新カードと再録",
+      "image": "https://yu-gi-oh.jp/media/cms/v1/WyIvYXNzZXRzLzZjYTFmZWFhM2YwNjQ3ZWI4OWVmNzRkYTRlYTUxN2U3L2JiNzcwY2M3NzdhZTRjYTFhNzAzOThkMTVjOGJlY2M0L1JWMDItSlAwMzBfNTAwLmpwZyIsImZtPXdlYnAmcT04MCJd.vQC1S4F-2a0Dilmfy5fZQsucJCUiC2LO_GNW6sGkhxI.webp",
+      "excerpt": "* NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL * TOP * NEWS * BOOKS * ANIME * CARD * GAME * GOODS * EVENT * SPECIAL NEWS ニュース 2026/10/12 CARD Vジャンプ12月特大号掲載記事：第4回 『REVOLUTION BOOSTER －方界・マリンセス・ゴーストリック－』に収録",
       "postKeys": [
-        "official:ygo:9d32b353",
+        "official:ygo:ce46ab55",
         "manual-product-ygo-jp-revolution-marincess-2026-11-21"
       ],
       "generatedTitle": "革命补充包（方界/海晶/鬼计）",
@@ -49107,7 +49113,7 @@
       "status": "official",
       "publishedAt": "",
       "image": "",
-      "excerpt": "ストレージボックス＆リソースカードセットEX 02[EVX15] 発売日 2027.1.9 メーカー希望小売価格 ¥1,980(税込) ardInfoTxt\">￥1,320(税込) 周辺アイテム ストレージボックス＆リソースカードセットEX 02[EVX15] 発売日 2027.1.9 メーカー希望小売価格 ¥1,980(税込) 周辺アイテム <img src=\"/gcg/bccard/jp/news/2026/10/26/tbo9bF",
+      "excerpt": "ストレージボックス＆リソースカードセットEX 02[EVX15] 発売日 2027.1.9 メーカー希望小売価格 ¥1,980(税込) \"cardInfoTxt\">¥990(税込) 周辺アイテム ストレージボックス＆リソースカードセットEX 02[EVX15] 発売日 2027.1.9 メーカー希望小売価格 ¥1,980(税込) 周辺アイテム <img src=\"/gcg/bccard/jp/news/2026/10/26/zUVlkG",
       "postKeys": [
         "official:gundam:fd292901"
       ],

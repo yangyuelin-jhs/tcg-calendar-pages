@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T08:36:37.226Z",
+  "generatedAt": "2026-11-02T08:45:21.972Z",
   "sourceStats": [
     {
       "name": "国内资讯后台",
@@ -408,7 +408,7 @@
     ],
     "count": 769
   },
-  "fromMemoryCache": false,
+  "fromMemoryCache": true,
   "fromDiskCache": false,
   "staleDiskCache": false,
   "totals": {
@@ -45379,7 +45379,7 @@
     },
     {
       "sourceType": "mixed",
-      "id": "product:影之诗:2026-11-06:补充包灾杰的继承者上市",
+      "id": "product:影之诗:2026-11-06:补充包灾杰的继承者",
       "kind": "product",
       "date": "2026-11-06",
       "endDate": "2026-11-06",
@@ -45400,6 +45400,11 @@
           "type": "official",
           "name": "影之诗进化对决官方账号",
           "url": "https://www.bilibili.com/opus/1264937878851420184"
+        },
+        {
+          "type": "news",
+          "name": "影之诗进化对决",
+          "url": "https://www.bilibili.com/opus/1241527300589092887"
         },
         {
           "type": "news",
@@ -45445,11 +45450,6 @@
           "type": "news",
           "name": "影之诗进化对决",
           "url": "https://www.bilibili.com/opus/1260855941870387202"
-        },
-        {
-          "type": "news",
-          "name": "影之诗进化对决",
-          "url": "https://www.bilibili.com/opus/1241527300589092887"
         }
       ],
       "backendPort": 8787,
@@ -45460,6 +45460,7 @@
       "postKeys": [
         "8787:1266013044404650007",
         "8787:1264937878851420184",
+        "8787:1241527300589092887",
         "8787:1264566793619374086",
         "8787:1264195708481699841",
         "8787:1263824623273771017",
@@ -45469,18 +45470,16 @@
         "8787:1261598112227524612",
         "8787:1261227027087753221",
         "8787:1260855941870387202",
-        "8787:1241527300589092887",
         "manual-product-sve-cn-calamity-2026-11-06"
       ],
       "title": "补充包「灾杰的继承者」",
-      "type": "商品套装",
+      "type": "补充包",
       "fee": "",
       "people": "",
       "confidence": 99,
       "reason": "官方账号资讯明确写明 2026 年 11 月 6 日发售；日本官网未提供中国版本该日期商品页。",
       "postCount": 13,
       "generatedTitle": "补充包「灾杰的继承者」",
-      "originalTitle": "补充包《灾杰的继承者》上市",
       "sourceTypes": [
         "news",
         "official"
